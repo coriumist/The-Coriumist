@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>The Desk — Coriumist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,100..900,0..100,0..1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green:#2f5d3f;
+    --cream:#f7f3e9;
+    --green-08: rgba(47,93,63,0.08);
+    --green-16: rgba(47,93,63,0.16);
+    --green-40: rgba(47,93,63,0.40);
+    --green-70: rgba(47,93,63,0.70);
+  }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background:var(--cream);
+    color:var(--green);
+    font-family:'Space Mono', monospace;
+    -webkit-font-smoothing:antialiased;
+  }
+  .display{
+    font-family:'Fraunces', serif;
+    font-variation-settings:'opsz' 100,'wght' 640,'SOFT' 0,'WONK' 0;
+    letter-spacing:-0.01em;
+  }
+  ::selection{ background:var(--green); color:var(--cream); }
+  a{ color:var(--green); }
+  button{ font-family:'Space Mono', monospace; cursor:pointer; }
+  input, textarea, select{ font-family:'Space Mono', monospace; }
+  :focus-visible{ outline:2px solid var(--green); outline-offset:2px; }
+
+  /* ---------- ring mark ---------- */
+  .mark{ display:block; }
+
+  /* ---------- gate ---------- */
+  #gate{
+    min-height:100vh;
+    display:flex; align-items:center; justify-content:center;
+    flex-direction:column; gap:28px;
+    padding:24px;
+    text-align:center;
+  }
+  #gate .mark{ width:72px; height:72px; }
+  #gate h1{
+    margin:0; font-size:15px; letter-spacing:0.28em; font-weight:700;
+    text-transform:uppercase;
+  }
+  #gate form{ display:flex; gap:0; border-bottom:1px solid var(--green-40); padding-bottom:6px; width:min(280px,80vw); }
+  #gate input{
+    flex:1; background:transparent; border:none; color:var(--green);
+    font-size:14px; padding:6px 4px; letter-spacing:0.04em;
+  }
+  #gate input::placeholder{ color:var(--green-40); }
+  #gate button{
+    background:none; border:none; color:var(--green); font-size:13px;
+    letter-spacing:0.08em; text-transform:uppercase; padding:6px 4px;
+  }
+  #gate .err{ font-size:11px; letter-spacing:0.05em; color:var(--green); opacity:0; height:14px; }
+  #gate .err.show{ opacity:0.75; }
+
+  /* ---------- app shell ---------- */
+  #app{ display:none; min-height:100vh; }
+  header{
+    display:flex; align-items:center; gap:14px;
+    padding:16px 22px; border-bottom:1px solid var(--green-16);
+    position:sticky; top:0; background:var(--cream); z-index:10;
+  }
+  header .mark{ width:28px; height:28px; flex:none; }
+  header h1{ font-size:13px; letter-spacing:0.22em; font-weight:700; margin:0; text-transform:uppercase; }
+  nav{ display:flex; gap:2px; margin-left:auto; flex-wrap:wrap; }
+  nav button{
+    background:transparent; border:1px solid transparent; color:var(--green-70);
+    font-size:11px; letter-spacing:0.1em; text-transform:uppercase; padding:8px 12px;
+    border-radius:2px;
+  }
+  nav button:hover{ color:var(--green); }
+  nav button.active{ border-color:var(--green-40); color:var(--green); background:var(--green-08); }
+  main{ max-width:880px; margin:0 auto; padding:28px 22px 80px; }
+  section.view{ display:none; }
+  section.view.active{ display:block; }
+  .view-head{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:20px; gap:12px; flex-wrap:wrap; }
+  .view-head h2{ font-size:22px; margin:0; }
+  .view-head .count{ font-size:11px; letter-spacing:0.08em; color:var(--green-70); text-transform:uppercase; }
+  .empty{ padding:40px 0; color:var(--green-40); font-size:13px; letter-spacing:0.02em; }
+
+  /* ---------- cards ---------- */
+  .card{
+    border:1px solid var(--green-16); border-radius:2px; padding:16px 18px;
+    margin-bottom:10px; background:rgba(255,255,255,0.25);
+  }
+  .card-top{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:8px; }
+  .chip{
+    font-size:10px; letter-spacing:0.09em; text-transform:uppercase;
+    border:1px solid var(--green-40); border-radius:2px; padding:3px 7px; color:var(--green-70);
+  }
+  .chip.solid{ background:var(--green); color:var(--cream); border-color:var(--green); }
+  .card-title{ font-family:'Fraunces', serif; font-variation-settings:'opsz' 60,'wght' 560,'SOFT' 0,'WONK' 0; font-size:17px; margin:2px 0 6px; }
+  .card-meta{ font-size:11px; color:var(--green-70); letter-spacing:0.03em; margin-bottom:8px; }
+  .card-body{ font-size:12.5px; line-height:1.6; color:var(--green); white-space:pre-wrap; max-height:110px; overflow:hidden; position:relative; }
+  .card-body.expanded{ max-height:none; }
+  .card-actions{ display:flex; gap:8px; margin-top:12px; flex-wrap:wrap; }
+  .card-actions button{
+    background:transparent; border:1px solid var(--green-40); color:var(--green);
+    font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; padding:6px 10px; border-radius:2px;
+  }
+  .card-actions button:hover{ background:var(--green-08); }
+  .card-actions button.primary{ background:var(--green); color:var(--cream); border-color:var(--green); }
+  .card-actions button.primary:hover{ opacity:0.85; }
+  .card textarea.editbody{
+    width:100%; min-height:140px; background:transparent; border:1px solid var(--green-40);
+    color:var(--green); font-size:12.5px; padding:10px; margin-top:8px; border-radius:2px; line-height:1.6;
+  }
+
+  /* ---------- create form ---------- */
+  .field{ margin-bottom:18px; }
+  .field label{ display:block; font-size:10.5px; letter-spacing:0.09em; text-transform:uppercase; color:var(--green-70); margin-bottom:6px; }
+  .field input[type=text], .field input[type=datetime-local], .field select, .field textarea{
+    width:100%; background:transparent; border:1px solid var(--green-40); color:var(--green);
+    padding:10px 11px; font-size:13px; border-radius:2px;
+  }
+  .field textarea{ min-height:220px; line-height:1.6; resize:vertical; }
+  .counter{ font-size:10.5px; color:var(--green-70); margin-top:6px; letter-spacing:0.03em; }
+  .counter.over{ color:var(--cream); background:var(--green); display:inline-block; padding:2px 6px; border-radius:2px; }
+  .lint{ font-size:10.5px; margin-top:6px; color:var(--cream); background:var(--green); display:inline-block; padding:2px 6px; border-radius:2px; }
+  .checks{ display:flex; gap:14px; flex-wrap:wrap; }
+  .checks label{ display:flex; align-items:center; gap:6px; font-size:11.5px; text-transform:none; letter-spacing:0.02em; color:var(--green); }
+  .submit-row{ display:flex; align-items:center; gap:14px; margin-top:22px; }
+  .submit-row button{
+    background:var(--green); color:var(--cream); border:none; padding:11px 20px;
+    font-size:11.5px; letter-spacing:0.09em; text-transform:uppercase; border-radius:2px;
+  }
+  .submit-row button:disabled{ opacity:0.4; cursor:default; }
+  .toast{ font-size:11.5px; color:var(--green-70); }
+
+  /* ---------- calendar ---------- */
+  .day-row{ display:flex; gap:16px; padding:10px 0; border-bottom:1px solid var(--green-08); }
+  .day-row.today .day-label{ color:var(--green); font-weight:700; }
+  .day-row.today{ background:var(--green-08); margin:0 -12px; padding:10px 12px; border-radius:2px; }
+  .day-label{ flex:none; width:92px; font-size:11px; letter-spacing:0.05em; color:var(--green-70); padding-top:2px; }
+  .day-items{ flex:1; display:flex; flex-direction:column; gap:6px; }
+  .day-empty{ font-size:11.5px; color:var(--green-40); font-style:italic; padding-top:2px; }
+  .day-item{ display:flex; gap:8px; align-items:baseline; font-size:12.5px; }
+  .day-item .chip{ font-size:9px; padding:2px 5px; }
+  .day-item .past-due{ background:var(--green); color:var(--cream); border-color:var(--green); }
+
+  .loading{ font-size:12px; color:var(--green-40); padding:24px 0; }
+</style>
+</head>
+<body>
+
+<!-- ===== password gate ===== -->
+<div id="gate">
+  <svg class="mark" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <filter id="wobble" x="-30%" y="-30%" width="160%" height="160%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="7" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="18"/>
+      </filter>
+    </defs>
+    <g filter="url(#wobble)">
+      <circle cx="100" cy="100" r="92" fill="#2f5d3f"/>
+      <circle cx="100" cy="100" r="80" fill="#f7f3e9"/>
+      <circle cx="100" cy="100" r="68" fill="#2f5d3f"/>
+      <circle cx="100" cy="100" r="56" fill="#f7f3e9"/>
+      <circle cx="100" cy="100" r="44" fill="#2f5d3f"/>
+      <circle cx="100" cy="100" r="32" fill="#f7f3e9"/>
+      <circle cx="100" cy="100" r="20" fill="#2f5d3f"/>
+      <circle cx="100" cy="100" r="8"  fill="#f7f3e9"/>
+    </g>
+  </svg>
+  <h1>The Desk</h1>
+  <form id="gate-form" autocomplete="off">
+    <input id="gate-input" type="password" placeholder="passphrase" autocomplete="off">
+    <button type="submit">Enter</button>
+  </form>
+  <div class="err" id="gate-err">wrong passphrase</div>
+</div>
+
+<!-- ===== app ===== -->
+<div id="app">
+  <header>
+    <svg class="mark" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <g filter="url(#wobble)">
+        <circle cx="100" cy="100" r="92" fill="#2f5d3f"/>
+        <circle cx="100" cy="100" r="80" fill="#f7f3e9"/>
+        <circle cx="100" cy="100" r="68" fill="#2f5d3f"/>
+        <circle cx="100" cy="100" r="56" fill="#f7f3e9"/>
+        <circle cx="100" cy="100" r="44" fill="#2f5d3f"/>
+        <circle cx="100" cy="100" r="32" fill="#f7f3e9"/>
+        <circle cx="100" cy="100" r="20" fill="#2f5d3f"/>
+        <circle cx="100" cy="100" r="8"  fill="#f7f3e9"/>
+      </g>
+    </svg>
+    <h1>The Desk</h1>
+    <nav>
+      <button data-view="approvals" class="active">Approvals</button>
+      <button data-view="create">Create</button>
+      <button data-view="calendar">Calendar</button>
+      <button data-view="archive">Archive</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- APPROVALS -->
+    <section class="view active" id="view-approvals">
+      <div class="view-head">
+        <h2 class="display">Approvals</h2>
+        <span class="count" id="approvals-count"></span>
+      </div>
+      <div id="approvals-list" class="loading">Loading…</div>
+    </section>
+
+    <!-- CREATE -->
+    <section class="view" id="view-create">
+      <div class="view-head"><h2 class="display">Create</h2></div>
+      <form id="create-form">
+        <div class="field">
+          <label>Format</label>
+          <select id="f-format">
+            <option value="signal">SIGNAL</option>
+            <option value="dispatch">Dispatch</option>
+            <option value="dossier_principal">Weekly Dossier (Principal)</option>
+            <option value="dossier_right_hand">Weekly Dossier (Right Hand)</option>
+            <option value="cartography">Cartography Update</option>
+            <option value="approved">Coriumist Approved</option>
+            <option value="lifestyle">Lifestyle Piece</option>
+            <option value="circuit">Circuit Guide</option>
+            <option value="carousel">Carousel</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Title</label>
+          <input type="text" id="f-title" placeholder="DISPATCH — What Left Idaho">
+        </div>
+        <div class="field">
+          <label>Body</label>
+          <textarea id="f-body" placeholder="Opens with a signal observation…"></textarea>
+          <div class="counter" id="f-counter">0 words</div>
+          <div class="lint" id="f-lint" style="display:none;"></div>
+        </div>
+        <div class="field">
+          <label>Platforms</label>
+          <div class="checks">
+            <label><input type="checkbox" value="site" checked> Site</label>
+            <label><input type="checkbox" value="instagram"> Instagram</label>
+            <label><input type="checkbox" value="x"> X</label>
+            <label><input type="checkbox" value="linkedin"> LinkedIn</label>
+            <label><input type="checkbox" value="tiktok"> TikTok</label>
+            <label><input type="checkbox" value="threads"> Threads</label>
+          </div>
+        </div>
+        <div class="field">
+          <label>Target date (not enforced automatically — approval is the actual gate)</label>
+          <input type="datetime-local" id="f-publish">
+        </div>
+        <div class="field">
+          <label>Notes</label>
+          <input type="text" id="f-notes" placeholder="optional">
+        </div>
+        <div class="submit-row">
+          <button type="submit" id="f-submit">Save draft</button>
+          <span class="toast" id="f-toast"></span>
+        </div>
+      </form>
+    </section>
+
+    <!-- CALENDAR -->
+    <section class="view" id="view-calendar">
+      <div class="view-head">
+        <h2 class="display">Calendar</h2>
+        <span class="count">7 days back · 14 forward</span>
+      </div>
+      <div id="calendar-list" class="loading">Loading…</div>
+    </section>
+
+    <!-- ARCHIVE -->
+    <section class="view" id="view-archive">
+      <div class="view-head">
+        <h2 class="display">Archive</h2>
+        <span class="count" id="archive-count"></span>
+      </div>
+      <div id="archive-list" class="loading">Loading…</div>
+    </section>
+
+  </main>
+</div>
+
+<script type="module">
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+
+const SUPABASE_URL = 'https://ocvbhjgdxmggjjgumflg.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jdmJoamdkeG1nZ2pqZ3VtZmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM4OTE5MTAsImV4cCI6MjA5OTQ2NzkxMH0.R6hh_f-MjcYw6WiI7dZ_L_AVLyM0ugjxyoW9RceNU90';
+const sb = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const PASSPHRASE = 'porto cervo';
+
+const FORMAT_LABELS = {
+  signal:'SIGNAL', dispatch:'Dispatch', dossier_principal:'Dossier (Principal)',
+  dossier_right_hand:'Dossier (Right Hand)', cartography:'Cartography', approved:'Approved',
+  lifestyle:'Lifestyle', circuit:'Circuit', carousel:'Carousel'
+};
+const WORD_CAPS = {
+  dispatch:{max:400}, dossier_principal:{max:420}, dossier_right_hand:{max:220},
+  lifestyle:{min:300,max:600}
+};
+
+/* ---------- gate ---------- */
+const gate = document.getElementById('gate');
+const app = document.getElementById('app');
+function tryUnlock(v){
+  if(v.trim().toLowerCase() === PASSPHRASE){
+    localStorage.setItem('desk-unlocked','1');
+    gate.style.display='none';
+    app.style.display='block';
+    boot();
+  } else {
+    document.getElementById('gate-err').classList.add('show');
+  }
+}
+document.getElementById('gate-form').addEventListener('submit', e=>{
+  e.preventDefault();
+  tryUnlock(document.getElementById('gate-input').value);
+});
+if(localStorage.getItem('desk-unlocked')==='1'){
+  gate.style.display='none'; app.style.display='block'; boot();
+}
+
+/* ---------- nav ---------- */
+document.querySelectorAll('nav button').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('section.view').forEach(s=>s.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('view-'+btn.dataset.view).classList.add('active');
+    if(btn.dataset.view==='approvals') loadApprovals();
+    if(btn.dataset.view==='calendar') loadCalendar();
+    if(btn.dataset.view==='archive') loadArchive();
+  });
+});
+
+let booted=false;
+function boot(){
+  if(booted) return; booted=true;
+  loadApprovals();
+  wireCreateForm();
+}
+
+function fmtDate(d){
+  if(!d) return 'no date set';
+  const dt = new Date(d);
+  return dt.toLocaleDateString('en-US',{month:'short',day:'numeric'}) + ' · ' +
+         dt.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});
+}
+function isPastDue(row){
+  return row.status==='draft' && row.publish_at && new Date(row.publish_at) < new Date();
+}
+function wordCount(s){ return (s.trim().match(/\S+/g)||[]).length; }
+function sentenceCount(s){ return (s.trim().match(/[.!?]+(\s|$)/g)||[]).length || (s.trim()?1:0); }
+
+/* ---------- approvals ---------- */
+async function loadApprovals(){
+  const el = document.getElementById('approvals-list');
+  el.className='loading'; el.textContent='Loading…';
+  try{
+    const { data, error } = await sb.from('content').select('*').eq('status','draft')
+      .order('publish_at', { ascending:true, nullsFirst:false });
+    if(error) throw error;
+    document.getElementById('approvals-count').textContent = data.length + (data.length===1?' waiting':' waiting');
+    if(!data.length){ el.className='empty'; el.textContent='Nothing waiting.'; return; }
+    el.className=''; el.innerHTML='';
+    data.forEach(row => el.appendChild(approvalCard(row)));
+  }catch(err){
+    el.className='empty'; el.textContent='Could not load: '+err.message;
+  }
+}
+
+function approvalCard(row){
+  const card = document.createElement('div');
+  card.className='card';
+  const pastDue = isPastDue(row);
+  card.innerHTML = `
+    <div class="card-top">
+      <span class="chip">${FORMAT_LABELS[row.format]||row.format}</span>
+      ${pastDue ? '<span class="chip solid">past due</span>' : ''}
+      ${!row.publish_at ? '<span class="chip">no date set</span>' : ''}
+    </div>
+    <div class="card-title display">${escapeHtml(row.title||'(untitled)')}</div>
+    <div class="card-meta">${row.publish_at ? 'target '+fmtDate(row.publish_at) : 'created '+fmtDate(row.created_at)} · ${(row.platforms||[]).join(', ')||'no platforms set'}</div>
+    <div class="card-body">${escapeHtml(row.body||'')}</div>
+    <div class="card-actions">
+      <button class="primary" data-act="approve">Approve</button>
+      <button data-act="edit">Edit</button>
+      <button data-act="kill">Kill</button>
+      <button data-act="expand">Expand</button>
+    </div>
+  `;
+  card.querySelector('[data-act=expand]').addEventListener('click', ()=>{
+    card.querySelector('.card-body').classList.toggle('expanded');
+  });
+  card.querySelector('[data-act=approve]').addEventListener('click', async ()=>{
+    if(!confirm('Approve and publish "'+(row.title||'untitled')+'"? This makes it live immediately.')) return;
+    await sb.from('content').update({ status:'published', approved_at:new Date().toISOString() }).eq('id', row.id);
+    loadApprovals();
+  });
+  card.querySelector('[data-act=kill]').addEventListener('click', async ()=>{
+    if(!confirm('Kill "'+(row.title||'untitled')+'"? Moves it to Archive, off the queue.')) return;
+    await sb.from('content').update({ status:'killed' }).eq('id', row.id);
+    loadApprovals();
+  });
+  card.querySelector('[data-act=edit]').addEventListener('click', ()=>{
+    const body = card.querySelector('.card-body');
+    if(card.querySelector('.editbody')) return;
+    const ta = document.createElement('textarea');
+    ta.className='editbody'; ta.value = row.body||'';
+    body.after(ta);
+    const saveBtn = document.createElement('button');
+    saveBtn.textContent='Save edit'; saveBtn.className='primary';
+    ta.after(saveBtn);
+    saveBtn.addEventListener('click', async ()=>{
+      await sb.from('content').update({ body: ta.value }).eq('id', row.id);
+      loadApprovals();
+    });
+  });
+  return card;
+}
+
+function escapeHtml(s){
+  return (s||'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+/* ---------- create ---------- */
+function wireCreateForm(){
+  const format = document.getElementById('f-format');
+  const body = document.getElementById('f-body');
+  const counter = document.getElementById('f-counter');
+  const lint = document.getElementById('f-lint');
+
+  function updateCounter(){
+    const words = wordCount(body.value);
+    const fmt = format.value;
+    let text = words + ' words';
+    let over = false;
+    if(fmt==='signal'){
+      const s = sentenceCount(body.value);
+      text = s + ' sentence' + (s===1?'':'s') + ' (spec: one)';
+      over = s>1;
+    } else if(WORD_CAPS[fmt]){
+      const cap = WORD_CAPS[fmt];
+      if(cap.max) text = words + ' / ' + cap.max + ' words max';
+      if(cap.min) text = words + ' words (spec: ' + cap.min + '–' + cap.max + ')';
+      over = (cap.max && words>cap.max) || (cap.min && words<cap.min);
+    }
+    counter.textContent = text;
+    counter.className = 'counter' + (over?' over':'');
+
+    const flags = [];
+    if(body.value.includes('!')) flags.push('exclamation point');
+    if(/[\u2014]/.test(body.value)) flags.push('em dash');
+    if(flags.length){ lint.style.display='inline-block'; lint.textContent='flagged: '+flags.join(', '); }
+    else { lint.style.display='none'; }
+  }
+  format.addEventListener('change', updateCounter);
+  body.addEventListener('input', updateCounter);
+
+  document.getElementById('create-form').addEventListener('submit', async e=>{
+    e.preventDefault();
+    const platforms = Array.from(document.querySelectorAll('#view-create .checks input:checked')).map(c=>c.value);
+    const publishVal = document.getElementById('f-publish').value;
+    const submitBtn = document.getElementById('f-submit');
+    const toast = document.getElementById('f-toast');
+    submitBtn.disabled = true; toast.textContent='Saving…';
+    try{
+      const { error } = await sb.from('content').insert({
+        format: format.value,
+        title: document.getElementById('f-title').value || null,
+        body: body.value || null,
+        platforms,
+        status: 'draft',
+        publish_at: publishVal ? new Date(publishVal).toISOString() : null,
+        notes: document.getElementById('f-notes').value || null
+      });
+      if(error) throw error;
+      toast.textContent='Saved as draft.';
+      document.getElementById('create-form').reset();
+      updateCounter();
+    }catch(err){
+      toast.textContent='Failed: '+err.message;
+    }finally{
+      submitBtn.disabled = false;
+      setTimeout(()=>{ toast.textContent=''; }, 4000);
+    }
+  });
+  updateCounter();
+}
+
+/* ---------- calendar ---------- */
+async function loadCalendar(){
+  const el = document.getElementById('calendar-list');
+  el.className='loading'; el.textContent='Loading…';
+  try{
+    const { data, error } = await sb.from('content').select('*').neq('status','killed');
+    if(error) throw error;
+    el.className=''; el.innerHTML='';
+    const today = new Date(); today.setHours(0,0,0,0);
+    for(let offset=-7; offset<=14; offset++){
+      const day = new Date(today); day.setDate(today.getDate()+offset);
+      const dayEnd = new Date(day); dayEnd.setDate(day.getDate()+1);
+      const items = data.filter(row=>{
+        const ref = row.publish_at || (offset===0 ? null : row.created_at);
+        if(!ref) return false;
+        const d = new Date(ref);
+        return d >= day && d < dayEnd;
+      });
+      const row = document.createElement('div');
+      row.className = 'day-row' + (offset===0 ? ' today' : '');
+      const label = day.toLocaleDateString('en-US',{weekday:'short', month:'short', day:'numeric'});
+      row.innerHTML = `<div class="day-label">${label}${offset===0?' · today':''}</div>
+        <div class="day-items">${
+          items.length ? items.map(r=>`<div class="day-item">
+              <span class="chip ${isPastDue(r)?'past-due':''}">${FORMAT_LABELS[r.format]||r.format}</span>
+              <span>${escapeHtml(r.title||'(untitled)')}</span>
+              <span style="color:var(--green-40)">${r.status}</span>
+            </div>`).join('')
+          : '<div class="day-empty">nothing scheduled</div>'
+        }</div>`;
+      el.appendChild(row);
+    }
+  }catch(err){
+    el.className='empty'; el.textContent='Could not load: '+err.message;
+  }
+}
+
+/* ---------- archive ---------- */
+async function loadArchive(){
+  const el = document.getElementById('archive-list');
+  el.className='loading'; el.textContent='Loading…';
+  try{
+    const { data, error } = await sb.from('content').select('*').in('status',['published','killed'])
+      .order('publish_at', { ascending:false, nullsFirst:false });
+    if(error) throw error;
+    document.getElementById('archive-count').textContent = data.length;
+    if(!data.length){ el.className='empty'; el.textContent='Nothing archived yet.'; return; }
+    el.className=''; el.innerHTML='';
+    data.forEach(row=>{
+      const card = document.createElement('div');
+      card.className='card';
+      card.innerHTML = `
+        <div class="card-top">
+          <span class="chip">${FORMAT_LABELS[row.format]||row.format}</span>
+          <span class="chip ${row.status==='published'?'solid':''}">${row.status}</span>
+        </div>
+        <div class="card-title display">${escapeHtml(row.title||'(untitled)')}</div>
+        <div class="card-meta">${row.publish_at ? fmtDate(row.publish_at) : fmtDate(row.created_at)}</div>
+        <div class="card-body">${escapeHtml(row.body||'')}</div>
+        <div class="card-actions"><button data-act="revert">Revert to draft</button><button data-act="expand">Expand</button></div>
+      `;
+      card.querySelector('[data-act=expand]').addEventListener('click', ()=>{
+        card.querySelector('.card-body').classList.toggle('expanded');
+      });
+      card.querySelector('[data-act=revert]').addEventListener('click', async ()=>{
+        if(!confirm('Revert "'+(row.title||'untitled')+'" back to draft?')) return;
+        await sb.from('content').update({ status:'draft', approved_at:null }).eq('id', row.id);
+        loadArchive();
+      });
+      el.appendChild(card);
+    });
+  }catch(err){
+    el.className='empty'; el.textContent='Could not load: '+err.message;
+  }
+}
+</script>
+</body>
+</html>
