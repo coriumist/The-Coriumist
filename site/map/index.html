@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f3e9">
+<title>The Coriumist · The Map</title>
+<meta name="description" content="Where capital congregates, plotted at city level. Public sources only.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,100..900,0..100,0..1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{ --green:#2f5d3f; --cream:#f7f3e9; --g08:rgba(47,93,63,.08); --g16:rgba(47,93,63,.16); --g40:rgba(47,93,63,.4); --g55:rgba(47,93,63,.55); --g75:rgba(47,93,63,.75); }
+  *{box-sizing:border-box}
+  body{ margin:0; background:var(--cream); color:var(--green); font-family:'Fraunces',serif; font-variation-settings:'opsz' 30,'wght' 420; }
+  .mono{ font-family:'Space Mono',monospace; }
+  header{ display:flex; align-items:center; gap:12px; padding:16px 22px; border-bottom:1px solid var(--g16); }
+  header a{ color:var(--green); text-decoration:none; font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; }
+  header .mark{ width:22px; height:22px; }
+  .wrap{ max-width:1180px; margin:0 auto; padding:26px 22px 60px; }
+  h1{ font-variation-settings:'opsz' 90,'wght' 600; font-size:clamp(26px,4vw,40px); margin:6px 0 4px; }
+  .sub{ font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.06em; color:var(--g75); text-transform:uppercase; margin-bottom:26px; }
+  #map-holder{ width:100%; border:1px solid var(--g16); background:var(--cream); }
+  svg{ display:block; width:100%; height:auto; }
+  .land{ fill:var(--g08); stroke:var(--g16); stroke-width:.6; }
+  .node-base{ fill:var(--green); opacity:.45; }
+  .node-active{ fill:var(--green); }
+  .node-ring{ fill:none; stroke:var(--green); stroke-width:1; opacity:.5; }
+  .node-label{ font-family:'Space Mono',monospace; font-size:9.5px; fill:var(--green); opacity:.8; }
+  .legend{ display:flex; gap:26px; flex-wrap:wrap; margin-top:18px; font-family:'Space Mono',monospace; font-size:11px; color:var(--g75); }
+  .legend span{ display:inline-flex; align-items:center; gap:7px; }
+  .dot{ width:8px; height:8px; border-radius:50%; display:inline-block; background:var(--green); }
+  .dot.dim{ opacity:.45; }
+  .note{ margin-top:22px; max-width:64ch; font-size:14px; color:var(--g75); }
+  .disclaimer{ margin-top:16px; font-family:'Space Mono',monospace; font-size:11px; color:var(--g55); max-width:64ch; line-height:1.6; }
+  .status{ font-family:'Space Mono',monospace; font-size:10.5px; color:var(--g55); background:var(--g08); display:inline-block; padding:4px 9px; margin-top:14px; border-radius:2px; }
+  #tooltip{ position:fixed; pointer-events:none; background:var(--green); color:var(--cream); font-family:'Space Mono',monospace; font-size:11px; padding:6px 9px; border-radius:2px; opacity:0; transition:opacity .1s; z-index:20; }
+</style>
+</head>
+<body>
+<header>
+  <svg class="mark" viewBox="0 0 200 200"><g><circle cx="100" cy="100" r="92" fill="#2f5d3f"/><circle cx="100" cy="100" r="80" fill="#f7f3e9"/><circle cx="100" cy="100" r="68" fill="#2f5d3f"/><circle cx="100" cy="100" r="56" fill="#f7f3e9"/><circle cx="100" cy="100" r="44" fill="#2f5d3f"/><circle cx="100" cy="100" r="32" fill="#f7f3e9"/><circle cx="100" cy="100" r="20" fill="#2f5d3f"/><circle cx="100" cy="100" r="8" fill="#f7f3e9"/></g></svg>
+  <a href="/">The Coriumist</a>
+</header>
+<div class="wrap">
+  <div class="sub">Cartography · Live</div>
+  <h1>The Map</h1>
+  <div id="map-holder"></div>
+  <div class="legend">
+    <span><i class="dot dim"></i>Permanent capital</span>
+    <span><i class="dot"></i>Active this week</span>
+  </div>
+  <p class="note">Ten permanent capitals never go dark. The lit nodes are where the circuit's weight sits right now, drawn from the current Circuit read, Budapest closing out the paddock, the Mediterranean absorbing what scatters from it.</p>
+  <div class="status">Node positions and permanent capitals are real. Per-node density is illustrative pending the live ADS-B feed, not yet wired in. Nothing here is address-level or individual-level.</div>
+  <p class="disclaimer">The Coriumist Index is an intelligence visualization tool. This is not financial advice or investment guidance.</p>
+</div>
+<div id="tooltip"></div>
+
+<script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
+<script src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
+<script>
+const GREEN = "#2f5d3f";
+
+const PERMANENT = [
+  ["London", 51.5074, -0.1278],
+  ["New York", 40.7128, -74.0060],
+  ["Miami", 25.7617, -80.1918],
+  ["Monaco", 43.7384, 7.4246],
+  ["Dubai", 25.2048, 55.2708],
+  ["Singapore", 1.3521, 103.8198],
+  ["Hong Kong", 22.3193, 114.1694],
+  ["Geneva", 46.2044, 6.1432],
+  ["Zurich", 47.3769, 8.5417],
+  ["Paris", 48.8566, 2.3522],
+];
+
+// This week's read: Hungarian GP closes the paddock, traffic reads toward the Mediterranean.
+const ACTIVE = [
+  ["Budapest", 47.4979, 19.0402, 0.9],
+  ["Monaco", 43.7384, 7.4246, 0.7],
+  ["Porto Cervo", 41.1339, 9.5350, 0.8],
+  ["Geneva", 46.2044, 6.1432, 0.4],
+];
+
+async function build(){
+  const width = 1120, height = 560;
+  const svg = d3.select("#map-holder").append("svg")
+    .attr("viewBox", `0 0 ${width} ${height}`);
+
+  const projection = d3.geoNaturalEarth1().fitSize([width, height-20], {type:"Sphere"}).translate([width/2, height/2+10]);
+  const path = d3.geoPath(projection);
+
+  const world = await fetch("./data/land-110m.json").then(r => r.json());
+  const land = topojson.feature(world, world.objects.land);
+
+  svg.append("path").datum(land).attr("class","land").attr("d", path);
+
+  const tooltip = d3.select("#tooltip");
+
+  const base = svg.append("g");
+  PERMANENT.forEach(([name, lat, lon]) => {
+    const [x,y] = projection([lon, lat]);
+    const g = base.append("g").attr("transform", `translate(${x},${y})`);
+    g.append("circle").attr("class","node-base").attr("r", 4.5);
+    g.append("text").attr("class","node-label").attr("x", 7).attr("y", 3).text(name);
+    g.on("mousemove", (e) => tooltip.style("opacity",1).style("left", e.clientX+12+"px").style("top", e.clientY+12+"px").text(name + ", permanent capital"))
+     .on("mouseleave", () => tooltip.style("opacity",0));
+  });
+
+  const active = svg.append("g");
+  ACTIVE.forEach(([name, lat, lon, weight]) => {
+    const [x,y] = projection([lon, lat]);
+    const g = active.append("g").attr("transform", `translate(${x},${y})`);
+    const r = 5 + weight*9;
+    g.append("circle").attr("class","node-ring").attr("r", r+5);
+    g.append("circle").attr("class","node-active").attr("r", r);
+    g.append("text").attr("class","node-label").attr("x", r+6).attr("y", 3).style("font-weight","700").text(name);
+    g.on("mousemove", (e) => tooltip.style("opacity",1).style("left", e.clientX+12+"px").style("top", e.clientY+12+"px").text(name + ", active, illustrative weight " + weight))
+     .on("mouseleave", () => tooltip.style("opacity",0));
+  });
+}
+build();
+</script>
+</body>
+</html>
