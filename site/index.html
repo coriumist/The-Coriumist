@@ -212,6 +212,8 @@ section{padding:clamp(5.5rem,13vh,10rem) var(--pad);border-top:1px solid var(--l
 @media(max-width:900px){.carto-grid{grid-template-columns:1fr}}
 .map-frame{border:1px solid var(--line-faint);background:var(--wash);padding:clamp(.8rem,2vw,1.6rem)}
 .map-foot{margin-top:.9rem;color:var(--soft)}
+.map-cta{position:relative;z-index:5;display:inline-block;margin-top:.7rem;padding:.6rem 1.1rem;border:1px solid var(--green);border-radius:2px;text-decoration:none;color:var(--green)!important;font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+.map-cta:hover{background:var(--green);color:var(--cream)!important}
 .node{fill:none;stroke:var(--green);stroke-width:1.4}
 .node-lit{fill:var(--green);stroke:none}
 .pulse{fill:none;stroke:var(--green);stroke-width:1;opacity:0;transform-box:fill-box;transform-origin:center;animation:pulse 3.2s ease-out infinite}
@@ -454,7 +456,8 @@ footer{padding:clamp(3rem,8vh,5rem) var(--pad);border-top:1px solid var(--line-f
           <text class="map-label" x="817" y="209" text-anchor="middle">HONG KONG</text>
         </svg>
       </div>
-      <p class="map-foot mono">Plotted at city level. Always. <a href="/map/" style="color:inherit;">The live map, in full →</a></p>
+      <p class="map-foot mono">Plotted at city level. Always.</p>
+      <a class="map-cta" href="/map/" onclick="window.location.href='/map/'; return true;">The live map, in full →</a>
     </div>
     <div data-reveal="" class="in" style="transition-delay: 70ms;">
       <div class="week-head">
