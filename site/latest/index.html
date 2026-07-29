@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f3e9">
+<title>The Coriumist · Latest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,100..900,0..100,0..1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{ --green:#2f5d3f; --cream:#f7f3e9; --g08:rgba(47,93,63,.08); --g16:rgba(47,93,63,.16); --g55:rgba(47,93,63,.55); --g75:rgba(47,93,63,.75); }
+  *{box-sizing:border-box}
+  body{ margin:0; background:var(--cream); color:var(--green); font-family:'Fraunces',serif; font-variation-settings:'opsz' 30,'wght' 420; }
+  .mono{ font-family:'Space Mono',monospace; }
+  header{ display:flex; align-items:center; gap:12px; padding:16px 22px; border-bottom:1px solid var(--g16); }
+  header a{ color:var(--green); text-decoration:none; font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; }
+  header .mark{ width:22px; height:22px; }
+  .wrap{ max-width:720px; margin:0 auto; padding:40px 22px 80px; }
+  h1{ font-variation-settings:'opsz' 90,'wght' 600; font-size:clamp(26px,4vw,38px); margin:6px 0 30px; }
+  a.card{ display:block; text-decoration:none; color:inherit; border-top:1px solid var(--g16); padding:20px 0; }
+  a.card:hover{ background:var(--g08); }
+  .card-top{ display:flex; gap:10px; align-items:center; margin-bottom:6px; }
+  .card-tag{ font-family:'Space Mono',monospace; font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--g75); border:1px solid var(--g16); padding:2px 7px; border-radius:2px; }
+  .card-date{ font-family:'Space Mono',monospace; font-size:10.5px; color:var(--g55); }
+  .card-title{ font-variation-settings:'opsz' 60,'wght' 560; font-size:19px; }
+  .state{ font-family:'Space Mono',monospace; font-size:13px; color:var(--g55); padding:60px 0; text-align:center; }
+</style>
+</head>
+<body>
+<header>
+  <svg class="mark" viewBox="0 0 200 200"><g><circle cx="100" cy="100" r="92" fill="#2f5d3f"/><circle cx="100" cy="100" r="80" fill="#f7f3e9"/><circle cx="100" cy="100" r="68" fill="#2f5d3f"/><circle cx="100" cy="100" r="56" fill="#f7f3e9"/><circle cx="100" cy="100" r="44" fill="#2f5d3f"/><circle cx="100" cy="100" r="32" fill="#f7f3e9"/><circle cx="100" cy="100" r="20" fill="#2f5d3f"/><circle cx="100" cy="100" r="8" fill="#f7f3e9"/></g></svg>
+  <a href="/">The Coriumist</a>
+</header>
+<div class="wrap">
+  <h1>Latest</h1>
+  <div id="feed"><div class="state">Loading…</div></div>
+</div>
+
+<script type="module">
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+const sb = createClient(
+  'https://ocvbhjgdxmggjjgumflg.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jdmJoamdkeG1nZ2pqZ3VtZmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM4OTE5MTAsImV4cCI6MjA5OTQ2NzkxMH0.R6hh_f-MjcYw6WiI7dZ_L_AVLyM0ugjxyoW9RceNU90'
+);
+const FORMAT_LABELS = {
+  signal:'SIGNAL', dispatch:'Dispatch', dossier_principal:'Weekly Dossier', dossier_right_hand:'Weekly Dossier, Right Hand',
+  cartography:'Cartography', approved:'Approved', lifestyle:'Lifestyle', circuit:'The Circuit', carousel:'Carousel',
+  games:'The Games', front_row:'The Front Row', register:'The Register', gallery:'The Gallery', estate:'The Estate'
+};
+function escapeHtml(s){ return (s||'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+async function render(){
+  const el = document.getElementById('feed');
+  try{
+    const { data, error } = await sb.from('content').select('id,format,title,publish_at,created_at')
+      .eq('status','published').order('publish_at', { ascending:false, nullsFirst:false });
+    if(error) throw error;
+    if(!data || !data.length){ el.innerHTML = '<div class="state">Nothing published yet.</div>'; return; }
+    el.innerHTML = data.map(row => {
+      const d = row.publish_at || row.created_at;
+      const dateStr = d ? new Date(d).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) : '';
+      return `<a class="card" href="/read/?id=${row.id}">
+        <div class="card-top"><span class="card-tag">${FORMAT_LABELS[row.format]||row.format}</span><span class="card-date">${dateStr}</span></div>
+        <div class="card-title">${escapeHtml(row.title||'(untitled)')}</div>
+      </a>`;
+    }).join('');
+  }catch(err){
+    el.innerHTML = '<div class="state">Could not load. Try again shortly.</div>';
+  }
+}
+render();
+</script>
+</body>
+</html>

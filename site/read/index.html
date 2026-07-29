@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f7f3e9">
+<title>The Coriumist</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,100..900,0..100,0..1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{ --green:#2f5d3f; --cream:#f7f3e9; --g16:rgba(47,93,63,.16); --g40:rgba(47,93,63,.4); --g55:rgba(47,93,63,.55); --g75:rgba(47,93,63,.75); }
+  *{box-sizing:border-box}
+  body{ margin:0; background:var(--cream); color:var(--green); font-family:'Fraunces',serif; font-variation-settings:'opsz' 30,'wght' 440; line-height:1.65; font-size:17px; }
+  .mono{ font-family:'Space Mono',monospace; }
+  header{ display:flex; align-items:center; gap:12px; padding:16px 22px; border-bottom:1px solid var(--g16); }
+  header a{ color:var(--green); text-decoration:none; font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; }
+  header .mark{ width:22px; height:22px; }
+  .wrap{ max-width:680px; margin:0 auto; padding:50px 22px 80px; }
+  .tag{ font-family:'Space Mono',monospace; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:var(--g75); border:1px solid var(--g40); display:inline-block; padding:4px 9px; border-radius:2px; margin-bottom:16px; }
+  h1{ font-variation-settings:'opsz' 100,'wght' 620; font-size:clamp(28px,5vw,42px); margin:0 0 10px; line-height:1.05; }
+  .meta{ font-family:'Space Mono',monospace; font-size:11.5px; color:var(--g55); margin-bottom:34px; }
+  .body p{ margin:0 0 22px; white-space:pre-wrap; }
+  .disclaimer{ margin-top:36px; font-family:'Space Mono',monospace; font-size:11px; color:var(--g55); line-height:1.6; border-top:1px solid var(--g16); padding-top:20px; }
+  .state{ font-family:'Space Mono',monospace; font-size:13px; color:var(--g55); padding:80px 0; text-align:center; }
+  .back{ display:inline-block; margin-top:40px; font-family:'Space Mono',monospace; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; color:var(--green); text-decoration:none; border-bottom:1px solid var(--g40); }
+</style>
+</head>
+<body>
+<header>
+  <svg class="mark" viewBox="0 0 200 200"><g><circle cx="100" cy="100" r="92" fill="#2f5d3f"/><circle cx="100" cy="100" r="80" fill="#f7f3e9"/><circle cx="100" cy="100" r="68" fill="#2f5d3f"/><circle cx="100" cy="100" r="56" fill="#f7f3e9"/><circle cx="100" cy="100" r="44" fill="#2f5d3f"/><circle cx="100" cy="100" r="32" fill="#f7f3e9"/><circle cx="100" cy="100" r="20" fill="#2f5d3f"/><circle cx="100" cy="100" r="8" fill="#f7f3e9"/></g></svg>
+  <a href="/">The Coriumist</a>
+</header>
+<div class="wrap" id="article">
+  <div class="state">Loading…</div>
+</div>
+
+<script type="module">
+import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
+const sb = createClient(
+  'https://ocvbhjgdxmggjjgumflg.supabase.co',
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jdmJoamdkeG1nZ2pqZ3VtZmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM4OTE5MTAsImV4cCI6MjA5OTQ2NzkxMH0.R6hh_f-MjcYw6WiI7dZ_L_AVLyM0ugjxyoW9RceNU90'
+);
+
+const FORMAT_LABELS = {
+  signal:'SIGNAL', dispatch:'Dispatch', dossier_principal:'Weekly Dossier', dossier_right_hand:'Weekly Dossier, The Right Hand',
+  cartography:'Cartography Update', approved:'Coriumist Approved', lifestyle:'Lifestyle Piece', circuit:'The Circuit', carousel:'Carousel',
+  games:'The Games', front_row:'The Front Row', register:'The Register', gallery:'The Gallery', estate:'The Estate'
+};
+const NEEDS_DISCLAIMER = new Set(['circuit','cartography']);
+
+function escapeHtml(s){ return (s||'').replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+
+async function render(){
+  const el = document.getElementById('article');
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get('id');
+  if(!id){
+    el.innerHTML = '<div class="state">No article specified. <a class="back" href="/latest/">See everything published</a></div>';
+    return;
+  }
+  try{
+    const { data, error } = await sb.from('content').select('*').eq('id', id).eq('status','published').single();
+    if(error || !data) throw new Error('not found or not published');
+
+    document.title = (data.title || 'The Coriumist') ;
+    const dateStr = data.publish_at ? new Date(data.publish_at).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'})
+                                     : new Date(data.created_at).toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+    const paras = (data.body||'').split(/\n{2,}/).map(p => `<p>${escapeHtml(p.trim())}</p>`).join('');
+    const disclaimer = NEEDS_DISCLAIMER.has(data.format)
+      ? '<div class="disclaimer">The Coriumist Index is an intelligence visualization tool. This is not financial advice or investment guidance.</div>' : '';
+
+    el.innerHTML = `
+      <div class="tag">${FORMAT_LABELS[data.format] || data.format}</div>
+      <h1>${escapeHtml(data.title || '')}</h1>
+      <div class="meta">${dateStr}</div>
+      <div class="body">${paras}</div>
+      ${disclaimer}
+      <a class="back" href="/latest/">More from The Coriumist</a>
+    `;
+  }catch(err){
+    el.innerHTML = '<div class="state">This piece is not available. <a class="back" href="/latest/">See everything published</a></div>';
+  }
+}
+render();
+</script>
+</body>
+</html>
