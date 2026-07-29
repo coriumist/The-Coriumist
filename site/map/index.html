@@ -17,20 +17,45 @@
   header{ display:flex; align-items:center; gap:12px; padding:16px 22px; border-bottom:1px solid var(--g16); }
   header a{ color:var(--green); text-decoration:none; font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; }
   header .mark{ width:22px; height:22px; }
+
+  .ticker{ border-bottom:1px solid var(--g16); overflow:hidden; white-space:nowrap; background:var(--g08); }
+  .ticker-track{ display:inline-flex; animation:tick 38s linear infinite; padding:8px 0; }
+  .ticker-track span{ font-family:'Space Mono',monospace; font-size:10.5px; letter-spacing:.03em; color:var(--g75); padding-right:44px; }
+  @keyframes tick{ from{transform:translateX(0)} to{transform:translateX(-50%)} }
+  @media (prefers-reduced-motion: reduce){ .ticker-track{ animation:none; } }
+
   .wrap{ max-width:1180px; margin:0 auto; padding:26px 22px 60px; }
   h1{ font-variation-settings:'opsz' 90,'wght' 600; font-size:clamp(26px,4vw,40px); margin:6px 0 4px; }
-  .sub{ font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.06em; color:var(--g75); text-transform:uppercase; margin-bottom:26px; }
+  .sub{ font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.06em; color:var(--g75); text-transform:uppercase; margin-bottom:14px; }
+
+  .stat-row{ display:flex; gap:28px; flex-wrap:wrap; margin-bottom:18px; padding:14px 0; border-top:1px solid var(--g16); border-bottom:1px solid var(--g16); }
+  .stat{ font-family:'Space Mono',monospace; }
+  .stat b{ font-size:20px; display:block; }
+  .stat span{ font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--g75); }
+
+  .filters{ display:flex; gap:8px; margin-bottom:16px; }
+  .filters button{ font-family:'Space Mono',monospace; font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; background:transparent; border:1px solid var(--g40); color:var(--green); padding:6px 12px; border-radius:2px; cursor:pointer; }
+  .filters button.on{ background:var(--green); color:var(--cream); border-color:var(--green); }
+
+  .layout{ display:grid; grid-template-columns:1fr 300px; gap:20px; align-items:start; }
+  @media (max-width:860px){ .layout{ grid-template-columns:1fr; } }
   #map-holder{ width:100%; border:1px solid var(--g16); background:var(--cream); }
   svg{ display:block; width:100%; height:auto; }
   .land{ fill:var(--g08); stroke:var(--g16); stroke-width:.6; }
-  .node-base{ fill:var(--green); opacity:.45; }
-  .node-active{ fill:var(--green); }
+  .node-base{ fill:var(--green); opacity:.45; cursor:pointer; }
+  .node-active{ fill:var(--green); cursor:pointer; }
   .node-ring{ fill:none; stroke:var(--green); stroke-width:1; opacity:.5; }
   .node-label{ font-family:'Space Mono',monospace; font-size:9.5px; fill:var(--green); opacity:.8; }
-  .legend{ display:flex; gap:26px; flex-wrap:wrap; margin-top:18px; font-family:'Space Mono',monospace; font-size:11px; color:var(--g75); }
-  .legend span{ display:inline-flex; align-items:center; gap:7px; }
-  .dot{ width:8px; height:8px; border-radius:50%; display:inline-block; background:var(--green); }
-  .dot.dim{ opacity:.45; }
+
+  .list-panel{ border:1px solid var(--g16); max-height:560px; overflow-y:auto; }
+  .list-head{ font-family:'Space Mono',monospace; font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--g75); padding:12px 14px; border-bottom:1px solid var(--g16); }
+  .list-item{ display:flex; align-items:center; gap:9px; padding:11px 14px; border-bottom:1px solid var(--g08); cursor:pointer; font-family:'Space Mono',monospace; font-size:12px; }
+  .list-item:hover{ background:var(--g08); }
+  .list-item .dot{ width:7px; height:7px; border-radius:50%; background:var(--green); flex:none; }
+  .list-item .dot.dim{ opacity:.4; }
+  .list-item .name{ flex:1; }
+  .list-item .tag{ font-size:9.5px; color:var(--g55); }
+
   .note{ margin-top:22px; max-width:64ch; font-size:14px; color:var(--g75); }
   .disclaimer{ margin-top:16px; font-family:'Space Mono',monospace; font-size:11px; color:var(--g55); max-width:64ch; line-height:1.6; }
   .status{ font-family:'Space Mono',monospace; font-size:10.5px; color:var(--g55); background:var(--g08); display:inline-block; padding:4px 9px; margin-top:14px; border-radius:2px; }
@@ -42,16 +67,28 @@
   <svg class="mark" viewBox="0 0 200 200"><g><circle cx="100" cy="100" r="92" fill="#2f5d3f"/><circle cx="100" cy="100" r="80" fill="#f7f3e9"/><circle cx="100" cy="100" r="68" fill="#2f5d3f"/><circle cx="100" cy="100" r="56" fill="#f7f3e9"/><circle cx="100" cy="100" r="44" fill="#2f5d3f"/><circle cx="100" cy="100" r="32" fill="#f7f3e9"/><circle cx="100" cy="100" r="20" fill="#2f5d3f"/><circle cx="100" cy="100" r="8" fill="#f7f3e9"/></g></svg>
   <a href="/">The Coriumist</a>
 </header>
+<div class="ticker"><div class="ticker-track" id="ticker-track"></div></div>
 <div class="wrap">
   <div class="sub">Cartography · Live</div>
   <h1>The Map</h1>
-  <div id="map-holder"></div>
-  <div class="legend">
-    <span><i class="dot dim"></i>Permanent capital</span>
-    <span><i class="dot"></i>Active this week</span>
+
+  <div class="stat-row" id="stat-row"></div>
+  <div class="filters">
+    <button class="on" data-f="all">All</button>
+    <button data-f="permanent">Permanent</button>
+    <button data-f="active">Active</button>
   </div>
+
+  <div class="layout">
+    <div id="map-holder"></div>
+    <div class="list-panel">
+      <div class="list-head">Nodes</div>
+      <div id="list-items"></div>
+    </div>
+  </div>
+
   <p class="note">Ten permanent capitals never go dark. The lit nodes are where the circuit's weight sits right now, drawn from the current Circuit read, Budapest closing out the paddock, the Mediterranean absorbing what scatters from it.</p>
-  <div class="status">Node positions and permanent capitals are real. Per-node density is illustrative pending the live ADS-B feed, not yet wired in. Nothing here is address-level or individual-level.</div>
+  <div class="status">Node positions and permanent capitals are real. Per-node density is illustrative pending the live ADS-B feed, not yet wired in. Nothing here is address-level or individual-level, corporations and cities only, never named people.</div>
   <p class="disclaimer">The Coriumist Index is an intelligence visualization tool. This is not financial advice or investment guidance.</p>
 </div>
 <div id="tooltip"></div>
@@ -59,8 +96,6 @@
 <script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
 <script src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
 <script>
-const GREEN = "#2f5d3f";
-
 const PERMANENT = [
   ["London", 51.5074, -0.1278],
   ["New York", 40.7128, -74.0060],
@@ -81,6 +116,44 @@ const ACTIVE = [
   ["Porto Cervo", 41.1339, 9.5350, 0.8],
   ["Geneva", 46.2044, 6.1432, 0.4],
 ];
+
+const WIRE_LINES = [
+  "The paddock closed Sunday. The coast opened Monday.",
+  "Ten permanent capitals. Four active reads this week.",
+  "Corporate registrations only. No named individuals, ever.",
+  "Plotted at city level. Always.",
+];
+
+document.getElementById("stat-row").innerHTML = `
+  <div class="stat"><b>${ACTIVE.length}</b><span>Active nodes</span></div>
+  <div class="stat"><b>${PERMANENT.length}</b><span>Permanent capitals</span></div>
+  <div class="stat"><b>0</b><span>Live feeds connected</span></div>
+`;
+
+const tt = document.getElementById("ticker-track");
+tt.innerHTML = WIRE_LINES.map(l=>`<span>${l}</span>`).join('') + WIRE_LINES.map(l=>`<span>${l}</span>`).join('');
+
+function renderList(filter){
+  const el = document.getElementById("list-items");
+  let rows = [];
+  if(filter !== "active") rows = rows.concat(PERMANENT.map(([name])=>({name, tag:"permanent", dim:true})));
+  if(filter !== "permanent") rows = rows.concat(ACTIVE.map(([name,,,w])=>({name, tag:"active, weight "+w, dim:false})));
+  el.innerHTML = rows.map(r => `<div class="list-item" data-name="${r.name}">
+    <span class="dot ${r.dim?'dim':''}"></span><span class="name">${r.name}</span><span class="tag">${r.tag}</span>
+  </div>`).join('') || '<div class="list-item">No nodes in this view.</div>';
+}
+renderList("all");
+
+document.querySelectorAll(".filters button").forEach(btn=>{
+  btn.addEventListener("click", ()=>{
+    document.querySelectorAll(".filters button").forEach(b=>b.classList.remove("on"));
+    btn.classList.add("on");
+    const f = btn.dataset.f;
+    renderList(f);
+    document.querySelectorAll("#map-holder .node-base").forEach(n=> n.closest("g").style.display = (f==="active") ? "none" : "");
+    document.querySelectorAll("#map-holder .node-ring, #map-holder .node-active").forEach(n=> n.closest("g").style.display = (f==="permanent") ? "none" : "");
+  });
+});
 
 async function build(){
   const holder = document.getElementById("map-holder");
@@ -103,7 +176,7 @@ async function build(){
       throw new Error("d3 or topojson-client did not load from CDN");
     }
     holder.innerHTML = "";
-    const width = 1120, height = 560;
+    const width = 860, height = 560;
     const svg = d3.select("#map-holder").append("svg")
       .attr("viewBox", `0 0 ${width} ${height}`);
 
@@ -111,7 +184,6 @@ async function build(){
     const path = d3.geoPath(projection);
 
     const land = topojson.feature(world, world.objects.land);
-
     svg.append("path").datum(land).attr("class","land").attr("d", path);
 
     const tooltip = d3.select("#tooltip");
@@ -119,7 +191,7 @@ async function build(){
     const base = svg.append("g");
     PERMANENT.forEach(([name, lat, lon]) => {
       const [x,y] = projection([lon, lat]);
-      const g = base.append("g").attr("transform", `translate(${x},${y})`);
+      const g = base.append("g").attr("transform", `translate(${x},${y})`).attr("data-name", name);
       g.append("circle").attr("class","node-base").attr("r", 4.5);
       g.append("text").attr("class","node-label").attr("x", 7).attr("y", 3).text(name);
       g.on("mousemove", (e) => tooltip.style("opacity",1).style("left", e.clientX+12+"px").style("top", e.clientY+12+"px").text(name + ", permanent capital"))
@@ -129,13 +201,24 @@ async function build(){
     const active = svg.append("g");
     ACTIVE.forEach(([name, lat, lon, weight]) => {
       const [x,y] = projection([lon, lat]);
-      const g = active.append("g").attr("transform", `translate(${x},${y})`);
+      const g = active.append("g").attr("transform", `translate(${x},${y})`).attr("data-name", name);
       const r = 5 + weight*9;
       g.append("circle").attr("class","node-ring").attr("r", r+5);
       g.append("circle").attr("class","node-active").attr("r", r);
       g.append("text").attr("class","node-label").attr("x", r+6).attr("y", 3).style("font-weight","700").text(name);
       g.on("mousemove", (e) => tooltip.style("opacity",1).style("left", e.clientX+12+"px").style("top", e.clientY+12+"px").text(name + ", active, illustrative weight " + weight))
        .on("mouseleave", () => tooltip.style("opacity",0));
+    });
+
+    document.addEventListener("click", (e)=>{
+      const item = e.target.closest(".list-item[data-name]");
+      if(!item) return;
+      const nm = item.dataset.name;
+      const target = svg.selectAll("g[data-name]").filter(function(){ return this.getAttribute("data-name")===nm; });
+      target.each(function(){
+        const c = d3.select(this).select("circle");
+        c.transition().duration(150).attr("r", +c.attr("r")*1.6).transition().duration(300).attr("r", c.attr("r"));
+      });
     });
   }catch(err){
     holder.innerHTML = '<div style="padding:60px 20px;text-align:center;font-family:\'Space Mono\',monospace;font-size:12px;color:var(--g55);">Map render failed. ' + err.message + '</div>';
