@@ -1,7 +1,7 @@
 {
  "london": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Water_feature_Silence%2C_Mayfair%2C_London.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Water_feature_Silence%2C_Mayfair%2C_London.JPG/1800px-Water_feature_Silence%2C_Mayfair%2C_London.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Water_feature_Silence%2C_Mayfair%2C_London.JPG",
    "w": 2985,
    "h": 2066,
@@ -12,7 +12,7 @@
    "q": "Mayfair London"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mayfair%2C_London%2C_UK_-_panoramio_%288%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mayfair%2C_London%2C_UK_-_panoramio_%288%29.jpg/1800px-Mayfair%2C_London%2C_UK_-_panoramio_%288%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mayfair%2C_London%2C_UK_-_panoramio_%288%29.jpg",
    "w": 3264,
    "h": 2448,
@@ -23,7 +23,7 @@
    "q": "Mayfair London"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/The_Dorchester%2C_Mayfair%2C_London%2C_UK_-_20100501.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Dorchester%2C_Mayfair%2C_London%2C_UK_-_20100501.jpg/1800px-The_Dorchester%2C_Mayfair%2C_London%2C_UK_-_20100501.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/The_Dorchester%2C_Mayfair%2C_London%2C_UK_-_20100501.jpg",
    "w": 2637,
    "h": 1973,
@@ -32,6 +32,39 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=20769473",
    "source": "openverse:wikimedia",
    "q": "Mayfair London"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pattersons%2C_Mayfair%2C_London_%287313808984%29.jpg/1800px-Pattersons%2C_Mayfair%2C_London_%287313808984%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Pattersons%2C_Mayfair%2C_London_%287313808984%29.jpg",
+   "w": 3776,
+   "h": 2520,
+   "credit": "Ewan Munro from London, UK",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=24281956",
+   "source": "openverse:wikimedia",
+   "q": "Mayfair London"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/London_Skyline_%28125508655_cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1800px-London_Skyline_%28125508655_cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/London_Skyline_%28125508655_cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 1946,
+   "h": 1336,
+   "credit": "Igrigorik",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=190400523",
+   "source": "openverse:wikimedia",
+   "q": "London skyline Thames dusk"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/London_Skyline_%28232548719%29.jpeg/1800px-London_Skyline_%28232548719%29.jpeg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/37/London_Skyline_%28232548719%29.jpeg",
+   "w": 2048,
+   "h": 1381,
+   "credit": "William Warby",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=71261459",
+   "source": "openverse:wikimedia",
+   "q": "London skyline Thames dusk"
   }
  ],
  "new-york": [
@@ -67,11 +100,44 @@
    "page": "https://www.rawpixel.com/image/5942628/free-public-domain-cc0-photo",
    "source": "openverse:rawpixel",
    "q": "Manhattan skyline aerial"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQyMDctMS00NTkuanBn.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQyMDctMS00NTkuanBn.jpg",
+   "w": 7000,
+   "h": 4667,
+   "credit": "Carol M Highsmith",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/3094356/free-photo-image-new-york-911-aerial-view",
+   "source": "openverse:rawpixel",
+   "q": "Manhattan skyline aerial"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Fremont_Central_Park_aerial_view%2C_December_2018.JPG/1800px-Fremont_Central_Park_aerial_view%2C_December_2018.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Fremont_Central_Park_aerial_view%2C_December_2018.JPG",
+   "w": 5184,
+   "h": 3457,
+   "credit": "Pi.1415926535",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=75585955",
+   "source": "openverse:wikimedia",
+   "q": "Central Park aerial"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Salt_Lake_City_with_Kestopur_Canal_and_Central_Park_-_Aerial_View_-_Kolkata_2016-08-04_5677.JPG/1800px-Salt_Lake_City_with_Kestopur_Canal_and_Central_Park_-_Aerial_View_-_Kolkata_2016-08-04_5677.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Salt_Lake_City_with_Kestopur_Canal_and_Central_Park_-_Aerial_View_-_Kolkata_2016-08-04_5677.JPG",
+   "w": 6016,
+   "h": 4000,
+   "credit": "Biswarup Ganguly",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=51698244",
+   "source": "openverse:wikimedia",
+   "q": "Central Park aerial"
   }
  ],
  "miami": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Fontainebleau_Miami_Beach_Aerial_2025.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fontainebleau_Miami_Beach_Aerial_2025.jpg/1800px-Fontainebleau_Miami_Beach_Aerial_2025.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Fontainebleau_Miami_Beach_Aerial_2025.jpg",
    "w": 5280,
    "h": 3956,
@@ -102,11 +168,44 @@
    "page": "https://www.rawpixel.com/image/3094491/free-photo-image-miami-beach-aerial-view",
    "source": "openverse:rawpixel",
    "q": "Miami Beach aerial"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L2xvYzIwMjA3MjEwMjYtaW1hZ2UuanBn.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L2xvYzIwMjA3MjEwMjYtaW1hZ2UuanBn.jpg",
+   "w": 7991,
+   "h": 5415,
+   "credit": "Carol M Highsmith",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/8054938/photo-image-beach-public-domain-united-states",
+   "source": "openverse:rawpixel",
+   "q": "Miami Beach aerial"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Leslie%2C_Ocean_Drive%2C_Miami_Beach%2C_FL.jpg/1800px-Leslie%2C_Ocean_Drive%2C_Miami_Beach%2C_FL.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/4/48/Leslie%2C_Ocean_Drive%2C_Miami_Beach%2C_FL.jpg",
+   "w": 3872,
+   "h": 2592,
+   "credit": "Elisa.rolle",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=57308530",
+   "source": "openverse:wikimedia",
+   "q": "Ocean Drive Miami Beach"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Casa_Casuarina_at_night_Versace_Mansion%2C_hotel_restaurant_at_1116_Ocean_Drive%2C_Miami_Beach.jpg/1800px-Casa_Casuarina_at_night_Versace_Mansion%2C_hotel_restaurant_at_1116_Ocean_Drive%2C_Miami_Beach.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Casa_Casuarina_at_night_Versace_Mansion%2C_hotel_restaurant_at_1116_Ocean_Drive%2C_Miami_Beach.jpg",
+   "w": 4032,
+   "h": 3024,
+   "credit": "CZmarlin — Christopher Ziemnowicz would appreciate a photo credit if this image ",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=99651011",
+   "source": "openverse:wikimedia",
+   "q": "Ocean Drive Miami Beach"
   }
  ],
  "monaco": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Port_Hercules%2C_Monaco.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Port_Hercules%2C_Monaco.jpg/1800px-Port_Hercules%2C_Monaco.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Port_Hercules%2C_Monaco.jpg",
    "w": 5184,
    "h": 3456,
@@ -117,7 +216,7 @@
    "q": "Port Hercule Monaco"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/20210527_122514_Yacht_port_Hercule_Monaco.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20210527_122514_Yacht_port_Hercule_Monaco.jpg/1800px-20210527_122514_Yacht_port_Hercule_Monaco.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/20210527_122514_Yacht_port_Hercule_Monaco.jpg",
    "w": 4128,
    "h": 1956,
@@ -128,7 +227,7 @@
    "q": "Port Hercule Monaco"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Port_Hercule_Monaco_IMG_1155.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Port_Hercule_Monaco_IMG_1155.jpg/1800px-Port_Hercule_Monaco_IMG_1155.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Port_Hercule_Monaco_IMG_1155.jpg",
    "w": 5835,
    "h": 3889,
@@ -137,11 +236,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=79865888",
    "source": "openverse:wikimedia",
    "q": "Port Hercule Monaco"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Port_Hercule%2C_Monaco_-_panoramio_%283%29.jpg/1800px-Port_Hercule%2C_Monaco_-_panoramio_%283%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/61/Port_Hercule%2C_Monaco_-_panoramio_%283%29.jpg",
+   "w": 2816,
+   "h": 2112,
+   "credit": "M.Strīķis",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=53193680",
+   "source": "openverse:wikimedia",
+   "q": "Port Hercule Monaco"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Real_Monte_Carlo_Casino.jpg/1800px-Real_Monte_Carlo_Casino.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Real_Monte_Carlo_Casino.jpg",
+   "w": 2278,
+   "h": 1519,
+   "credit": "sam garza from Los Angeles, USA",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=2489320",
+   "source": "openverse:wikimedia",
+   "q": "Monte Carlo Casino"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Monte_Carlo_Casino_at_Dusk.JPG/1800px-Monte_Carlo_Casino_at_Dusk.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Monte_Carlo_Casino_at_Dusk.JPG",
+   "w": 4320,
+   "h": 3240,
+   "credit": "Z.graber",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=18194700",
+   "source": "openverse:wikimedia",
+   "q": "Monte Carlo Casino"
   }
  ],
  "dubai": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Dubai_Marina_Skyline.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dubai_Marina_Skyline.jpg/1800px-Dubai_Marina_Skyline.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Dubai_Marina_Skyline.jpg",
    "w": 6000,
    "h": 4000,
@@ -152,7 +284,7 @@
    "q": "Dubai Marina skyline"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dubai_Marina_Skyline_93.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dubai_Marina_Skyline_93.jpg/1800px-Dubai_Marina_Skyline_93.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dubai_Marina_Skyline_93.jpg",
    "w": 3293,
    "h": 2195,
@@ -172,11 +304,44 @@
    "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office",
    "source": "openverse:rawpixel",
    "q": "Dubai Marina skyline"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Dubai_Jumeirah_Beach.JPG/1800px-Dubai_Jumeirah_Beach.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Dubai_Jumeirah_Beach.JPG",
+   "w": 3888,
+   "h": 2592,
+   "credit": "pe-sa",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=22986976",
+   "source": "openverse:wikimedia",
+   "q": "Dubai Marina skyline"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Burj_Al_Arab_and_Jumeirah_Beach_%289601659067%29.jpg/1800px-Burj_Al_Arab_and_Jumeirah_Beach_%289601659067%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Burj_Al_Arab_and_Jumeirah_Beach_%289601659067%29.jpg",
+   "w": 1600,
+   "h": 909,
+   "credit": "Yacine Hary",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=76698987",
+   "source": "openverse:wikimedia",
+   "q": "Burj Al Arab"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Burj_Al_Arab_and_the_beach_%28Pexels_823696%29.jpg/1800px-Burj_Al_Arab_and_the_beach_%28Pexels_823696%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Burj_Al_Arab_and_the_beach_%28Pexels_823696%29.jpg",
+   "w": 6498,
+   "h": 4332,
+   "credit": "Aleksandar Pasaric",
+   "license": "CC CC0 1.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=95952365",
+   "source": "openverse:wikimedia",
+   "q": "Burj Al Arab"
   }
  ],
  "singapore": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Marina_bay_sands_night_skypark_2010.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_bay_sands_night_skypark_2010.JPG/1800px-Marina_bay_sands_night_skypark_2010.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Marina_bay_sands_night_skypark_2010.JPG",
    "w": 4288,
    "h": 2848,
@@ -187,7 +352,7 @@
    "q": "Marina Bay Sands night"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Marina_Bay_Sands_Night_Panorama.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Marina_Bay_Sands_Night_Panorama.jpg/1800px-Marina_Bay_Sands_Night_Panorama.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Marina_Bay_Sands_Night_Panorama.jpg",
    "w": 3308,
    "h": 1320,
@@ -207,11 +372,44 @@
    "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night",
    "source": "openverse:rawpixel",
    "q": "Marina Bay Sands night"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marina_Bay_Sands_Night_Panorama_2.jpg/1800px-Marina_Bay_Sands_Night_Panorama_2.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Marina_Bay_Sands_Night_Panorama_2.jpg",
+   "w": 2369,
+   "h": 1154,
+   "credit": "RoyalCathayan",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=114959673",
+   "source": "openverse:wikimedia",
+   "q": "Marina Bay Sands night"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Singapore_Skyline.jpg/1800px-Singapore_Skyline.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Singapore_Skyline.jpg",
+   "w": 4272,
+   "h": 2848,
+   "credit": "JeCCo",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=5819883",
+   "source": "openverse:wikimedia",
+   "q": "Singapore skyline"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Singapore_skyline_at_sunset_viewed_from_Gardens_by_the_Bay_East_-_20120426.jpg/1800px-Singapore_skyline_at_sunset_viewed_from_Gardens_by_the_Bay_East_-_20120426.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Singapore_skyline_at_sunset_viewed_from_Gardens_by_the_Bay_East_-_20120426.jpg",
+   "w": 6990,
+   "h": 4033,
+   "credit": "Chensiyuan.",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=19224768",
+   "source": "openverse:wikimedia",
+   "q": "Singapore skyline"
   }
  ],
  "hong-kong": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Victoria_Harbour_%28Hong_Kong%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Victoria_Harbour_%28Hong_Kong%29.jpg/1800px-Victoria_Harbour_%28Hong_Kong%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/90/Victoria_Harbour_%28Hong_Kong%29.jpg",
    "w": 3600,
    "h": 2396,
@@ -222,7 +420,7 @@
    "q": "Victoria Harbour Hong Kong"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Aqua_Luna%2C_a_Chinese_Junk_in_Victoria_Harbour_%28Hong_Kong%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Aqua_Luna%2C_a_Chinese_Junk_in_Victoria_Harbour_%28Hong_Kong%29.jpg/1800px-Aqua_Luna%2C_a_Chinese_Junk_in_Victoria_Harbour_%28Hong_Kong%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Aqua_Luna%2C_a_Chinese_Junk_in_Victoria_Harbour_%28Hong_Kong%29.jpg",
    "w": 3007,
    "h": 1834,
@@ -233,7 +431,7 @@
    "q": "Victoria Harbour Hong Kong"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Aqua_Luna_Ship_at_Victoria_Harbour%2C_Hong_Kong_%28Ank_kumar%2C_Infosys%29_05.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Aqua_Luna_Ship_at_Victoria_Harbour%2C_Hong_Kong_%28Ank_kumar%2C_Infosys%29_05.jpg/1800px-Aqua_Luna_Ship_at_Victoria_Harbour%2C_Hong_Kong_%28Ank_kumar%2C_Infosys%29_05.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Aqua_Luna_Ship_at_Victoria_Harbour%2C_Hong_Kong_%28Ank_kumar%2C_Infosys%29_05.jpg",
    "w": 3271,
    "h": 2181,
@@ -242,11 +440,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=105141852",
    "source": "openverse:wikimedia",
    "q": "Victoria Harbour Hong Kong"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Central_Skyline_with_IFC_building_from_Star_Ferry_in_Victoria_Harbour%2C_Hong_Kong_2.jpg/1800px-Central_Skyline_with_IFC_building_from_Star_Ferry_in_Victoria_Harbour%2C_Hong_Kong_2.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Central_Skyline_with_IFC_building_from_Star_Ferry_in_Victoria_Harbour%2C_Hong_Kong_2.jpg",
+   "w": 4256,
+   "h": 2344,
+   "credit": "Daniel Case",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=28294917",
+   "source": "openverse:wikimedia",
+   "q": "Victoria Harbour Hong Kong"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Hong_Kong_Night_Skyline.jpg/1800px-Hong_Kong_Night_Skyline.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Hong_Kong_Night_Skyline.jpg",
+   "w": 4670,
+   "h": 2000,
+   "credit": "Base64, retouched by CarolSpears",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=4222127",
+   "source": "openverse:wikimedia",
+   "q": "Hong Kong skyline night"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hong_Kong_Harbour_Night_2019-06-11.jpg/1800px-Hong_Kong_Harbour_Night_2019-06-11.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hong_Kong_Harbour_Night_2019-06-11.jpg",
+   "w": 10439,
+   "h": 4936,
+   "credit": "Benh LIEU SONG (Flickr)",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=82284212",
+   "source": "openverse:wikimedia",
+   "q": "Hong Kong skyline night"
   }
  ],
  "geneva": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Jet_d%27eau_Geneva.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Jet_d%27eau_Geneva.jpg/1800px-Jet_d%27eau_Geneva.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/Jet_d%27eau_Geneva.jpg",
    "w": 5370,
    "h": 3580,
@@ -257,7 +488,7 @@
    "q": "Jet d'Eau Geneva"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jet_d%27eau_Geneva_Switzerland.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jet_d%27eau_Geneva_Switzerland.jpg/1800px-Jet_d%27eau_Geneva_Switzerland.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jet_d%27eau_Geneva_Switzerland.jpg",
    "w": 4032,
    "h": 3024,
@@ -268,7 +499,7 @@
    "q": "Jet d'Eau Geneva"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Jet_d%27eau%2C_Geneva%2C_Switzerland.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Jet_d%27eau%2C_Geneva%2C_Switzerland.jpg/1800px-Jet_d%27eau%2C_Geneva%2C_Switzerland.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/97/Jet_d%27eau%2C_Geneva%2C_Switzerland.jpg",
    "w": 4272,
    "h": 2848,
@@ -277,11 +508,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=100139654",
    "source": "openverse:wikimedia",
    "q": "Jet d'Eau Geneva"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Jet_d%27eau%2C_Geneva.jpg/1800px-Jet_d%27eau%2C_Geneva.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Jet_d%27eau%2C_Geneva.jpg",
+   "w": 4272,
+   "h": 2848,
+   "credit": "John Samuel",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=71764333",
+   "source": "openverse:wikimedia",
+   "q": "Jet d'Eau Geneva"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2009-08-27_Lake_Geneva_464.JPG/1800px-2009-08-27_Lake_Geneva_464.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2009-08-27_Lake_Geneva_464.JPG",
+   "w": 3648,
+   "h": 2736,
+   "credit": "Norbert Aepli, Switzerland (User:Noebu)",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=9911150",
+   "source": "openverse:wikimedia",
+   "q": "Lake Geneva"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lake_Geneva_Lavaux.jpg/1800px-Lake_Geneva_Lavaux.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Lake_Geneva_Lavaux.jpg",
+   "w": 3888,
+   "h": 2592,
+   "credit": "Erik Charlton",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=4399924",
+   "source": "openverse:wikimedia",
+   "q": "Lake Geneva"
   }
  ],
  "zurich": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ch_zurich_limmat.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ch_zurich_limmat.jpg/1800px-Ch_zurich_limmat.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ch_zurich_limmat.jpg",
    "w": 2272,
    "h": 1704,
@@ -292,7 +556,7 @@
    "q": "Zurich Limmat"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Zurich_Limmat_5.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Zurich_Limmat_5.jpg/1800px-Zurich_Limmat_5.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/2/27/Zurich_Limmat_5.jpg",
    "w": 6000,
    "h": 4000,
@@ -303,7 +567,7 @@
    "q": "Zurich Limmat"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Zurich_Limmat_2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Zurich_Limmat_2.jpg/1800px-Zurich_Limmat_2.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Zurich_Limmat_2.jpg",
    "w": 6000,
    "h": 4000,
@@ -312,11 +576,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=78369277",
    "source": "openverse:wikimedia",
    "q": "Zurich Limmat"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Zurich_Limmat_1.jpg/1800px-Zurich_Limmat_1.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Zurich_Limmat_1.jpg",
+   "w": 6000,
+   "h": 4000,
+   "credit": "Andrzej Otrębski",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=78369276",
+   "source": "openverse:wikimedia",
+   "q": "Zurich Limmat"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lachen_seen_from_lake_Zurich.jpg/1800px-Lachen_seen_from_lake_Zurich.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lachen_seen_from_lake_Zurich.jpg",
+   "w": 4224,
+   "h": 2368,
+   "credit": "Pete Godomski",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=46701873",
+   "source": "openverse:wikimedia",
+   "q": "Lake Zurich"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Lake_Zurich_Tiefenbrunnen.jpg/1800px-Lake_Zurich_Tiefenbrunnen.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/38/Lake_Zurich_Tiefenbrunnen.jpg",
+   "w": 2272,
+   "h": 1704,
+   "credit": "No machine-readable author provided. MRB assumed (based on copyright claims).",
+   "license": "CC BY-SA 2.5",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=611595",
+   "source": "openverse:wikimedia",
+   "q": "Lake Zurich"
   }
  ],
  "paris": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Jardins_du_Trocad%C3%A9ro_from_the_Eiffel_Tower%2C_Paris_April_1970.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Jardins_du_Trocad%C3%A9ro_from_the_Eiffel_Tower%2C_Paris_April_1970.jpg/1800px-Jardins_du_Trocad%C3%A9ro_from_the_Eiffel_Tower%2C_Paris_April_1970.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Jardins_du_Trocad%C3%A9ro_from_the_Eiffel_Tower%2C_Paris_April_1970.jpg",
    "w": 3120,
    "h": 2068,
@@ -347,11 +644,44 @@
    "page": "https://stocksnap.io/photo/eiffel-tower-32KNS2DHYT",
    "source": "openverse:stocksnap",
    "q": "Paris rooftops Eiffel Tower"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3Vwd2s2MTg5OTg3NC13aWtpbWVkaWEtaW1hZ2Uta293b3J6aDMuanBn.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3Vwd2s2MTg5OTg3NC13aWtpbWVkaWEtaW1hZ2Uta293b3J6aDMuanBn.jpg",
+   "w": 4997,
+   "h": 3336,
+   "credit": "rawpixel",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/3299548/free-photo-image-paris-montmartre-adventure",
+   "source": "openverse:rawpixel",
+   "q": "Paris rooftops Eiffel Tower"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Place_Vend%C3%B4me_Column-Paris.jpg/1800px-The_Place_Vend%C3%B4me_Column-Paris.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/The_Place_Vend%C3%B4me_Column-Paris.jpg",
+   "w": 2560,
+   "h": 1920,
+   "credit": "Yair Haklai",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=7012761",
+   "source": "openverse:wikimedia",
+   "q": "Place Vendôme"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/P1040391_Paris_Ier_rue_de_la_Paix_place_Vend%C3%B4me_rwk.JPG/1800px-P1040391_Paris_Ier_rue_de_la_Paix_place_Vend%C3%B4me_rwk.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/9/9c/P1040391_Paris_Ier_rue_de_la_Paix_place_Vend%C3%B4me_rwk.JPG",
+   "w": 1458,
+   "h": 1206,
+   "credit": "Mbzt",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=16317649",
+   "source": "openverse:wikimedia",
+   "q": "Place Vendôme"
   }
  ],
  "st-barths": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caraibe%2C_West_Indies_-_panoramio_%2810%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caraibe%2C_West_Indies_-_panoramio_%2810%29.jpg/1800px-Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caraibe%2C_West_Indies_-_panoramio_%2810%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caraibe%2C_West_Indies_-_panoramio_%2810%29.jpg",
    "w": 2400,
    "h": 1756,
@@ -362,7 +692,7 @@
    "q": "Gustavia Saint Barthélemy"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Gustavia_%28Saint-Barth%C3%A9lemy%29_%E2%80%94_Sign_at_the_border.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gustavia_%28Saint-Barth%C3%A9lemy%29_%E2%80%94_Sign_at_the_border.JPG/1800px-Gustavia_%28Saint-Barth%C3%A9lemy%29_%E2%80%94_Sign_at_the_border.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/Gustavia_%28Saint-Barth%C3%A9lemy%29_%E2%80%94_Sign_at_the_border.JPG",
    "w": 4608,
    "h": 3456,
@@ -373,7 +703,7 @@
    "q": "Gustavia Saint Barthélemy"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caribe%2C_West_Indies_-_panoramio_%289%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caribe%2C_West_Indies_-_panoramio_%289%29.jpg/1800px-Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caribe%2C_West_Indies_-_panoramio_%289%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caribe%2C_West_Indies_-_panoramio_%289%29.jpg",
    "w": 2400,
    "h": 1800,
@@ -382,11 +712,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=55420593",
    "source": "openverse:wikimedia",
    "q": "Gustavia Saint Barthélemy"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2020-01-24_SEADREAM_II_-_IMO_8203440%2C_off_Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29.jpg/1800px-2020-01-24_SEADREAM_II_-_IMO_8203440%2C_off_Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/9/96/2020-01-24_SEADREAM_II_-_IMO_8203440%2C_off_Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29.jpg",
+   "w": 5992,
+   "h": 4000,
+   "credit": "Gordon Leggett",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=91830671",
+   "source": "openverse:wikimedia",
+   "q": "Gustavia Saint Barthélemy"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Panneau_de_la_plage_gouverneur_de_Saint_Barth%C3%A9lemy.jpg/1800px-Panneau_de_la_plage_gouverneur_de_Saint_Barth%C3%A9lemy.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Panneau_de_la_plage_gouverneur_de_Saint_Barth%C3%A9lemy.jpg",
+   "w": 3153,
+   "h": 2626,
+   "credit": "RoiDelicat",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=110223936",
+   "source": "openverse:wikimedia",
+   "q": "Saint-Barthélemy beach"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Beach_of_Saint-Barth%C3%A9lemy_2007.jpg/1800px-Beach_of_Saint-Barth%C3%A9lemy_2007.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/Beach_of_Saint-Barth%C3%A9lemy_2007.jpg",
+   "w": 3752,
+   "h": 2400,
+   "credit": "Poam1",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=17387157",
+   "source": "openverse:wikimedia",
+   "q": "Saint-Barthélemy beach"
   }
  ],
  "st-moritz": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lake_St._Moritz_in_winter.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Lake_St._Moritz_in_winter.jpg/1800px-Lake_St._Moritz_in_winter.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lake_St._Moritz_in_winter.jpg",
    "w": 1600,
    "h": 1200,
@@ -397,7 +760,7 @@
    "q": "St. Moritz lake winter"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lake_St._Moritz_and_St._Moritz_town.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Lake_St._Moritz_and_St._Moritz_town.jpg/1800px-Lake_St._Moritz_and_St._Moritz_town.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lake_St._Moritz_and_St._Moritz_town.jpg",
    "w": 1600,
    "h": 1200,
@@ -408,7 +771,7 @@
    "q": "St. Moritz lake winter"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lake_St._Moritz_and_St._Moritz_town_in_Switzerland.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Lake_St._Moritz_and_St._Moritz_town_in_Switzerland.jpg/1800px-Lake_St._Moritz_and_St._Moritz_town_in_Switzerland.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lake_St._Moritz_and_St._Moritz_town_in_Switzerland.jpg",
    "w": 1600,
    "h": 1200,
@@ -417,11 +780,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=25091301",
    "source": "openverse:wikimedia",
    "q": "St. Moritz lake winter"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sailing_Boat_Badrutt%27s_Palace_Hotel.jpg/1800px-Sailing_Boat_Badrutt%27s_Palace_Hotel.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sailing_Boat_Badrutt%27s_Palace_Hotel.jpg",
+   "w": 3810,
+   "h": 2464,
+   "credit": "Bphstm",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=37139045",
+   "source": "openverse:wikimedia",
+   "q": "Badrutt's Palace"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Entrance_Badrutt%27s_Palace_Hotel.jpg/1800px-Entrance_Badrutt%27s_Palace_Hotel.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/da/Entrance_Badrutt%27s_Palace_Hotel.jpg",
+   "w": 6069,
+   "h": 2545,
+   "credit": "Bphstm",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=37139046",
+   "source": "openverse:wikimedia",
+   "q": "Badrutt's Palace"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/St._Moritz_-_Badrutt%E2%80%99s_Palace_%2815885656269%29.jpg/1800px-St._Moritz_-_Badrutt%E2%80%99s_Palace_%2815885656269%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/7/79/St._Moritz_-_Badrutt%E2%80%99s_Palace_%2815885656269%29.jpg",
+   "w": 3948,
+   "h": 2632,
+   "credit": "Kecko from Switzerland (Rheintal SG)",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=37425059",
+   "source": "openverse:wikimedia",
+   "q": "Badrutt's Palace"
   }
  ],
  "davos": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/RhB_ABe_8-12_Malans_winter.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/RhB_ABe_8-12_Malans_winter.jpg/1800px-RhB_ABe_8-12_Malans_winter.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/0/07/RhB_ABe_8-12_Malans_winter.jpg",
    "w": 4881,
    "h": 3013,
@@ -432,7 +828,7 @@
    "q": "Davos winter"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/AO_Foundation_Center_Davos.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AO_Foundation_Center_Davos.jpg/1800px-AO_Foundation_Center_Davos.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/AO_Foundation_Center_Davos.jpg",
    "w": 5640,
    "h": 2760,
@@ -443,7 +839,7 @@
    "q": "Davos winter"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Parsenn.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Parsenn.jpg/1800px-Parsenn.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/Parsenn.jpg",
    "w": 1537,
    "h": 970,
@@ -452,11 +848,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=5872735",
    "source": "openverse:wikimedia",
    "q": "Davos winter"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Badeanstalt_am_Davosersee_im_Winter.jpg/1800px-Badeanstalt_am_Davosersee_im_Winter.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Badeanstalt_am_Davosersee_im_Winter.jpg",
+   "w": 3840,
+   "h": 2160,
+   "credit": "JoachimKohlerBremen",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=71826924",
+   "source": "openverse:wikimedia",
+   "q": "Davos winter"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Berghotel_Schatzalp.jpg/1800px-Berghotel_Schatzalp.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Berghotel_Schatzalp.jpg",
+   "w": 7320,
+   "h": 5780,
+   "credit": "Lantus (talk)",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=46295637",
+   "source": "openverse:wikimedia",
+   "q": "Schatzalp Davos"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Davos%2C_Berghotel_Schatzalm_voorgevel_naar_rechts_gezien.JPG/1800px-Davos%2C_Berghotel_Schatzalm_voorgevel_naar_rechts_gezien.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Davos%2C_Berghotel_Schatzalm_voorgevel_naar_rechts_gezien.JPG",
+   "w": 2048,
+   "h": 1536,
+   "credit": "Havang(nl)",
+   "license": "CC CC0 1.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=12543818",
+   "source": "openverse:wikimedia",
+   "q": "Schatzalp Davos"
   }
  ],
  "aspen": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hayden_Peak%2C_winter.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hayden_Peak%2C_winter.jpg/1800px-Hayden_Peak%2C_winter.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hayden_Peak%2C_winter.jpg",
    "w": 2135,
    "h": 1583,
@@ -467,7 +896,7 @@
    "q": "Aspen Colorado winter"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Buttermilk_in_Winter.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Buttermilk_in_Winter.jpg/1800px-Buttermilk_in_Winter.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/Buttermilk_in_Winter.jpg",
    "w": 3264,
    "h": 2448,
@@ -478,7 +907,7 @@
    "q": "Aspen Colorado winter"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ute_cemetery_Aspen_winter.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ute_cemetery_Aspen_winter.jpg/1800px-Ute_cemetery_Aspen_winter.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ute_cemetery_Aspen_winter.jpg",
    "w": 7360,
    "h": 4912,
@@ -487,11 +916,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=47732278",
    "source": "openverse:wikimedia",
    "q": "Aspen Colorado winter"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbWFyb29uLWJlbGxzLTIuanBn.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbWFyb29uLWJlbGxzLTIuanBn.jpg",
+   "w": 3921,
+   "h": 2648,
+   "credit": "Carol M Highsmith",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph",
+   "source": "openverse:rawpixel",
+   "q": "Aspen Colorado winter"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rudbeckia_occidentalis_on_Aspen_Mountain_%2891134%29.jpg/1800px-Rudbeckia_occidentalis_on_Aspen_Mountain_%2891134%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rudbeckia_occidentalis_on_Aspen_Mountain_%2891134%29.jpg",
+   "w": 4088,
+   "h": 3117,
+   "credit": "Rhododendrites",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=62555042",
+   "source": "openverse:wikimedia",
+   "q": "Aspen Mountain"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lift_1A_on_Aspen_Mountain.jpg/1800px-Lift_1A_on_Aspen_Mountain.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Lift_1A_on_Aspen_Mountain.jpg",
+   "w": 3672,
+   "h": 2448,
+   "credit": "AspenSkiingCompany",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=33196765",
+   "source": "openverse:wikimedia",
+   "q": "Aspen Mountain"
   }
  ],
  "palm-beach": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/PALM_BEACH_FLORIDA_AERIAL_2011.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/PALM_BEACH_FLORIDA_AERIAL_2011.jpg/1800px-PALM_BEACH_FLORIDA_AERIAL_2011.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/7/75/PALM_BEACH_FLORIDA_AERIAL_2011.jpg",
    "w": 3872,
    "h": 2178,
@@ -502,7 +964,7 @@
    "q": "Palm Beach Florida"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Night_view_from_Palm_Beach_Florida_by_Volkan_Yuksel_DSC09837.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Night_view_from_Palm_Beach_Florida_by_Volkan_Yuksel_DSC09837.jpg/1800px-Night_view_from_Palm_Beach_Florida_by_Volkan_Yuksel_DSC09837.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Night_view_from_Palm_Beach_Florida_by_Volkan_Yuksel_DSC09837.jpg",
    "w": 3648,
    "h": 1502,
@@ -513,7 +975,7 @@
    "q": "Palm Beach Florida"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Society_Of_The_Four_Arts_in_Palm_Beach_Florida_%28cropped%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Society_Of_The_Four_Arts_in_Palm_Beach_Florida_%28cropped%29.jpg/1800px-Society_Of_The_Four_Arts_in_Palm_Beach_Florida_%28cropped%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/Society_Of_The_Four_Arts_in_Palm_Beach_Florida_%28cropped%29.jpg",
    "w": 2448,
    "h": 1486,
@@ -522,11 +984,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=84644819",
    "source": "openverse:wikimedia",
    "q": "Palm Beach Florida"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Habitat_of_Semiardistomis_viridis_%28Say%29_at_Grassy_Waters_Preserve%2C_West_Palm_Beach%2C_Florida%2C_USA_-_ZooKeys-210-019-g018.jpeg/1800px-Habitat_of_Semiardistomis_viridis_%28Say%29_at_Grassy_Waters_Preserve%2C_West_Palm_Beach%2C_Florida%2C_USA_-_ZooKeys-210-019-g018.jpeg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Habitat_of_Semiardistomis_viridis_%28Say%29_at_Grassy_Waters_Preserve%2C_West_Palm_Beach%2C_Florida%2C_USA_-_ZooKeys-210-019-g018.jpeg",
+   "w": 1425,
+   "h": 1069,
+   "credit": "P. Valdés",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=20407301",
+   "source": "openverse:wikimedia",
+   "q": "Palm Beach Florida"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Montauk_Manor.jpg/1800px-Montauk_Manor.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/9/99/Montauk_Manor.jpg",
+   "w": 3135,
+   "h": 1849,
+   "credit": "Beyond My Ken",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=26749349",
+   "source": "openverse:wikimedia",
+   "q": "The Breakers Palm Beach"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Breakers_%28Palm_Beach%2C_Florida%29_001.jpg/1800px-Breakers_%28Palm_Beach%2C_Florida%29_001.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Breakers_%28Palm_Beach%2C_Florida%29_001.jpg",
+   "w": 4000,
+   "h": 3000,
+   "credit": "Leonard J. DeFrancisci",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=28488027",
+   "source": "openverse:wikimedia",
+   "q": "The Breakers Palm Beach"
   }
  ],
  "tokyo": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Tokyo_Skyline_%28214472347%29.jpeg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tokyo_Skyline_%28214472347%29.jpeg/1800px-Tokyo_Skyline_%28214472347%29.jpeg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Tokyo_Skyline_%28214472347%29.jpeg",
    "w": 2048,
    "h": 1365,
@@ -537,7 +1032,7 @@
    "q": "Tokyo skyline"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tokyo_Skyline_2026.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tokyo_Skyline_2026.png/1800px-Tokyo_Skyline_2026.png",
    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tokyo_Skyline_2026.png",
    "w": 2160,
    "h": 1214,
@@ -548,7 +1043,7 @@
    "q": "Tokyo skyline"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tokyo_skyline_seen_from_Tokyo_Skytree.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tokyo_skyline_seen_from_Tokyo_Skytree.jpg/1800px-Tokyo_skyline_seen_from_Tokyo_Skytree.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tokyo_skyline_seen_from_Tokyo_Skytree.jpg",
    "w": 4898,
    "h": 3265,
@@ -557,11 +1052,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=124361528",
    "source": "openverse:wikimedia",
    "q": "Tokyo skyline"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmw0ODk1MjE1ODY3Ny1pbWFnZS1reWNpc2d2ei5qcGc.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmw0ODk1MjE1ODY3Ny1pbWFnZS1reWNpc2d2ei5qcGc.jpg",
+   "w": 3876,
+   "h": 2584,
+   "credit": "rawpixel",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline",
+   "source": "openverse:rawpixel",
+   "q": "Tokyo skyline"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Meguro_River_Cherry_Blossom_Illumination.png/1800px-Meguro_River_Cherry_Blossom_Illumination.png",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Meguro_River_Cherry_Blossom_Illumination.png",
+   "w": 2048,
+   "h": 1536,
+   "credit": "Manish Prabhune",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=178849489",
+   "source": "openverse:wikimedia",
+   "q": "Meguro River cherry blossom"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Meguro_River_Cherry_Blossom_Festival_%40_Meguro_River_%2813592997474%29.jpg/1800px-Meguro_River_Cherry_Blossom_Festival_%40_Meguro_River_%2813592997474%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Meguro_River_Cherry_Blossom_Festival_%40_Meguro_River_%2813592997474%29.jpg",
+   "w": 3968,
+   "h": 2976,
+   "credit": "Guilhem Vellut from Annecy, France",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=150216688",
+   "source": "openverse:wikimedia",
+   "q": "Meguro River cherry blossom"
   }
  ],
  "los-angeles": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Beverly_Hills_Shopping_Center_%2828740264211%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Beverly_Hills_Shopping_Center_%2828740264211%29.jpg/1800px-Beverly_Hills_Shopping_Center_%2828740264211%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Beverly_Hills_Shopping_Center_%2828740264211%29.jpg",
    "w": 5472,
    "h": 3648,
@@ -572,7 +1100,7 @@
    "q": "Beverly Hills"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Beverly_Hills_hires.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Beverly_Hills_hires.jpg/1800px-Beverly_Hills_hires.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Beverly_Hills_hires.jpg",
    "w": 4107,
    "h": 2676,
@@ -583,7 +1111,7 @@
    "q": "Beverly Hills"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/LaFerrari_in_Beverly_Hills_%2814563979888%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/LaFerrari_in_Beverly_Hills_%2814563979888%29.jpg/1800px-LaFerrari_in_Beverly_Hills_%2814563979888%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e5/LaFerrari_in_Beverly_Hills_%2814563979888%29.jpg",
    "w": 6000,
    "h": 4000,
@@ -592,11 +1120,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=41194605",
    "source": "openverse:wikimedia",
    "q": "Beverly Hills"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Beverly-Hills-TF.jpg/1800px-Beverly-Hills-TF.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Beverly-Hills-TF.jpg",
+   "w": 4800,
+   "h": 2700,
+   "credit": "Martin D. Adamiker",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=9099405",
+   "source": "openverse:wikimedia",
+   "q": "Beverly Hills"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxOS0zLTI0MDgwYS5qcGc.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxOS0zLTI0MDgwYS5qcGc.jpg",
+   "w": 5000,
+   "h": 3305,
+   "credit": "Carol M Highsmith",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/434168/free-photo-image-city-night-los-angeles",
+   "source": "openverse:rawpixel",
+   "q": "Los Angeles skyline sunset"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3Vwd2s2MjA3NzY0My13aWtpbWVkaWEtaW1hZ2Uta293bngwbXguanBn.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3Vwd2s2MjA3NzY0My13aWtpbWVkaWEtaW1hZ2Uta293bngwbXguanBn.jpg",
+   "w": 5360,
+   "h": 3574,
+   "credit": "rawpixel",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/3297969/free-photo-image-city-sun-cc0",
+   "source": "openverse:rawpixel",
+   "q": "Los Angeles skyline sunset"
   }
  ],
  "cannes": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Cannes_-_Croisette.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cannes_-_Croisette.jpg/1800px-Cannes_-_Croisette.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Cannes_-_Croisette.jpg",
    "w": 2230,
    "h": 973,
@@ -607,7 +1168,7 @@
    "q": "Cannes Croisette"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/20210719_132212_Cannes_Croisette.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/20210719_132212_Cannes_Croisette.jpg/1800px-20210719_132212_Cannes_Croisette.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/20210719_132212_Cannes_Croisette.jpg",
    "w": 4128,
    "h": 1956,
@@ -618,7 +1179,7 @@
    "q": "Cannes Croisette"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Cannes_Croisette_1903.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cannes_Croisette_1903.png/1800px-Cannes_Croisette_1903.png",
    "full": "https://upload.wikimedia.org/wikipedia/commons/4/41/Cannes_Croisette_1903.png",
    "w": 1565,
    "h": 1047,
@@ -627,11 +1188,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=128039699",
    "source": "openverse:wikimedia",
    "q": "Cannes Croisette"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/20210719_131506_Cannes_Croisette.jpg/1800px-20210719_131506_Cannes_Croisette.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/cc/20210719_131506_Cannes_Croisette.jpg",
+   "w": 4128,
+   "h": 1956,
+   "credit": "Horizon06",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=107678430",
+   "source": "openverse:wikimedia",
+   "q": "Cannes Croisette"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cannes_Vieux_Port_01.jpg/1800px-Cannes_Vieux_Port_01.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Cannes_Vieux_Port_01.jpg",
+   "w": 7504,
+   "h": 3281,
+   "credit": "Spike",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=80456582",
+   "source": "openverse:wikimedia",
+   "q": "Cannes Vieux Port"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Vieux_Port_de_Cannes_%2850519003602%29.jpg/1800px-Vieux_Port_de_Cannes_%2850519003602%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Vieux_Port_de_Cannes_%2850519003602%29.jpg",
+   "w": 5441,
+   "h": 3627,
+   "credit": "Jorge Láscar from Australia",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=133219070",
+   "source": "openverse:wikimedia",
+   "q": "Cannes Vieux Port"
   }
  ],
  "sun-valley": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bald_Mountain_in_Sun_Valley%2C_Idaho.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bald_Mountain_in_Sun_Valley%2C_Idaho.jpg/1800px-Bald_Mountain_in_Sun_Valley%2C_Idaho.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bald_Mountain_in_Sun_Valley%2C_Idaho.jpg",
    "w": 4272,
    "h": 2848,
@@ -642,7 +1236,7 @@
    "q": "Sun Valley Idaho"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/The_chairlift_at_Ruud_-_Proctor_Mountain_in_Sun_Valley%2C_Idaho_USA_%28one_of_the_first_chairlifts_ever%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/The_chairlift_at_Ruud_-_Proctor_Mountain_in_Sun_Valley%2C_Idaho_USA_%28one_of_the_first_chairlifts_ever%29.jpg/1800px-The_chairlift_at_Ruud_-_Proctor_Mountain_in_Sun_Valley%2C_Idaho_USA_%28one_of_the_first_chairlifts_ever%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/1/1c/The_chairlift_at_Ruud_-_Proctor_Mountain_in_Sun_Valley%2C_Idaho_USA_%28one_of_the_first_chairlifts_ever%29.jpg",
    "w": 4032,
    "h": 3024,
@@ -653,7 +1247,7 @@
    "q": "Sun Valley Idaho"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bald_Mountain_as_seen_from_Sun_Valley%2C_Idaho.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bald_Mountain_as_seen_from_Sun_Valley%2C_Idaho.jpg/1800px-Bald_Mountain_as_seen_from_Sun_Valley%2C_Idaho.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bald_Mountain_as_seen_from_Sun_Valley%2C_Idaho.jpg",
    "w": 4272,
    "h": 2848,
@@ -662,11 +1256,33 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=93216637",
    "source": "openverse:wikimedia",
    "q": "Sun Valley Idaho"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sun_Valley%2C_Idaho_2024_-_Old_Pickup.jpg/1800px-Sun_Valley%2C_Idaho_2024_-_Old_Pickup.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sun_Valley%2C_Idaho_2024_-_Old_Pickup.jpg",
+   "w": 2135,
+   "h": 1818,
+   "credit": "Sharon Hahn Darlin",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=151137880",
+   "source": "openverse:wikimedia",
+   "q": "Sun Valley Idaho"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ketchum_Sun_Valley_in_winter.jpg/1800px-Ketchum_Sun_Valley_in_winter.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Ketchum_Sun_Valley_in_winter.jpg",
+   "w": 2928,
+   "h": 2194,
+   "credit": "Chloé François from Boston, Massachusetts, United States of America",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=42406191",
+   "source": "openverse:wikimedia",
+   "q": "Bald Mountain Ketchum"
   }
  ],
  "porto-cervo": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Costa_Smeralda_Storeb%C3%A6lt_IV_%28cropped%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Costa_Smeralda_Storeb%C3%A6lt_IV_%28cropped%29.jpg/1800px-Costa_Smeralda_Storeb%C3%A6lt_IV_%28cropped%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/Costa_Smeralda_Storeb%C3%A6lt_IV_%28cropped%29.jpg",
    "w": 2768,
    "h": 1557,
@@ -677,7 +1293,7 @@
    "q": "Costa Smeralda"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sardinia%2C_Olbia%2C_Aeroporto_Olbia_Costa_Smeralda_%28check_in%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sardinia%2C_Olbia%2C_Aeroporto_Olbia_Costa_Smeralda_%28check_in%29.jpg/1800px-Sardinia%2C_Olbia%2C_Aeroporto_Olbia_Costa_Smeralda_%28check_in%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sardinia%2C_Olbia%2C_Aeroporto_Olbia_Costa_Smeralda_%28check_in%29.jpg",
    "w": 6000,
    "h": 4000,
@@ -688,20 +1304,31 @@
    "q": "Costa Smeralda"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Wv_Costa_Smeralda_banner.jpg",
-   "full": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Wv_Costa_Smeralda_banner.jpg",
-   "w": 8174,
-   "h": 1173,
-   "credit": "Heinz-Josef Lücking",
-   "license": "CC BY-SA 3.0",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=59153095",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Costa_Smeralda.jpg/1800px-Costa_Smeralda.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Costa_Smeralda.jpg",
+   "w": 3264,
+   "h": 2448,
+   "credit": "Ökologix",
+   "license": "CC CC0 1.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=23398070",
+   "source": "openverse:wikimedia",
+   "q": "Costa Smeralda"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Olbia_Costa_Smeralda_Airport.jpg/1800px-Olbia_Costa_Smeralda_Airport.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Olbia_Costa_Smeralda_Airport.jpg",
+   "w": 1600,
+   "h": 1200,
+   "credit": "Marek Ślusarczyk (Tupungato) Photo gallery",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=22813042",
    "source": "openverse:wikimedia",
    "q": "Costa Smeralda"
   }
  ],
  "pebble-beach": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Pebble_Beach_Golf_Links_01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Pebble_Beach_Golf_Links_01.jpg/1800px-Pebble_Beach_Golf_Links_01.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Pebble_Beach_Golf_Links_01.jpg",
    "w": 2272,
    "h": 1704,
@@ -712,7 +1339,7 @@
    "q": "Pebble Beach Golf Links"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Pebble_Beach_Golf_Links_04.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pebble_Beach_Golf_Links_04.jpg/1800px-Pebble_Beach_Golf_Links_04.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Pebble_Beach_Golf_Links_04.jpg",
    "w": 2587,
    "h": 1752,
@@ -723,7 +1350,7 @@
    "q": "Pebble Beach Golf Links"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Pebble_Beach_Golf_Links_02.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pebble_Beach_Golf_Links_02.jpg/1800px-Pebble_Beach_Golf_Links_02.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Pebble_Beach_Golf_Links_02.jpg",
    "w": 2272,
    "h": 1704,
@@ -732,11 +1359,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=1383065",
    "source": "openverse:wikimedia",
    "q": "Pebble Beach Golf Links"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Pebble_Beach_Golf_Links_05.jpg/1800px-Pebble_Beach_Golf_Links_05.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/00/Pebble_Beach_Golf_Links_05.jpg",
+   "w": 2590,
+   "h": 1707,
+   "credit": "Bernard Gagnon",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=6095210",
+   "source": "openverse:wikimedia",
+   "q": "Pebble Beach Golf Links"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Lone_Cypress_17-Mile_Drive_2013.jpg/1800px-Lone_Cypress_17-Mile_Drive_2013.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Lone_Cypress_17-Mile_Drive_2013.jpg",
+   "w": 3274,
+   "h": 2216,
+   "credit": "Tuxyso",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=28687668",
+   "source": "openverse:wikimedia",
+   "q": "17-Mile Drive"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/17-mile_drive_1.jpg/1800px-17-mile_drive_1.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/17-mile_drive_1.jpg",
+   "w": 4551,
+   "h": 2968,
+   "credit": "Humanoid one",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=12239198",
+   "source": "openverse:wikimedia",
+   "q": "17-Mile Drive"
   }
  ],
  "the-hamptons": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Montauk_Point_Lighthouse_New_York_Winter_View.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Montauk_Point_Lighthouse_New_York_Winter_View.jpg/1800px-Montauk_Point_Lighthouse_New_York_Winter_View.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Montauk_Point_Lighthouse_New_York_Winter_View.jpg",
    "w": 5224,
    "h": 3483,
@@ -747,7 +1407,7 @@
    "q": "Montauk Point Lighthouse"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Montauk_Point_Lighthouse_2_-69000142.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Montauk_Point_Lighthouse_2_-69000142.jpg/1800px-Montauk_Point_Lighthouse_2_-69000142.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/8/86/Montauk_Point_Lighthouse_2_-69000142.jpg",
    "w": 6000,
    "h": 3525,
@@ -758,7 +1418,7 @@
    "q": "Montauk Point Lighthouse"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Montauk_Point_Lighthouse_State_Park_Aerial_View.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Montauk_Point_Lighthouse_State_Park_Aerial_View.jpg/1800px-Montauk_Point_Lighthouse_State_Park_Aerial_View.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Montauk_Point_Lighthouse_State_Park_Aerial_View.jpg",
    "w": 4000,
    "h": 3000,
@@ -767,11 +1427,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=173263414",
    "source": "openverse:wikimedia",
    "q": "Montauk Point Lighthouse"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Montauk_Point_Lighthouse_2018_%2802%29.jpg/1800px-Montauk_Point_Lighthouse_2018_%2802%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/63/Montauk_Point_Lighthouse_2018_%2802%29.jpg",
+   "w": 5456,
+   "h": 3632,
+   "credit": "NearEMPTiness",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=70875690",
+   "source": "openverse:wikimedia",
+   "q": "Montauk Point Lighthouse"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEwL2Vhc3QtaGFtcHRvbi1iZWFjaC5qcGc.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEwL2Vhc3QtaGFtcHRvbi1iZWFjaC5qcGc.jpg",
+   "w": 4096,
+   "h": 1890,
+   "credit": "nationalgalleryofart",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain",
+   "source": "openverse:rawpixel",
+   "q": "East Hampton beach"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxOTgtMDkzLXBsb3lfMS5qcGc.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxOTgtMDkzLXBsb3lfMS5qcGc.jpg",
+   "w": 4096,
+   "h": 1890,
+   "credit": "nationalgalleryofart",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer",
+   "source": "openverse:rawpixel",
+   "q": "East Hampton beach"
   }
  ],
  "mykonos": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mykonos_Windmills.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Mykonos_Windmills.jpg/1800px-Mykonos_Windmills.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mykonos_Windmills.jpg",
    "w": 1536,
    "h": 1024,
@@ -782,7 +1475,7 @@
    "q": "Mykonos windmills"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mykonos_windmills_with_a_view_of_the_Aegean_Sea_in_Greece_-_50662259091.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mykonos_windmills_with_a_view_of_the_Aegean_Sea_in_Greece_-_50662259091.jpg/1800px-Mykonos_windmills_with_a_view_of_the_Aegean_Sea_in_Greece_-_50662259091.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mykonos_windmills_with_a_view_of_the_Aegean_Sea_in_Greece_-_50662259091.jpg",
    "w": 5464,
    "h": 3070,
@@ -793,7 +1486,7 @@
    "q": "Mykonos windmills"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Mykonos_Windmills_at_Chora.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Mykonos_Windmills_at_Chora.jpg/1800px-Mykonos_Windmills_at_Chora.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Mykonos_Windmills_at_Chora.jpg",
    "w": 2048,
    "h": 1536,
@@ -802,11 +1495,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=48227599",
    "source": "openverse:wikimedia",
    "q": "Mykonos windmills"
+  },
+  {
+   "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwyODI2MjIyNjg1NS1pbWFnZS1reWJlbHlzci5qcGc.jpg",
+   "full": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwyODI2MjIyNjg1NS1pbWFnZS1reWJlbHlzci5qcGc.jpg",
+   "w": 6016,
+   "h": 4016,
+   "credit": "rawpixel",
+   "license": "CC CC0 1.0",
+   "page": "https://www.rawpixel.com/image/6043142/photo-image-public-domain-blue-free",
+   "source": "openverse:rawpixel",
+   "q": "Mykonos windmills"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Little_Venice%2C_Mykonos%2C_Greece_%2828259884253%29.jpg/1800px-Little_Venice%2C_Mykonos%2C_Greece_%2828259884253%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/db/Little_Venice%2C_Mykonos%2C_Greece_%2828259884253%29.jpg",
+   "w": 5960,
+   "h": 3352,
+   "credit": "Mustang Joe",
+   "license": "CC CC0 1.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=147607213",
+   "source": "openverse:wikimedia",
+   "q": "Little Venice Mykonos"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Little_Venice_-_Mykonos.jpg/1800px-Little_Venice_-_Mykonos.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/5/58/Little_Venice_-_Mykonos.jpg",
+   "w": 3264,
+   "h": 2448,
+   "credit": "Zigomitros Athanasios - Thor4bp",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=49644712",
+   "source": "openverse:wikimedia",
+   "q": "Little Venice Mykonos"
   }
  ],
  "ibiza": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/1._Es_Vedr%C3%A0_%28vessant_migjorn_-_Eivissa%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1._Es_Vedr%C3%A0_%28vessant_migjorn_-_Eivissa%29.jpg/1800px-1._Es_Vedr%C3%A0_%28vessant_migjorn_-_Eivissa%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e8/1._Es_Vedr%C3%A0_%28vessant_migjorn_-_Eivissa%29.jpg",
    "w": 3460,
    "h": 1656,
@@ -817,7 +1543,7 @@
    "q": "Es Vedrà"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ibiza_Wall_Lizard_Podarcis_pityusensis_Nature_reserve_es_Vedr%C3%A0_19th_May_2011.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ibiza_Wall_Lizard_Podarcis_pityusensis_Nature_reserve_es_Vedr%C3%A0_19th_May_2011.JPG/1800px-Ibiza_Wall_Lizard_Podarcis_pityusensis_Nature_reserve_es_Vedr%C3%A0_19th_May_2011.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ibiza_Wall_Lizard_Podarcis_pityusensis_Nature_reserve_es_Vedr%C3%A0_19th_May_2011.JPG",
    "w": 4000,
    "h": 3000,
@@ -828,7 +1554,7 @@
    "q": "Es Vedrà"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/2._Es_Vedr%C3%A0_i_es_Vedranell_%28Eivissa%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/2._Es_Vedr%C3%A0_i_es_Vedranell_%28Eivissa%29.jpg/1800px-2._Es_Vedr%C3%A0_i_es_Vedranell_%28Eivissa%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e0/2._Es_Vedr%C3%A0_i_es_Vedranell_%28Eivissa%29.jpg",
    "w": 3964,
    "h": 1368,
@@ -837,11 +1563,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=119563220",
    "source": "openverse:wikimedia",
    "q": "Es Vedrà"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/View_of_Es_Vedr%C3%A0_from_Cala_D%27hort_and_flowers.jpg/1800px-View_of_Es_Vedr%C3%A0_from_Cala_D%27hort_and_flowers.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/2/24/View_of_Es_Vedr%C3%A0_from_Cala_D%27hort_and_flowers.jpg",
+   "w": 3883,
+   "h": 2912,
+   "credit": "Itelchan",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=69105689",
+   "source": "openverse:wikimedia",
+   "q": "Es Vedrà"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Eglesia_Sant_Pere%2C_Dalt_Vila%2C_Ibiza_%283582546482%29.jpg/1800px-Eglesia_Sant_Pere%2C_Dalt_Vila%2C_Ibiza_%283582546482%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Eglesia_Sant_Pere%2C_Dalt_Vila%2C_Ibiza_%283582546482%29.jpg",
+   "w": 3648,
+   "h": 2736,
+   "credit": "GanMed64",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=15057683",
+   "source": "openverse:wikimedia",
+   "q": "Dalt Vila Ibiza"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Altar_in_Cathedral_of_Santa_Maria_de_Les_Neus%2C_Dalt_Vila%2C_Ibiza_Town_28_May_2012.JPG/1800px-Altar_in_Cathedral_of_Santa_Maria_de_Les_Neus%2C_Dalt_Vila%2C_Ibiza_Town_28_May_2012.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Altar_in_Cathedral_of_Santa_Maria_de_Les_Neus%2C_Dalt_Vila%2C_Ibiza_Town_28_May_2012.JPG",
+   "w": 4000,
+   "h": 3000,
+   "credit": "stavros1",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=20800235",
+   "source": "openverse:wikimedia",
+   "q": "Dalt Vila Ibiza"
   }
  ],
  "capri": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Faraglioni-Capri.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Faraglioni-Capri.jpg/1800px-Faraglioni-Capri.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Faraglioni-Capri.jpg",
    "w": 2560,
    "h": 1712,
@@ -852,7 +1611,7 @@
    "q": "Faraglioni Capri"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Faraglioni_Capri_2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Faraglioni_Capri_2.jpg/1800px-Faraglioni_Capri_2.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Faraglioni_Capri_2.jpg",
    "w": 3968,
    "h": 2976,
@@ -863,7 +1622,7 @@
    "q": "Faraglioni Capri"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Faraglioni_Capri.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Faraglioni_Capri.jpg/1800px-Faraglioni_Capri.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/4/42/Faraglioni_Capri.jpg",
    "w": 3080,
    "h": 1952,
@@ -872,11 +1631,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=50787099",
    "source": "openverse:wikimedia",
    "q": "Faraglioni Capri"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rochers_Faraglioni%2C_Capri.jpg/1800px-Rochers_Faraglioni%2C_Capri.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Rochers_Faraglioni%2C_Capri.jpg",
+   "w": 2048,
+   "h": 1536,
+   "credit": "Endless34",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=57760720",
+   "source": "openverse:wikimedia",
+   "q": "Faraglioni Capri"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Marina_Grande%2C_Capri.png/1800px-Marina_Grande%2C_Capri.png",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/87/Marina_Grande%2C_Capri.png",
+   "w": 1750,
+   "h": 904,
+   "credit": "Dr. Blofeld",
+   "license": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=20134499",
+   "source": "openverse:wikimedia",
+   "q": "Marina Grande Capri"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Marina_Grande_Capri.jpg/1800px-Marina_Grande_Capri.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Marina_Grande_Capri.jpg",
+   "w": 8272,
+   "h": 6200,
+   "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=111491049",
+   "source": "openverse:wikimedia",
+   "q": "Marina Grande Capri"
   }
  ],
  "lake-como": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vista_dal_lago_su_Villa_del_Balbianello%2C_Bene_FAI_sul_Lago_di_Como.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Vista_dal_lago_su_Villa_del_Balbianello%2C_Bene_FAI_sul_Lago_di_Como.jpg/1800px-Vista_dal_lago_su_Villa_del_Balbianello%2C_Bene_FAI_sul_Lago_di_Como.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vista_dal_lago_su_Villa_del_Balbianello%2C_Bene_FAI_sul_Lago_di_Como.jpg",
    "w": 3224,
    "h": 2159,
@@ -887,7 +1679,7 @@
    "q": "Villa del Balbianello"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Villa_del_Balbianello_Lago_di_Como_featured_in_Casino_Royale_and_in_Star_Wars_%2820063743160%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Villa_del_Balbianello_Lago_di_Como_featured_in_Casino_Royale_and_in_Star_Wars_%2820063743160%29.jpg/1800px-Villa_del_Balbianello_Lago_di_Como_featured_in_Casino_Royale_and_in_Star_Wars_%2820063743160%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Villa_del_Balbianello_Lago_di_Como_featured_in_Casino_Royale_and_in_Star_Wars_%2820063743160%29.jpg",
    "w": 5317,
    "h": 3545,
@@ -898,7 +1690,7 @@
    "q": "Villa del Balbianello"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Villa-del-Balbianello-wedding_01.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Villa-del-Balbianello-wedding_01.jpg/1800px-Villa-del-Balbianello-wedding_01.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/4/47/Villa-del-Balbianello-wedding_01.jpg",
    "w": 2560,
    "h": 1707,
@@ -907,11 +1699,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=90599436",
    "source": "openverse:wikimedia",
    "q": "Villa del Balbianello"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Lenno_-_Villa_del_Balbianello_0615.JPG/1800px-Lenno_-_Villa_del_Balbianello_0615.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/Lenno_-_Villa_del_Balbianello_0615.JPG",
+   "w": 6000,
+   "h": 4000,
+   "credit": "Phyrexian",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=89069644",
+   "source": "openverse:wikimedia",
+   "q": "Villa del Balbianello"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_Lake_Como%2C_Italy_%2851180622244%29.jpg/1800px-Bellagio%2C_Lake_Como%2C_Italy_%2851180622244%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bellagio%2C_Lake_Como%2C_Italy_%2851180622244%29.jpg",
+   "w": 4124,
+   "h": 2623,
+   "credit": ". Ray in Manila",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=110134713",
+   "source": "openverse:wikimedia",
+   "q": "Bellagio Lake Como"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_lake_Como_%2838255561522%29.jpg/1800px-Bellagio%2C_lake_Como_%2838255561522%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Bellagio%2C_lake_Como_%2838255561522%29.jpg",
+   "w": 5125,
+   "h": 3684,
+   "credit": "Deensel",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=73531603",
+   "source": "openverse:wikimedia",
+   "q": "Bellagio Lake Como"
   }
  ],
  "gstaad": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Arnensee.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Arnensee.jpg/1800px-Arnensee.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/3/31/Arnensee.jpg",
    "w": 2592,
    "h": 1944,
@@ -922,7 +1747,7 @@
    "q": "Gstaad village"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/GstaadPanoramaVillage.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/GstaadPanoramaVillage.jpg/1800px-GstaadPanoramaVillage.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/5/50/GstaadPanoramaVillage.jpg",
    "w": 1600,
    "h": 1200,
@@ -933,7 +1758,7 @@
    "q": "Gstaad village"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/The_Gstaad_Palace.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Gstaad_Palace.jpg/1800px-The_Gstaad_Palace.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/92/The_Gstaad_Palace.jpg",
    "w": 4032,
    "h": 3024,
@@ -942,11 +1767,22 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=95880446",
    "source": "openverse:wikimedia",
    "q": "Gstaad village"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ASW_Winter_Weekend_Gstaad.jpg/1800px-ASW_Winter_Weekend_Gstaad.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/80/ASW_Winter_Weekend_Gstaad.jpg",
+   "w": 5036,
+   "h": 3357,
+   "credit": "Janluescher",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=105183367",
+   "source": "openverse:wikimedia",
+   "q": "Gstaad winter"
   }
  ],
  "jackson-hole": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Willow_Flats_area_and_Teton_Range_in_Grand_Teton_National_Park.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Willow_Flats_area_and_Teton_Range_in_Grand_Teton_National_Park.jpg/1800px-Willow_Flats_area_and_Teton_Range_in_Grand_Teton_National_Park.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Willow_Flats_area_and_Teton_Range_in_Grand_Teton_National_Park.jpg",
    "w": 1811,
    "h": 1189,
@@ -957,7 +1793,7 @@
    "q": "Grand Teton"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bison_fight_in_Grand_Teton_NP.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Bison_fight_in_Grand_Teton_NP.jpg/1800px-Bison_fight_in_Grand_Teton_NP.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bison_fight_in_Grand_Teton_NP.jpg",
    "w": 4288,
    "h": 2848,
@@ -968,7 +1804,7 @@
    "q": "Grand Teton"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Oxbow_Bend_outlook_in_the_Grand_Teton_National_Park.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Oxbow_Bend_outlook_in_the_Grand_Teton_National_Park.jpg/1800px-Oxbow_Bend_outlook_in_the_Grand_Teton_National_Park.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Oxbow_Bend_outlook_in_the_Grand_Teton_National_Park.jpg",
    "w": 1890,
    "h": 1343,
@@ -977,11 +1813,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=8794037",
    "source": "openverse:wikimedia",
    "q": "Grand Teton"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Moose_in_Grand_Teton_National_Park_3_%288007698498%29.jpg/1800px-Moose_in_Grand_Teton_National_Park_3_%288007698498%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Moose_in_Grand_Teton_National_Park_3_%288007698498%29.jpg",
+   "w": 4128,
+   "h": 3456,
+   "credit": "Tony Hisgett from Birmingham, UK",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=27317651",
+   "source": "openverse:wikimedia",
+   "q": "Grand Teton"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Teton_Range_%26_Jackson_Hole_Valley_%28Grand_Teton_National_Park%2C_Wyoming%2C_USA%29_3_%2819933357336%29.jpg/1800px-Teton_Range_%26_Jackson_Hole_Valley_%28Grand_Teton_National_Park%2C_Wyoming%2C_USA%29_3_%2819933357336%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/33/Teton_Range_%26_Jackson_Hole_Valley_%28Grand_Teton_National_Park%2C_Wyoming%2C_USA%29_3_%2819933357336%29.jpg",
+   "w": 3905,
+   "h": 2608,
+   "credit": "James St. John",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=84625827",
+   "source": "openverse:wikimedia",
+   "q": "Jackson Hole valley"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Teton_Range_%26_Jackson_Hole_Valley_%28Grand_Teton_National_Park%2C_Wyoming%2C_USA%29_5_%2819771541458%29.jpg/1800px-Teton_Range_%26_Jackson_Hole_Valley_%28Grand_Teton_National_Park%2C_Wyoming%2C_USA%29_5_%2819771541458%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/82/Teton_Range_%26_Jackson_Hole_Valley_%28Grand_Teton_National_Park%2C_Wyoming%2C_USA%29_5_%2819771541458%29.jpg",
+   "w": 4000,
+   "h": 2701,
+   "credit": "James St. John",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=84625831",
+   "source": "openverse:wikimedia",
+   "q": "Jackson Hole valley"
   }
  ],
  "nantucket": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Nantucket_Harbor_%283120845112%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Nantucket_Harbor_%283120845112%29.jpg/1800px-Nantucket_Harbor_%283120845112%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Nantucket_Harbor_%283120845112%29.jpg",
    "w": 2000,
    "h": 1636,
@@ -992,7 +1861,7 @@
    "q": "Nantucket harbor"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Jetty%2C_Nantucket_harbor%2C_MA%2C_USA.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jetty%2C_Nantucket_harbor%2C_MA%2C_USA.JPG/1800px-Jetty%2C_Nantucket_harbor%2C_MA%2C_USA.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Jetty%2C_Nantucket_harbor%2C_MA%2C_USA.JPG",
    "w": 3296,
    "h": 2472,
@@ -1003,7 +1872,7 @@
    "q": "Nantucket harbor"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/2011-boston-harbor-nantucket-1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2011-boston-harbor-nantucket-1.jpg/1800px-2011-boston-harbor-nantucket-1.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/64/2011-boston-harbor-nantucket-1.jpg",
    "w": 4000,
    "h": 3000,
@@ -1012,11 +1881,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=16133003",
    "source": "openverse:wikimedia",
    "q": "Nantucket harbor"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/MV_Naushon_Sept_1979.jpg/1800px-MV_Naushon_Sept_1979.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/2/29/MV_Naushon_Sept_1979.jpg",
+   "w": 1536,
+   "h": 1058,
+   "credit": "NantoLeb",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=10940649",
+   "source": "openverse:wikimedia",
+   "q": "Nantucket harbor"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Brant_Point_Light_-_Brant_Point_MA.jpg/1800px-Brant_Point_Light_-_Brant_Point_MA.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Brant_Point_Light_-_Brant_Point_MA.jpg",
+   "w": 3264,
+   "h": 2448,
+   "credit": "Henry Zbyszynski from Salem, USA",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=10365001",
+   "source": "openverse:wikimedia",
+   "q": "Brant Point Light"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2008_06_09_-_2775_-_Nantucket_-_Brant_Point_Light_%284360785633%29.jpg/1800px-2008_06_09_-_2775_-_Nantucket_-_Brant_Point_Light_%284360785633%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/dc/2008_06_09_-_2775_-_Nantucket_-_Brant_Point_Light_%284360785633%29.jpg",
+   "w": 4000,
+   "h": 3000,
+   "credit": "thisisbossi",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=95791617",
+   "source": "openverse:wikimedia",
+   "q": "Brant Point Light"
   }
  ],
  "abu-dhabi": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Yas_Marina_Circuit.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Yas_Marina_Circuit.png/1800px-Yas_Marina_Circuit.png",
    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Yas_Marina_Circuit.png",
    "w": 13348,
    "h": 7367,
@@ -1027,7 +1929,7 @@
    "q": "Yas Marina Circuit"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Yas_Marina_Circuit%2C_October_12%2C_2018_SkySat_%28cropped%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Yas_Marina_Circuit%2C_October_12%2C_2018_SkySat_%28cropped%29.jpg/1800px-Yas_Marina_Circuit%2C_October_12%2C_2018_SkySat_%28cropped%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Yas_Marina_Circuit%2C_October_12%2C_2018_SkySat_%28cropped%29.jpg",
    "w": 2542,
    "h": 1430,
@@ -1038,7 +1940,7 @@
    "q": "Yas Marina Circuit"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Yas_Marina_circuit_by_night.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Yas_Marina_circuit_by_night.jpg/1800px-Yas_Marina_circuit_by_night.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Yas_Marina_circuit_by_night.jpg",
    "w": 3599,
    "h": 2399,
@@ -1047,11 +1949,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=12075238",
    "source": "openverse:wikimedia",
    "q": "Yas Marina Circuit"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/North_Grandstand_at_the_Yas_Marina_circuit_in_Abu_Dhabi.jpg/1800px-North_Grandstand_at_the_Yas_Marina_circuit_in_Abu_Dhabi.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/f6/North_Grandstand_at_the_Yas_Marina_circuit_in_Abu_Dhabi.jpg",
+   "w": 4096,
+   "h": 3072,
+   "credit": "TravelPhotosNL",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=151995611",
+   "source": "openverse:wikimedia",
+   "q": "Yas Marina Circuit"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Sheikh_Zayed_Grand_Mosque_%40_Abu_Dhabi_%2815856839900%29.jpg/1800px-Sheikh_Zayed_Grand_Mosque_%40_Abu_Dhabi_%2815856839900%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sheikh_Zayed_Grand_Mosque_%40_Abu_Dhabi_%2815856839900%29.jpg",
+   "w": 3968,
+   "h": 2976,
+   "credit": "Guilhem Vellut from Annecy, France",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=152599997",
+   "source": "openverse:wikimedia",
+   "q": "Sheikh Zayed Grand Mosque"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sheikh_Zayed_Grand_Mosque_%40_Abu_Dhabi_%2816018271336%29.jpg/1800px-Sheikh_Zayed_Grand_Mosque_%40_Abu_Dhabi_%2816018271336%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Sheikh_Zayed_Grand_Mosque_%40_Abu_Dhabi_%2816018271336%29.jpg",
+   "w": 3968,
+   "h": 2976,
+   "credit": "Guilhem Vellut from Annecy, France",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=152599606",
+   "source": "openverse:wikimedia",
+   "q": "Sheikh Zayed Grand Mosque"
   }
  ],
  "venice": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/1_venice_grand_canal_rialto_bridge_2012.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/1_venice_grand_canal_rialto_bridge_2012.jpg/1800px-1_venice_grand_canal_rialto_bridge_2012.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/1_venice_grand_canal_rialto_bridge_2012.jpg",
    "w": 7360,
    "h": 4912,
@@ -1062,7 +1997,7 @@
    "q": "Venice Grand Canal"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Venice_%28grand_canal%29_-_panoramio.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Venice_%28grand_canal%29_-_panoramio.jpg/1800px-Venice_%28grand_canal%29_-_panoramio.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Venice_%28grand_canal%29_-_panoramio.jpg",
    "w": 2848,
    "h": 2134,
@@ -1073,7 +2008,7 @@
    "q": "Venice Grand Canal"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Venice_-_Grand_Canal_09.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Venice_-_Grand_Canal_09.jpg/1800px-Venice_-_Grand_Canal_09.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Venice_-_Grand_Canal_09.jpg",
    "w": 3072,
    "h": 2048,
@@ -1082,11 +2017,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=1914430",
    "source": "openverse:wikimedia",
    "q": "Venice Grand Canal"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Taco_Bell_at_the_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1800px-Taco_Bell_at_the_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Taco_Bell_at_the_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 4608,
+   "h": 3072,
+   "credit": "Wide Awake!",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=186028605",
+   "source": "openverse:wikimedia",
+   "q": "Venice Grand Canal"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ponte_della_Libert%C3%A0%2C_railway_station_Venezia_Santa_Lucia_and_Port_of_Venice%2C_Canal_Grande_-_Murano_-_Venezia_aerial_view_%28cropped%29.jpg/1800px-Ponte_della_Libert%C3%A0%2C_railway_station_Venezia_Santa_Lucia_and_Port_of_Venice%2C_Canal_Grande_-_Murano_-_Venezia_aerial_view_%28cropped%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ponte_della_Libert%C3%A0%2C_railway_station_Venezia_Santa_Lucia_and_Port_of_Venice%2C_Canal_Grande_-_Murano_-_Venezia_aerial_view_%28cropped%29.jpg",
+   "w": 3706,
+   "h": 1631,
+   "credit": "kallerna, crop of photo: User:LudwigSebastianMicheler",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=179923847",
+   "source": "openverse:wikimedia",
+   "q": "Venice lagoon aerial"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hazy_aerial_panorama_of_Venice_rooftops_toward_the_lagoon_at_sunset_%282023%29.jpg/1800px-Hazy_aerial_panorama_of_Venice_rooftops_toward_the_lagoon_at_sunset_%282023%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Hazy_aerial_panorama_of_Venice_rooftops_toward_the_lagoon_at_sunset_%282023%29.jpg",
+   "w": 7897,
+   "h": 5267,
+   "credit": "Paul Colin Hennig firstdorsal.eu",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=195205912",
+   "source": "openverse:wikimedia",
+   "q": "Venice lagoon aerial"
   }
  ],
  "basel": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Waggis_2013_2.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Waggis_2013_2.jpg/1800px-Waggis_2013_2.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/0/03/Waggis_2013_2.jpg",
    "w": 4737,
    "h": 2951,
@@ -1097,7 +2065,7 @@
    "q": "Basel Rhine Mittlere Brücke"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Altstadt_Grossbasel%2C_vom_Basler_M%C3%BCnster_zur_Mittlere_Br%C3%BCcke.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Altstadt_Grossbasel%2C_vom_Basler_M%C3%BCnster_zur_Mittlere_Br%C3%BCcke.jpg/1800px-Altstadt_Grossbasel%2C_vom_Basler_M%C3%BCnster_zur_Mittlere_Br%C3%BCcke.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Altstadt_Grossbasel%2C_vom_Basler_M%C3%BCnster_zur_Mittlere_Br%C3%BCcke.jpg",
    "w": 5145,
    "h": 1784,
@@ -1108,7 +2076,7 @@
    "q": "Basel Rhine Mittlere Brücke"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/1_Rheinbr%C3%BCcke_in_Basel.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/1_Rheinbr%C3%BCcke_in_Basel.jpg/1800px-1_Rheinbr%C3%BCcke_in_Basel.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/2/25/1_Rheinbr%C3%BCcke_in_Basel.jpg",
    "w": 2405,
    "h": 1603,
@@ -1117,11 +2085,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=56142906",
    "source": "openverse:wikimedia",
    "q": "Basel Rhine Mittlere Brücke"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Switzerland_020.jpg/1800px-Switzerland_020.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Switzerland_020.jpg",
+   "w": 3072,
+   "h": 2304,
+   "credit": "frozenwords",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=24819956",
+   "source": "openverse:wikimedia",
+   "q": "Basel Rhine Mittlere Brücke"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Basel_M%C3%BCnster_Querschiff_3.JPG/1800px-Basel_M%C3%BCnster_Querschiff_3.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Basel_M%C3%BCnster_Querschiff_3.JPG",
+   "w": 2048,
+   "h": 1536,
+   "credit": "Zairon",
+   "license": "CC CC0 1.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=14882663",
+   "source": "openverse:wikimedia",
+   "q": "Basel Münster"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Basel_M%C3%BCnster_Krypta_P6A9455.jpg/1800px-Basel_M%C3%BCnster_Krypta_P6A9455.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Basel_M%C3%BCnster_Krypta_P6A9455.jpg",
+   "w": 5760,
+   "h": 3840,
+   "credit": "Bobo11",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=49077528",
+   "source": "openverse:wikimedia",
+   "q": "Basel Münster"
   }
  ],
  "maastricht": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2016_Maastricht%2C_Vrijthof%2C_St-Janskerk_%283%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2016_Maastricht%2C_Vrijthof%2C_St-Janskerk_%283%29.jpg/1800px-2016_Maastricht%2C_Vrijthof%2C_St-Janskerk_%283%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2016_Maastricht%2C_Vrijthof%2C_St-Janskerk_%283%29.jpg",
    "w": 2400,
    "h": 1800,
@@ -1132,7 +2133,7 @@
    "q": "Maastricht Vrijthof"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/2016_Maastricht%2C_Vrijthof_polowedstrijd_1.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2016_Maastricht%2C_Vrijthof_polowedstrijd_1.jpg/1800px-2016_Maastricht%2C_Vrijthof_polowedstrijd_1.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b6/2016_Maastricht%2C_Vrijthof_polowedstrijd_1.jpg",
    "w": 2400,
    "h": 891,
@@ -1143,7 +2144,7 @@
    "q": "Maastricht Vrijthof"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Maastricht%2C_Vrijthof%2C_Preuvenemint_2016.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Maastricht%2C_Vrijthof%2C_Preuvenemint_2016.jpg/1800px-Maastricht%2C_Vrijthof%2C_Preuvenemint_2016.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Maastricht%2C_Vrijthof%2C_Preuvenemint_2016.jpg",
    "w": 2400,
    "h": 1470,
@@ -1152,11 +2153,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=73106740",
    "source": "openverse:wikimedia",
    "q": "Maastricht Vrijthof"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2016-Maastricht%2C_Vrijthof%2C_Kerstmarkt_10.jpg/1800px-2016-Maastricht%2C_Vrijthof%2C_Kerstmarkt_10.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/f1/2016-Maastricht%2C_Vrijthof%2C_Kerstmarkt_10.jpg",
+   "w": 2400,
+   "h": 1716,
+   "credit": "Kleon3",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=56425527",
+   "source": "openverse:wikimedia",
+   "q": "Maastricht Vrijthof"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Maastricht%2C_Maas_en_stadspark1.jpg/1800px-Maastricht%2C_Maas_en_stadspark1.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Maastricht%2C_Maas_en_stadspark1.jpg",
+   "w": 1728,
+   "h": 1152,
+   "credit": "Kleon3",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=31767268",
+   "source": "openverse:wikimedia",
+   "q": "Maastricht Maas"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2018-Maastricht%2C_Maas_%26_Sappi_2.jpg/1800px-2018-Maastricht%2C_Maas_%26_Sappi_2.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/8b/2018-Maastricht%2C_Maas_%26_Sappi_2.jpg",
+   "w": 2600,
+   "h": 1377,
+   "credit": "Kleon3",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=67065351",
+   "source": "openverse:wikimedia",
+   "q": "Maastricht Maas"
   }
  ],
  "milan": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Milan-Duomo_underground_access_M1_Red_line_M3_Yellow_line.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Milan-Duomo_underground_access_M1_Red_line_M3_Yellow_line.jpg/1800px-Milan-Duomo_underground_access_M1_Red_line_M3_Yellow_line.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/90/Milan-Duomo_underground_access_M1_Red_line_M3_Yellow_line.jpg",
    "w": 3968,
    "h": 2976,
@@ -1167,7 +2201,7 @@
    "q": "Milan Duomo"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Milan_duomo.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Milan_duomo.JPG/1800px-Milan_duomo.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Milan_duomo.JPG",
    "w": 2914,
    "h": 2301,
@@ -1178,7 +2212,7 @@
    "q": "Milan Duomo"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Milan_-_Duomo_-_Interieur_-_Nef.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Milan_-_Duomo_-_Interieur_-_Nef.jpg/1800px-Milan_-_Duomo_-_Interieur_-_Nef.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Milan_-_Duomo_-_Interieur_-_Nef.jpg",
    "w": 4147,
    "h": 2884,
@@ -1187,11 +2221,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=16155540",
    "source": "openverse:wikimedia",
    "q": "Milan Duomo"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Milan_-_Duomo_-_Interieur_-_Nef1.jpg/1800px-Milan_-_Duomo_-_Interieur_-_Nef1.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Milan_-_Duomo_-_Interieur_-_Nef1.jpg",
+   "w": 4592,
+   "h": 3056,
+   "credit": "Jean-Christophe BENOIST",
+   "license": "CC BY 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=16155580",
+   "source": "openverse:wikimedia",
+   "q": "Milan Duomo"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Veduta_della_Galleria_Vittorio_Emanuele_II_da_piazza_del_Duomo%2C_Milano.jpg/1800px-Veduta_della_Galleria_Vittorio_Emanuele_II_da_piazza_del_Duomo%2C_Milano.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/05/Veduta_della_Galleria_Vittorio_Emanuele_II_da_piazza_del_Duomo%2C_Milano.jpg",
+   "w": 3000,
+   "h": 2000,
+   "credit": "Paolobon140",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=95679846",
+   "source": "openverse:wikimedia",
+   "q": "Galleria Vittorio Emanuele II"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Galleria_Vittorio_Emanuele_II_-_evening.jpg/1800px-Galleria_Vittorio_Emanuele_II_-_evening.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Galleria_Vittorio_Emanuele_II_-_evening.jpg",
+   "w": 2592,
+   "h": 1944,
+   "credit": "Alterboy",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=5469073",
+   "source": "openverse:wikimedia",
+   "q": "Galleria Vittorio Emanuele II"
   }
  ],
  "courchevel": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Marie-Mich%C3%A8le_Gagnon_in_Courchevel%2C_20_december_2015_05.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Marie-Mich%C3%A8le_Gagnon_in_Courchevel%2C_20_december_2015_05.JPG/1800px-Marie-Mich%C3%A8le_Gagnon_in_Courchevel%2C_20_december_2015_05.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Marie-Mich%C3%A8le_Gagnon_in_Courchevel%2C_20_december_2015_05.JPG",
    "w": 1928,
    "h": 1392,
@@ -1202,7 +2269,7 @@
    "q": "Courchevel ski"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Adeline_Baud_Mugnier_in_Courchevel%2C_20_december_2015_05.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Adeline_Baud_Mugnier_in_Courchevel%2C_20_december_2015_05.JPG/1800px-Adeline_Baud_Mugnier_in_Courchevel%2C_20_december_2015_05.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/0/01/Adeline_Baud_Mugnier_in_Courchevel%2C_20_december_2015_05.JPG",
    "w": 1604,
    "h": 1119,
@@ -1213,7 +2280,7 @@
    "q": "Courchevel ski"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Marie-Pier_Pr%C3%A9fontaine_in_Courchevel%2C_20_december_2015_06.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Marie-Pier_Pr%C3%A9fontaine_in_Courchevel%2C_20_december_2015_06.JPG/1800px-Marie-Pier_Pr%C3%A9fontaine_in_Courchevel%2C_20_december_2015_06.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/4/43/Marie-Pier_Pr%C3%A9fontaine_in_Courchevel%2C_20_december_2015_06.JPG",
    "w": 2176,
    "h": 1715,
@@ -1222,11 +2289,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=48548650",
    "source": "openverse:wikimedia",
    "q": "Courchevel ski"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/L%27%C3%89clipse_ski_course_-_Mur_de_la_bux.jpg/1800px-L%27%C3%89clipse_ski_course_-_Mur_de_la_bux.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/89/L%27%C3%89clipse_ski_course_-_Mur_de_la_bux.jpg",
+   "w": 3840,
+   "h": 2160,
+   "credit": "Jules Rohault de Fleury",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=129508705",
+   "source": "openverse:wikimedia",
+   "q": "Courchevel ski"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Piper_PA-46_taxiing_at_Courchevel_Altiport.jpg/1800px-Piper_PA-46_taxiing_at_Courchevel_Altiport.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Piper_PA-46_taxiing_at_Courchevel_Altiport.jpg",
+   "w": 4000,
+   "h": 3000,
+   "credit": "Peter Robinett",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=19354303",
+   "source": "openverse:wikimedia",
+   "q": "Courchevel altiport"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Courchevel_Altiport_dent_du_Villard.jpg/1800px-Courchevel_Altiport_dent_du_Villard.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Courchevel_Altiport_dent_du_Villard.jpg",
+   "w": 4608,
+   "h": 3456,
+   "credit": "Rémih",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=120504711",
+   "source": "openverse:wikimedia",
+   "q": "Courchevel altiport"
   }
  ],
  "austin": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Austin%2C_Texas_Skyline_2018.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Austin%2C_Texas_Skyline_2018.jpg/1800px-Austin%2C_Texas_Skyline_2018.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/67/Austin%2C_Texas_Skyline_2018.jpg",
    "w": 8005,
    "h": 2993,
@@ -1237,7 +2337,7 @@
    "q": "Austin Texas skyline"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Colorado_River_and_Austin%2C_Texas_Skyline_%2846879015824%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Colorado_River_and_Austin%2C_Texas_Skyline_%2846879015824%29.jpg/1800px-Colorado_River_and_Austin%2C_Texas_Skyline_%2846879015824%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Colorado_River_and_Austin%2C_Texas_Skyline_%2846879015824%29.jpg",
    "w": 7952,
    "h": 5304,
@@ -1248,7 +2348,7 @@
    "q": "Austin Texas skyline"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Austin_Texas_skyline%2C_December_2023_-_Evening.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Austin_Texas_skyline%2C_December_2023_-_Evening.jpg/1800px-Austin_Texas_skyline%2C_December_2023_-_Evening.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/9/96/Austin_Texas_skyline%2C_December_2023_-_Evening.jpg",
    "w": 4080,
    "h": 1803,
@@ -1257,22 +2357,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=143251834",
    "source": "openverse:wikimedia",
    "q": "Austin Texas skyline"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Austin_Texas_skyline_at_dusk_in_2016.jpg/1800px-Austin_Texas_skyline_at_dusk_in_2016.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/62/Austin_Texas_skyline_at_dusk_in_2016.jpg",
+   "w": 7244,
+   "h": 3221,
+   "credit": "J Dimas",
+   "license": "CC BY 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=76225857",
+   "source": "openverse:wikimedia",
+   "q": "Austin Texas skyline"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Circuit_of_the_Americas%2C_April_22%2C_2018_SkySat_%28cropped2%29.jpg/1800px-Circuit_of_the_Americas%2C_April_22%2C_2018_SkySat_%28cropped2%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/7/78/Circuit_of_the_Americas%2C_April_22%2C_2018_SkySat_%28cropped2%29.jpg",
+   "w": 2560,
+   "h": 1440,
+   "credit": "Planet Labs, Inc.",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=77058455",
+   "source": "openverse:wikimedia",
+   "q": "Circuit of the Americas"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Crowds_at_Circuit_of_the_Americas.jpg/1800px-Crowds_at_Circuit_of_the_Americas.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Crowds_at_Circuit_of_the_Americas.jpg",
+   "w": 1500,
+   "h": 1000,
+   "credit": "Earl McGehee",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=22913342",
+   "source": "openverse:wikimedia",
+   "q": "Circuit of the Americas"
   }
  ],
  "las-vegas": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Las_Vegas_Strip_panorama.jpg",
-   "full": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Las_Vegas_Strip_panorama.jpg",
-   "w": 6000,
-   "h": 1027,
-   "credit": "Matthew Field, http://www.photography.mattfield.com",
-   "license": "CC BY 2.5",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=1634699",
-   "source": "openverse:wikimedia",
-   "q": "Las Vegas Strip night"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Las_Vegas_Strip_at_night%2C_2012.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Las_Vegas_Strip_at_night%2C_2012.jpg/1800px-Las_Vegas_Strip_at_night%2C_2012.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/Las_Vegas_Strip_at_night%2C_2012.jpg",
    "w": 3722,
    "h": 2442,
@@ -1283,7 +2405,7 @@
    "q": "Las Vegas Strip night"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Stardust_sign_015.JPG",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Stardust_sign_015.JPG/1800px-Stardust_sign_015.JPG",
    "full": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Stardust_sign_015.JPG",
    "w": 2448,
    "h": 1698,
@@ -1292,11 +2414,55 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=17987468",
    "source": "openverse:wikimedia",
    "q": "Las Vegas Strip night"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Las_Vegas_Strip_lights_at_night.jpg/1800px-Las_Vegas_Strip_lights_at_night.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Las_Vegas_Strip_lights_at_night.jpg",
+   "w": 6016,
+   "h": 4000,
+   "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=42126700",
+   "source": "openverse:wikimedia",
+   "q": "Las Vegas Strip night"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flamingo_Las_Vegas_at_night.jpg/1800px-Flamingo_Las_Vegas_at_night.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Flamingo_Las_Vegas_at_night.jpg",
+   "w": 4032,
+   "h": 3024,
+   "credit": "LasVegasGuy",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=61944680",
+   "source": "openverse:wikimedia",
+   "q": "Las Vegas Strip night"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bellagio_fountain_show_2010_las_vegas.JPG/1800px-Bellagio_fountain_show_2010_las_vegas.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Bellagio_fountain_show_2010_las_vegas.JPG",
+   "w": 4288,
+   "h": 2848,
+   "credit": "chensiyuan",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=9761332",
+   "source": "openverse:wikimedia",
+   "q": "Bellagio fountains"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Paris_las_vegas_bellagio_fountain.JPG/1800px-Paris_las_vegas_bellagio_fountain.JPG",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Paris_las_vegas_bellagio_fountain.JPG",
+   "w": 4288,
+   "h": 2848,
+   "credit": "chensiyuan",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=9815625",
+   "source": "openverse:wikimedia",
+   "q": "Bellagio fountains"
   }
  ],
  "monza": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Autodromo_Nazionale_Monza%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Autodromo_Nazionale_Monza%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg/1800px-Autodromo_Nazionale_Monza%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Autodromo_Nazionale_Monza%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg",
    "w": 3209,
    "h": 1805,
@@ -1307,7 +2473,7 @@
    "q": "Autodromo Nazionale Monza"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2844035861405%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2844035861405%29.jpg/1800px-2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2844035861405%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/0/08/2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2844035861405%29.jpg",
    "w": 3000,
    "h": 2000,
@@ -1318,7 +2484,7 @@
    "q": "Autodromo Nazionale Monza"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2831075389108%29.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2831075389108%29.jpg/1800px-2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2831075389108%29.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2831075389108%29.jpg",
    "w": 3000,
    "h": 2000,
@@ -1327,11 +2493,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=73595253",
    "source": "openverse:wikimedia",
    "q": "Autodromo Nazionale Monza"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/62%C2%B0_Coppa_Intereuropa_-_Autodromo_Nazionale_Monza_-_21-06-2015_%2819204364616%29.jpg/1800px-62%C2%B0_Coppa_Intereuropa_-_Autodromo_Nazionale_Monza_-_21-06-2015_%2819204364616%29.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/0d/62%C2%B0_Coppa_Intereuropa_-_Autodromo_Nazionale_Monza_-_21-06-2015_%2819204364616%29.jpg",
+   "w": 1728,
+   "h": 1152,
+   "credit": "Andrea Volpato from pv Novara, Italia",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=77814248",
+   "source": "openverse:wikimedia",
+   "q": "Autodromo Nazionale Monza"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Roseto_della_Villa_Reale_di_Monza.jpg/1800px-Roseto_della_Villa_Reale_di_Monza.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/Roseto_della_Villa_Reale_di_Monza.jpg",
+   "w": 6000,
+   "h": 4000,
+   "credit": "Valentina Gualtieri",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=73161336",
+   "source": "openverse:wikimedia",
+   "q": "Villa Reale di Monza"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Villa_Reale_di_Monza_%28Giuseppe_Piermarini%2C_1777-1780%29%2C_veduta_di_tre_quarti.jpg/1800px-Villa_Reale_di_Monza_%28Giuseppe_Piermarini%2C_1777-1780%29%2C_veduta_di_tre_quarti.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Villa_Reale_di_Monza_%28Giuseppe_Piermarini%2C_1777-1780%29%2C_veduta_di_tre_quarti.jpg",
+   "w": 3000,
+   "h": 2000,
+   "credit": "Paolobon140",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=77676760",
+   "source": "openverse:wikimedia",
+   "q": "Villa Reale di Monza"
   }
  ],
  "silverstone": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Silverstone_Circuit_1952_to_1974.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Silverstone_Circuit_1952_to_1974.png/1800px-Silverstone_Circuit_1952_to_1974.png",
    "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Silverstone_Circuit_1952_to_1974.png",
    "w": 1665,
    "h": 1200,
@@ -1342,7 +2541,7 @@
    "q": "Silverstone Circuit"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Silverstone_Circuit_vector_map.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Silverstone_Circuit_vector_map.png/1800px-Silverstone_Circuit_vector_map.png",
    "full": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Silverstone_Circuit_vector_map.png",
    "w": 8158,
    "h": 5229,
@@ -1353,7 +2552,7 @@
    "q": "Silverstone Circuit"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Silverstone_Circuit_2020.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Silverstone_Circuit_2020.png/1800px-Silverstone_Circuit_2020.png",
    "full": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Silverstone_Circuit_2020.png",
    "w": 1665,
    "h": 1200,
@@ -1362,11 +2561,44 @@
    "page": "https://commons.wikimedia.org/w/index.php?curid=97517203",
    "source": "openverse:wikimedia",
    "q": "Silverstone Circuit"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Silverstone_Circuit_2004_to_2009.png/1800px-Silverstone_Circuit_2004_to_2009.png",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/9/97/Silverstone_Circuit_2004_to_2009.png",
+   "w": 1665,
+   "h": 1200,
+   "credit": "Tom McKay",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=48187866",
+   "source": "openverse:wikimedia",
+   "q": "Silverstone Circuit"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Stowe_House%2C_Buckinghamshire.jpg/1800px-Stowe_House%2C_Buckinghamshire.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/2/21/Stowe_House%2C_Buckinghamshire.jpg",
+   "w": 3384,
+   "h": 1884,
+   "credit": "Martinvl",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=141288646",
+   "source": "openverse:wikimedia",
+   "q": "Stowe House"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Music_Room_fireplace_-_Stowe_House_-_Buckinghamshire%2C_England_-_DSC07170.jpg/1800px-Music_Room_fireplace_-_Stowe_House_-_Buckinghamshire%2C_England_-_DSC07170.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Music_Room_fireplace_-_Stowe_House_-_Buckinghamshire%2C_England_-_DSC07170.jpg",
+   "w": 5472,
+   "h": 3648,
+   "credit": "Daderot",
+   "license": "CC CC0 1.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=58497502",
+   "source": "openverse:wikimedia",
+   "q": "Stowe House"
   }
  ],
  "melbourne": [
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Melbourne_skyline_on_14_September_2013.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Melbourne_skyline_on_14_September_2013.jpg/1800px-Melbourne_skyline_on_14_September_2013.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Melbourne_skyline_on_14_September_2013.jpg",
    "w": 5184,
    "h": 3456,
@@ -1377,7 +2609,7 @@
    "q": "Melbourne skyline Yarra"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Melbourne_docklands_twilight.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Melbourne_docklands_twilight.jpg/1800px-Melbourne_docklands_twilight.jpg",
    "full": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Melbourne_docklands_twilight.jpg",
    "w": 2100,
    "h": 1410,
@@ -1388,15 +2620,48 @@
    "q": "Melbourne skyline Yarra"
   },
   {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Melbourne_Docklands_-_Yarras_Edge_-_marina_panorama.jpg",
-   "full": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Melbourne_Docklands_-_Yarras_Edge_-_marina_panorama.jpg",
-   "w": 4789,
-   "h": 1200,
-   "credit": "Diliff",
-   "license": "CC BY 2.5",
-   "page": "https://commons.wikimedia.org/w/index.php?curid=385638",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yarra_River_in_summer.jpg/1800px-Yarra_River_in_summer.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Yarra_River_in_summer.jpg",
+   "w": 5616,
+   "h": 3744,
+   "credit": "Chris Brown",
+   "license": "CC BY-SA 2.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=38022063",
    "source": "openverse:wikimedia",
    "q": "Melbourne skyline Yarra"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_Yarra_Flats%2C_Northeast_Link_build_and_the_Melbourne_skyline._April_2024.jpg/1800px-The_Yarra_Flats%2C_Northeast_Link_build_and_the_Melbourne_skyline._April_2024.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/a/a9/The_Yarra_Flats%2C_Northeast_Link_build_and_the_Melbourne_skyline._April_2024.jpg",
+   "w": 8192,
+   "h": 3312,
+   "credit": "BobTanGo",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=147522105",
+   "source": "openverse:wikimedia",
+   "q": "Melbourne skyline Yarra"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Carousel_venue%2C_Albert_Park%2C_Melbourne_05.jpg/1800px-Carousel_venue%2C_Albert_Park%2C_Melbourne_05.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/66/Carousel_venue%2C_Albert_Park%2C_Melbourne_05.jpg",
+   "w": 4032,
+   "h": 3024,
+   "credit": "Kgbo",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=77333988",
+   "source": "openverse:wikimedia",
+   "q": "Albert Park Melbourne"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Duck_dish_at_Carousel_venue%2C_Albert_Park%2C_Melbourne.jpg/1800px-Duck_dish_at_Carousel_venue%2C_Albert_Park%2C_Melbourne.jpg",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/81/Duck_dish_at_Carousel_venue%2C_Albert_Park%2C_Melbourne.jpg",
+   "w": 4032,
+   "h": 3024,
+   "credit": "Kgbo",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=77333994",
+   "source": "openverse:wikimedia",
+   "q": "Albert Park Melbourne"
   }
  ]
 }
