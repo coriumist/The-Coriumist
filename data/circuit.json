@@ -1,0 +1,1669 @@
+{
+ "version": "2026.09.02",
+ "cities": [
+  {
+   "slug": "london",
+   "name": "London",
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "tier": 1,
+   "base": 0.34,
+   "why": "Global finance. Old wealth. Sovereign capital.",
+   "venues": [
+    {
+     "slug": "annabels",
+     "name": "Annabel's"
+    },
+    {
+     "slug": "5-hertford-street",
+     "name": "5 Hertford Street"
+    },
+    {
+     "slug": "george",
+     "name": "George"
+    },
+    {
+     "slug": "claridges",
+     "name": "Claridge's"
+    },
+    {
+     "slug": "scotts",
+     "name": "Scott's"
+    },
+    {
+     "slug": "harrys-bar",
+     "name": "Harry's Bar"
+    },
+    {
+     "slug": "the-connaught-bar",
+     "name": "The Connaught Bar"
+    }
+   ],
+   "months": {
+    "6": {
+     "w": 0.92,
+     "note": "Ascot, Wimbledon, Chelsea Flower Show. Mayfair at its densest."
+    },
+    "7": {
+     "w": 0.6,
+     "note": "Wimbledon closes. The exodus to the Mediterranean begins."
+    },
+    "10": {
+     "w": 0.9,
+     "note": "Frieze and auction season. Hedge funds return from the coast."
+    }
+   }
+  },
+  {
+   "slug": "new-york",
+   "name": "New York",
+   "lat": 40.7128,
+   "lon": -74.006,
+   "tier": 1,
+   "base": 0.34,
+   "why": "Markets. Hedge funds. Media. Auctions.",
+   "venues": [
+    {
+     "slug": "the-carlyle",
+     "name": "The Carlyle"
+    },
+    {
+     "slug": "zero-bond",
+     "name": "Zero Bond"
+    },
+    {
+     "slug": "casa-cipriani",
+     "name": "Casa Cipriani"
+    },
+    {
+     "slug": "the-grill",
+     "name": "The Grill"
+    },
+    {
+     "slug": "the-modern",
+     "name": "The Modern"
+    },
+    {
+     "slug": "christies-rockefeller",
+     "name": "Christie's Rockefeller"
+    },
+    {
+     "slug": "sothebys-york-avenue",
+     "name": "Sotheby's York Avenue"
+    }
+   ],
+   "months": {
+    "5": {
+     "w": 0.78,
+     "note": "Spring marquee sales. Dinner tables set around the salerooms."
+    },
+    "9": {
+     "w": 0.7,
+     "note": "Return week. Everyone is back and pretending they never left."
+    },
+    "11": {
+     "w": 0.95,
+     "note": "Autumn auctions. The largest private dinners of the American year."
+    }
+   }
+  },
+  {
+   "slug": "miami",
+   "name": "Miami",
+   "lat": 25.7617,
+   "lon": -80.1918,
+   "tier": 1,
+   "base": 0.34,
+   "why": "American family-office winter headquarters.",
+   "venues": [
+    {
+     "slug": "faena",
+     "name": "Faena"
+    },
+    {
+     "slug": "casa-tua",
+     "name": "Casa Tua"
+    },
+    {
+     "slug": "zzs-club",
+     "name": "ZZ's Club"
+    },
+    {
+     "slug": "soho-beach-house",
+     "name": "Soho Beach House"
+    },
+    {
+     "slug": "design-district",
+     "name": "Design District"
+    },
+    {
+     "slug": "the-surf-club",
+     "name": "The Surf Club"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.72,
+     "note": "Winter headquarters fully staffed. Northeast capital has landed."
+    },
+    "2": {
+     "w": 0.7,
+     "note": "Season peak. Brickell and the Design District run parallel."
+    },
+    "3": {
+     "w": 0.62,
+     "note": "Still warm. The Palm Beach overflow sits here."
+    },
+    "5": {
+     "w": 0.7,
+     "note": "The paddock arrives. Hardrock Stadium is background noise."
+    },
+    "12": {
+     "w": 0.98,
+     "note": "Art Basel week. Miami becomes America's capital for six days."
+    }
+   }
+  },
+  {
+   "slug": "monaco",
+   "name": "Monaco",
+   "lat": 43.7384,
+   "lon": 7.4246,
+   "tier": 1,
+   "base": 0.4,
+   "why": "The European wealth operating system.",
+   "venues": [
+    {
+     "slug": "hotel-de-paris",
+     "name": "Hôtel de Paris"
+    },
+    {
+     "slug": "yacht-club-de-monaco",
+     "name": "Yacht Club de Monaco"
+    },
+    {
+     "slug": "sass-cafe",
+     "name": "Sass Café"
+    },
+    {
+     "slug": "jimmyz",
+     "name": "Jimmy'z"
+    },
+    {
+     "slug": "port-hercules",
+     "name": "Port Hercules"
+    },
+    {
+     "slug": "cafe-de-paris-terrace",
+     "name": "Café de Paris terrace"
+    }
+   ],
+   "months": {
+    "5": {
+     "w": 0.96,
+     "note": "The race is background noise. The terraces above Turn One are not."
+    },
+    "6": {
+     "w": 0.7,
+     "note": "Fleet forming. Tenders running to Antibes and back."
+    },
+    "7": {
+     "w": 0.72,
+     "note": "Transit hub for the Sardinian and Balearic legs."
+    },
+    "8": {
+     "w": 0.68,
+     "note": "Half the harbour is elsewhere. The offices are not."
+    },
+    "9": {
+     "w": 0.95,
+     "note": "Yacht Show. Not a boat show. A liquidity event with three days of runway."
+    }
+   }
+  },
+  {
+   "slug": "dubai",
+   "name": "Dubai",
+   "lat": 25.2048,
+   "lon": 55.2708,
+   "tier": 1,
+   "base": 0.36,
+   "why": "Gulf capital. Crypto. Sovereign money.",
+   "venues": [
+    {
+     "slug": "difc",
+     "name": "DIFC"
+    },
+    {
+     "slug": "bulgari-resort",
+     "name": "Bulgari Resort"
+    },
+    {
+     "slug": "cipriani-difc",
+     "name": "Cipriani DIFC"
+    },
+    {
+     "slug": "nammos-dubai",
+     "name": "Nammos Dubai"
+    },
+    {
+     "slug": "ce-la-vi",
+     "name": "Ce La Vi"
+    },
+    {
+     "slug": "atlantis-the-royal",
+     "name": "Atlantis The Royal"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.7,
+     "note": "Peak season. Family offices operating at full weight."
+    },
+    "2": {
+     "w": 0.7,
+     "note": "Conference density high. The margins matter more than the stages."
+    },
+    "3": {
+     "w": 0.62,
+     "note": "Season closing. Capital rotates toward Europe."
+    },
+    "11": {
+     "w": 0.68,
+     "note": "Season opens. The Gulf reloads."
+    },
+    "12": {
+     "w": 0.74,
+     "note": "Sovereign capital active through the F1 close in Abu Dhabi."
+    }
+   }
+  },
+  {
+   "slug": "singapore",
+   "name": "Singapore",
+   "lat": 1.3521,
+   "lon": 103.8198,
+   "tier": 1,
+   "base": 0.34,
+   "why": "Asian family offices.",
+   "venues": [
+    {
+     "slug": "raffles",
+     "name": "Raffles"
+    },
+    {
+     "slug": "como-dempsey",
+     "name": "COMO Dempsey"
+    },
+    {
+     "slug": "marina-bay-sands-skypark",
+     "name": "Marina Bay Sands Skypark"
+    },
+    {
+     "slug": "amara",
+     "name": "Amara"
+    },
+    {
+     "slug": "odette",
+     "name": "Odette"
+    }
+   ],
+   "months": {
+    "9": {
+     "w": 0.86,
+     "note": "Night race weekend. The only week the city's family offices are fully visible."
+    },
+    "10": {
+     "w": 0.55,
+     "note": "Post-race. Deals started at the paddock get paperwork."
+    }
+   }
+  },
+  {
+   "slug": "hong-kong",
+   "name": "Hong Kong",
+   "lat": 22.3193,
+   "lon": 114.1694,
+   "tier": 1,
+   "base": 0.32,
+   "why": "China gateway.",
+   "venues": [
+    {
+     "slug": "carlyle-co",
+     "name": "Carlyle & Co."
+    },
+    {
+     "slug": "duddells",
+     "name": "Duddell's"
+    },
+    {
+     "slug": "the-upper-house",
+     "name": "The Upper House"
+    },
+    {
+     "slug": "china-club",
+     "name": "China Club"
+    },
+    {
+     "slug": "art-basel-hk-halls",
+     "name": "Art Basel HK halls"
+    }
+   ],
+   "months": {
+    "3": {
+     "w": 0.84,
+     "note": "Art Basel Hong Kong. Asian collectors and the dealers who follow them."
+    },
+    "5": {
+     "w": 0.55,
+     "note": "Spring sales. Auction houses run the calendar."
+    }
+   }
+  },
+  {
+   "slug": "geneva",
+   "name": "Geneva",
+   "lat": 46.2044,
+   "lon": 6.1432,
+   "tier": 1,
+   "base": 0.36,
+   "why": "Banking. Commodities. Diplomacy.",
+   "venues": [
+    {
+     "slug": "hotel-des-bergues",
+     "name": "Hôtel des Bergues"
+    },
+    {
+     "slug": "beau-rivage",
+     "name": "Beau-Rivage"
+    },
+    {
+     "slug": "le-chat-botte",
+     "name": "Le Chat-Botté"
+    },
+    {
+     "slug": "rue-du-rhone",
+     "name": "Rue du Rhône"
+    },
+    {
+     "slug": "geneva-watch-salerooms",
+     "name": "Geneva watch salerooms"
+    }
+   ],
+   "months": {
+    "5": {
+     "w": 0.7,
+     "note": "Watch sales. The quietest high-value week in Europe."
+    },
+    "11": {
+     "w": 0.72,
+     "note": "Autumn sales. Geneva is loud for four days a year and this is two of them."
+    }
+   }
+  },
+  {
+   "slug": "zurich",
+   "name": "Zurich",
+   "lat": 47.3769,
+   "lon": 8.5417,
+   "tier": 1,
+   "base": 0.34,
+   "why": "Asset preservation.",
+   "venues": [
+    {
+     "slug": "baur-au-lac",
+     "name": "Baur au Lac"
+    },
+    {
+     "slug": "kronenhalle",
+     "name": "Kronenhalle"
+    },
+    {
+     "slug": "widder",
+     "name": "Widder"
+    },
+    {
+     "slug": "bahnhofstrasse",
+     "name": "Bahnhofstrasse"
+    },
+    {
+     "slug": "the-dolder-grand",
+     "name": "The Dolder Grand"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.6,
+     "note": "Davos staging. Every arrival lands here first."
+    }
+   }
+  },
+  {
+   "slug": "paris",
+   "name": "Paris",
+   "lat": 48.8566,
+   "lon": 2.3522,
+   "tier": 1,
+   "base": 0.36,
+   "why": "Luxury. Fashion. The LVMH ecosystem.",
+   "venues": [
+    {
+     "slug": "ritz-bar-hemingway",
+     "name": "Ritz Bar Hemingway"
+    },
+    {
+     "slug": "caviar-kaspia",
+     "name": "Caviar Kaspia"
+    },
+    {
+     "slug": "laurent",
+     "name": "Laurent"
+    },
+    {
+     "slug": "hotel-costes",
+     "name": "Hôtel Costes"
+    },
+    {
+     "slug": "cheval-blanc-paris",
+     "name": "Cheval Blanc Paris"
+    },
+    {
+     "slug": "paris-plus-halls",
+     "name": "Paris+ halls"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.68,
+     "note": "Couture. The smallest rooms of the fashion year."
+    },
+    "3": {
+     "w": 0.74,
+     "note": "Ready-to-wear. The maisons run the city for nine days."
+    },
+    "6": {
+     "w": 0.66,
+     "note": "Menswear. Quieter, higher signal."
+    },
+    "9": {
+     "w": 0.76,
+     "note": "Ready-to-wear returns. Dinner tables are harder than the shows."
+    },
+    "10": {
+     "w": 0.9,
+     "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours."
+    }
+   }
+  },
+  {
+   "slug": "st-barths",
+   "name": "St. Barths",
+   "lat": 17.9,
+   "lon": -62.8333,
+   "tier": 2,
+   "base": 0,
+   "why": "The Caribbean transition. Where the year is decided before it starts.",
+   "venues": [
+    {
+     "slug": "eden-rock",
+     "name": "Eden Rock"
+    },
+    {
+     "slug": "shellona",
+     "name": "Shellona"
+    },
+    {
+     "slug": "cheval-blanc-isle-de-france",
+     "name": "Cheval Blanc Isle de France"
+    },
+    {
+     "slug": "le-ti-st-barth",
+     "name": "Le Ti St Barth"
+    },
+    {
+     "slug": "gustavia-harbour",
+     "name": "Gustavia harbour"
+    },
+    {
+     "slug": "nikki-beach",
+     "name": "Nikki Beach"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.94,
+     "note": "Nobody discusses work. Everyone discusses who is buying what."
+    },
+    "2": {
+     "w": 0.35,
+     "note": "Emptying. The fleet turns toward the Atlantic crossing."
+    },
+    "12": {
+     "w": 0.88,
+     "note": "Arrivals begin the 26th. The harbour fills in four days."
+    }
+   }
+  },
+  {
+   "slug": "st-moritz",
+   "name": "St. Moritz",
+   "lat": 46.4908,
+   "lon": 9.8355,
+   "tier": 2,
+   "base": 0,
+   "why": "European aristocracy, Swiss banking, German industrial families.",
+   "venues": [
+    {
+     "slug": "dracula-club",
+     "name": "Dracula Club"
+    },
+    {
+     "slug": "badrutts-cigar-lounge",
+     "name": "Badrutt's cigar lounge"
+    },
+    {
+     "slug": "kulm",
+     "name": "Kulm"
+    },
+    {
+     "slug": "corviglia",
+     "name": "Corviglia"
+    },
+    {
+     "slug": "suvretta-house",
+     "name": "Suvretta House"
+    },
+    {
+     "slug": "white-turf-hospitality",
+     "name": "White Turf hospitality"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.86,
+     "note": "The transition week. Snow polo and the lounges behind it."
+    },
+    "2": {
+     "w": 0.78,
+     "note": "White Turf. The oldest guest list in the Alps."
+    },
+    "12": {
+     "w": 0.6,
+     "note": "Season opening. Families arrive before the fireworks."
+    }
+   }
+  },
+  {
+   "slug": "davos",
+   "name": "Davos",
+   "lat": 46.8027,
+   "lon": 9.836,
+   "tier": 2,
+   "base": 0,
+   "why": "Public: the Forum. Private: every hotel lobby and suite in the valley.",
+   "venues": [
+    {
+     "slug": "belvedere-lobby",
+     "name": "Belvedere lobby"
+    },
+    {
+     "slug": "seehof",
+     "name": "Seehof"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.9,
+     "note": "The conference occurs between elevators."
+    }
+   }
+  },
+  {
+   "slug": "aspen",
+   "name": "Aspen",
+   "lat": 39.1911,
+   "lon": -106.8175,
+   "tier": 2,
+   "base": 0,
+   "why": "American capital migrates. Snow replaces yachts.",
+   "venues": [
+    {
+     "slug": "caribou-club",
+     "name": "Caribou Club"
+    },
+    {
+     "slug": "the-little-nell",
+     "name": "The Little Nell"
+    },
+    {
+     "slug": "cloud-nine",
+     "name": "Cloud Nine"
+    },
+    {
+     "slug": "hotel-jerome",
+     "name": "Hotel Jerome"
+    },
+    {
+     "slug": "matsuhisa",
+     "name": "Matsuhisa"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.66,
+     "note": "New Year density holds through the second week."
+    },
+    "2": {
+     "w": 0.88,
+     "note": "Peak. The Caribou list is the actual guest list."
+    },
+    "3": {
+     "w": 0.5,
+     "note": "Closing weeks. Quieter and better."
+    },
+    "12": {
+     "w": 0.8,
+     "note": "Holiday weeks. Booked eighteen months out."
+    }
+   }
+  },
+  {
+   "slug": "palm-beach",
+   "name": "Palm Beach",
+   "lat": 26.7056,
+   "lon": -80.0364,
+   "tier": 2,
+   "base": 0.2,
+   "why": "Not an event. An operating system.",
+   "venues": [
+    {
+     "slug": "the-breakers",
+     "name": "The Breakers"
+    },
+    {
+     "slug": "the-colony",
+     "name": "The Colony"
+    },
+    {
+     "slug": "buccan",
+     "name": "Buccan"
+    },
+    {
+     "slug": "worth-avenue",
+     "name": "Worth Avenue"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.78,
+     "note": "Season underway. Old industrial wealth and the political donor class."
+    },
+    "2": {
+     "w": 0.86,
+     "note": "Full weight. The most underreported concentration in America."
+    },
+    "3": {
+     "w": 0.9,
+     "note": "Peak. Nobody puts this on a wealth calendar. That is the point."
+    },
+    "4": {
+     "w": 0.6,
+     "note": "Season winding. Offices stay open."
+    },
+    "11": {
+     "w": 0.6,
+     "note": "Season reopening ahead of the holidays."
+    },
+    "12": {
+     "w": 0.66,
+     "note": "Holiday residency."
+    }
+   }
+  },
+  {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "lat": 35.6762,
+   "lon": 139.6503,
+   "tier": 2,
+   "base": 0.12,
+   "why": "Not loud. Very high quality.",
+   "venues": [
+    {
+     "slug": "aman-tokyo",
+     "name": "Aman Tokyo"
+    },
+    {
+     "slug": "ginza-salerooms",
+     "name": "Ginza salerooms"
+    },
+    {
+     "slug": "roppongi-galleries",
+     "name": "Roppongi galleries"
+    },
+    {
+     "slug": "sushi-saito",
+     "name": "Sushi Saito"
+    },
+    {
+     "slug": "the-okura",
+     "name": "The Okura"
+    }
+   ],
+   "months": {
+    "4": {
+     "w": 0.76,
+     "note": "Cherry blossom season quietly pulls Asian finance and luxury retail."
+    },
+    "10": {
+     "w": 0.5,
+     "note": "Autumn. Collector traffic without the crowd."
+    }
+   }
+  },
+  {
+   "slug": "los-angeles",
+   "name": "Los Angeles",
+   "lat": 34.0522,
+   "lon": -118.2437,
+   "tier": 2,
+   "base": 0.16,
+   "why": "The satellite dinners matter more than the panels.",
+   "venues": [
+    {
+     "slug": "san-vicente-bungalows",
+     "name": "San Vicente Bungalows"
+    },
+    {
+     "slug": "polo-lounge",
+     "name": "Polo Lounge"
+    },
+    {
+     "slug": "frieze-la-halls",
+     "name": "Frieze LA halls"
+    }
+   ],
+   "months": {
+    "2": {
+     "w": 0.74,
+     "note": "Frieze LA. The West Coast collector base makes itself visible for one week."
+    },
+    "5": {
+     "w": 0.88,
+     "note": "Milken week. Every private dinner within five miles goes invitation-only."
+    }
+   }
+  },
+  {
+   "slug": "cannes",
+   "name": "Cannes",
+   "lat": 43.5528,
+   "lon": 7.0174,
+   "tier": 2,
+   "base": 0,
+   "why": "The red carpet matters least. The yachts matter most.",
+   "venues": [
+    {
+     "slug": "hotel-du-cap-eden-roc",
+     "name": "Hôtel du Cap-Eden-Roc"
+    },
+    {
+     "slug": "carlton-beach",
+     "name": "Carlton beach"
+    },
+    {
+     "slug": "lerins-anchorage",
+     "name": "Lérins anchorage"
+    },
+    {
+     "slug": "villa-schweppes",
+     "name": "Villa Schweppes"
+    }
+   ],
+   "months": {
+    "5": {
+     "w": 0.9,
+     "note": "Two weeks. The anchorage is the actual venue."
+    },
+    "6": {
+     "w": 0.55,
+     "note": "Lions. Different crowd, same tenders."
+    }
+   }
+  },
+  {
+   "slug": "sun-valley",
+   "name": "Sun Valley",
+   "lat": 43.6971,
+   "lon": -114.3517,
+   "tier": 2,
+   "base": 0,
+   "why": "Probably the highest concentration of billionaire decision-makers on Earth.",
+   "venues": [
+    {
+     "slug": "sun-valley-lodge",
+     "name": "Sun Valley Lodge"
+    },
+    {
+     "slug": "trail-creek-cabin",
+     "name": "Trail Creek Cabin"
+    },
+    {
+     "slug": "friedman-memorial-arrivals",
+     "name": "Friedman Memorial arrivals"
+    }
+   ],
+   "months": {
+    "7": {
+     "w": 0.98,
+     "note": "Everything else pauses. Nobody publishes the guest list. The airport does."
+    },
+    "8": {
+     "w": 0.4,
+     "note": "Residual. Families stay on after the conference clears."
+    },
+    "12": {
+     "w": 0.45,
+     "note": "Holiday residency, no conference."
+    }
+   }
+  },
+  {
+   "slug": "porto-cervo",
+   "name": "Porto Cervo",
+   "lat": 41.1339,
+   "lon": 9.535,
+   "tier": 2,
+   "base": 0,
+   "why": "The Mediterranean capital. Not Italy. Not Sardinia. The marina.",
+   "venues": [
+    {
+     "slug": "billionaire",
+     "name": "Billionaire"
+    },
+    {
+     "slug": "phi-beach",
+     "name": "Phi Beach"
+    },
+    {
+     "slug": "cala-di-volpe",
+     "name": "Cala di Volpe"
+    },
+    {
+     "slug": "yacht-club-costa-smeralda",
+     "name": "Yacht Club Costa Smeralda"
+    },
+    {
+     "slug": "nikki-beach",
+     "name": "Nikki Beach"
+    }
+   ],
+   "months": {
+    "6": {
+     "w": 0.5,
+     "note": "Fleet arriving. The season has not started."
+    },
+    "7": {
+     "w": 0.92,
+     "note": "Full weight. Helicopter arrivals run continuously."
+    },
+    "8": {
+     "w": 0.96,
+     "note": "Ferragosto. The densest two weeks in the Mediterranean."
+    },
+    "9": {
+     "w": 0.72,
+     "note": "Maxi Yacht Rolex Cup, then the Swan Cup. The marina holds its weight into the second week, then empties toward Monaco."
+    }
+   }
+  },
+  {
+   "slug": "pebble-beach",
+   "name": "Pebble Beach",
+   "lat": 36.5697,
+   "lon": -121.9497,
+   "tier": 2,
+   "base": 0,
+   "why": "Collectors. Industrialists. Automotive dynasties.",
+   "venues": [
+    {
+     "slug": "the-lodge",
+     "name": "The Lodge"
+    },
+    {
+     "slug": "the-quail",
+     "name": "The Quail"
+    },
+    {
+     "slug": "bernardus",
+     "name": "Bernardus"
+    },
+    {
+     "slug": "concours-lawn",
+     "name": "Concours lawn"
+    }
+   ],
+   "months": {
+    "8": {
+     "w": 0.9,
+     "note": "Car Week. Three days that price an entire asset class."
+    }
+   }
+  },
+  {
+   "slug": "the-hamptons",
+   "name": "The Hamptons",
+   "lat": 40.9634,
+   "lon": -72.1848,
+   "tier": 2,
+   "base": 0,
+   "why": "New York, relocated, with worse traffic and better lawns.",
+   "venues": [
+    {
+     "slug": "duryeas",
+     "name": "Duryea's"
+    },
+    {
+     "slug": "the-surf-lodge",
+     "name": "The Surf Lodge"
+    },
+    {
+     "slug": "si-si",
+     "name": "Si Si"
+    },
+    {
+     "slug": "montauk-yacht-club",
+     "name": "Montauk Yacht Club"
+    }
+   ],
+   "months": {
+    "6": {
+     "w": 0.6,
+     "note": "Season opens Memorial Day. The city thins."
+    },
+    "7": {
+     "w": 0.82,
+     "note": "Full weight. Benefit season runs the calendar."
+    },
+    "8": {
+     "w": 0.86,
+     "note": "Peak. Every Friday helicopter slot is spoken for."
+    },
+    "9": {
+     "w": 0.45,
+     "note": "Labor Day closes it. The best two weeks are after."
+    }
+   }
+  },
+  {
+   "slug": "mykonos",
+   "name": "Mykonos",
+   "lat": 37.4467,
+   "lon": 25.3289,
+   "tier": 2,
+   "base": 0,
+   "why": "The loudest room on the Mediterranean circuit.",
+   "venues": [
+    {
+     "slug": "nammos",
+     "name": "Nammos"
+    },
+    {
+     "slug": "scorpios",
+     "name": "Scorpios"
+    },
+    {
+     "slug": "principote",
+     "name": "Principote"
+    },
+    {
+     "slug": "alemagou",
+     "name": "Alemagou"
+    },
+    {
+     "slug": "old-port-anchorage",
+     "name": "Old Port anchorage"
+    }
+   ],
+   "months": {
+    "7": {
+     "w": 0.78,
+     "note": "Charter fleet at full occupancy."
+    },
+    "8": {
+     "w": 0.84,
+     "note": "Peak. The beach clubs price like they know it."
+    }
+   }
+  },
+  {
+   "slug": "ibiza",
+   "name": "Ibiza",
+   "lat": 38.9067,
+   "lon": 1.4206,
+   "tier": 2,
+   "base": 0,
+   "why": "The Balearic leg. Quieter money than the reputation suggests.",
+   "venues": [
+    {
+     "slug": "casa-jondal",
+     "name": "Casa Jondal"
+    },
+    {
+     "slug": "amante",
+     "name": "Amante"
+    },
+    {
+     "slug": "six-senses-ibiza",
+     "name": "Six Senses Ibiza"
+    },
+    {
+     "slug": "es-vedra-anchorage",
+     "name": "Es Vedrà anchorage"
+    },
+    {
+     "slug": "lio",
+     "name": "Lío"
+    }
+   ],
+   "months": {
+    "6": {
+     "w": 0.55,
+     "note": "Season opening. The fleet arrives ahead of the crowd."
+    },
+    "7": {
+     "w": 0.76,
+     "note": "Full charter season."
+    },
+    "8": {
+     "w": 0.8,
+     "note": "Peak. The north of the island is where the actual weight sits."
+    },
+    "9": {
+     "w": 0.5,
+     "note": "Closing parties. Better rooms, fewer people."
+    }
+   }
+  },
+  {
+   "slug": "capri",
+   "name": "Capri",
+   "lat": 40.5532,
+   "lon": 14.2222,
+   "tier": 2,
+   "base": 0,
+   "why": "Small island, old money, no room to hide.",
+   "venues": [
+    {
+     "slug": "il-riccio",
+     "name": "Il Riccio"
+    },
+    {
+     "slug": "la-fontelina",
+     "name": "La Fontelina"
+    },
+    {
+     "slug": "quisisana",
+     "name": "Quisisana"
+    },
+    {
+     "slug": "marina-grande-anchorage",
+     "name": "Marina Grande anchorage"
+    },
+    {
+     "slug": "taverna-anema-e-core",
+     "name": "Taverna Anema e Core"
+    }
+   ],
+   "months": {
+    "7": {
+     "w": 0.7,
+     "note": "Anchorage filling. The Amalfi leg begins."
+    },
+    "8": {
+     "w": 0.78,
+     "note": "Peak. Tender traffic is the reliable indicator."
+    }
+   }
+  },
+  {
+   "slug": "lake-como",
+   "name": "Lake Como",
+   "lat": 45.9856,
+   "lon": 9.258,
+   "tier": 2,
+   "base": 0,
+   "why": "Where the Mediterranean circuit goes to be quiet.",
+   "venues": [
+    {
+     "slug": "villa-deste",
+     "name": "Villa d'Este"
+    },
+    {
+     "slug": "passalacqua",
+     "name": "Passalacqua"
+    },
+    {
+     "slug": "il-sereno",
+     "name": "Il Sereno"
+    },
+    {
+     "slug": "villa-erba",
+     "name": "Villa Erba"
+    }
+   ],
+   "months": {
+    "5": {
+     "w": 0.5,
+     "note": "Concorso d'Eleganza. Collectors before the coast fills."
+    },
+    "6": {
+     "w": 0.6,
+     "note": "Season opening."
+    },
+    "7": {
+     "w": 0.68,
+     "note": "Full season. Discreet by design."
+    },
+    "8": {
+     "w": 0.7,
+     "note": "Peak. Villa bookings run three years deep."
+    },
+    "9": {
+     "w": 0.48,
+     "note": "Closing. The best light of the year."
+    }
+   }
+  },
+  {
+   "slug": "gstaad",
+   "name": "Gstaad",
+   "lat": 46.4725,
+   "lon": 7.2861,
+   "tier": 2,
+   "base": 0,
+   "why": "The most closed guest list in the Alps.",
+   "venues": [
+    {
+     "slug": "the-alpina",
+     "name": "The Alpina"
+    },
+    {
+     "slug": "gstaad-palace",
+     "name": "Gstaad Palace"
+    },
+    {
+     "slug": "eagle-club",
+     "name": "Eagle Club"
+    },
+    {
+     "slug": "chesery",
+     "name": "Chesery"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.72,
+     "note": "New Year residency. Chalets held in families for generations."
+    },
+    "2": {
+     "w": 0.62,
+     "note": "Season holding."
+    },
+    "12": {
+     "w": 0.74,
+     "note": "Holiday weeks. Entry is inherited, not booked."
+    }
+   }
+  },
+  {
+   "slug": "jackson-hole",
+   "name": "Jackson Hole",
+   "lat": 43.4799,
+   "lon": -110.7624,
+   "tier": 2,
+   "base": 0,
+   "why": "Two different crowds, one valley.",
+   "venues": [
+    {
+     "slug": "amangani",
+     "name": "Amangani"
+    },
+    {
+     "slug": "four-seasons-jackson-hole",
+     "name": "Four Seasons Jackson Hole"
+    },
+    {
+     "slug": "snake-river-lodge",
+     "name": "Snake River Lodge"
+    },
+    {
+     "slug": "jackson-hole-airport-arrivals",
+     "name": "Jackson Hole Airport arrivals"
+    }
+   ],
+   "months": {
+    "7": {
+     "w": 0.55,
+     "note": "Summer residency. Ranch capital."
+    },
+    "8": {
+     "w": 0.8,
+     "note": "Central banking symposium. The valley's other guest list."
+    },
+    "12": {
+     "w": 0.66,
+     "note": "Holiday weeks."
+    }
+   }
+  },
+  {
+   "slug": "nantucket",
+   "name": "Nantucket",
+   "lat": 41.2835,
+   "lon": -70.0995,
+   "tier": 2,
+   "base": 0,
+   "why": "Old American wealth, deliberately understated.",
+   "venues": [
+    {
+     "slug": "nantucket-yacht-club",
+     "name": "Nantucket Yacht Club"
+    },
+    {
+     "slug": "cru",
+     "name": "Cru"
+    },
+    {
+     "slug": "galley-beach",
+     "name": "Galley Beach"
+    },
+    {
+     "slug": "straight-wharf",
+     "name": "Straight Wharf"
+    }
+   ],
+   "months": {
+    "7": {
+     "w": 0.68,
+     "note": "Season peak. Ferry and airfield traffic tell the story."
+    },
+    "8": {
+     "w": 0.72,
+     "note": "Full weight through Labor Day."
+    }
+   }
+  },
+  {
+   "slug": "abu-dhabi",
+   "name": "Abu Dhabi",
+   "lat": 24.4539,
+   "lon": 54.3773,
+   "tier": 2,
+   "base": 0.14,
+   "why": "Formula 1 closes. Sovereign capital opens.",
+   "venues": [
+    {
+     "slug": "yas-marina",
+     "name": "Yas Marina"
+    },
+    {
+     "slug": "emirates-palace",
+     "name": "Emirates Palace"
+    },
+    {
+     "slug": "saadiyat",
+     "name": "Saadiyat"
+    },
+    {
+     "slug": "louvre-abu-dhabi",
+     "name": "Louvre Abu Dhabi"
+    }
+   ],
+   "months": {
+    "11": {
+     "w": 0.5,
+     "note": "Building. Sovereign funds set the year's posture."
+    },
+    "12": {
+     "w": 0.88,
+     "note": "Season finale. The hospitality suites are the actual event."
+    }
+   }
+  },
+  {
+   "slug": "venice",
+   "name": "Venice",
+   "lat": 45.4408,
+   "lon": 12.3155,
+   "tier": 2,
+   "base": 0,
+   "why": "Biennale years only. Then it is the densest collector week in Europe.",
+   "venues": [
+    {
+     "slug": "cipriani",
+     "name": "Cipriani"
+    },
+    {
+     "slug": "harrys-bar",
+     "name": "Harry's Bar"
+    },
+    {
+     "slug": "aman-venice",
+     "name": "Aman Venice"
+    },
+    {
+     "slug": "palazzo-previews",
+     "name": "Palazzo previews"
+    }
+   ],
+   "months": {
+    "4": {
+     "w": 0.7,
+     "note": "Biennale preview week. Palazzo dinners run the schedule."
+    },
+    "5": {
+     "w": 0.5,
+     "note": "Opening residue."
+    },
+    "9": {
+     "w": 0.74,
+     "note": "The Lido. Eleven days in which the people buying and the people selling cannot avoid each other."
+    }
+   }
+  },
+  {
+   "slug": "basel",
+   "name": "Basel",
+   "lat": 47.5596,
+   "lon": 7.5886,
+   "tier": 2,
+   "base": 0,
+   "why": "The art market's actual centre of gravity.",
+   "venues": [
+    {
+     "slug": "art-basel-halls",
+     "name": "Art Basel halls"
+    },
+    {
+     "slug": "les-trois-rois",
+     "name": "Les Trois Rois"
+    },
+    {
+     "slug": "kunstmuseum",
+     "name": "Kunstmuseum"
+    },
+    {
+     "slug": "vip-preview-days",
+     "name": "VIP preview days"
+    }
+   ],
+   "months": {
+    "6": {
+     "w": 0.86,
+     "note": "First-choice day is the market. Everything after is retail."
+    }
+   }
+  },
+  {
+   "slug": "maastricht",
+   "name": "Maastricht",
+   "lat": 50.8514,
+   "lon": 5.691,
+   "tier": 2,
+   "base": 0,
+   "why": "Old masters, jewellery, and the quietest serious money in art.",
+   "venues": [
+    {
+     "slug": "tefaf-halls",
+     "name": "TEFAF halls"
+    },
+    {
+     "slug": "chateau-st-gerlach",
+     "name": "Château St. Gerlach"
+    },
+    {
+     "slug": "preview-reception",
+     "name": "preview reception"
+    }
+   ],
+   "months": {
+    "3": {
+     "w": 0.68,
+     "note": "TEFAF. Museum acquisition budgets meet private collections."
+    }
+   }
+  },
+  {
+   "slug": "milan",
+   "name": "Milan",
+   "lat": 45.4642,
+   "lon": 9.19,
+   "tier": 2,
+   "base": 0.16,
+   "why": "Fashion, design, and the industrial families behind both.",
+   "venues": [
+    {
+     "slug": "bar-basso",
+     "name": "Bar Basso"
+    },
+    {
+     "slug": "langosteria",
+     "name": "Langosteria"
+    },
+    {
+     "slug": "portrait-milano",
+     "name": "Portrait Milano"
+    },
+    {
+     "slug": "salone-pavilions",
+     "name": "Salone pavilions"
+    },
+    {
+     "slug": "bulgari-hotel-garden",
+     "name": "Bulgari Hotel garden"
+    }
+   ],
+   "months": {
+    "2": {
+     "w": 0.66,
+     "note": "Fashion week. The showroom appointments matter more than the runways."
+    },
+    "4": {
+     "w": 0.8,
+     "note": "Salone del Mobile. The city's highest-density week, full stop."
+    },
+    "9": {
+     "w": 0.7,
+     "note": "Fashion week returns."
+    }
+   }
+  },
+  {
+   "slug": "courchevel",
+   "name": "Courchevel",
+   "lat": 45.4154,
+   "lon": 6.6345,
+   "tier": 2,
+   "base": 0,
+   "why": "The altiport is the guest list.",
+   "venues": [
+    {
+     "slug": "cheval-blanc-courchevel",
+     "name": "Cheval Blanc Courchevel"
+    },
+    {
+     "slug": "les-airelles",
+     "name": "Les Airelles"
+    },
+    {
+     "slug": "le-chabichou",
+     "name": "Le Chabichou"
+    },
+    {
+     "slug": "1850-altiport",
+     "name": "1850 altiport"
+    }
+   ],
+   "months": {
+    "1": {
+     "w": 0.7,
+     "note": "Orthodox Christmas through mid-January. A distinct arrival pattern."
+    },
+    "2": {
+     "w": 0.66,
+     "note": "Half-term weeks. Fully booked."
+    },
+    "12": {
+     "w": 0.68,
+     "note": "Season opening."
+    }
+   }
+  },
+  {
+   "slug": "austin",
+   "name": "Austin",
+   "lat": 30.2672,
+   "lon": -97.7431,
+   "tier": 2,
+   "base": 0,
+   "why": "The American paddock stop that turned into a capital week.",
+   "venues": [
+    {
+     "slug": "circuit-of-the-americas-paddock",
+     "name": "Circuit of the Americas paddock"
+    },
+    {
+     "slug": "commodore-perry",
+     "name": "Commodore Perry"
+    },
+    {
+     "slug": "soho-house-austin",
+     "name": "Soho House Austin"
+    }
+   ],
+   "months": {
+    "10": {
+     "w": 0.7,
+     "note": "Race week. Tech capital and the F1 hospitality overlay."
+    }
+   }
+  },
+  {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "tier": 2,
+   "base": 0,
+   "why": "The newest stop and the most heavily brokered.",
+   "venues": [
+    {
+     "slug": "sphere-paddock-club",
+     "name": "Sphere paddock club"
+    },
+    {
+     "slug": "wynn",
+     "name": "Wynn"
+    },
+    {
+     "slug": "delilah",
+     "name": "Delilah"
+    },
+    {
+     "slug": "bellagio-fountain-club",
+     "name": "Bellagio Fountain Club"
+    }
+   ],
+   "months": {
+    "11": {
+     "w": 0.74,
+     "note": "Night race. Suites priced as a distinct asset class."
+    }
+   }
+  },
+  {
+   "slug": "monza",
+   "name": "Monza",
+   "lat": 45.6206,
+   "lon": 9.281,
+   "tier": 2,
+   "base": 0,
+   "why": "The oldest room on the paddock circuit.",
+   "venues": [
+    {
+     "slug": "monza-paddock",
+     "name": "Monza paddock"
+    },
+    {
+     "slug": "villa-reale-hospitality",
+     "name": "Villa Reale hospitality"
+    },
+    {
+     "slug": "como-transfers",
+     "name": "Como transfers"
+    }
+   ],
+   "months": {
+    "9": {
+     "w": 0.66,
+     "note": "Italian Grand Prix. Como absorbs the overflow."
+    }
+   }
+  },
+  {
+   "slug": "silverstone",
+   "name": "Silverstone",
+   "lat": 52.0786,
+   "lon": -1.0169,
+   "tier": 2,
+   "base": 0,
+   "why": "The British leg. London empties into it for four days.",
+   "venues": [
+    {
+     "slug": "silverstone-paddock",
+     "name": "Silverstone paddock"
+    },
+    {
+     "slug": "soho-farmhouse",
+     "name": "Soho Farmhouse"
+    }
+   ],
+   "months": {
+    "7": {
+     "w": 0.66,
+     "note": "British Grand Prix. Mayfair relocates north."
+    }
+   }
+  },
+  {
+   "slug": "melbourne",
+   "name": "Melbourne",
+   "lat": -37.8136,
+   "lon": 144.9631,
+   "tier": 2,
+   "base": 0,
+   "why": "Where the paddock year opens.",
+   "venues": [
+    {
+     "slug": "albert-park-paddock",
+     "name": "Albert Park paddock"
+    },
+    {
+     "slug": "crown-towers",
+     "name": "Crown Towers"
+    },
+    {
+     "slug": "gimlet",
+     "name": "Gimlet"
+    }
+   ],
+   "months": {
+    "3": {
+     "w": 0.6,
+     "note": "Season opener. The year's hospitality posture is set here."
+    }
+   }
+  }
+ ]
+}

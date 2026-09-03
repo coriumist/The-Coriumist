@@ -1,231 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#f7f3e9">
-<title>The Coriumist · The Map</title>
-<meta name="description" content="Where capital congregates, plotted at city level. Public sources only.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,100..900,0..100,0..1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Map. The Coriumist</title><meta name="description" content="Where capital congregates, by season and coordinate. Public record only.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,480;9..144,520&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
-  :root{ --green:#2f5d3f; --cream:#f7f3e9; --g08:rgba(47,93,63,.08); --g16:rgba(47,93,63,.16); --g40:rgba(47,93,63,.4); --g55:rgba(47,93,63,.55); --g75:rgba(47,93,63,.75); }
-  *{box-sizing:border-box}
-  body{ margin:0; background:var(--cream); color:var(--green); font-family:'Fraunces',serif; font-variation-settings:'opsz' 30,'wght' 420; }
-  .mono{ font-family:'Space Mono',monospace; }
-  header{ display:flex; align-items:center; gap:12px; padding:16px 22px; border-bottom:1px solid var(--g16); }
-  header a{ color:var(--green); text-decoration:none; font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.14em; text-transform:uppercase; }
-  header .mark{ width:22px; height:22px; }
+:root{--ink:#2f5d3f;--paper:#f7f3e9;--rule:rgba(47,93,63,.28);--rule-strong:rgba(47,93,63,.55);--mute:rgba(47,93,63,.68);--w:1180px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--paper);color:var(--ink);-webkit-font-smoothing:antialiased}
+body{font-family:"Fraunces",Georgia,serif;font-variation-settings:"opsz" 18,"wght" 400;font-size:17px;line-height:1.55}
+a{color:inherit;text-decoration:none}a:hover{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:1.5px solid var(--ink);outline-offset:3px}
+.mono{font-family:"Space Mono",ui-monospace,monospace;font-size:11px;letter-spacing:.06em;line-height:1.5}
+.wrap{max-width:var(--w);margin:0 auto;padding:0 28px}
+.top{display:flex;justify-content:space-between;align-items:baseline;padding:16px 0 10px;border-bottom:1px solid var(--rule-strong)}.top .r{color:var(--mute)}
+.mast{display:flex;align-items:center;gap:22px;padding:22px 0 18px}.mast svg{flex:none}
+.mast h1{font-variation-settings:"opsz" 144,"wght" 480;font-size:44px;line-height:1;letter-spacing:-.01em}.mast small{display:block;margin-top:8px}
+nav.primary{border-top:1px solid var(--rule-strong);border-bottom:1px solid var(--rule)}nav.primary ul{display:flex;list-style:none;overflow-x:auto}nav.primary li a{display:block;padding:11px 22px 11px 0;white-space:nowrap}
+nav.primary li a[aria-current]{text-decoration:underline;text-underline-offset:5px}
+h2.big{font-variation-settings:"opsz" 144,"wght" 460;font-size:52px;line-height:1.02;letter-spacing:-.015em;max-width:16ch}
+.dek{margin-top:18px;font-size:20px;line-height:1.4;max-width:36ch}
+section{padding:30px 0 34px;border-bottom:1px solid var(--rule)}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:22px}.sec-head .mono{color:var(--mute)}
+.lede{padding:44px 0 34px;display:grid;grid-template-columns:2fr 1fr;gap:48px;border-bottom:1px solid var(--rule)}
+.lede .circuit{border-left:1px solid var(--rule);padding-left:28px}
+.path{margin-top:14px;font-variation-settings:"opsz" 40,"wght" 460;font-size:24px;line-height:1.4}.path a{display:block}
+.path a::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--ink);margin:0 12px 3px 0}
+.path a.faint{color:var(--mute)}.path a.faint::before{background:transparent;border:1px solid var(--mute);width:5px;height:5px}
+.path .st{font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.06em;color:var(--mute);margin-left:10px}
+.wire{display:grid;grid-template-columns:repeat(3,1fr)}.wire article{padding:0 28px 18px 0;border-right:1px solid var(--rule);margin-bottom:18px}
+.wire article:nth-child(n+2){padding-left:28px}.wire article:nth-child(3n){border-right:0;padding-right:0}
+.wire .tag{display:flex;justify-content:space-between;margin-bottom:10px}.wire p{font-size:17px;line-height:1.45}
+.facts{border-top:1px solid var(--rule-strong)}.facts dl{display:grid;grid-template-columns:1fr 1fr}
+.facts div{padding:12px 0;border-bottom:1px solid var(--rule)}.facts div:nth-child(odd){padding-right:20px;border-right:1px solid var(--rule)}.facts div:nth-child(even){padding-left:20px}
+.facts dt{color:var(--mute)}.facts dd{margin-top:5px;font-size:17px;line-height:1.35}
+.disc{color:var(--mute);padding-top:14px}
+.feature{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.feature h3{font-variation-settings:"opsz" 144,"wght" 460;font-size:44px;line-height:1.05;letter-spacing:-.012em;margin:10px 0 18px}
+.feature .standfirst{font-size:19px;line-height:1.45;max-width:38ch}
+.read{display:inline-block;margin-top:22px;border-bottom:1px solid var(--ink);padding-bottom:2px}.read:hover{text-decoration:none;border-bottom-width:2px}
+.filed article{display:grid;grid-template-columns:200px 1fr 220px;gap:32px;padding:22px 0;border-top:1px solid var(--rule)}.filed article:first-of-type{border-top:0;padding-top:0}
+.filed h4{font-variation-settings:"opsz" 72,"wght" 460;font-size:30px;line-height:1.12;letter-spacing:-.01em;max-width:22ch}.filed p{margin-top:10px;max-width:60ch}
+.filed .meta{color:var(--mute)}.filed .place{text-align:right}
+.filed .place b{display:block;font-family:"Fraunces",serif;font-variation-settings:"opsz" 40,"wght" 460;font-size:18px;font-weight:normal;margin-bottom:6px;letter-spacing:0}
+table.rank{width:100%;border-collapse:collapse}table.rank th{text-align:left;padding:8px 0;border-bottom:1px solid var(--rule-strong);color:var(--mute);font-weight:normal}
+table.rank td{padding:12px 0;border-bottom:1px solid var(--rule);vertical-align:baseline}table.rank td.n{font-variation-settings:"opsz" 40,"wght" 460;font-size:20px}
+table.rank td.num{font-family:"Space Mono",monospace;font-size:13px}
+.year{display:grid;grid-template-columns:repeat(12,1fr);gap:6px;align-items:end;height:90px;border-bottom:1px solid var(--rule-strong)}
+.year i{display:block;background:var(--ink);opacity:.9}.year i.now{opacity:.35}
+.year-l{display:grid;grid-template-columns:repeat(12,1fr);gap:6px;margin-top:6px;color:var(--mute)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.venues{list-style:none;columns:2;column-gap:40px}.venues li{padding:9px 0;border-bottom:1px solid var(--rule);break-inside:avoid}
+.venues li .k{color:var(--mute);margin-left:10px}
+.gate{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:end}.gate h3{font-variation-settings:"opsz" 144,"wght" 460;font-size:34px;line-height:1.1;max-width:20ch}.gate p{margin-top:14px;max-width:44ch}
+.gate form{display:flex;border-bottom:1px solid var(--ink)}.gate input{flex:1;border:0;background:transparent;font:inherit;color:var(--ink);padding:12px 0}.gate input::placeholder{color:var(--mute)}
+.gate button{border:0;background:transparent;color:var(--ink);cursor:pointer;padding:12px 0 12px 16px}
+footer{padding:36px 0 44px}.foot{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;padding-bottom:36px;border-bottom:1px solid var(--rule)}.foot h5{margin-bottom:12px}.foot ul{list-style:none}.foot li{padding:3px 0}
+.sign{display:flex;justify-content:space-between;align-items:center;padding-top:26px}.sign .line{font-variation-settings:"opsz" 40,"wght" 460;font-size:20px}.sign .mono{color:var(--mute)}
+.crumb{color:var(--mute);padding:22px 0 0}
+.prose{max-width:66ch}.prose p{margin:0 0 18px}
+.dir{display:grid;grid-template-columns:repeat(3,1fr);gap:0}.dir a{display:block;padding:14px 20px 14px 0;border-bottom:1px solid var(--rule)}
+.dir a b{display:block;font-weight:normal;font-variation-settings:"opsz" 40,"wght" 460;font-size:20px}.dir a span{color:var(--mute)}
+@media (max-width:900px){
+ .lede,.feature,.two,.gate{grid-template-columns:1fr;gap:28px}.lede{padding:34px 0 28px}h2.big{font-size:40px}
+ .lede .circuit{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:22px}
+ .wire{grid-template-columns:1fr}.wire article{border-right:0;padding:0 0 18px;border-bottom:1px solid var(--rule)}.wire article:nth-child(n+2){padding-left:0}
+ .feature h3{font-size:34px}.filed article{grid-template-columns:1fr;gap:10px}.filed .place{text-align:left}
+ .foot,.dir{grid-template-columns:1fr 1fr}.mast h1{font-size:34px}.sign{flex-direction:column;align-items:flex-start;gap:12px}.venues{columns:1}
+}
+</style></head>
+<body><div class="wrap">
+<div class="top mono"><span>Wednesday 2 September 2026</span><span class="r">Public record only. City and venue level.</span></div>
+<header class="mast"><a href="/" aria-label="The Coriumist"><svg viewBox="0 0 100 100" width="54" height="54" aria-hidden="true" fill="none" stroke="#2f5d3f" stroke-width="5.2" stroke-linejoin="round"><path d="M50 8c11 0 18 6 26 10s14 12 16 22-2 20-6 30-12 18-22 20-22-2-30-8S12 66 10 56s2-22 8-30 14-18 32-18z"/><path d="M50 21c8 0 13 4 19 7s10 9 11 16-1 15-4 22-9 13-16 15-16-2-22-6-12-11-13-18 1-16 6-22 10-14 19-14z"/><path d="M50 34c5 0 9 2 12 5s6 6 7 10-1 9-3 13-6 8-10 9-10-1-14-4-7-7-8-11 1-10 4-14 7-8 12-8z"/><path d="M50 46c3 0 5 1 6 3s3 3 3 5-1 4-2 6-3 4-5 4-5-1-7-2-4-3-4-5 1-5 2-7 4-4 7-4z"/></svg></a><div><h1><a href="/">The Coriumist</a></h1><small class="mono">Where capital congregates. By season, by coordinate.</small></div></header>
+<nav class="primary mono" aria-label="Primary"><ul><li><a href="/circuit/">Circuit</a></li><li><a href="/places/">Places</a></li><li><a href="/the-games/">The Games</a></li><li><a href="/index/">The Index</a></li><li><a href="/map/" aria-current=page>The Map</a></li><li><a href="/read/">Dispatches</a></li></ul></nav>
 
-  .ticker{ border-bottom:1px solid var(--g16); overflow:hidden; white-space:nowrap; background:var(--g08); }
-  .ticker-track{ display:inline-flex; animation:tick 38s linear infinite; padding:8px 0; }
-  .ticker-track span{ font-family:'Space Mono',monospace; font-size:10.5px; letter-spacing:.03em; color:var(--g75); padding-right:44px; }
-  @keyframes tick{ from{transform:translateX(0)} to{transform:translateX(-50%)} }
-  @media (prefers-reduced-motion: reduce){ .ticker-track{ animation:none; } }
-
-  .wrap{ max-width:1180px; margin:0 auto; padding:26px 22px 60px; }
-  h1{ font-variation-settings:'opsz' 90,'wght' 600; font-size:clamp(26px,4vw,40px); margin:6px 0 4px; }
-  .sub{ font-family:'Space Mono',monospace; font-size:12px; letter-spacing:.06em; color:var(--g75); text-transform:uppercase; margin-bottom:14px; }
-
-  .stat-row{ display:flex; gap:28px; flex-wrap:wrap; margin-bottom:18px; padding:14px 0; border-top:1px solid var(--g16); border-bottom:1px solid var(--g16); }
-  .stat{ font-family:'Space Mono',monospace; }
-  .stat b{ font-size:20px; display:block; }
-  .stat span{ font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--g75); }
-
-  .filters{ display:flex; gap:8px; margin-bottom:16px; }
-  .filters button{ font-family:'Space Mono',monospace; font-size:10.5px; letter-spacing:.06em; text-transform:uppercase; background:transparent; border:1px solid var(--g40); color:var(--green); padding:6px 12px; border-radius:2px; cursor:pointer; }
-  .filters button.on{ background:var(--green); color:var(--cream); border-color:var(--green); }
-
-  .layout{ display:grid; grid-template-columns:1fr 300px; gap:20px; align-items:start; }
-  @media (max-width:860px){ .layout{ grid-template-columns:1fr; } }
-  #map-holder{ width:100%; border:1px solid var(--g16); background:var(--cream); }
-  svg{ display:block; width:100%; height:auto; }
-  .land{ fill:var(--g08); stroke:var(--g16); stroke-width:.6; }
-  .node-base{ fill:var(--green); opacity:.45; cursor:pointer; }
-  .node-active{ fill:var(--green); cursor:pointer; }
-  .node-ring{ fill:none; stroke:var(--green); stroke-width:1; opacity:.5; }
-  .node-label{ font-family:'Space Mono',monospace; font-size:9.5px; fill:var(--green); opacity:.8; }
-
-  .list-panel{ border:1px solid var(--g16); max-height:560px; overflow-y:auto; }
-  .list-head{ font-family:'Space Mono',monospace; font-size:10px; letter-spacing:.08em; text-transform:uppercase; color:var(--g75); padding:12px 14px; border-bottom:1px solid var(--g16); }
-  .list-item{ display:flex; align-items:center; gap:9px; padding:11px 14px; border-bottom:1px solid var(--g08); cursor:pointer; font-family:'Space Mono',monospace; font-size:12px; }
-  .list-item:hover{ background:var(--g08); }
-  .list-item .dot{ width:7px; height:7px; border-radius:50%; background:var(--green); flex:none; }
-  .list-item .dot.dim{ opacity:.4; }
-  .list-item .name{ flex:1; }
-  .list-item .tag{ font-size:9.5px; color:var(--g55); }
-
-  .note{ margin-top:22px; max-width:64ch; font-size:14px; color:var(--g75); }
-  .disclaimer{ margin-top:16px; font-family:'Space Mono',monospace; font-size:11px; color:var(--g55); max-width:64ch; line-height:1.6; }
-  .status{ font-family:'Space Mono',monospace; font-size:10.5px; color:var(--g55); background:var(--g08); display:inline-block; padding:4px 9px; margin-top:14px; border-radius:2px; }
-  #tooltip{ position:fixed; pointer-events:none; background:var(--green); color:var(--cream); font-family:'Space Mono',monospace; font-size:11px; padding:6px 9px; border-radius:2px; opacity:0; transition:opacity .1s; z-index:20; }
+<div class="lede"><div><h2 class="big">The map.</h2><p class="dek">Forty cities at today's weight. Tap a mark for the read and the rooms.</p></div>
+<aside class="circuit"><div class="mono">Read date</div><div class="path"><span style="display:block;font-size:24px">Wednesday 2 September 2026</span></div>
+<div class="mono" id="mfilter" style="margin-top:14px;display:flex;gap:14px;flex-wrap:wrap"><button data-f="all" class="on">All</button><button data-f="active">Open and opening</button><button data-f="1">Permanent</button></div></aside></div>
+<section style="padding-top:0"><div id="mapwrap" style="position:relative"><svg id="map" viewBox="0 0 1180 560" style="width:100%;height:auto;display:block"></svg>
+<div id="panel" class="facts" style="display:none;margin-top:18px"><dl id="pdl"></dl><p id="pnote" class="dek" style="margin:14px 0 0;font-size:18px"></p><p id="prooms" class="mono" style="margin-top:12px;line-height:1.9"></p></div></div>
+<p class="disc mono">The Coriumist Index is an intelligence visualization tool. This is not financial advice or investment guidance.</p></section>
+<style>
+#mfilter button{border:0;background:transparent;color:var(--mute);font:inherit;cursor:pointer;padding:0;border-bottom:1px solid transparent}#mfilter button.on{color:var(--ink);border-bottom-color:var(--ink)}
+.land{fill:none;stroke:rgba(47,93,63,.35);stroke-width:.6}.gr{fill:none;stroke:rgba(47,93,63,.12);stroke-width:.5}
+.city{cursor:pointer}.city circle{fill:none;stroke:#2f5d3f;stroke-width:1.1}.city circle.core{fill:#2f5d3f}.city.dim{opacity:.18}.city.sel circle{stroke-width:1.8}
+.city text{font-family:"Space Mono",monospace;font-size:9px;fill:#2f5d3f;letter-spacing:.04em}
 </style>
-</head>
-<body>
-<header>
-  <svg class="mark" viewBox="0 0 200 200"><g><circle cx="100" cy="100" r="92" fill="#2f5d3f"/><circle cx="100" cy="100" r="80" fill="#f7f3e9"/><circle cx="100" cy="100" r="68" fill="#2f5d3f"/><circle cx="100" cy="100" r="56" fill="#f7f3e9"/><circle cx="100" cy="100" r="44" fill="#2f5d3f"/><circle cx="100" cy="100" r="32" fill="#f7f3e9"/><circle cx="100" cy="100" r="20" fill="#2f5d3f"/><circle cx="100" cy="100" r="8" fill="#f7f3e9"/></g></svg>
-  <a href="/">The Coriumist</a>
-</header>
-<div class="ticker"><div class="ticker-track" id="ticker-track"></div></div>
-<div class="wrap">
-  <div class="sub">Cartography · Live</div>
-  <h1>The Map</h1>
-
-  <div class="stat-row" id="stat-row"></div>
-  <div class="filters">
-    <button class="on" data-f="all">All</button>
-    <button data-f="permanent">Permanent</button>
-    <button data-f="active">Active</button>
-  </div>
-
-  <div class="layout">
-    <div id="map-holder"></div>
-    <div class="list-panel">
-      <div class="list-head">Nodes</div>
-      <div id="list-items"></div>
-    </div>
-  </div>
-
-  <p class="note">Ten permanent capitals never go dark. The lit nodes are where the circuit's weight sits right now, drawn from the current Circuit read, Budapest closing out the paddock, the Mediterranean absorbing what scatters from it.</p>
-  <div class="status">Node positions and permanent capitals are real. Per-node density is illustrative pending the live ADS-B feed, not yet wired in. Nothing here is address-level or individual-level, corporations and cities only, never named people.</div>
-  <p class="disclaimer">The Coriumist Index is an intelligence visualization tool. This is not financial advice or investment guidance.</p>
-</div>
-<div id="tooltip"></div>
-
-<script src="https://unpkg.com/d3@7/dist/d3.min.js"></script>
-<script src="https://unpkg.com/topojson-client@3/dist/topojson-client.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <script>
-const PERMANENT = [
-  ["London", 51.5074, -0.1278],
-  ["New York", 40.7128, -74.0060],
-  ["Miami", 25.7617, -80.1918],
-  ["Monaco", 43.7384, 7.4246],
-  ["Dubai", 25.2048, 55.2708],
-  ["Singapore", 1.3521, 103.8198],
-  ["Hong Kong", 22.3193, 114.1694],
-  ["Geneva", 46.2044, 6.1432],
-  ["Zurich", 47.3769, 8.5417],
-  ["Paris", 48.8566, 2.3522],
-];
-
-// This week's read: Hungarian GP closes the paddock, traffic reads toward the Mediterranean.
-const ACTIVE = [
-  ["Budapest", 47.4979, 19.0402, 0.9],
-  ["Monaco", 43.7384, 7.4246, 0.7],
-  ["Porto Cervo", 41.1339, 9.5350, 0.8],
-  ["Geneva", 46.2044, 6.1432, 0.4],
-];
-
-const WIRE_LINES = [
-  "The paddock closed Sunday. The coast opened Monday.",
-  "Ten permanent capitals. Four active reads this week.",
-  "Corporate registrations only. No named individuals, ever.",
-  "Plotted at city level. Always.",
-];
-
-document.getElementById("stat-row").innerHTML = `
-  <div class="stat"><b>${ACTIVE.length}</b><span>Active nodes</span></div>
-  <div class="stat"><b>${PERMANENT.length}</b><span>Permanent capitals</span></div>
-  <div class="stat"><b>0</b><span>Live feeds connected</span></div>
-`;
-
-const tt = document.getElementById("ticker-track");
-tt.innerHTML = WIRE_LINES.map(l=>`<span>${l}</span>`).join('') + WIRE_LINES.map(l=>`<span>${l}</span>`).join('');
-
-function renderList(filter){
-  const el = document.getElementById("list-items");
-  let rows = [];
-  if(filter !== "active") rows = rows.concat(PERMANENT.map(([name])=>({name, tag:"permanent", dim:true})));
-  if(filter !== "permanent") rows = rows.concat(ACTIVE.map(([name,,,w])=>({name, tag:"active, weight "+w, dim:false})));
-  el.innerHTML = rows.map(r => `<div class="list-item" data-name="${r.name}">
-    <span class="dot ${r.dim?'dim':''}"></span><span class="name">${r.name}</span><span class="tag">${r.tag}</span>
-  </div>`).join('') || '<div class="list-item">No nodes in this view.</div>';
-}
-renderList("all");
-
-document.querySelectorAll(".filters button").forEach(btn=>{
-  btn.addEventListener("click", ()=>{
-    document.querySelectorAll(".filters button").forEach(b=>b.classList.remove("on"));
-    btn.classList.add("on");
-    const f = btn.dataset.f;
-    renderList(f);
-    document.querySelectorAll("#map-holder .node-base").forEach(n=> n.closest("g").style.display = (f==="active") ? "none" : "");
-    document.querySelectorAll("#map-holder .node-ring, #map-holder .node-active").forEach(n=> n.closest("g").style.display = (f==="permanent") ? "none" : "");
-  });
-});
-
-async function build(){
-  const holder = document.getElementById("map-holder");
-  holder.innerHTML = '<div style="padding:60px 20px;text-align:center;font-family:\'Space Mono\',monospace;font-size:12px;color:var(--g55);">Loading map…</div>';
-
-  let world;
-  try{
-    const dataUrl = new URL("data/land-110m.json", window.location.href).href;
-    const res = await fetch(dataUrl);
-    if(!res.ok) throw new Error("data fetch failed: " + res.status + " at " + dataUrl);
-    world = await res.json();
-  }catch(err){
-    holder.innerHTML = '<div style="padding:60px 20px;text-align:center;font-family:\'Space Mono\',monospace;font-size:12px;color:var(--g55);">Map data did not load. ' + err.message + '</div>';
-    console.error(err);
-    return;
-  }
-
-  try{
-    if(typeof d3 === "undefined" || typeof topojson === "undefined"){
-      throw new Error("d3 or topojson-client did not load from CDN");
-    }
-    holder.innerHTML = "";
-    const width = 860, height = 560;
-    const svg = d3.select("#map-holder").append("svg")
-      .attr("viewBox", `0 0 ${width} ${height}`);
-
-    const projection = d3.geoNaturalEarth1().fitSize([width, height-20], {type:"Sphere"}).translate([width/2, height/2+10]);
-    const path = d3.geoPath(projection);
-
-    const land = topojson.feature(world, world.objects.land);
-    svg.append("path").datum(land).attr("class","land").attr("d", path);
-
-    const tooltip = d3.select("#tooltip");
-
-    const base = svg.append("g");
-    PERMANENT.forEach(([name, lat, lon]) => {
-      const [x,y] = projection([lon, lat]);
-      const g = base.append("g").attr("transform", `translate(${x},${y})`).attr("data-name", name);
-      g.append("circle").attr("class","node-base").attr("r", 4.5);
-      g.append("text").attr("class","node-label").attr("x", 7).attr("y", 3).text(name);
-      g.on("mousemove", (e) => tooltip.style("opacity",1).style("left", e.clientX+12+"px").style("top", e.clientY+12+"px").text(name + ", permanent capital"))
-       .on("mouseleave", () => tooltip.style("opacity",0));
-    });
-
-    const active = svg.append("g");
-    ACTIVE.forEach(([name, lat, lon, weight]) => {
-      const [x,y] = projection([lon, lat]);
-      const g = active.append("g").attr("transform", `translate(${x},${y})`).attr("data-name", name);
-      const r = 5 + weight*9;
-      g.append("circle").attr("class","node-ring").attr("r", r+5);
-      g.append("circle").attr("class","node-active").attr("r", r);
-      g.append("text").attr("class","node-label").attr("x", r+6).attr("y", 3).style("font-weight","700").text(name);
-      g.on("mousemove", (e) => tooltip.style("opacity",1).style("left", e.clientX+12+"px").style("top", e.clientY+12+"px").text(name + ", active, illustrative weight " + weight))
-       .on("mouseleave", () => tooltip.style("opacity",0));
-    });
-
-    document.addEventListener("click", (e)=>{
-      const item = e.target.closest(".list-item[data-name]");
-      if(!item) return;
-      const nm = item.dataset.name;
-      const target = svg.selectAll("g[data-name]").filter(function(){ return this.getAttribute("data-name")===nm; });
-      target.each(function(){
-        const c = d3.select(this).select("circle");
-        c.transition().duration(150).attr("r", +c.attr("r")*1.6).transition().duration(300).attr("r", c.attr("r"));
-      });
-    });
-  }catch(err){
-    holder.innerHTML = '<div style="padding:60px 20px;text-align:center;font-family:\'Space Mono\',monospace;font-size:12px;color:var(--g55);">Map render failed. ' + err.message + '</div>';
-    console.error(err);
-  }
-}
-build();
+(async()=>{
+const read=await (await fetch("/data/read.json?d=2026-09-02")).json();
+const land=await (await fetch("/map/data/land-110m.json")).json();
+const svg=d3.select("#map"),W=1180,H=560;
+const proj=d3.geoNaturalEarth1().fitExtent([[10,10],[W-10,H-10]],{type:"Sphere"});
+const path=d3.geoPath(proj);
+svg.append("path").attr("class","gr").attr("d",path(d3.geoGraticule10()));
+svg.append("path").attr("class","land").attr("d",path(topojson.feature(land,land.objects.land)));
+const ST={opening:"Opening",open:"Open",closing:"Closing",dispersing:"Dispersing",flat:"Flat",quiet:"Quiet"};
+const g=svg.append("g");
+const cities=g.selectAll("g.city").data(read.cities).join("g").attr("class","city").attr("transform",d=>{const p=proj([d.lon,d.lat]);return `translate(${p[0]},${p[1]})`});
+cities.each(function(d){const s=d3.select(this);for(let i=0;i<d.rings;i++)s.append("circle").attr("r",2.2+i*2.6);s.append("circle").attr("class","core").attr("r",1.6);
+ if(d.rings>=4)s.append("text").attr("x",d.rings*2.6+6).attr("y",3).text(d.name)});
+const panel=document.getElementById("panel");
+function show(d){cities.classed("sel",c=>c.slug===d.slug);panel.style.display="block";
+ document.getElementById("pdl").innerHTML=[["City",`<a href="/circuit/${d.slug}/">${d.name}</a>`],["State",ST[d.state]],["Score",d.score],["Rings","●".repeat(d.rings)]].map(x=>`<div><dt class="mono">${x[0]}</dt><dd>${x[1]}</dd></div>`).join("");
+ document.getElementById("pnote").textContent=d.note;
+ fetch("/circuit/"+d.slug+"/").then(r=>r.text()).then(t=>{const m=[...t.matchAll(/<li><a href="(\/places\/[^"]+)">([^<]+)<\/a>/g)];document.getElementById("prooms").innerHTML=m.map(x=>`<a href="${x[1]}">${x[2]}</a>`).join("  ·  ")});
+ panel.scrollIntoView({behavior:"smooth",block:"nearest"})}
+cities.on("click",(e,d)=>show(d));
+document.querySelectorAll("#mfilter button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#mfilter button").forEach(x=>x.classList.remove("on"));b.classList.add("on");const f=b.dataset.f;
+ cities.classed("dim",d=>f==="all"?false:f==="active"?!(d.state==="open"||d.state==="opening"):d.tier!==+f)});
+show(read.cities[0]);
+})();
 </script>
-</body>
-</html>
+</div>
+<footer><div class="wrap">
+<div class="foot mono">
+<div><h5>The circuit</h5><ul><li><a href="/circuit/">Cities</a></li><li><a href="/map/">Map</a></li><li><a href="/index/">The Index</a></li><li><a href="/places/">Places</a></li></ul></div>
+<div><h5>The desk</h5><ul><li><a href="/read/">Dispatches</a></li><li><a href="/the-games/">The Games</a></li><li><a href="/latest/">Latest</a></li></ul></div>
+<div><h5>The data</h5><ul><li><a href="/methodology/">Methodology</a></li><li><a href="/data/read.json">Today's read (JSON)</a></li></ul></div>
+<div><h5>The Coriumist</h5><ul><li><a href="mailto:coriumist.ops@gmail.com">Contact</a></li><li><a href="https://www.instagram.com/coriumist">Instagram</a></li></ul></div>
+</div>
+<div class="sign"><span class="line">Money moves. We map it.</span><span class="mono">Public sources. City level. Never an address. The Coriumist, 2026.</span></div>
+</div></footer></body></html>

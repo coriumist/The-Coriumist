@@ -1,0 +1,23 @@
+name: daily circuit build
+on:
+  schedule:
+    - cron: "0 6 * * *"        # 06:00 UTC every day
+  workflow_dispatch:           # also runnable by hand from the Actions tab
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Build today's read and every page
+        run: python3 tools/build.py
+      - name: Commit if anything changed
+        run: |
+          git config user.name "coriumist-daily"
+          git config user.email "coriumist.ops@gmail.com"
+          git add -A site data
+          git diff --cached --quiet || git commit -m "daily read $(date -u +%F)"
+          git push
