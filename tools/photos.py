@@ -46,6 +46,10 @@ def get(url, headers=None):
     req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
     with urllib.request.urlopen(req, timeout=40) as r: return json.loads(r.read().decode())
 def strip(s): return html.unescape(re.sub(r"<[^>]+>", "", s or "")).strip()
+def thumb(url, w=1800):
+    """Wikimedia originals run to 6000px and several MB. Serve the 1800px rendition instead."""
+    m = re.match(r"^(https://upload\.wikimedia\.org/wikipedia/commons)/([0-9a-f])/([0-9a-f]{2})/([^/]+)$", url)
+    return f"{m.group(1)}/thumb/{m.group(2)}/{m.group(3)}/{m.group(4)}/{w}px-{m.group(4)}" if m else url
 def commons(query, n):
     q = urllib.parse.quote(f"filetype:bitmap {query}")
     url = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
@@ -78,9 +82,9 @@ def openverse(query, n):
     out = []
     for r in data.get("results", []):
         w, h = r.get("width") or 0, r.get("height") or 0
-        if w and (w < 1200 or w < h * 1.1): continue
+        if w and (w < 1200 or w < h * 1.1 or w > h * 3.2): continue
         if (r.get("license") or "").lower() in ("by-nc", "by-nd", "by-nc-sa", "by-nc-nd"): continue
-        out.append({"url": r["url"], "full": r["url"], "w": w, "h": h, "credit": (r.get("creator") or r.get("source") or "")[:80],
+        out.append({"url": thumb(r["url"]), "full": r["url"], "w": w, "h": h, "credit": (r.get("creator") or r.get("source") or "")[:80],
                     "license": ("CC " + r.get("license", "").upper() + " " + (r.get("license_version") or "")).strip(), "page": r.get("foreign_landing_url", ""), "source": "openverse:" + (r.get("source") or ""), "q": query})
         if len(out) >= n: break
     log("  openverse", query, len(out)); return out
@@ -90,13 +94,13 @@ key = os.environ.get("UNSPLASH_ACCESS_KEY")
 for c in CIRCUIT["cities"]:
     s = c["slug"]; man = [dict(p, source="manual") for p in manual.get(s, [])]
     auto = [p for p in photos.get(s, []) if p.get("source") != "manual"]
-    if len(man) + len(auto) >= 4 and not REFRESH: photos[s] = (man + auto)[:WANT]; continue
+    if len(man) + len(auto) >= 5 and not REFRESH: photos[s] = (man + auto)[:WANT]; continue
     got = []
     for q in QUERIES.get(s, [c["name"]]):
         if key: got += unsplash(q, 3, key)
         else:
             got += commons(q, 3)
-            if len(got) < 3: got += openverse(q, 3)
+            got += openverse(q, 4)
         time.sleep(0.6)
     seen, dedup = set(), []
     for p in got:
