@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: "0 6 * * *"        # 06:00 UTC every day
   workflow_dispatch:           # also runnable by hand from the Actions tab
+  push:                        # a change to the engine or the dataset rebuilds immediately
+    branches: [main]
+    paths: ["tools/**", "data/circuit.json", ".github/workflows/daily.yml"]
 permissions:
   contents: write
 jobs:
