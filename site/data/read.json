@@ -26,7 +26,26 @@
     40,
     40
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Port_Hercules%2C_Monaco.jpg",
+     "credit": "Uhooep",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=115701228"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/20210527_122514_Yacht_port_Hercule_Monaco.jpg",
+     "credit": "Horizon06",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=106027685"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Port_Hercule_Monaco_IMG_1155.jpg",
+     "credit": "Alexander Migl",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79865888"
+    }
+   ]
   },
   {
    "slug": "singapore",
@@ -53,7 +72,26 @@
     34,
     34
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Marina_bay_sands_night_skypark_2010.JPG",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Marina_Bay_Sands_Night_Panorama.jpg",
+     "credit": "Lanneixi",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
+    },
+    {
+     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzM1NTIzLWltYWdlLWt3dnkyeWtoLmpwZw.jpg",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
+    }
+   ]
   },
   {
    "slug": "paris",
@@ -80,7 +118,26 @@
     36,
     36
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Jardins_du_Trocad%C3%A9ro_from_the_Eiffel_Tower%2C_Paris_April_1970.jpg",
+     "credit": "Barry Lewis",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27493143"
+    },
+    {
+     "url": "https://cdn.stocksnap.io/img-thumbs/960w/XYSW9DP8QZ.jpg",
+     "credit": "Matt Moloney",
+     "license": "CC CC0 1.0",
+     "page": "https://stocksnap.io/photo/eiffel-tower-XYSW9DP8QZ"
+    },
+    {
+     "url": "https://cdn.stocksnap.io/img-thumbs/960w/32KNS2DHYT.jpg",
+     "credit": "Matt Moloney",
+     "license": "CC CC0 1.0",
+     "page": "https://stocksnap.io/photo/eiffel-tower-32KNS2DHYT"
+    }
+   ]
   },
   {
    "slug": "venice",
@@ -107,7 +164,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/1_venice_grand_canal_rialto_bridge_2012.jpg",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20076316"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Venice_%28grand_canal%29_-_panoramio.jpg",
+     "credit": "Paul Berzinn",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=44789603"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Venice_-_Grand_Canal_09.jpg",
+     "credit": "User:Nino Barbieri",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1914430"
+    }
+   ]
   },
   {
    "slug": "new-york",
@@ -134,7 +210,26 @@
     95,
     34
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYxNzQ4NDE2LXdpa2ltZWRpYS1pbWFnZS1rb3diaDhuNS5qcGc.jpg",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283573/free-photo-image-new-york-skyline-city"
+    },
+    {
+     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHUyMzI4MzkxLWltYWdlLWt3eXJ1MGJjLmpwZw.jpg",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966369/photo-image-cloud-public-domain-nature"
+    },
+    {
+     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg4NzU0NDAtaW1hZ2Uta3d5bzdsOWwuanBn.jpg",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5942628/free-public-domain-cc0-photo"
+    }
+   ]
   },
   {
    "slug": "porto-cervo",
@@ -161,7 +256,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Costa_Smeralda_Storeb%C3%A6lt_IV_%28cropped%29.jpg",
+     "credit": "HenSti",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=84761372"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sardinia%2C_Olbia%2C_Aeroporto_Olbia_Costa_Smeralda_%28check_in%29.jpg",
+     "credit": "Dr. Thomas Liptak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=176070613"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Wv_Costa_Smeralda_banner.jpg",
+     "credit": "Heinz-Josef Lücking",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59153095"
+    }
+   ]
   },
   {
    "slug": "milan",
@@ -188,7 +302,26 @@
     16,
     16
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Milan-Duomo_underground_access_M1_Red_line_M3_Yellow_line.jpg",
+     "credit": "FlavMi",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=99979796"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Milan_duomo.JPG",
+     "credit": "Warburg",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3513643"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Milan_-_Duomo_-_Interieur_-_Nef.jpg",
+     "credit": "Jean-Christophe BENOIST",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
+    }
+   ]
   },
   {
    "slug": "monza",
@@ -215,7 +348,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Autodromo_Nazionale_Monza%2C_April_22%2C_2018_SkySat_%28cropped%29.jpg",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77033669"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2844035861405%29.jpg",
+     "credit": "https://www.flickr.com/photos/78475089@N02/",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73595252"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2018_FIA_Formula_2_Championship%2C_Autodromo_Nazionale_Monza_%2831075389108%29.jpg",
+     "credit": "https://www.flickr.com/photos/78475089@N02/",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73595253"
+    }
+   ]
   },
   {
    "slug": "ibiza",
@@ -242,7 +394,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/1._Es_Vedr%C3%A0_%28vessant_migjorn_-_Eivissa%29.jpg",
+     "credit": "Vicenç Salvador Torres Guerola",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119241406"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ibiza_Wall_Lizard_Podarcis_pityusensis_Nature_reserve_es_Vedr%C3%A0_19th_May_2011.JPG",
+     "credit": "Stavros1",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20871322"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/2._Es_Vedr%C3%A0_i_es_Vedranell_%28Eivissa%29.jpg",
+     "credit": "Vicenç Salvador Torres Guerola",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119563220"
+    }
+   ]
   },
   {
    "slug": "lake-como",
@@ -269,7 +440,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Vista_dal_lago_su_Villa_del_Balbianello%2C_Bene_FAI_sul_Lago_di_Como.jpg",
+     "credit": "2019 © FAI - Fondo Ambiente Italiano",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=122795456"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Villa_del_Balbianello_Lago_di_Como_featured_in_Casino_Royale_and_in_Star_Wars_%2820063743160%29.jpg",
+     "credit": "Jeroen Komen from Utrecht, Netherlands",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=50205066"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Villa-del-Balbianello-wedding_01.jpg",
+     "credit": "Damionmower",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=90599436"
+    }
+   ]
   },
   {
    "slug": "the-hamptons",
@@ -296,7 +486,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Montauk_Point_Lighthouse_New_York_Winter_View.jpg",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Montauk_Point_Lighthouse_2_-69000142.jpg",
+     "credit": "Fred222wiki",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Montauk_Point_Lighthouse_State_Park_Aerial_View.jpg",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
+    }
+   ]
   },
   {
    "slug": "london",
@@ -323,7 +532,26 @@
     34,
     34
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Water_feature_Silence%2C_Mayfair%2C_London.JPG",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Mayfair%2C_London%2C_UK_-_panoramio_%288%29.jpg",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/The_Dorchester%2C_Mayfair%2C_London%2C_UK_-_20100501.jpg",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    }
+   ]
   },
   {
    "slug": "dubai",
@@ -350,7 +578,26 @@
     68,
     74
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Dubai_Marina_Skyline.jpg",
+     "credit": "Norlando Pobre",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=98830649"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dubai_Marina_Skyline_93.jpg",
+     "credit": "Khanshahab06",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77469743"
+    },
+    {
+     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYxNzUxMTg5LXdpa2ltZWRpYS1pbWFnZS1rb3diY2M2ai5qcGc.jpg",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
+    }
+   ]
   },
   {
    "slug": "geneva",
@@ -377,7 +624,26 @@
     72,
     36
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Jet_d%27eau_Geneva.jpg",
+     "credit": "Choinowski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Jet_d%27eau_Geneva_Switzerland.jpg",
+     "credit": "Spinarak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Jet_d%27eau%2C_Geneva%2C_Switzerland.jpg",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
+    }
+   ]
   },
   {
    "slug": "miami",
@@ -404,7 +670,26 @@
     34,
     98
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Fontainebleau_Miami_Beach_Aerial_2025.jpg",
+     "credit": "InvadingInvader",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=170063237"
+    },
+    {
+     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L2xvYzIwMjA3MjEwNTYtaW1hZ2UuanBn.jpg",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8052462/photo-image-beach-public-domain-united-states"
+    },
+    {
+     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQyMDctMS0zNTVfMS5qcGc.jpg",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3094491/free-photo-image-miami-beach-aerial-view"
+    }
+   ]
   },
   {
    "slug": "zurich",
@@ -431,7 +716,26 @@
     34,
     34
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ch_zurich_limmat.jpg",
+     "credit": "Charlemagne at Dutch Wikipedia",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1773146"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Zurich_Limmat_5.jpg",
+     "credit": "Andrzej Otrębski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=78876116"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Zurich_Limmat_2.jpg",
+     "credit": "Andrzej Otrębski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=78369277"
+    }
+   ]
   },
   {
    "slug": "hong-kong",
@@ -458,7 +762,26 @@
     32,
     32
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Victoria_Harbour_%28Hong_Kong%29.jpg",
+     "credit": "Mk2010",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20478641"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Aqua_Luna%2C_a_Chinese_Junk_in_Victoria_Harbour_%28Hong_Kong%29.jpg",
+     "credit": "Mk2010",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=39754974"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Aqua_Luna_Ship_at_Victoria_Harbour%2C_Hong_Kong_%28Ank_kumar%2C_Infosys%29_05.jpg",
+     "credit": "Ank Kumar",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=105141852"
+    }
+   ]
   },
   {
    "slug": "palm-beach",
@@ -485,7 +808,26 @@
     60,
     66
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/PALM_BEACH_FLORIDA_AERIAL_2011.jpg",
+     "credit": "Michael Kagdis",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42147898"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Night_view_from_Palm_Beach_Florida_by_Volkan_Yuksel_DSC09837.jpg",
+     "credit": "Volkan Yuksel",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=26549189"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Society_Of_The_Four_Arts_in_Palm_Beach_Florida_%28cropped%29.jpg",
+     "credit": "User:MVASCO",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=84644819"
+    }
+   ]
   },
   {
    "slug": "los-angeles",
@@ -512,7 +854,26 @@
     16,
     16
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Beverly_Hills_Shopping_Center_%2828740264211%29.jpg",
+     "credit": "Paul Sableman",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=68920506"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Beverly_Hills_hires.jpg",
+     "credit": "Morn the Gorn",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=7873406"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/LaFerrari_in_Beverly_Hills_%2814563979888%29.jpg",
+     "credit": "Axion23",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=41194605"
+    }
+   ]
   },
   {
    "slug": "tokyo",
@@ -539,7 +900,26 @@
     12,
     12
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Tokyo_Skyline_%28214472347%29.jpeg",
+     "credit": "Andreas Bunen",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71414830"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tokyo_Skyline_2026.png",
+     "credit": "Ivan Petrov",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=181183952"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Tokyo_skyline_seen_from_Tokyo_Skytree.jpg",
+     "credit": "Ruthsic",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=124361528"
+    }
+   ]
   },
   {
    "slug": "abu-dhabi",
@@ -566,7 +946,26 @@
     50,
     88
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Yas_Marina_Circuit.png",
+     "credit": "Anthony Alessio Tralongo",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110172274"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Yas_Marina_Circuit%2C_October_12%2C_2018_SkySat_%28cropped%29.jpg",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77063890"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Yas_Marina_circuit_by_night.jpg",
+     "credit": "JiteshJagadish",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=12075238"
+    }
+   ]
   },
   {
    "slug": "austin",
@@ -593,7 +992,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Austin%2C_Texas_Skyline_2018.jpg",
+     "credit": "Sk5893",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Colorado_River_and_Austin%2C_Texas_Skyline_%2846879015824%29.jpg",
+     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Austin_Texas_skyline%2C_December_2023_-_Evening.jpg",
+     "credit": "Steve",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
+    }
+   ]
   },
   {
    "slug": "st-barths",
@@ -620,7 +1038,26 @@
     0,
     88
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caraibe%2C_West_Indies_-_panoramio_%2810%29.jpg",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420599"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Gustavia_%28Saint-Barth%C3%A9lemy%29_%E2%80%94_Sign_at_the_border.JPG",
+     "credit": "User:Mattes",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=49126355"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Gustavia%2C_Saint_Barth%C3%A9lemy_%28St._Barts%29_Caribbean%2C_Fr.Caribe%2C_West_Indies_-_panoramio_%289%29.jpg",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420593"
+    }
+   ]
   },
   {
    "slug": "st-moritz",
@@ -647,7 +1084,26 @@
     0,
     60
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lake_St._Moritz_in_winter.jpg",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25090291"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Lake_St._Moritz_and_St._Moritz_town.jpg",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091244"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Lake_St._Moritz_and_St._Moritz_town_in_Switzerland.jpg",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091301"
+    }
+   ]
   },
   {
    "slug": "davos",
@@ -674,7 +1130,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/RhB_ABe_8-12_Malans_winter.jpg",
+     "credit": "Kabelleger / David Gubler",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=107794545"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/AO_Foundation_Center_Davos.jpg",
+     "credit": "AO Foundation",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25665126"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Parsenn.jpg",
+     "credit": "MadGeographer",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=5872735"
+    }
+   ]
   },
   {
    "slug": "aspen",
@@ -701,7 +1176,26 @@
     0,
     80
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Hayden_Peak%2C_winter.jpg",
+     "credit": "michael.stockton",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=132032280"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Buttermilk_in_Winter.jpg",
+     "credit": "Werdna",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3446380"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Ute_cemetery_Aspen_winter.jpg",
+     "credit": "This Photo was taken by Wolfgang Moroder. Feel free to use my photos, but please",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=47732278"
+    }
+   ]
   },
   {
    "slug": "cannes",
@@ -728,7 +1222,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Cannes_-_Croisette.jpg",
+     "credit": "Christophe.Finot",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1223696"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/20210719_132212_Cannes_Croisette.jpg",
+     "credit": "Horizon06",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=107678714"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Cannes_Croisette_1903.png",
+     "credit": "Wolfgang Sauber",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=128039699"
+    }
+   ]
   },
   {
    "slug": "sun-valley",
@@ -755,7 +1268,26 @@
     0,
     45
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bald_Mountain_in_Sun_Valley%2C_Idaho.jpg",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/The_chairlift_at_Ruud_-_Proctor_Mountain_in_Sun_Valley%2C_Idaho_USA_%28one_of_the_first_chairlifts_ever%29.jpg",
+     "credit": "Kingmiwok",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Bald_Mountain_as_seen_from_Sun_Valley%2C_Idaho.jpg",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
+    }
+   ]
   },
   {
    "slug": "pebble-beach",
@@ -782,7 +1314,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Pebble_Beach_Golf_Links_01.jpg",
+     "credit": "Tewy",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1383062"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Pebble_Beach_Golf_Links_04.jpg",
+     "credit": "Bernard Gagnon",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=6095187"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Pebble_Beach_Golf_Links_02.jpg",
+     "credit": "Tewy",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1383065"
+    }
+   ]
   },
   {
    "slug": "mykonos",
@@ -809,7 +1360,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mykonos_Windmills.jpg",
+     "credit": "wikimedia",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=80837"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Mykonos_windmills_with_a_view_of_the_Aegean_Sea_in_Greece_-_50662259091.jpg",
+     "credit": "dronepicr",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=101655529"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Mykonos_Windmills_at_Chora.jpg",
+     "credit": "Iantomferry",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48227599"
+    }
+   ]
   },
   {
    "slug": "capri",
@@ -836,7 +1406,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Faraglioni-Capri.jpg",
+     "credit": "Hkabla",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=6748869"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Faraglioni_Capri_2.jpg",
+     "credit": "Amyp03",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=128961589"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Faraglioni_Capri.jpg",
+     "credit": "Mgimelfarb",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=50787099"
+    }
+   ]
   },
   {
    "slug": "gstaad",
@@ -863,7 +1452,26 @@
     0,
     74
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Arnensee.jpg",
+     "credit": "Otto Juchli, Nussbaumen",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=2946769"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/GstaadPanoramaVillage.jpg",
+     "credit": "GstaadTourismus",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17528605"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/The_Gstaad_Palace.jpg",
+     "credit": "Samuel Barlow",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=95880446"
+    }
+   ]
   },
   {
    "slug": "jackson-hole",
@@ -890,7 +1498,26 @@
     0,
     66
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Willow_Flats_area_and_Teton_Range_in_Grand_Teton_National_Park.jpg",
+     "credit": "Michael Gäbler",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=8807982"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bison_fight_in_Grand_Teton_NP.jpg",
+     "credit": "Yunner",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=15423460"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Oxbow_Bend_outlook_in_the_Grand_Teton_National_Park.jpg",
+     "credit": "Michael Gäbler",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=8794037"
+    }
+   ]
   },
   {
    "slug": "nantucket",
@@ -917,7 +1544,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Nantucket_Harbor_%283120845112%29.jpg",
+     "credit": "http://maps.bpl.org",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27807008"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Jetty%2C_Nantucket_harbor%2C_MA%2C_USA.JPG",
+     "credit": "Le grand Cricri",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=22062214"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/2011-boston-harbor-nantucket-1.jpg",
+     "credit": "Elmschrat Coaching38",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=16133003"
+    }
+   ]
   },
   {
    "slug": "basel",
@@ -944,7 +1590,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Waggis_2013_2.jpg",
+     "credit": "Gzzz",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24830910"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Altstadt_Grossbasel%2C_vom_Basler_M%C3%BCnster_zur_Mittlere_Br%C3%BCcke.jpg",
+     "credit": "Ascasis",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=97167508"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/1_Rheinbr%C3%BCcke_in_Basel.jpg",
+     "credit": "W. Bulach",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=56142906"
+    }
+   ]
   },
   {
    "slug": "maastricht",
@@ -971,7 +1636,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/2016_Maastricht%2C_Vrijthof%2C_St-Janskerk_%283%29.jpg",
+     "credit": "Kleon3",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=53921374"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/2016_Maastricht%2C_Vrijthof_polowedstrijd_1.jpg",
+     "credit": "Kleon3",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=47708486"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Maastricht%2C_Vrijthof%2C_Preuvenemint_2016.jpg",
+     "credit": "Kleon3",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73106740"
+    }
+   ]
   },
   {
    "slug": "courchevel",
@@ -998,7 +1682,26 @@
     0,
     68
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Marie-Mich%C3%A8le_Gagnon_in_Courchevel%2C_20_december_2015_05.JPG",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48553790"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Adeline_Baud_Mugnier_in_Courchevel%2C_20_december_2015_05.JPG",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548846"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Marie-Pier_Pr%C3%A9fontaine_in_Courchevel%2C_20_december_2015_06.JPG",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548650"
+    }
+   ]
   },
   {
    "slug": "las-vegas",
@@ -1025,7 +1728,26 @@
     74,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Las_Vegas_Strip_panorama.jpg",
+     "credit": "Matthew Field, http://www.photography.mattfield.com",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1634699"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Las_Vegas_Strip_at_night%2C_2012.jpg",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Stardust_sign_015.JPG",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    }
+   ]
   },
   {
    "slug": "silverstone",
@@ -1052,7 +1774,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Silverstone_Circuit_1952_to_1974.png",
+     "credit": "Tom McKay",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48187854"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Silverstone_Circuit_vector_map.png",
+     "credit": "Anthony Alessio Tralongo",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=106986749"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Silverstone_Circuit_2020.png",
+     "credit": "Antoine266",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=97517203"
+    }
+   ]
   },
   {
    "slug": "melbourne",
@@ -1079,7 +1820,26 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Melbourne_skyline_on_14_September_2013.jpg",
+     "credit": "David Wallace",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=30529192"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Melbourne_docklands_twilight.jpg",
+     "credit": "Diliff",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=385380"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Melbourne_Docklands_-_Yarras_Edge_-_marina_panorama.jpg",
+     "credit": "Diliff",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=385638"
+    }
+   ]
   }
  ],
  "wire": [
