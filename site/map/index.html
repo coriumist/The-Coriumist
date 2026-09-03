@@ -51,6 +51,7 @@ table.rank td.num{font-family:"Space Mono",monospace;font-size:13px}
 .two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
 .venues{list-style:none;columns:2;column-gap:40px}.venues li{padding:9px 0;border-bottom:1px solid var(--rule);break-inside:avoid}
 .venues li .k{color:var(--mute);margin-left:10px}
+.venues.one{columns:1}.three{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
 .gate{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:end}.gate h3{font-variation-settings:"opsz" 144,"wght" 460;font-size:34px;line-height:1.1;max-width:20ch}.gate p{margin-top:14px;max-width:44ch}
 .gate form{display:flex;border-bottom:1px solid var(--ink)}.gate input{flex:1;border:0;background:transparent;font:inherit;color:var(--ink);padding:12px 0}.gate input::placeholder{color:var(--mute)}
 .gate button{border:0;background:transparent;color:var(--ink);cursor:pointer;padding:12px 0 12px 16px}
@@ -65,30 +66,38 @@ footer{padding:36px 0 44px}.foot{display:grid;grid-template-columns:repeat(4,1fr
  .lede .circuit{border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:22px}
  .wire{grid-template-columns:1fr}.wire article{border-right:0;padding:0 0 18px;border-bottom:1px solid var(--rule)}.wire article:nth-child(n+2){padding-left:0}
  .feature h3{font-size:34px}.filed article{grid-template-columns:1fr;gap:10px}.filed .place{text-align:left}
- .foot,.dir{grid-template-columns:1fr 1fr}.mast h1{font-size:34px}.sign{flex-direction:column;align-items:flex-start;gap:12px}.venues{columns:1}
+ .foot,.dir{grid-template-columns:1fr 1fr}.three{grid-template-columns:1fr}.mast h1{font-size:34px}.sign{flex-direction:column;align-items:flex-start;gap:12px}.venues{columns:1}
 }
 </style></head>
 <body><div class="wrap">
-<div class="top mono"><span>Wednesday 2 September 2026</span><span class="r">Public record only. City and venue level.</span></div>
+<div class="top mono"><span>Thursday 3 September 2026</span><span class="r">Public record only. City and venue level.</span></div>
 <header class="mast"><a href="/" aria-label="The Coriumist"><svg viewBox="0 0 100 100" width="54" height="54" aria-hidden="true" fill="none" stroke="#2f5d3f" stroke-width="5.2" stroke-linejoin="round"><path d="M50 8c11 0 18 6 26 10s14 12 16 22-2 20-6 30-12 18-22 20-22-2-30-8S12 66 10 56s2-22 8-30 14-18 32-18z"/><path d="M50 21c8 0 13 4 19 7s10 9 11 16-1 15-4 22-9 13-16 15-16-2-22-6-12-11-13-18 1-16 6-22 10-14 19-14z"/><path d="M50 34c5 0 9 2 12 5s6 6 7 10-1 9-3 13-6 8-10 9-10-1-14-4-7-7-8-11 1-10 4-14 7-8 12-8z"/><path d="M50 46c3 0 5 1 6 3s3 3 3 5-1 4-2 6-3 4-5 4-5-1-7-2-4-3-4-5 1-5 2-7 4-4 7-4z"/></svg></a><div><h1><a href="/">The Coriumist</a></h1><small class="mono">Where capital congregates. By season, by coordinate.</small></div></header>
 <nav class="primary mono" aria-label="Primary"><ul><li><a href="/circuit/">Circuit</a></li><li><a href="/places/">Places</a></li><li><a href="/the-games/">The Games</a></li><li><a href="/index/">The Index</a></li><li><a href="/map/" aria-current=page>The Map</a></li><li><a href="/read/">Dispatches</a></li></ul></nav>
 
-<div class="lede"><div><h2 class="big">The map.</h2><p class="dek">Forty cities at today's weight. Tap a mark for the read and the rooms.</p></div>
-<aside class="circuit"><div class="mono">Read date</div><div class="path"><span style="display:block;font-size:24px">Wednesday 2 September 2026</span></div>
-<div class="mono" id="mfilter" style="margin-top:14px;display:flex;gap:14px;flex-wrap:wrap"><button data-f="all" class="on">All</button><button data-f="active">Open and opening</button><button data-f="1">Permanent</button></div></aside></div>
-<section style="padding-top:0"><div id="mapwrap" style="position:relative"><svg id="map" viewBox="0 0 1180 560" style="width:100%;height:auto;display:block"></svg>
-<div id="panel" class="facts" style="display:none;margin-top:18px"><dl id="pdl"></dl><p id="pnote" class="dek" style="margin:14px 0 0;font-size:18px"></p><p id="prooms" class="mono" style="margin-top:12px;line-height:1.9"></p></div></div>
-<p class="disc mono">The Coriumist Index is an intelligence visualization tool. This is not financial advice or investment guidance.</p></section>
-<style>
+<div class="lede"><div><h2 class="big">The map.</h2><p class="dek">Forty cities at today's weight. Tap a mark for the read and the rooms: five hotels, five restaurants, five places to be after dark.</p></div>
+<aside class="circuit"><div class="mono">Read date</div><div class="path"><span style="display:block;font-size:24px">Thursday 3 September 2026</span></div></aside></div>
+<section style="padding-top:0"><div class="mono" id="mfilter" style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:14px"><button data-f="all" class="on">All forty</button><button data-f="active">Open and opening</button><button data-f="1">Permanent capitals</button><button data-f="2">Seasonal</button></div>
+<svg id="map" viewBox="0 0 1180 560" style="width:100%;height:auto;display:block" aria-label="The circuit, forty cities at today's weight"></svg>
+<div id="panel"></div>
+<p class="disc mono">The Coriumist Index is an intelligence visualization tool. This is not financial advice or investment guidance.</p><style>
 #mfilter button{border:0;background:transparent;color:var(--mute);font:inherit;cursor:pointer;padding:0;border-bottom:1px solid transparent}#mfilter button.on{color:var(--ink);border-bottom-color:var(--ink)}
 .land{fill:none;stroke:rgba(47,93,63,.35);stroke-width:.6}.gr{fill:none;stroke:rgba(47,93,63,.12);stroke-width:.5}
 .city{cursor:pointer}.city circle{fill:none;stroke:#2f5d3f;stroke-width:1.1}.city circle.core{fill:#2f5d3f}.city.dim{opacity:.18}.city.sel circle{stroke-width:1.8}
+.city circle.halo{stroke:none;fill:#2f5d3f;opacity:.18;transform-origin:center;animation:halo 2.6s ease-out infinite}
+@keyframes halo{0%{transform:scale(.4);opacity:.35}80%{transform:scale(1.9);opacity:0}100%{opacity:0}}
 .city text{font-family:"Space Mono",monospace;font-size:9px;fill:#2f5d3f;letter-spacing:.04em}
+#panel{display:none;margin-top:18px;border-top:1px solid var(--rule-strong);padding-top:18px}
+#panel .ph{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:12px}
+#panel .ph h3{font-variation-settings:"opsz" 72,"wght" 460;font-size:34px;line-height:1.05}
+#panel .pnote{margin:12px 0 20px;font-size:18px;max-width:60ch}
+.rooms3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}.rooms3 h4{color:var(--mute);margin-bottom:8px}.rooms3 ul{list-style:none}.rooms3 li{padding:7px 0;border-bottom:1px solid var(--rule)}
+.rooms3 li .ap{color:var(--mute);margin-left:8px}
+@media (max-width:900px){.rooms3{grid-template-columns:1fr}#panel .ph h3{font-size:28px}}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
 <script>
 (async()=>{
-const read=await (await fetch("/data/read.json?d=2026-09-02")).json();
+const read=await (await fetch("/data/read.json?d=2026-09-03")).json();
 const land=await (await fetch("/map/data/land-110m.json")).json();
 const svg=d3.select("#map"),W=1180,H=560;
 const proj=d3.geoNaturalEarth1().fitExtent([[10,10],[W-10,H-10]],{type:"Sphere"});
@@ -98,20 +107,22 @@ svg.append("path").attr("class","land").attr("d",path(topojson.feature(land,land
 const ST={opening:"Opening",open:"Open",closing:"Closing",dispersing:"Dispersing",flat:"Flat",quiet:"Quiet"};
 const g=svg.append("g");
 const cities=g.selectAll("g.city").data(read.cities).join("g").attr("class","city").attr("transform",d=>{const p=proj([d.lon,d.lat]);return `translate(${p[0]},${p[1]})`});
-cities.each(function(d){const s=d3.select(this);for(let i=0;i<d.rings;i++)s.append("circle").attr("r",2.2+i*2.6);s.append("circle").attr("class","core").attr("r",1.6);
+cities.each(function(d){const s=d3.select(this);if(d.state==="open"||d.state==="opening")s.append("circle").attr("class","halo").attr("r",d.rings*2.6+4);
+ for(let i=0;i<d.rings;i++)s.append("circle").attr("r",2.2+i*2.6);s.append("circle").attr("class","core").attr("r",1.6);
  if(d.rings>=4)s.append("text").attr("x",d.rings*2.6+6).attr("y",3).text(d.name)});
+let approved=new Set();
+try{const a=await (await fetch("https://ocvbhjgdxmggjjgumflg.supabase.co/rest/v1/venues?approved=eq.true&select=city_slug,slug",{headers:{apikey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jdmJoamdkeG1nZ2pqZ3VtZmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM4OTE5MTAsImV4cCI6MjA5OTQ2NzkxMH0.R6hh_f-MjcYw6WiI7dZ_L_AVLyM0ugjxyoW9RceNU90",Authorization:"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9jdmJoamdkeG1nZ2pqZ3VtZmxnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODM4OTE5MTAsImV4cCI6MjA5OTQ2NzkxMH0.R6hh_f-MjcYw6WiI7dZ_L_AVLyM0ugjxyoW9RceNU90"}})).json();approved=new Set(a.map(x=>x.city_slug+"/"+x.slug))}catch(e){}
 const panel=document.getElementById("panel");
-function show(d){cities.classed("sel",c=>c.slug===d.slug);panel.style.display="block";
- document.getElementById("pdl").innerHTML=[["City",`<a href="/circuit/${d.slug}/">${d.name}</a>`],["State",ST[d.state]],["Score",d.score],["Rings","●".repeat(d.rings)]].map(x=>`<div><dt class="mono">${x[0]}</dt><dd>${x[1]}</dd></div>`).join("");
- document.getElementById("pnote").textContent=d.note;
- fetch("/circuit/"+d.slug+"/").then(r=>r.text()).then(t=>{const m=[...t.matchAll(/<li><a href="(\/places\/[^"]+)">([^<]+)<\/a>/g)];document.getElementById("prooms").innerHTML=m.map(x=>`<a href="${x[1]}">${x[2]}</a>`).join("  ·  ")});
- panel.scrollIntoView({behavior:"smooth",block:"nearest"})}
-cities.on("click",(e,d)=>show(d));
+function col(d,kind,label){const rs=(read.rooms[d.slug]||[]).filter(r=>r.k===kind);return `<div><h4 class="mono">${label}</h4><ul>${rs.map(r=>`<li><a href="/places/${d.slug}/${r.s}/">${r.n}</a>${approved.has(d.slug+"/"+r.s)?'<span class="ap mono">Coriumist Approved</span>':''}</li>`).join("")}</ul></div>`}
+function show(d,scroll){cities.classed("sel",c=>c.slug===d.slug);panel.style.display="block";
+ panel.innerHTML=`<div class="ph"><div><div class="mono">${ST[d.state]}. Score ${d.score}. ${"●".repeat(d.rings)}</div><h3><a href="/circuit/${d.slug}/">${d.name}</a></h3></div><a class="mono" href="/circuit/${d.slug}/">The city page</a></div><p class="pnote">${d.note}</p><div class="rooms3">${col(d,"hotel","Hotels")}${col(d,"restaurant","Restaurants")}${col(d,"attraction","Attractions and nightlife")}</div>`;
+ if(scroll)panel.scrollIntoView({behavior:"smooth",block:"nearest"})}
+cities.on("click",(e,d)=>show(d,true));
 document.querySelectorAll("#mfilter button").forEach(b=>b.onclick=()=>{document.querySelectorAll("#mfilter button").forEach(x=>x.classList.remove("on"));b.classList.add("on");const f=b.dataset.f;
  cities.classed("dim",d=>f==="all"?false:f==="active"?!(d.state==="open"||d.state==="opening"):d.tier!==+f)});
-show(read.cities[0]);
+show(read.cities[0],false);
 })();
-</script>
+</script></section>
 </div>
 <footer><div class="wrap">
 <div class="foot mono">

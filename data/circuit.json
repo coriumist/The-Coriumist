@@ -1,5 +1,5 @@
 {
- "version": "2026.09.02",
+ "version": "2026.09.03",
  "cities": [
   {
    "slug": "london",
@@ -12,31 +12,83 @@
    "venues": [
     {
      "slug": "annabels",
-     "name": "Annabel's"
+     "name": "Annabel's",
+     "kind": "attraction"
     },
     {
      "slug": "5-hertford-street",
-     "name": "5 Hertford Street"
+     "name": "5 Hertford Street",
+     "kind": "attraction"
     },
     {
      "slug": "george",
-     "name": "George"
+     "name": "George",
+     "kind": "attraction"
     },
     {
      "slug": "claridges",
-     "name": "Claridge's"
+     "name": "Claridge's",
+     "kind": "hotel"
     },
     {
      "slug": "scotts",
-     "name": "Scott's"
+     "name": "Scott's",
+     "kind": "restaurant"
     },
     {
      "slug": "harrys-bar",
-     "name": "Harry's Bar"
+     "name": "Harry's Bar",
+     "kind": "restaurant"
     },
     {
      "slug": "the-connaught-bar",
-     "name": "The Connaught Bar"
+     "name": "The Connaught Bar",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-connaught",
+     "name": "The Connaught",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-dorchester",
+     "name": "The Dorchester",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-savoy",
+     "name": "The Savoy",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-berkeley",
+     "name": "The Berkeley",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-river-cafe",
+     "name": "The River Café",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-wolseley",
+     "name": "The Wolseley",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "j-sheekey",
+     "name": "J Sheekey",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "royal-opera-house",
+     "name": "Royal Opera House",
+     "kind": "attraction"
+    },
+    {
+     "slug": "frieze-london-regents-park",
+     "name": "Frieze London, Regent's Park",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -65,31 +117,78 @@
    "venues": [
     {
      "slug": "the-carlyle",
-     "name": "The Carlyle"
+     "name": "The Carlyle",
+     "kind": "hotel"
     },
     {
      "slug": "zero-bond",
-     "name": "Zero Bond"
+     "name": "Zero Bond",
+     "kind": "attraction"
     },
     {
      "slug": "casa-cipriani",
-     "name": "Casa Cipriani"
+     "name": "Casa Cipriani",
+     "kind": "attraction"
     },
     {
      "slug": "the-grill",
-     "name": "The Grill"
+     "name": "The Grill",
+     "kind": "restaurant"
     },
     {
      "slug": "the-modern",
-     "name": "The Modern"
+     "name": "The Modern",
+     "kind": "restaurant"
     },
     {
      "slug": "christies-rockefeller",
-     "name": "Christie's Rockefeller"
+     "name": "Christie's Rockefeller",
+     "kind": "attraction"
     },
     {
      "slug": "sothebys-york-avenue",
-     "name": "Sotheby's York Avenue"
+     "name": "Sotheby's York Avenue",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-mark",
+     "name": "The Mark",
+     "kind": "hotel"
+    },
+    {
+     "slug": "aman-new-york",
+     "name": "Aman New York",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-plaza",
+     "name": "The Plaza",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-lowell",
+     "name": "The Lowell",
+     "kind": "hotel"
+    },
+    {
+     "slug": "le-bernardin",
+     "name": "Le Bernardin",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "carbone",
+     "name": "Carbone",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-polo-bar",
+     "name": "The Polo Bar",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-metropolitan-museum-of-art",
+     "name": "The Metropolitan Museum of Art",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -118,27 +217,78 @@
    "venues": [
     {
      "slug": "faena",
-     "name": "Faena"
+     "name": "Faena",
+     "kind": "hotel"
     },
     {
      "slug": "casa-tua",
-     "name": "Casa Tua"
+     "name": "Casa Tua",
+     "kind": "restaurant"
     },
     {
      "slug": "zzs-club",
-     "name": "ZZ's Club"
+     "name": "ZZ's Club",
+     "kind": "attraction"
     },
     {
      "slug": "soho-beach-house",
-     "name": "Soho Beach House"
+     "name": "Soho Beach House",
+     "kind": "hotel"
     },
     {
      "slug": "design-district",
-     "name": "Design District"
+     "name": "Design District",
+     "kind": "attraction"
     },
     {
      "slug": "the-surf-club",
-     "name": "The Surf Club"
+     "name": "The Surf Club",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-setai",
+     "name": "The Setai",
+     "kind": "hotel"
+    },
+    {
+     "slug": "1-hotel-south-beach",
+     "name": "1 Hotel South Beach",
+     "kind": "hotel"
+    },
+    {
+     "slug": "carbone-miami",
+     "name": "Carbone Miami",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "joes-stone-crab",
+     "name": "Joe's Stone Crab",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "sexy-fish-miami",
+     "name": "Sexy Fish Miami",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "mandolin-aegean-bistro",
+     "name": "Mandolin Aegean Bistro",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "miami-beach-convention-center",
+     "name": "Miami Beach Convention Center",
+     "kind": "attraction"
+    },
+    {
+     "slug": "liv",
+     "name": "LIV",
+     "kind": "attraction"
+    },
+    {
+     "slug": "perez-art-museum-miami",
+     "name": "Pérez Art Museum Miami",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -175,27 +325,78 @@
    "venues": [
     {
      "slug": "hotel-de-paris",
-     "name": "Hôtel de Paris"
+     "name": "Hôtel de Paris",
+     "kind": "hotel"
     },
     {
      "slug": "yacht-club-de-monaco",
-     "name": "Yacht Club de Monaco"
+     "name": "Yacht Club de Monaco",
+     "kind": "attraction"
     },
     {
      "slug": "sass-cafe",
-     "name": "Sass Café"
+     "name": "Sass Café",
+     "kind": "restaurant"
     },
     {
      "slug": "jimmyz",
-     "name": "Jimmy'z"
+     "name": "Jimmy'z",
+     "kind": "attraction"
     },
     {
      "slug": "port-hercules",
-     "name": "Port Hercules"
+     "name": "Port Hercules",
+     "kind": "attraction"
     },
     {
      "slug": "cafe-de-paris-terrace",
-     "name": "Café de Paris terrace"
+     "name": "Café de Paris terrace",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "hotel-hermitage",
+     "name": "Hôtel Hermitage",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-metropole",
+     "name": "Hôtel Métropole",
+     "kind": "hotel"
+    },
+    {
+     "slug": "monte-carlo-beach",
+     "name": "Monte-Carlo Beach",
+     "kind": "hotel"
+    },
+    {
+     "slug": "fairmont-monte-carlo",
+     "name": "Fairmont Monte Carlo",
+     "kind": "hotel"
+    },
+    {
+     "slug": "le-louis-xv",
+     "name": "Le Louis XV",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "maya-bay",
+     "name": "Maya Bay",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "blue-bay",
+     "name": "Blue Bay",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "casino-de-monte-carlo",
+     "name": "Casino de Monte-Carlo",
+     "kind": "attraction"
+    },
+    {
+     "slug": "oceanographic-museum",
+     "name": "Oceanographic Museum",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -232,27 +433,78 @@
    "venues": [
     {
      "slug": "difc",
-     "name": "DIFC"
+     "name": "DIFC",
+     "kind": "attraction"
     },
     {
      "slug": "bulgari-resort",
-     "name": "Bulgari Resort"
+     "name": "Bulgari Resort",
+     "kind": "hotel"
     },
     {
      "slug": "cipriani-difc",
-     "name": "Cipriani DIFC"
+     "name": "Cipriani DIFC",
+     "kind": "restaurant"
     },
     {
      "slug": "nammos-dubai",
-     "name": "Nammos Dubai"
+     "name": "Nammos Dubai",
+     "kind": "restaurant"
     },
     {
      "slug": "ce-la-vi",
-     "name": "Ce La Vi"
+     "name": "Ce La Vi",
+     "kind": "attraction"
     },
     {
      "slug": "atlantis-the-royal",
-     "name": "Atlantis The Royal"
+     "name": "Atlantis The Royal",
+     "kind": "hotel"
+    },
+    {
+     "slug": "one-only-one-zaabeel",
+     "name": "One&Only One Za'abeel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "burj-al-arab",
+     "name": "Burj Al Arab",
+     "kind": "hotel"
+    },
+    {
+     "slug": "four-seasons-jumeirah",
+     "name": "Four Seasons Jumeirah",
+     "kind": "hotel"
+    },
+    {
+     "slug": "zuma-dubai",
+     "name": "Zuma Dubai",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "lpm-dubai",
+     "name": "LPM Dubai",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "nobu-dubai",
+     "name": "Nobu Dubai",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "meydan-racecourse",
+     "name": "Meydan Racecourse",
+     "kind": "attraction"
+    },
+    {
+     "slug": "dubai-opera",
+     "name": "Dubai Opera",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-arts-club-dubai",
+     "name": "The Arts Club Dubai",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -289,23 +541,78 @@
    "venues": [
     {
      "slug": "raffles",
-     "name": "Raffles"
+     "name": "Raffles",
+     "kind": "hotel"
     },
     {
      "slug": "como-dempsey",
-     "name": "COMO Dempsey"
+     "name": "COMO Dempsey",
+     "kind": "restaurant"
     },
     {
      "slug": "marina-bay-sands-skypark",
-     "name": "Marina Bay Sands Skypark"
+     "name": "Marina Bay Sands Skypark",
+     "kind": "attraction"
     },
     {
      "slug": "amara",
-     "name": "Amara"
+     "name": "Amara",
+     "kind": "hotel"
     },
     {
      "slug": "odette",
-     "name": "Odette"
+     "name": "Odette",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "capella-singapore",
+     "name": "Capella Singapore",
+     "kind": "hotel"
+    },
+    {
+     "slug": "mandarin-oriental-singapore",
+     "name": "Mandarin Oriental Singapore",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-fullerton-bay-hotel",
+     "name": "The Fullerton Bay Hotel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "burnt-ends",
+     "name": "Burnt Ends",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "zen",
+     "name": "Zén",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "les-amis",
+     "name": "Les Amis",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "marina-bay-street-circuit",
+     "name": "Marina Bay street circuit",
+     "kind": "attraction"
+    },
+    {
+     "slug": "gardens-by-the-bay",
+     "name": "Gardens by the Bay",
+     "kind": "attraction"
+    },
+    {
+     "slug": "atlas-bar",
+     "name": "Atlas Bar",
+     "kind": "attraction"
+    },
+    {
+     "slug": "1880",
+     "name": "1880",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -330,23 +637,78 @@
    "venues": [
     {
      "slug": "carlyle-co",
-     "name": "Carlyle & Co."
+     "name": "Carlyle & Co.",
+     "kind": "attraction"
     },
     {
      "slug": "duddells",
-     "name": "Duddell's"
+     "name": "Duddell's",
+     "kind": "restaurant"
     },
     {
      "slug": "the-upper-house",
-     "name": "The Upper House"
+     "name": "The Upper House",
+     "kind": "hotel"
     },
     {
      "slug": "china-club",
-     "name": "China Club"
+     "name": "China Club",
+     "kind": "restaurant"
     },
     {
      "slug": "art-basel-hk-halls",
-     "name": "Art Basel HK halls"
+     "name": "Art Basel HK halls",
+     "kind": "attraction"
+    },
+    {
+     "slug": "rosewood-hong-kong",
+     "name": "Rosewood Hong Kong",
+     "kind": "hotel"
+    },
+    {
+     "slug": "mandarin-oriental-hong-kong",
+     "name": "Mandarin Oriental Hong Kong",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-peninsula-hong-kong",
+     "name": "The Peninsula Hong Kong",
+     "kind": "hotel"
+    },
+    {
+     "slug": "four-seasons-hong-kong",
+     "name": "Four Seasons Hong Kong",
+     "kind": "hotel"
+    },
+    {
+     "slug": "amber",
+     "name": "Amber",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "lung-king-heen",
+     "name": "Lung King Heen",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "yardbird",
+     "name": "Yardbird",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "happy-valley-racecourse",
+     "name": "Happy Valley Racecourse",
+     "kind": "attraction"
+    },
+    {
+     "slug": "m-plus",
+     "name": "M+",
+     "kind": "attraction"
+    },
+    {
+     "slug": "ozone",
+     "name": "Ozone",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -371,23 +733,78 @@
    "venues": [
     {
      "slug": "hotel-des-bergues",
-     "name": "Hôtel des Bergues"
+     "name": "Hôtel des Bergues",
+     "kind": "hotel"
     },
     {
      "slug": "beau-rivage",
-     "name": "Beau-Rivage"
+     "name": "Beau-Rivage",
+     "kind": "hotel"
     },
     {
      "slug": "le-chat-botte",
-     "name": "Le Chat-Botté"
+     "name": "Le Chat-Botté",
+     "kind": "restaurant"
     },
     {
      "slug": "rue-du-rhone",
-     "name": "Rue du Rhône"
+     "name": "Rue du Rhône",
+     "kind": "attraction"
     },
     {
      "slug": "geneva-watch-salerooms",
-     "name": "Geneva watch salerooms"
+     "name": "Geneva watch salerooms",
+     "kind": "attraction"
+    },
+    {
+     "slug": "mandarin-oriental-geneva",
+     "name": "Mandarin Oriental Geneva",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-president-wilson",
+     "name": "Hôtel Président Wilson",
+     "kind": "hotel"
+    },
+    {
+     "slug": "la-reserve-geneve",
+     "name": "La Réserve Genève",
+     "kind": "hotel"
+    },
+    {
+     "slug": "bayview-by-michel-roth",
+     "name": "Bayview by Michel Roth",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "il-lago",
+     "name": "Il Lago",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "cafe-du-centre",
+     "name": "Café du Centre",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "tse-fung",
+     "name": "Tsé Fung",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "watches-and-wonders-palexpo",
+     "name": "Watches and Wonders, Palexpo",
+     "kind": "attraction"
+    },
+    {
+     "slug": "patek-philippe-museum",
+     "name": "Patek Philippe Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "jet-deau",
+     "name": "Jet d'Eau",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -412,23 +829,78 @@
    "venues": [
     {
      "slug": "baur-au-lac",
-     "name": "Baur au Lac"
+     "name": "Baur au Lac",
+     "kind": "hotel"
     },
     {
      "slug": "kronenhalle",
-     "name": "Kronenhalle"
+     "name": "Kronenhalle",
+     "kind": "restaurant"
     },
     {
      "slug": "widder",
-     "name": "Widder"
+     "name": "Widder",
+     "kind": "hotel"
     },
     {
      "slug": "bahnhofstrasse",
-     "name": "Bahnhofstrasse"
+     "name": "Bahnhofstrasse",
+     "kind": "attraction"
     },
     {
      "slug": "the-dolder-grand",
-     "name": "The Dolder Grand"
+     "name": "The Dolder Grand",
+     "kind": "hotel"
+    },
+    {
+     "slug": "park-hyatt-zurich",
+     "name": "Park Hyatt Zurich",
+     "kind": "hotel"
+    },
+    {
+     "slug": "mandarin-oriental-savoy-zurich",
+     "name": "Mandarin Oriental Savoy Zurich",
+     "kind": "hotel"
+    },
+    {
+     "slug": "pavillon",
+     "name": "Pavillon",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-restaurant-at-the-dolder-grand",
+     "name": "The Restaurant at The Dolder Grand",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "zeughauskeller",
+     "name": "Zeughauskeller",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "haus-hiltl",
+     "name": "Haus Hiltl",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "kunsthaus-zurich",
+     "name": "Kunsthaus Zürich",
+     "kind": "attraction"
+    },
+    {
+     "slug": "opernhaus-zurich",
+     "name": "Opernhaus Zürich",
+     "kind": "attraction"
+    },
+    {
+     "slug": "kronenhalle-bar",
+     "name": "Kronenhalle Bar",
+     "kind": "attraction"
+    },
+    {
+     "slug": "widder-bar",
+     "name": "Widder Bar",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -449,27 +921,83 @@
    "venues": [
     {
      "slug": "ritz-bar-hemingway",
-     "name": "Ritz Bar Hemingway"
+     "name": "Ritz Bar Hemingway",
+     "kind": "attraction"
     },
     {
      "slug": "caviar-kaspia",
-     "name": "Caviar Kaspia"
+     "name": "Caviar Kaspia",
+     "kind": "restaurant"
     },
     {
      "slug": "laurent",
-     "name": "Laurent"
+     "name": "Laurent",
+     "kind": "restaurant"
     },
     {
      "slug": "hotel-costes",
-     "name": "Hôtel Costes"
+     "name": "Hôtel Costes",
+     "kind": "hotel"
     },
     {
      "slug": "cheval-blanc-paris",
-     "name": "Cheval Blanc Paris"
+     "name": "Cheval Blanc Paris",
+     "kind": "hotel"
     },
     {
      "slug": "paris-plus-halls",
-     "name": "Paris+ halls"
+     "name": "Paris+ halls",
+     "kind": "attraction"
+    },
+    {
+     "slug": "le-bristol",
+     "name": "Le Bristol",
+     "kind": "hotel"
+    },
+    {
+     "slug": "ritz-paris",
+     "name": "Ritz Paris",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-plaza-athenee",
+     "name": "Hôtel Plaza Athénée",
+     "kind": "hotel"
+    },
+    {
+     "slug": "le-voltaire",
+     "name": "Le Voltaire",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "lavenue",
+     "name": "L'Avenue",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "girafe",
+     "name": "Girafe",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "grand-palais",
+     "name": "Grand Palais",
+     "kind": "attraction"
+    },
+    {
+     "slug": "fondation-louis-vuitton",
+     "name": "Fondation Louis Vuitton",
+     "kind": "attraction"
+    },
+    {
+     "slug": "silencio",
+     "name": "Silencio",
+     "kind": "attraction"
+    },
+    {
+     "slug": "longchamp-racecourse",
+     "name": "Longchamp Racecourse",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -506,27 +1034,78 @@
    "venues": [
     {
      "slug": "eden-rock",
-     "name": "Eden Rock"
+     "name": "Eden Rock",
+     "kind": "hotel"
     },
     {
      "slug": "shellona",
-     "name": "Shellona"
+     "name": "Shellona",
+     "kind": "restaurant"
     },
     {
      "slug": "cheval-blanc-isle-de-france",
-     "name": "Cheval Blanc Isle de France"
+     "name": "Cheval Blanc Isle de France",
+     "kind": "hotel"
     },
     {
      "slug": "le-ti-st-barth",
-     "name": "Le Ti St Barth"
+     "name": "Le Ti St Barth",
+     "kind": "attraction"
     },
     {
      "slug": "gustavia-harbour",
-     "name": "Gustavia harbour"
+     "name": "Gustavia harbour",
+     "kind": "attraction"
     },
     {
      "slug": "nikki-beach",
-     "name": "Nikki Beach"
+     "name": "Nikki Beach",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "le-sereno",
+     "name": "Le Sereno",
+     "kind": "hotel"
+    },
+    {
+     "slug": "rosewood-le-guanahani",
+     "name": "Rosewood Le Guanahani",
+     "kind": "hotel"
+    },
+    {
+     "slug": "le-carl-gustaf",
+     "name": "Le Carl Gustaf",
+     "kind": "hotel"
+    },
+    {
+     "slug": "bonito",
+     "name": "Bonito",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "lisola",
+     "name": "L'Isola",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "gyp-sea",
+     "name": "Gyp Sea",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "bagatelle-st-barth",
+     "name": "Bagatelle St Barth",
+     "kind": "attraction"
+    },
+    {
+     "slug": "st-barths-bucket-regatta",
+     "name": "St Barths Bucket Regatta",
+     "kind": "attraction"
+    },
+    {
+     "slug": "saline-beach",
+     "name": "Saline beach",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -555,27 +1134,78 @@
    "venues": [
     {
      "slug": "dracula-club",
-     "name": "Dracula Club"
+     "name": "Dracula Club",
+     "kind": "attraction"
     },
     {
      "slug": "badrutts-cigar-lounge",
-     "name": "Badrutt's cigar lounge"
+     "name": "Badrutt's cigar lounge",
+     "kind": "hotel"
     },
     {
      "slug": "kulm",
-     "name": "Kulm"
+     "name": "Kulm",
+     "kind": "hotel"
     },
     {
      "slug": "corviglia",
-     "name": "Corviglia"
+     "name": "Corviglia",
+     "kind": "attraction"
     },
     {
      "slug": "suvretta-house",
-     "name": "Suvretta House"
+     "name": "Suvretta House",
+     "kind": "hotel"
     },
     {
      "slug": "white-turf-hospitality",
-     "name": "White Turf hospitality"
+     "name": "White Turf hospitality",
+     "kind": "attraction"
+    },
+    {
+     "slug": "carlton-hotel-st-moritz",
+     "name": "Carlton Hotel St. Moritz",
+     "kind": "hotel"
+    },
+    {
+     "slug": "grace-la-margna",
+     "name": "Grace La Margna",
+     "kind": "hotel"
+    },
+    {
+     "slug": "chesa-veglia",
+     "name": "Chesa Veglia",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "la-marmite",
+     "name": "La Marmite",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "kulm-country-club",
+     "name": "Kulm Country Club",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "talvo-by-dalsass",
+     "name": "Talvo by Dalsass",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "le-restaurant-at-badrutts-palace",
+     "name": "Le Restaurant at Badrutt's Palace",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "snow-polo-world-cup",
+     "name": "Snow Polo World Cup",
+     "kind": "attraction"
+    },
+    {
+     "slug": "cresta-run",
+     "name": "Cresta Run",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -604,11 +1234,78 @@
    "venues": [
     {
      "slug": "belvedere-lobby",
-     "name": "Belvedere lobby"
+     "name": "Belvedere lobby",
+     "kind": "hotel"
     },
     {
      "slug": "seehof",
-     "name": "Seehof"
+     "name": "Seehof",
+     "kind": "hotel"
+    },
+    {
+     "slug": "alpengold-hotel-davos",
+     "name": "AlpenGold Hotel Davos",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-grischa",
+     "name": "Hotel Grischa",
+     "kind": "hotel"
+    },
+    {
+     "slug": "morosani-schweizerhof",
+     "name": "Morosani Schweizerhof",
+     "kind": "hotel"
+    },
+    {
+     "slug": "gentiana",
+     "name": "Gentiana",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "postli",
+     "name": "Pöstli",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "kaffee-klatsch",
+     "name": "Kaffee Klatsch",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "bundnerstubli",
+     "name": "Bündnerstübli",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "alte-post",
+     "name": "Alte Post",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "davos-congress-centre",
+     "name": "Davos Congress Centre",
+     "kind": "attraction"
+    },
+    {
+     "slug": "kirchner-museum",
+     "name": "Kirchner Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "schatzalp",
+     "name": "Schatzalp",
+     "kind": "attraction"
+    },
+    {
+     "slug": "jakobshorn",
+     "name": "Jakobshorn",
+     "kind": "attraction"
+    },
+    {
+     "slug": "piano-bar-hotel-europe",
+     "name": "Piano Bar, Hotel Europe",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -629,23 +1326,78 @@
    "venues": [
     {
      "slug": "caribou-club",
-     "name": "Caribou Club"
+     "name": "Caribou Club",
+     "kind": "attraction"
     },
     {
      "slug": "the-little-nell",
-     "name": "The Little Nell"
+     "name": "The Little Nell",
+     "kind": "hotel"
     },
     {
      "slug": "cloud-nine",
-     "name": "Cloud Nine"
+     "name": "Cloud Nine",
+     "kind": "restaurant"
     },
     {
      "slug": "hotel-jerome",
-     "name": "Hotel Jerome"
+     "name": "Hotel Jerome",
+     "kind": "hotel"
     },
     {
      "slug": "matsuhisa",
-     "name": "Matsuhisa"
+     "name": "Matsuhisa",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-st-regis-aspen",
+     "name": "The St. Regis Aspen",
+     "kind": "hotel"
+    },
+    {
+     "slug": "w-aspen",
+     "name": "W Aspen",
+     "kind": "hotel"
+    },
+    {
+     "slug": "aspen-meadows-resort",
+     "name": "Aspen Meadows Resort",
+     "kind": "hotel"
+    },
+    {
+     "slug": "element-47",
+     "name": "Element 47",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "casa-tua-aspen",
+     "name": "Casa Tua Aspen",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "bosq",
+     "name": "Bosq",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "aspen-art-museum",
+     "name": "Aspen Art Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "belly-up-aspen",
+     "name": "Belly Up Aspen",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-aspen-institute",
+     "name": "The Aspen Institute",
+     "kind": "attraction"
+    },
+    {
+     "slug": "silver-queen-gondola",
+     "name": "Silver Queen Gondola",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -678,19 +1430,78 @@
    "venues": [
     {
      "slug": "the-breakers",
-     "name": "The Breakers"
+     "name": "The Breakers",
+     "kind": "hotel"
     },
     {
      "slug": "the-colony",
-     "name": "The Colony"
+     "name": "The Colony",
+     "kind": "hotel"
     },
     {
      "slug": "buccan",
-     "name": "Buccan"
+     "name": "Buccan",
+     "kind": "restaurant"
     },
     {
      "slug": "worth-avenue",
-     "name": "Worth Avenue"
+     "name": "Worth Avenue",
+     "kind": "attraction"
+    },
+    {
+     "slug": "eau-palm-beach",
+     "name": "Eau Palm Beach",
+     "kind": "hotel"
+    },
+    {
+     "slug": "four-seasons-palm-beach",
+     "name": "Four Seasons Palm Beach",
+     "kind": "hotel"
+    },
+    {
+     "slug": "white-elephant-palm-beach",
+     "name": "White Elephant Palm Beach",
+     "kind": "hotel"
+    },
+    {
+     "slug": "cafe-boulud-palm-beach",
+     "name": "Café Boulud Palm Beach",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "la-goulue",
+     "name": "La Goulue",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "swiftys",
+     "name": "Swifty's",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "hmf",
+     "name": "HMF",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "norton-museum-of-art",
+     "name": "Norton Museum of Art",
+     "kind": "attraction"
+    },
+    {
+     "slug": "flagler-museum",
+     "name": "Flagler Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "palm-beach-international-boat-show",
+     "name": "Palm Beach International Boat Show",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-society-of-the-four-arts",
+     "name": "The Society of the Four Arts",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -731,23 +1542,78 @@
    "venues": [
     {
      "slug": "aman-tokyo",
-     "name": "Aman Tokyo"
+     "name": "Aman Tokyo",
+     "kind": "hotel"
     },
     {
      "slug": "ginza-salerooms",
-     "name": "Ginza salerooms"
+     "name": "Ginza salerooms",
+     "kind": "attraction"
     },
     {
      "slug": "roppongi-galleries",
-     "name": "Roppongi galleries"
+     "name": "Roppongi galleries",
+     "kind": "attraction"
     },
     {
      "slug": "sushi-saito",
-     "name": "Sushi Saito"
+     "name": "Sushi Saito",
+     "kind": "restaurant"
     },
     {
      "slug": "the-okura",
-     "name": "The Okura"
+     "name": "The Okura",
+     "kind": "hotel"
+    },
+    {
+     "slug": "palace-hotel-tokyo",
+     "name": "Palace Hotel Tokyo",
+     "kind": "hotel"
+    },
+    {
+     "slug": "park-hyatt-tokyo",
+     "name": "Park Hyatt Tokyo",
+     "kind": "hotel"
+    },
+    {
+     "slug": "bulgari-hotel-tokyo",
+     "name": "Bulgari Hotel Tokyo",
+     "kind": "hotel"
+    },
+    {
+     "slug": "narisawa",
+     "name": "Narisawa",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "den",
+     "name": "Den",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "sukiyabashi-jiro",
+     "name": "Sukiyabashi Jiro",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "florilege",
+     "name": "Florilège",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "mori-art-museum",
+     "name": "Mori Art Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "teamlab-planets",
+     "name": "teamLab Planets",
+     "kind": "attraction"
+    },
+    {
+     "slug": "bar-benfiddich",
+     "name": "Bar Benfiddich",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -772,15 +1638,78 @@
    "venues": [
     {
      "slug": "san-vicente-bungalows",
-     "name": "San Vicente Bungalows"
+     "name": "San Vicente Bungalows",
+     "kind": "attraction"
     },
     {
      "slug": "polo-lounge",
-     "name": "Polo Lounge"
+     "name": "Polo Lounge",
+     "kind": "restaurant"
     },
     {
      "slug": "frieze-la-halls",
-     "name": "Frieze LA halls"
+     "name": "Frieze LA halls",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-beverly-hills-hotel",
+     "name": "The Beverly Hills Hotel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-bel-air",
+     "name": "Hotel Bel-Air",
+     "kind": "hotel"
+    },
+    {
+     "slug": "beverly-wilshire",
+     "name": "Beverly Wilshire",
+     "kind": "hotel"
+    },
+    {
+     "slug": "chateau-marmont",
+     "name": "Chateau Marmont",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-peninsula-beverly-hills",
+     "name": "The Peninsula Beverly Hills",
+     "kind": "hotel"
+    },
+    {
+     "slug": "nobu-malibu",
+     "name": "Nobu Malibu",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "spago",
+     "name": "Spago",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "sushi-park",
+     "name": "Sushi Park",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "giorgio-baldi",
+     "name": "Giorgio Baldi",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-getty-center",
+     "name": "The Getty Center",
+     "kind": "attraction"
+    },
+    {
+     "slug": "soho-house-west-hollywood",
+     "name": "Soho House West Hollywood",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-beverly-hilton",
+     "name": "The Beverly Hilton",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -805,19 +1734,83 @@
    "venues": [
     {
      "slug": "hotel-du-cap-eden-roc",
-     "name": "Hôtel du Cap-Eden-Roc"
+     "name": "Hôtel du Cap-Eden-Roc",
+     "kind": "hotel"
     },
     {
      "slug": "carlton-beach",
-     "name": "Carlton beach"
+     "name": "Carlton beach",
+     "kind": "attraction"
     },
     {
      "slug": "lerins-anchorage",
-     "name": "Lérins anchorage"
+     "name": "Lérins anchorage",
+     "kind": "attraction"
     },
     {
      "slug": "villa-schweppes",
-     "name": "Villa Schweppes"
+     "name": "Villa Schweppes",
+     "kind": "attraction"
+    },
+    {
+     "slug": "carlton-cannes",
+     "name": "Carlton Cannes",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-martinez",
+     "name": "Hôtel Martinez",
+     "kind": "hotel"
+    },
+    {
+     "slug": "jw-marriott-cannes",
+     "name": "JW Marriott Cannes",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-barriere-le-majestic",
+     "name": "Hôtel Barrière Le Majestic",
+     "kind": "hotel"
+    },
+    {
+     "slug": "la-palme-dor",
+     "name": "La Palme d'Or",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "la-mome",
+     "name": "La Môme",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "astoux-et-brun",
+     "name": "Astoux et Brun",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "eden-roc-restaurant",
+     "name": "Eden-Roc Restaurant",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "carlton-beach-club",
+     "name": "Carlton Beach Club",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "palais-des-festivals",
+     "name": "Palais des Festivals",
+     "kind": "attraction"
+    },
+    {
+     "slug": "baoli-cannes",
+     "name": "Bâoli Cannes",
+     "kind": "attraction"
+    },
+    {
+     "slug": "gotha-club",
+     "name": "Gotha Club",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -842,15 +1835,78 @@
    "venues": [
     {
      "slug": "sun-valley-lodge",
-     "name": "Sun Valley Lodge"
+     "name": "Sun Valley Lodge",
+     "kind": "hotel"
     },
     {
      "slug": "trail-creek-cabin",
-     "name": "Trail Creek Cabin"
+     "name": "Trail Creek Cabin",
+     "kind": "restaurant"
     },
     {
      "slug": "friedman-memorial-arrivals",
-     "name": "Friedman Memorial arrivals"
+     "name": "Friedman Memorial arrivals",
+     "kind": "attraction"
+    },
+    {
+     "slug": "sun-valley-inn",
+     "name": "Sun Valley Inn",
+     "kind": "hotel"
+    },
+    {
+     "slug": "knob-hill-inn",
+     "name": "Knob Hill Inn",
+     "kind": "hotel"
+    },
+    {
+     "slug": "limelight-hotel-ketchum",
+     "name": "Limelight Hotel Ketchum",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-ketchum",
+     "name": "Hotel Ketchum",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-ram",
+     "name": "The Ram",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "ketchum-grill",
+     "name": "Ketchum Grill",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "enoteca",
+     "name": "Enoteca",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "rickshaw",
+     "name": "Rickshaw",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "bald-mountain",
+     "name": "Bald Mountain",
+     "kind": "attraction"
+    },
+    {
+     "slug": "sun-valley-pavilion",
+     "name": "Sun Valley Pavilion",
+     "kind": "attraction"
+    },
+    {
+     "slug": "duchin-lounge",
+     "name": "Duchin Lounge",
+     "kind": "attraction"
+    },
+    {
+     "slug": "sun-valley-ice-show",
+     "name": "Sun Valley Ice Show",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -879,23 +1935,83 @@
    "venues": [
     {
      "slug": "billionaire",
-     "name": "Billionaire"
+     "name": "Billionaire",
+     "kind": "attraction"
     },
     {
      "slug": "phi-beach",
-     "name": "Phi Beach"
+     "name": "Phi Beach",
+     "kind": "attraction"
     },
     {
      "slug": "cala-di-volpe",
-     "name": "Cala di Volpe"
+     "name": "Cala di Volpe",
+     "kind": "hotel"
     },
     {
      "slug": "yacht-club-costa-smeralda",
-     "name": "Yacht Club Costa Smeralda"
+     "name": "Yacht Club Costa Smeralda",
+     "kind": "attraction"
     },
     {
      "slug": "nikki-beach",
-     "name": "Nikki Beach"
+     "name": "Nikki Beach",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "hotel-pitrizza",
+     "name": "Hotel Pitrizza",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-romazzino",
+     "name": "Hotel Romazzino",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-cervo",
+     "name": "Hotel Cervo",
+     "kind": "hotel"
+    },
+    {
+     "slug": "colonna-pevero-hotel",
+     "name": "Colonna Pevero Hotel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "il-pescatore",
+     "name": "Il Pescatore",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "spinnaker",
+     "name": "Spinnaker",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "clipper",
+     "name": "Clipper",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "fingers-porto-cervo",
+     "name": "Finger's Porto Cervo",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "nikki-beach-costa-smeralda",
+     "name": "Nikki Beach Costa Smeralda",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "marina-di-porto-cervo",
+     "name": "Marina di Porto Cervo",
+     "kind": "attraction"
+    },
+    {
+     "slug": "pevero-golf-club",
+     "name": "Pevero Golf Club",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -928,19 +2044,78 @@
    "venues": [
     {
      "slug": "the-lodge",
-     "name": "The Lodge"
+     "name": "The Lodge",
+     "kind": "hotel"
     },
     {
      "slug": "the-quail",
-     "name": "The Quail"
+     "name": "The Quail",
+     "kind": "hotel"
     },
     {
      "slug": "bernardus",
-     "name": "Bernardus"
+     "name": "Bernardus",
+     "kind": "hotel"
     },
     {
      "slug": "concours-lawn",
-     "name": "Concours lawn"
+     "name": "Concours lawn",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-inn-at-spanish-bay",
+     "name": "The Inn at Spanish Bay",
+     "kind": "hotel"
+    },
+    {
+     "slug": "lauberge-carmel",
+     "name": "L'Auberge Carmel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "aubergine",
+     "name": "Aubergine",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "stillwater-bar-grill",
+     "name": "Stillwater Bar & Grill",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "roys-at-pebble-beach",
+     "name": "Roy's at Pebble Beach",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "lucia",
+     "name": "Lucia",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "casanova",
+     "name": "Casanova",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-quail-motorsports-gathering",
+     "name": "The Quail Motorsports Gathering",
+     "kind": "attraction"
+    },
+    {
+     "slug": "pebble-beach-golf-links",
+     "name": "Pebble Beach Golf Links",
+     "kind": "attraction"
+    },
+    {
+     "slug": "17-mile-drive",
+     "name": "17-Mile Drive",
+     "kind": "attraction"
+    },
+    {
+     "slug": "monterey-car-week-auctions",
+     "name": "Monterey Car Week auctions",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -961,19 +2136,78 @@
    "venues": [
     {
      "slug": "duryeas",
-     "name": "Duryea's"
+     "name": "Duryea's",
+     "kind": "restaurant"
     },
     {
      "slug": "the-surf-lodge",
-     "name": "The Surf Lodge"
+     "name": "The Surf Lodge",
+     "kind": "hotel"
     },
     {
      "slug": "si-si",
-     "name": "Si Si"
+     "name": "Si Si",
+     "kind": "restaurant"
     },
     {
      "slug": "montauk-yacht-club",
-     "name": "Montauk Yacht Club"
+     "name": "Montauk Yacht Club",
+     "kind": "hotel"
+    },
+    {
+     "slug": "gurneys-montauk",
+     "name": "Gurney's Montauk",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-maidstone",
+     "name": "The Maidstone",
+     "kind": "hotel"
+    },
+    {
+     "slug": "topping-rose-house",
+     "name": "Topping Rose House",
+     "kind": "hotel"
+    },
+    {
+     "slug": "nick-tonis",
+     "name": "Nick & Toni's",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-palm-east-hampton",
+     "name": "The Palm East Hampton",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "lulu-kitchen-bar",
+     "name": "Lulu Kitchen & Bar",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "hampton-classic-showgrounds",
+     "name": "Hampton Classic showgrounds",
+     "kind": "attraction"
+    },
+    {
+     "slug": "parrish-art-museum",
+     "name": "Parrish Art Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "guild-hall",
+     "name": "Guild Hall",
+     "kind": "attraction"
+    },
+    {
+     "slug": "wolffer-estate-vineyard",
+     "name": "Wölffer Estate Vineyard",
+     "kind": "attraction"
+    },
+    {
+     "slug": "bridgehampton-polo",
+     "name": "Bridgehampton Polo",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1006,23 +2240,78 @@
    "venues": [
     {
      "slug": "nammos",
-     "name": "Nammos"
+     "name": "Nammos",
+     "kind": "restaurant"
     },
     {
      "slug": "scorpios",
-     "name": "Scorpios"
+     "name": "Scorpios",
+     "kind": "attraction"
     },
     {
      "slug": "principote",
-     "name": "Principote"
+     "name": "Principote",
+     "kind": "restaurant"
     },
     {
      "slug": "alemagou",
-     "name": "Alemagou"
+     "name": "Alemagou",
+     "kind": "restaurant"
     },
     {
      "slug": "old-port-anchorage",
-     "name": "Old Port anchorage"
+     "name": "Old Port anchorage",
+     "kind": "attraction"
+    },
+    {
+     "slug": "cali-mykonos",
+     "name": "Cali Mykonos",
+     "kind": "hotel"
+    },
+    {
+     "slug": "santa-marina",
+     "name": "Santa Marina",
+     "kind": "hotel"
+    },
+    {
+     "slug": "bill-coo",
+     "name": "Bill & Coo",
+     "kind": "hotel"
+    },
+    {
+     "slug": "kalesma",
+     "name": "Kalesma",
+     "kind": "hotel"
+    },
+    {
+     "slug": "myconian-villa-collection",
+     "name": "Myconian Villa Collection",
+     "kind": "hotel"
+    },
+    {
+     "slug": "kikis-tavern",
+     "name": "Kiki's Tavern",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "interni",
+     "name": "Interni",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "little-venice",
+     "name": "Little Venice",
+     "kind": "attraction"
+    },
+    {
+     "slug": "cavo-paradiso",
+     "name": "Cavo Paradiso",
+     "kind": "attraction"
+    },
+    {
+     "slug": "jackie-o-beach",
+     "name": "Jackie O' Beach",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1047,23 +2336,78 @@
    "venues": [
     {
      "slug": "casa-jondal",
-     "name": "Casa Jondal"
+     "name": "Casa Jondal",
+     "kind": "restaurant"
     },
     {
      "slug": "amante",
-     "name": "Amante"
+     "name": "Amante",
+     "kind": "restaurant"
     },
     {
      "slug": "six-senses-ibiza",
-     "name": "Six Senses Ibiza"
+     "name": "Six Senses Ibiza",
+     "kind": "hotel"
     },
     {
      "slug": "es-vedra-anchorage",
-     "name": "Es Vedrà anchorage"
+     "name": "Es Vedrà anchorage",
+     "kind": "attraction"
     },
     {
      "slug": "lio",
-     "name": "Lío"
+     "name": "Lío",
+     "kind": "attraction"
+    },
+    {
+     "slug": "nobu-hotel-ibiza-bay",
+     "name": "Nobu Hotel Ibiza Bay",
+     "kind": "hotel"
+    },
+    {
+     "slug": "ibiza-gran-hotel",
+     "name": "Ibiza Gran Hotel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hacienda-na-xamena",
+     "name": "Hacienda Na Xamena",
+     "kind": "hotel"
+    },
+    {
+     "slug": "me-ibiza",
+     "name": "ME Ibiza",
+     "kind": "hotel"
+    },
+    {
+     "slug": "es-torrent",
+     "name": "Es Torrent",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "la-paloma",
+     "name": "La Paloma",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "sa-capella",
+     "name": "Sa Capella",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "pacha",
+     "name": "Pacha",
+     "kind": "attraction"
+    },
+    {
+     "slug": "ushuaia",
+     "name": "Ushuaïa",
+     "kind": "attraction"
+    },
+    {
+     "slug": "marina-ibiza",
+     "name": "Marina Ibiza",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1096,23 +2440,78 @@
    "venues": [
     {
      "slug": "il-riccio",
-     "name": "Il Riccio"
+     "name": "Il Riccio",
+     "kind": "restaurant"
     },
     {
      "slug": "la-fontelina",
-     "name": "La Fontelina"
+     "name": "La Fontelina",
+     "kind": "restaurant"
     },
     {
      "slug": "quisisana",
-     "name": "Quisisana"
+     "name": "Quisisana",
+     "kind": "hotel"
     },
     {
      "slug": "marina-grande-anchorage",
-     "name": "Marina Grande anchorage"
+     "name": "Marina Grande anchorage",
+     "kind": "attraction"
     },
     {
      "slug": "taverna-anema-e-core",
-     "name": "Taverna Anema e Core"
+     "name": "Taverna Anema e Core",
+     "kind": "attraction"
+    },
+    {
+     "slug": "capri-palace-jumeirah",
+     "name": "Capri Palace Jumeirah",
+     "kind": "hotel"
+    },
+    {
+     "slug": "jk-place-capri",
+     "name": "JK Place Capri",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-punta-tragara",
+     "name": "Hotel Punta Tragara",
+     "kind": "hotel"
+    },
+    {
+     "slug": "caesar-augustus",
+     "name": "Caesar Augustus",
+     "kind": "hotel"
+    },
+    {
+     "slug": "da-paolino",
+     "name": "Da Paolino",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "aurora",
+     "name": "Aurora",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "le-grottelle",
+     "name": "Le Grottelle",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "piazzetta",
+     "name": "Piazzetta",
+     "kind": "attraction"
+    },
+    {
+     "slug": "faraglioni",
+     "name": "Faraglioni",
+     "kind": "attraction"
+    },
+    {
+     "slug": "villa-jovis",
+     "name": "Villa Jovis",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1137,19 +2536,78 @@
    "venues": [
     {
      "slug": "villa-deste",
-     "name": "Villa d'Este"
+     "name": "Villa d'Este",
+     "kind": "hotel"
     },
     {
      "slug": "passalacqua",
-     "name": "Passalacqua"
+     "name": "Passalacqua",
+     "kind": "hotel"
     },
     {
      "slug": "il-sereno",
-     "name": "Il Sereno"
+     "name": "Il Sereno",
+     "kind": "hotel"
     },
     {
      "slug": "villa-erba",
-     "name": "Villa Erba"
+     "name": "Villa Erba",
+     "kind": "attraction"
+    },
+    {
+     "slug": "grand-hotel-tremezzo",
+     "name": "Grand Hotel Tremezzo",
+     "kind": "hotel"
+    },
+    {
+     "slug": "mandarin-oriental-lago-di-como",
+     "name": "Mandarin Oriental Lago di Como",
+     "kind": "hotel"
+    },
+    {
+     "slug": "il-gatto-nero",
+     "name": "Il Gatto Nero",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "mistral",
+     "name": "Mistral",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "berton-al-lago",
+     "name": "Berton al Lago",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "la-terrazza-tremezzo",
+     "name": "La Terrazza Tremezzo",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "harrys-bar-cernobbio",
+     "name": "Harry's Bar Cernobbio",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "villa-del-balbianello",
+     "name": "Villa del Balbianello",
+     "kind": "attraction"
+    },
+    {
+     "slug": "villa-carlotta",
+     "name": "Villa Carlotta",
+     "kind": "attraction"
+    },
+    {
+     "slug": "concorso-deleganza-villa-deste",
+     "name": "Concorso d'Eleganza Villa d'Este",
+     "kind": "attraction"
+    },
+    {
+     "slug": "bellagio",
+     "name": "Bellagio",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1186,19 +2644,78 @@
    "venues": [
     {
      "slug": "the-alpina",
-     "name": "The Alpina"
+     "name": "The Alpina",
+     "kind": "hotel"
     },
     {
      "slug": "gstaad-palace",
-     "name": "Gstaad Palace"
+     "name": "Gstaad Palace",
+     "kind": "hotel"
     },
     {
      "slug": "eagle-club",
-     "name": "Eagle Club"
+     "name": "Eagle Club",
+     "kind": "attraction"
     },
     {
      "slug": "chesery",
-     "name": "Chesery"
+     "name": "Chesery",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "le-grand-bellevue",
+     "name": "Le Grand Bellevue",
+     "kind": "hotel"
+    },
+    {
+     "slug": "park-gstaad",
+     "name": "Park Gstaad",
+     "kind": "hotel"
+    },
+    {
+     "slug": "ultima-gstaad",
+     "name": "Ultima Gstaad",
+     "kind": "hotel"
+    },
+    {
+     "slug": "sommet",
+     "name": "Sommet",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "le-grill-at-gstaad-palace",
+     "name": "Le Grill at Gstaad Palace",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "rialto",
+     "name": "Rialto",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "olden",
+     "name": "Olden",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "greengo",
+     "name": "GreenGo",
+     "kind": "attraction"
+    },
+    {
+     "slug": "glacier-3000",
+     "name": "Glacier 3000",
+     "kind": "attraction"
+    },
+    {
+     "slug": "hublot-polo-gold-cup",
+     "name": "Hublot Polo Gold Cup",
+     "kind": "attraction"
+    },
+    {
+     "slug": "menuhin-festival",
+     "name": "Menuhin Festival",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1227,19 +2744,78 @@
    "venues": [
     {
      "slug": "amangani",
-     "name": "Amangani"
+     "name": "Amangani",
+     "kind": "hotel"
     },
     {
      "slug": "four-seasons-jackson-hole",
-     "name": "Four Seasons Jackson Hole"
+     "name": "Four Seasons Jackson Hole",
+     "kind": "hotel"
     },
     {
      "slug": "snake-river-lodge",
-     "name": "Snake River Lodge"
+     "name": "Snake River Lodge",
+     "kind": "hotel"
     },
     {
      "slug": "jackson-hole-airport-arrivals",
-     "name": "Jackson Hole Airport arrivals"
+     "name": "Jackson Hole Airport arrivals",
+     "kind": "attraction"
+    },
+    {
+     "slug": "hotel-jackson",
+     "name": "Hotel Jackson",
+     "kind": "hotel"
+    },
+    {
+     "slug": "caldera-house",
+     "name": "Caldera House",
+     "kind": "hotel"
+    },
+    {
+     "slug": "snake-river-grill",
+     "name": "Snake River Grill",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "glorietta",
+     "name": "Glorietta",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-kitchen",
+     "name": "The Kitchen",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "local-restaurant-bar",
+     "name": "Local Restaurant & Bar",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "bin22",
+     "name": "Bin22",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "jackson-lake-lodge",
+     "name": "Jackson Lake Lodge",
+     "kind": "attraction"
+    },
+    {
+     "slug": "million-dollar-cowboy-bar",
+     "name": "Million Dollar Cowboy Bar",
+     "kind": "attraction"
+    },
+    {
+     "slug": "grand-teton-national-park",
+     "name": "Grand Teton National Park",
+     "kind": "attraction"
+    },
+    {
+     "slug": "national-museum-of-wildlife-art",
+     "name": "National Museum of Wildlife Art",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1268,19 +2844,78 @@
    "venues": [
     {
      "slug": "nantucket-yacht-club",
-     "name": "Nantucket Yacht Club"
+     "name": "Nantucket Yacht Club",
+     "kind": "attraction"
     },
     {
      "slug": "cru",
-     "name": "Cru"
+     "name": "Cru",
+     "kind": "restaurant"
     },
     {
      "slug": "galley-beach",
-     "name": "Galley Beach"
+     "name": "Galley Beach",
+     "kind": "restaurant"
     },
     {
      "slug": "straight-wharf",
-     "name": "Straight Wharf"
+     "name": "Straight Wharf",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-wauwinet",
+     "name": "The Wauwinet",
+     "kind": "hotel"
+    },
+    {
+     "slug": "white-elephant",
+     "name": "White Elephant",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-nantucket-hotel",
+     "name": "The Nantucket Hotel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "greydon-house",
+     "name": "Greydon House",
+     "kind": "hotel"
+    },
+    {
+     "slug": "faraway-nantucket",
+     "name": "Faraway Nantucket",
+     "kind": "hotel"
+    },
+    {
+     "slug": "toppers",
+     "name": "Topper's",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-chanticleer",
+     "name": "The Chanticleer",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "nantucket-boat-basin",
+     "name": "Nantucket Boat Basin",
+     "kind": "attraction"
+    },
+    {
+     "slug": "whaling-museum",
+     "name": "Whaling Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "cisco-brewers",
+     "name": "Cisco Brewers",
+     "kind": "attraction"
+    },
+    {
+     "slug": "sconset-bluff-walk",
+     "name": "Sconset Bluff Walk",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1305,19 +2940,78 @@
    "venues": [
     {
      "slug": "yas-marina",
-     "name": "Yas Marina"
+     "name": "Yas Marina",
+     "kind": "attraction"
     },
     {
      "slug": "emirates-palace",
-     "name": "Emirates Palace"
+     "name": "Emirates Palace",
+     "kind": "hotel"
     },
     {
      "slug": "saadiyat",
-     "name": "Saadiyat"
+     "name": "Saadiyat",
+     "kind": "attraction"
     },
     {
      "slug": "louvre-abu-dhabi",
-     "name": "Louvre Abu Dhabi"
+     "name": "Louvre Abu Dhabi",
+     "kind": "attraction"
+    },
+    {
+     "slug": "w-abu-dhabi-yas-island",
+     "name": "W Abu Dhabi Yas Island",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-st-regis-saadiyat-island",
+     "name": "The St. Regis Saadiyat Island",
+     "kind": "hotel"
+    },
+    {
+     "slug": "rosewood-abu-dhabi",
+     "name": "Rosewood Abu Dhabi",
+     "kind": "hotel"
+    },
+    {
+     "slug": "jumeirah-at-saadiyat-island",
+     "name": "Jumeirah at Saadiyat Island",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hakkasan-abu-dhabi",
+     "name": "Hakkasan Abu Dhabi",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "zuma-abu-dhabi",
+     "name": "Zuma Abu Dhabi",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "coya-abu-dhabi",
+     "name": "Coya Abu Dhabi",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "cipriani-yas-island",
+     "name": "Cipriani Yas Island",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "lpm-abu-dhabi",
+     "name": "LPM Abu Dhabi",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "yas-marina-circuit",
+     "name": "Yas Marina Circuit",
+     "kind": "attraction"
+    },
+    {
+     "slug": "sheikh-zayed-grand-mosque",
+     "name": "Sheikh Zayed Grand Mosque",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1342,19 +3036,78 @@
    "venues": [
     {
      "slug": "cipriani",
-     "name": "Cipriani"
+     "name": "Cipriani",
+     "kind": "hotel"
     },
     {
      "slug": "harrys-bar",
-     "name": "Harry's Bar"
+     "name": "Harry's Bar",
+     "kind": "restaurant"
     },
     {
      "slug": "aman-venice",
-     "name": "Aman Venice"
+     "name": "Aman Venice",
+     "kind": "hotel"
     },
     {
      "slug": "palazzo-previews",
-     "name": "Palazzo previews"
+     "name": "Palazzo previews",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-gritti-palace",
+     "name": "The Gritti Palace",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-danieli",
+     "name": "Hotel Danieli",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-excelsior-venice-lido",
+     "name": "Hotel Excelsior Venice Lido",
+     "kind": "hotel"
+    },
+    {
+     "slug": "da-ivo",
+     "name": "Da Ivo",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "quadri",
+     "name": "Quadri",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "antiche-carampane",
+     "name": "Antiche Carampane",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "osteria-alle-testiere",
+     "name": "Osteria alle Testiere",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "giardini-della-biennale",
+     "name": "Giardini della Biennale",
+     "kind": "attraction"
+    },
+    {
+     "slug": "arsenale",
+     "name": "Arsenale",
+     "kind": "attraction"
+    },
+    {
+     "slug": "palazzo-grassi",
+     "name": "Palazzo Grassi",
+     "kind": "attraction"
+    },
+    {
+     "slug": "palazzo-del-cinema-lido",
+     "name": "Palazzo del Cinema, Lido",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1383,19 +3136,83 @@
    "venues": [
     {
      "slug": "art-basel-halls",
-     "name": "Art Basel halls"
+     "name": "Art Basel halls",
+     "kind": "attraction"
     },
     {
      "slug": "les-trois-rois",
-     "name": "Les Trois Rois"
+     "name": "Les Trois Rois",
+     "kind": "hotel"
     },
     {
      "slug": "kunstmuseum",
-     "name": "Kunstmuseum"
+     "name": "Kunstmuseum",
+     "kind": "attraction"
     },
     {
      "slug": "vip-preview-days",
-     "name": "VIP preview days"
+     "name": "VIP preview days",
+     "kind": "attraction"
+    },
+    {
+     "slug": "nomad-basel",
+     "name": "Nomad Basel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-krafft",
+     "name": "Hotel Krafft",
+     "kind": "hotel"
+    },
+    {
+     "slug": "der-teufelhof",
+     "name": "Der Teufelhof",
+     "kind": "hotel"
+    },
+    {
+     "slug": "volkshaus-basel",
+     "name": "Volkshaus Basel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "cheval-blanc-by-peter-knogl",
+     "name": "Cheval Blanc by Peter Knogl",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "restaurant-kunsthalle",
+     "name": "Restaurant Kunsthalle",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "roots",
+     "name": "Roots",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "volkshaus-brasserie",
+     "name": "Volkshaus Brasserie",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "rhyschanzli",
+     "name": "Rhyschänzli",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "fondation-beyeler",
+     "name": "Fondation Beyeler",
+     "kind": "attraction"
+    },
+    {
+     "slug": "vitra-design-museum",
+     "name": "Vitra Design Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "campari-bar",
+     "name": "Campari Bar",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1416,15 +3233,78 @@
    "venues": [
     {
      "slug": "tefaf-halls",
-     "name": "TEFAF halls"
+     "name": "TEFAF halls",
+     "kind": "attraction"
     },
     {
      "slug": "chateau-st-gerlach",
-     "name": "Château St. Gerlach"
+     "name": "Château St. Gerlach",
+     "kind": "hotel"
     },
     {
      "slug": "preview-reception",
-     "name": "preview reception"
+     "name": "preview reception",
+     "kind": "attraction"
+    },
+    {
+     "slug": "kruisherenhotel-maastricht",
+     "name": "Kruisherenhotel Maastricht",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-derlon",
+     "name": "Hotel Derlon",
+     "kind": "hotel"
+    },
+    {
+     "slug": "townhouse-hotel-maastricht",
+     "name": "Townhouse Hotel Maastricht",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-monastere",
+     "name": "Hotel Monastère",
+     "kind": "hotel"
+    },
+    {
+     "slug": "chateau-neercanne",
+     "name": "Château Neercanne",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "beluga-loves-you",
+     "name": "Beluga Loves You",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "toine-hermsen",
+     "name": "Toine Hermsen",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "tout-a-fait",
+     "name": "Tout à Fait",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "rantree",
+     "name": "Rantrée",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "bonnefanten-museum",
+     "name": "Bonnefanten Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "vrijthof",
+     "name": "Vrijthof",
+     "kind": "attraction"
+    },
+    {
+     "slug": "boekhandel-dominicanen",
+     "name": "Boekhandel Dominicanen",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1445,23 +3325,78 @@
    "venues": [
     {
      "slug": "bar-basso",
-     "name": "Bar Basso"
+     "name": "Bar Basso",
+     "kind": "attraction"
     },
     {
      "slug": "langosteria",
-     "name": "Langosteria"
+     "name": "Langosteria",
+     "kind": "restaurant"
     },
     {
      "slug": "portrait-milano",
-     "name": "Portrait Milano"
+     "name": "Portrait Milano",
+     "kind": "hotel"
     },
     {
      "slug": "salone-pavilions",
-     "name": "Salone pavilions"
+     "name": "Salone pavilions",
+     "kind": "attraction"
     },
     {
      "slug": "bulgari-hotel-garden",
-     "name": "Bulgari Hotel garden"
+     "name": "Bulgari Hotel garden",
+     "kind": "hotel"
+    },
+    {
+     "slug": "four-seasons-milano",
+     "name": "Four Seasons Milano",
+     "kind": "hotel"
+    },
+    {
+     "slug": "mandarin-oriental-milan",
+     "name": "Mandarin Oriental Milan",
+     "kind": "hotel"
+    },
+    {
+     "slug": "armani-hotel-milano",
+     "name": "Armani Hotel Milano",
+     "kind": "hotel"
+    },
+    {
+     "slug": "giacomo",
+     "name": "Giacomo",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "cracco",
+     "name": "Cracco",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "il-salumaio-di-montenapoleone",
+     "name": "Il Salumaio di Montenapoleone",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "ratana",
+     "name": "Ratanà",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "fondazione-prada",
+     "name": "Fondazione Prada",
+     "kind": "attraction"
+    },
+    {
+     "slug": "teatro-alla-scala",
+     "name": "Teatro alla Scala",
+     "kind": "attraction"
+    },
+    {
+     "slug": "camparino-in-galleria",
+     "name": "Camparino in Galleria",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1490,19 +3425,78 @@
    "venues": [
     {
      "slug": "cheval-blanc-courchevel",
-     "name": "Cheval Blanc Courchevel"
+     "name": "Cheval Blanc Courchevel",
+     "kind": "hotel"
     },
     {
      "slug": "les-airelles",
-     "name": "Les Airelles"
+     "name": "Les Airelles",
+     "kind": "hotel"
     },
     {
      "slug": "le-chabichou",
-     "name": "Le Chabichou"
+     "name": "Le Chabichou",
+     "kind": "restaurant"
     },
     {
      "slug": "1850-altiport",
-     "name": "1850 altiport"
+     "name": "1850 altiport",
+     "kind": "attraction"
+    },
+    {
+     "slug": "le-k2-palace",
+     "name": "Le K2 Palace",
+     "kind": "hotel"
+    },
+    {
+     "slug": "aman-le-melezin",
+     "name": "Aman Le Mélézin",
+     "kind": "hotel"
+    },
+    {
+     "slug": "lapogee-courchevel",
+     "name": "L'Apogée Courchevel",
+     "kind": "hotel"
+    },
+    {
+     "slug": "le-1947",
+     "name": "Le 1947",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "le-cap-horn",
+     "name": "Le Cap Horn",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "la-mangeoire",
+     "name": "La Mangeoire",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "bagatelle-courchevel",
+     "name": "Bagatelle Courchevel",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "les-caves-de-courchevel",
+     "name": "Les Caves de Courchevel",
+     "kind": "attraction"
+    },
+    {
+     "slug": "la-saulire",
+     "name": "La Saulire",
+     "kind": "attraction"
+    },
+    {
+     "slug": "aquamotion",
+     "name": "Aquamotion",
+     "kind": "attraction"
+    },
+    {
+     "slug": "rue-du-rocher",
+     "name": "Rue du Rocher",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1531,15 +3525,78 @@
    "venues": [
     {
      "slug": "circuit-of-the-americas-paddock",
-     "name": "Circuit of the Americas paddock"
+     "name": "Circuit of the Americas paddock",
+     "kind": "attraction"
     },
     {
      "slug": "commodore-perry",
-     "name": "Commodore Perry"
+     "name": "Commodore Perry",
+     "kind": "hotel"
     },
     {
      "slug": "soho-house-austin",
-     "name": "Soho House Austin"
+     "name": "Soho House Austin",
+     "kind": "attraction"
+    },
+    {
+     "slug": "hotel-saint-cecilia",
+     "name": "Hotel Saint Cecilia",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-proper-austin",
+     "name": "The Proper Austin",
+     "kind": "hotel"
+    },
+    {
+     "slug": "four-seasons-austin",
+     "name": "Four Seasons Austin",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hotel-van-zandt",
+     "name": "Hotel Van Zandt",
+     "kind": "hotel"
+    },
+    {
+     "slug": "uchi",
+     "name": "Uchi",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "franklin-barbecue",
+     "name": "Franklin Barbecue",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "suerte",
+     "name": "Suerte",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "odd-duck",
+     "name": "Odd Duck",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "jeffreys",
+     "name": "Jeffrey's",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "rainey-street",
+     "name": "Rainey Street",
+     "kind": "attraction"
+    },
+    {
+     "slug": "south-congress",
+     "name": "South Congress",
+     "kind": "attraction"
+    },
+    {
+     "slug": "zilker-park",
+     "name": "Zilker Park",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1560,19 +3617,78 @@
    "venues": [
     {
      "slug": "sphere-paddock-club",
-     "name": "Sphere paddock club"
+     "name": "Sphere paddock club",
+     "kind": "attraction"
     },
     {
      "slug": "wynn",
-     "name": "Wynn"
+     "name": "Wynn",
+     "kind": "hotel"
     },
     {
      "slug": "delilah",
-     "name": "Delilah"
+     "name": "Delilah",
+     "kind": "restaurant"
     },
     {
      "slug": "bellagio-fountain-club",
-     "name": "Bellagio Fountain Club"
+     "name": "Bellagio Fountain Club",
+     "kind": "attraction"
+    },
+    {
+     "slug": "bellagio",
+     "name": "Bellagio",
+     "kind": "hotel"
+    },
+    {
+     "slug": "fontainebleau-las-vegas",
+     "name": "Fontainebleau Las Vegas",
+     "kind": "hotel"
+    },
+    {
+     "slug": "aria",
+     "name": "Aria",
+     "kind": "hotel"
+    },
+    {
+     "slug": "waldorf-astoria-las-vegas",
+     "name": "Waldorf Astoria Las Vegas",
+     "kind": "hotel"
+    },
+    {
+     "slug": "carbone-las-vegas",
+     "name": "Carbone Las Vegas",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "joel-robuchon",
+     "name": "Joël Robuchon",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "nobu-las-vegas",
+     "name": "Nobu Las Vegas",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "sw-steakhouse",
+     "name": "SW Steakhouse",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "las-vegas-strip-circuit",
+     "name": "Las Vegas Strip Circuit",
+     "kind": "attraction"
+    },
+    {
+     "slug": "omnia-nightclub",
+     "name": "Omnia Nightclub",
+     "kind": "attraction"
+    },
+    {
+     "slug": "xs-nightclub",
+     "name": "XS Nightclub",
+     "kind": "attraction"
     }
    ],
    "months": {
@@ -1593,15 +3709,88 @@
    "venues": [
     {
      "slug": "monza-paddock",
-     "name": "Monza paddock"
+     "name": "Monza paddock",
+     "kind": "attraction"
     },
     {
      "slug": "villa-reale-hospitality",
-     "name": "Villa Reale hospitality"
+     "name": "Villa Reale hospitality",
+     "kind": "attraction"
     },
     {
      "slug": "como-transfers",
-     "name": "Como transfers"
+     "name": "Como transfers",
+     "kind": "attraction"
+    },
+    {
+     "slug": "hotel-de-la-ville-monza",
+     "name": "Hotel de la Ville Monza",
+     "kind": "hotel"
+    },
+    {
+     "slug": "villa-deste-cernobbio",
+     "name": "Villa d'Este, Cernobbio",
+     "kind": "hotel"
+    },
+    {
+     "slug": "principe-di-savoia-milan",
+     "name": "Principe di Savoia, Milan",
+     "kind": "hotel"
+    },
+    {
+     "slug": "four-seasons-milano",
+     "name": "Four Seasons Milano",
+     "kind": "hotel"
+    },
+    {
+     "slug": "park-hyatt-milan",
+     "name": "Park Hyatt Milan",
+     "kind": "hotel"
+    },
+    {
+     "slug": "derby-grill",
+     "name": "Derby Grill",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "saint-georges-premier",
+     "name": "Saint Georges Premier",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "autodromo-nazionale-monza",
+     "name": "Autodromo Nazionale Monza",
+     "kind": "attraction"
+    },
+    {
+     "slug": "villa-reale-di-monza",
+     "name": "Villa Reale di Monza",
+     "kind": "attraction"
+    },
+    {
+     "slug": "parco-di-monza",
+     "name": "Parco di Monza",
+     "kind": "attraction"
+    },
+    {
+     "slug": "duomo-di-monza",
+     "name": "Duomo di Monza",
+     "kind": "attraction"
+    },
+    {
+     "slug": "il-moro",
+     "name": "Il Moro",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "il-gatto-nero-cernobbio",
+     "name": "Il Gatto Nero, Cernobbio",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "langosteria-milan",
+     "name": "Langosteria, Milan",
+     "kind": "restaurant"
     }
    ],
    "months": {
@@ -1622,11 +3811,78 @@
    "venues": [
     {
      "slug": "silverstone-paddock",
-     "name": "Silverstone paddock"
+     "name": "Silverstone paddock",
+     "kind": "attraction"
     },
     {
      "slug": "soho-farmhouse",
-     "name": "Soho Farmhouse"
+     "name": "Soho Farmhouse",
+     "kind": "hotel"
+    },
+    {
+     "slug": "whittlebury-park",
+     "name": "Whittlebury Park",
+     "kind": "hotel"
+    },
+    {
+     "slug": "le-manoir-aux-quatsaisons",
+     "name": "Le Manoir aux Quat'Saisons",
+     "kind": "hotel"
+    },
+    {
+     "slug": "estelle-manor",
+     "name": "Estelle Manor",
+     "kind": "hotel"
+    },
+    {
+     "slug": "hilton-garden-inn-silverstone",
+     "name": "Hilton Garden Inn Silverstone",
+     "kind": "hotel"
+    },
+    {
+     "slug": "le-manoir-aux-quatsaisons-restaurant",
+     "name": "Le Manoir aux Quat'Saisons restaurant",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-wild-rabbit-kingham",
+     "name": "The Wild Rabbit, Kingham",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "silverstone-museum",
+     "name": "Silverstone Museum",
+     "kind": "attraction"
+    },
+    {
+     "slug": "stowe-house",
+     "name": "Stowe House",
+     "kind": "attraction"
+    },
+    {
+     "slug": "bicester-village",
+     "name": "Bicester Village",
+     "kind": "attraction"
+    },
+    {
+     "slug": "estelle-manor-dining-room",
+     "name": "Estelle Manor dining room",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "whittlebury-park-restaurant",
+     "name": "Whittlebury Park restaurant",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-wing-silverstone",
+     "name": "The Wing, Silverstone",
+     "kind": "attraction"
+    },
+    {
+     "slug": "the-bell-inn-aston-clinton",
+     "name": "The Bell Inn, Aston Clinton",
+     "kind": "restaurant"
     }
    ],
    "months": {
@@ -1647,15 +3903,78 @@
    "venues": [
     {
      "slug": "albert-park-paddock",
-     "name": "Albert Park paddock"
+     "name": "Albert Park paddock",
+     "kind": "attraction"
     },
     {
      "slug": "crown-towers",
-     "name": "Crown Towers"
+     "name": "Crown Towers",
+     "kind": "hotel"
     },
     {
      "slug": "gimlet",
-     "name": "Gimlet"
+     "name": "Gimlet",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "the-langham-melbourne",
+     "name": "The Langham Melbourne",
+     "kind": "hotel"
+    },
+    {
+     "slug": "park-hyatt-melbourne",
+     "name": "Park Hyatt Melbourne",
+     "kind": "hotel"
+    },
+    {
+     "slug": "w-melbourne",
+     "name": "W Melbourne",
+     "kind": "hotel"
+    },
+    {
+     "slug": "the-ritz-carlton-melbourne",
+     "name": "The Ritz-Carlton Melbourne",
+     "kind": "hotel"
+    },
+    {
+     "slug": "attica",
+     "name": "Attica",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "vue-de-monde",
+     "name": "Vue de Monde",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "flower-drum",
+     "name": "Flower Drum",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "grossi-florentino",
+     "name": "Grossi Florentino",
+     "kind": "restaurant"
+    },
+    {
+     "slug": "flemington-racecourse",
+     "name": "Flemington Racecourse",
+     "kind": "attraction"
+    },
+    {
+     "slug": "national-gallery-of-victoria",
+     "name": "National Gallery of Victoria",
+     "kind": "attraction"
+    },
+    {
+     "slug": "melbourne-cricket-ground",
+     "name": "Melbourne Cricket Ground",
+     "kind": "attraction"
+    },
+    {
+     "slug": "eau-de-vie",
+     "name": "Eau de Vie",
+     "kind": "attraction"
     }
    ],
    "months": {
