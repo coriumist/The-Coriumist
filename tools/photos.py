@@ -15,6 +15,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CIRCUIT = json.load(open(os.path.join(ROOT, "data", "circuit.json")))
 OUT = os.path.join(ROOT, "data", "photos.json"); MANUAL = os.path.join(ROOT, "data", "photos-manual.json")
 REFRESH = "--refresh" in sys.argv; WANT = 6
+LOG = open(os.path.join(ROOT, "data", "photos-log.txt"), "w")
+def log(*a):
+    print(*a); LOG.write(" ".join(str(x) for x in a) + "\n"); LOG.flush()
 UA = "TheCoriumist/1.0 (https://coriumist.com; coriumist.ops@gmail.com)"
 QUERIES = {
  "london": ["Mayfair London", "London skyline Thames dusk"], "new-york": ["Manhattan skyline aerial", "Central Park aerial"],
@@ -48,11 +51,12 @@ def commons(query, n):
     url = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
            f"&gsrsearch={q}&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1800")
     try: data = get(url)
-    except Exception as e: print("  commons error", e); return []
+    except Exception as e: log("  commons error", query, repr(e)); return []
+    pages = data.get("query", {}).get("pages", {}); log("  commons raw", query, len(pages))
     out = []
-    for p in sorted(data.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 0)):
+    for p in sorted(pages.values(), key=lambda p: p.get("index", 0)):
         ii = (p.get("imageinfo") or [{}])[0]; w, h = ii.get("width", 0), ii.get("height", 0)
-        if w < 1600 or h < 900 or w < h * 1.15 or not ii.get("url", "").lower().endswith((".jpg", ".jpeg")): continue
+        if w < 1200 or h < 700 or w < h * 1.1 or not ii.get("url", "").lower().endswith((".jpg", ".jpeg")): continue
         md = ii.get("extmetadata", {}); lic = (md.get("LicenseShortName", {}).get("value") or "").lower()
         if not any(k in lic for k in OK) or "-nc" in lic or "-nd" in lic: continue
         out.append({"url": ii.get("thumburl") or ii["url"], "full": ii["url"], "w": w, "h": h, "credit": strip(md.get("Artist", {}).get("value"))[:80] or "Wikimedia Commons",
@@ -62,11 +66,24 @@ def commons(query, n):
 def unsplash(query, n, key):
     url = f"https://api.unsplash.com/search/photos?query={urllib.parse.quote(query)}&orientation=landscape&per_page={n}&content_filter=high"
     try: data = get(url, {"Authorization": f"Client-ID {key}", "Accept-Version": "v1"})
-    except Exception as e: print("  unsplash error", e); return []
+    except Exception as e: log("  unsplash error", query, repr(e)); return []
     return [{"url": r["urls"]["regular"], "full": r["urls"]["full"], "w": r["width"], "h": r["height"], "credit": r["user"]["name"],
              "credit_url": r["user"]["links"]["html"] + "?utm_source=the_coriumist&utm_medium=referral", "license": "Unsplash License",
              "page": r["links"]["html"] + "?utm_source=the_coriumist&utm_medium=referral", "download": r["links"]["download_location"], "source": "unsplash", "q": query}
             for r in data.get("results", [])]
+def openverse(query, n):
+    url = f"https://api.openverse.org/v1/images/?q={urllib.parse.quote(query)}&license_type=commercial&size=large&aspect_ratio=wide&page_size={n*2}"
+    try: data = get(url, {"Accept": "application/json"})
+    except Exception as e: log("  openverse error", query, repr(e)); return []
+    out = []
+    for r in data.get("results", []):
+        w, h = r.get("width") or 0, r.get("height") or 0
+        if w and (w < 1200 or w < h * 1.1): continue
+        if (r.get("license") or "").lower() in ("by-nc", "by-nd", "by-nc-sa", "by-nc-nd"): continue
+        out.append({"url": r["url"], "full": r["url"], "w": w, "h": h, "credit": (r.get("creator") or r.get("source") or "")[:80],
+                    "license": ("CC " + r.get("license", "").upper() + " " + (r.get("license_version") or "")).strip(), "page": r.get("foreign_landing_url", ""), "source": "openverse:" + (r.get("source") or ""), "q": query})
+        if len(out) >= n: break
+    log("  openverse", query, len(out)); return out
 photos = json.load(open(OUT)) if os.path.exists(OUT) else {}
 manual = json.load(open(MANUAL)) if os.path.exists(MANUAL) else {}
 key = os.environ.get("UNSPLASH_ACCESS_KEY")
@@ -76,10 +93,14 @@ for c in CIRCUIT["cities"]:
     if len(man) + len(auto) >= 4 and not REFRESH: photos[s] = (man + auto)[:WANT]; continue
     got = []
     for q in QUERIES.get(s, [c["name"]]):
-        got += unsplash(q, 3, key) if key else commons(q, 4); time.sleep(0.5)
+        if key: got += unsplash(q, 3, key)
+        else:
+            got += commons(q, 3)
+            if len(got) < 3: got += openverse(q, 3)
+        time.sleep(0.6)
     seen, dedup = set(), []
     for p in got:
         if p["url"] not in seen: seen.add(p["url"]); dedup.append(p)
-    photos[s] = (man + dedup)[:WANT]; print(f"{c['name']}: {len(photos[s])}")
+    photos[s] = (man + dedup)[:WANT]; log(f"{c['name']}: {len(photos[s])}")
 json.dump(photos, open(OUT, "w"), indent=1, ensure_ascii=False)
-print("cities with photos:", sum(1 for c in CIRCUIT["cities"] if photos.get(c["slug"])), "of", len(CIRCUIT["cities"]))
+log("cities with photos:", sum(1 for c in CIRCUIT["cities"] if photos.get(c["slug"])), "of", len(CIRCUIT["cities"]))
