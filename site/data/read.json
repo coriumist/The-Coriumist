@@ -218,7 +218,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/venice/0.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20076316"
+    },
+    {
+     "url": "/img/venice/1.webp",
+     "credit": "Paul Berzinn",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=44789603"
+    },
+    {
+     "url": "/img/venice/2.webp",
+     "credit": "User:Nino Barbieri",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1914430"
+    },
+    {
+     "url": "/img/venice/3.webp",
+     "credit": "Wide Awake!",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=186028605"
+    },
+    {
+     "url": "/img/venice/4.webp",
+     "credit": "User:Nino Barbieri",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1616575"
+    },
+    {
+     "url": "/img/venice/5.webp",
+     "credit": "Wide Awake!",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=186028597"
+    }
+   ]
   },
   {
    "slug": "new-york",
@@ -419,7 +456,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/monza/0.webp",
+     "credit": "Valentina Gualtieri",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73161336"
+    },
+    {
+     "url": "/img/monza/1.webp",
+     "credit": "Paolobon140",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77676760"
+    },
+    {
+     "url": "/img/monza/2.webp",
+     "credit": "Rebecca South (it.wikipedia/Rebecca South",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25469929"
+    },
+    {
+     "url": "/img/monza/3.webp",
+     "credit": "Monica Rondoni",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=154212019"
+    },
+    {
+     "url": "/img/monza/4.webp",
+     "credit": "Corbyflo",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=62395567"
+    },
+    {
+     "url": "/img/monza/5.webp",
+     "credit": "Carlodell",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=65521736"
+    }
+   ]
   },
   {
    "slug": "ibiza",

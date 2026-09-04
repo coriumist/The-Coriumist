@@ -1,293 +1,105 @@
-  commons raw Mayfair London 40
-  openverse Mayfair London 8
-  commons raw London skyline Thames dusk 17
-  openverse London skyline Thames dusk 5
-  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Water_feature_Silence% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mayfair%2C_London%2C_U <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Dorchester%2C_Mayf <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pattersons%2C_Mayfair% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Cecconis%2C_Mayfair%2C <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-London: 6
+London: 6 (kept)
 New York: 6 (kept)
 Miami: 6 (kept)
-  commons raw Port Hercule Monaco 40
-  openverse Port Hercule Monaco 8
-  commons raw Monte Carlo Casino 40
-  openverse Monte Carlo Casino 8
-  fetch failed monaco https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Port_Hercules%2C_Monac <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed monaco https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20210527_122514_Yacht_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed monaco https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Port_Hercule_Monaco_IM <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed monaco https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Port_Hercule%2C_Monaco <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Monaco: 6
+Monaco: 6 (kept)
 Dubai: 5 (kept)
-  commons raw Marina Bay Sands night 40
-  openverse Marina Bay Sands night 8
-  commons raw Singapore skyline 40
-  openverse Singapore skyline 8
-  fetch failed singapore https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_bay_sands_night <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed singapore https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Marina_Bay_Sands_Night <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed singapore https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marina_Bay_Sands_Night <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed singapore https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/1_singapore_f1_night_r <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Singapore: 6
-  commons raw Victoria Harbour Hong Kong 40
-  openverse Victoria Harbour Hong Kong 8
-  commons raw Hong Kong skyline night 40
-  openverse Hong Kong skyline night 8
-  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Victoria_Harbour_%28Ho <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Aqua_Luna%2C_a_Chinese <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Aqua_Luna_Ship_at_Vict <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Central_Skyline_with_I <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Aqua_Luna_boat_at_Vict <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Hong Kong: 6
-  commons raw Jet d'Eau Geneva 40
-  openverse Jet d'Eau Geneva 8
-  commons raw Lake Geneva 40
-  openverse Lake Geneva 8
-  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Jet_d%27eau_Geneva.jpg <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jet_d%27eau_Geneva_Swi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Jet_d%27eau%2C_Geneva% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Jet_d%27eau%2C_Geneva. <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mus%C3%A9um_d%27histoi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Jet_d%27Eau_Geneva.jpg <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Geneva: 6
-  commons raw Zurich Limmat 40
-  openverse Zurich Limmat 8
-  commons raw Lake Zurich 40
-  openverse Lake Zurich 8
-  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ch_zurich_limmat.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Zurich_Limmat_5.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Zurich_Limmat_2.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Zurich_Limmat_1.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Zurich_Limmat_10.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Zurich_Limmat_9.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Zurich: 6
-  too small paris https://cdn.stocksnap.io/img-thumbs/960w/XYSW9DP8QZ.jpg
-  too small paris https://cdn.stocksnap.io/img-thumbs/960w/32KNS2DHYT.jpg
-  commons raw Paris rooftops Eiffel Tower 23
-  openverse Paris rooftops Eiffel Tower 8
-  commons raw Place Vendôme 40
-  openverse Place Vendôme 8
-  fetch failed paris https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Jardins_du_Trocad%C3%A <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  too small paris https://cdn.stocksnap.io/img-thumbs/960w/XYSW9DP8QZ.jpg
-  too small paris https://cdn.stocksnap.io/img-thumbs/960w/32KNS2DHYT.jpg
-  fetch failed paris https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/View_Of_The_Eiffel_Tow <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed paris https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Paris_-_Rooftops_-_Eif <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed paris https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Paris_View_from_the_Ei <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Paris: 6
-  commons raw Gustavia Saint Barthélemy 40
-  openverse Gustavia Saint Barthélemy 8
-  commons raw Saint-Barthélemy beach 33
-  openverse Saint-Barthélemy beach 2
-  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Gustavia%2C_Saint_Bart <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gustavia_%28Saint-Bart <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Gustavia%2C_Saint_Bart <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2020-01-24_SEADREAM_II <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gustavia%2C_Saint_Bart <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Traditional_style_hous <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-St. Barths: 6
-  commons raw St. Moritz lake winter 10
-  openverse St. Moritz lake winter 3
-  commons raw Badrutt's Palace 40
-  openverse Badrutt's Palace 8
-  fetch failed st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sailing_Boat_Badrutt%2 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Entrance_Badrutt%27s_P <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/St._Moritz_-_Badrutt%E <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-St. Moritz: 6
-  commons raw Davos winter 40
-  openverse Davos winter 8
-  commons raw Schatzalp Davos 40
-  openverse Schatzalp Davos 8
-  fetch failed davos https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/RhB_ABe_8-12_Malans_wi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed davos https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AO_Foundation_Center_D <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed davos https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Badeanstalt_am_Davoser <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed davos https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Eistraum_Davos.jpg/180 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Davos: 6
+Singapore: 6 (kept)
+Hong Kong: 6 (kept)
+Geneva: 6 (kept)
+Zurich: 6 (kept)
+Paris: 6 (kept)
+St. Barths: 6 (kept)
+St. Moritz: 6 (kept)
+Davos: 6 (kept)
 Aspen: 5 (kept)
-  commons raw Palm Beach Florida 40
-  openverse Palm Beach Florida 8
-  commons raw The Breakers Palm Beach 40
-  openverse The Breakers Palm Beach 8
-  fetch failed palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/PALM_BEACH_FLORIDA_AER <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Night_view_from_Palm_B <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Society_Of_The_Four_Ar <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Palm Beach: 6
+Palm Beach: 6 (kept)
 Tokyo: 5 (kept)
 Los Angeles: 6 (kept)
-  commons raw Cannes Croisette 40
-  openverse Cannes Croisette 8
-  commons raw Cannes Vieux Port 40
-  openverse Cannes Vieux Port 8
-  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cannes_-_Croisette.jpg <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/20210719_132212_Cannes <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/20210719_131506_Cannes <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Cannes_-_port_et_crois <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Cannes_promenade.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Cannes: 6
-  commons raw Sun Valley Idaho 40
-  openverse Sun Valley Idaho 8
-  commons raw Bald Mountain Ketchum 3
-  openverse Bald Mountain Ketchum 1
-  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bald_Mountain_in_Sun_V <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/The_chairlift_at_Ruud_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bald_Mountain_as_seen_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sun_Valley%2C_Idaho_20 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/US_Ski_%26_Snowboard_H <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sun_Valley%2C_Idaho_Cl <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Sun Valley: 6
-  commons raw Porto Cervo marina 40
-  openverse Porto Cervo marina 0
-  commons raw Costa Smeralda 40
-  openverse Costa Smeralda 8
-  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Costa_Smeralda_Storeb% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sardinia%2C_Olbia%2C_A <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Costa_Smeralda.jpg/180 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Costa_Smeralda_in_Savo <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Costa_Smeralda_1.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Porto Cervo: 6
-  commons raw Pebble Beach Golf Links 40
-  openverse Pebble Beach Golf Links 8
-  commons raw 17-Mile Drive 40
-  openverse 17-Mile Drive 8
-  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pebble_Beach_18th_hole <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Pebble Beach: 6
-  commons raw Montauk Point Lighthouse 40
-  openverse Montauk Point Lighthouse 8
-  commons raw East Hampton beach 40
-  openverse East Hampton beach 8
-  fetch failed the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Montauk_Point_Lighthou <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Montauk_Point_Lighthou <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Montauk_Point_Lighthou <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-The Hamptons: 6
-  commons raw Mykonos windmills 40
-  openverse Mykonos windmills 8
-  commons raw Little Venice Mykonos 40
-  openverse Little Venice Mykonos 8
-  fetch failed mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mykonos_windmills_with <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Mykonos_Windmills_at_C <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Mykonos: 6
-  commons raw Es Vedrà 40
-  openverse Es Vedrà 8
-  commons raw Dalt Vila Ibiza 40
-  openverse Dalt Vila Ibiza 8
-  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1._Es_Vedr%C3%A0_%28ve <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ibiza_Wall_Lizard_Poda <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/2._Es_Vedr%C3%A0_i_es_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/View_of_Es_Vedr%C3%A0_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Es_Vedr%C3%A0_from_roa <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/DSC02258_Isla_de_Es_Ve <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Ibiza: 6
-  commons raw Faraglioni Capri 40
-  openverse Faraglioni Capri 8
-  commons raw Marina Grande Capri 40
-  openverse Marina Grande Capri 8
-  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Faraglioni-Capri.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Faraglioni_Capri_2.jpg <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Faraglioni_Capri.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rochers_Faraglioni%2C_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Faraglioni_Capri_1963. <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Capri: 6
-  commons raw Villa del Balbianello 40
-  openverse error Villa del Balbianello TimeoutError('The read operation timed out')
-  commons raw Bellagio Lake Como 40
-  openverse Bellagio Lake Como 8
-  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_Lake_Como% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_lake_Como_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Villa_Melzi%2C_Bellagi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Villa_Melzi%2C_Bellagi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Town_of_Bellagio_%28La <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/BellagioPromontorio.jp <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Lake Como: 6
+Cannes: 6 (kept)
+Sun Valley: 6 (kept)
+Porto Cervo: 6 (kept)
+Pebble Beach: 6 (kept)
+The Hamptons: 6 (kept)
+Mykonos: 6 (kept)
+Ibiza: 6 (kept)
+Capri: 6 (kept)
+Lake Como: 6 (kept)
   commons raw Gstaad village 40
   openverse Gstaad village 3
   commons raw Gstaad winter 25
   openverse error Gstaad winter TimeoutError('The read operation timed out')
-  fetch failed gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Arnensee.jpg/1800px-Ar <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Gstaad_Palace.jpg/ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  openverse error Gstaad winter TimeoutError('The read operation timed out')
 Gstaad: 3
   commons raw Grand Teton 40
   openverse error Grand Teton TimeoutError('The read operation timed out')
+  openverse error Grand Teton TimeoutError('The read operation timed out')
   commons raw Jackson Hole valley 40
+  openverse error Jackson Hole valley <HTTPError 500: 'Internal Server Error'>
   openverse error Jackson Hole valley TimeoutError('The read operation timed out')
 Jackson Hole: 2
   commons raw Nantucket harbor 40
   openverse error Nantucket harbor TimeoutError('The read operation timed out')
+  openverse error Nantucket harbor TimeoutError('The read operation timed out')
   commons raw Brant Point Light 40
   openverse error Brant Point Light TimeoutError('The read operation timed out')
+  openverse error Brant Point Light TimeoutError('The read operation timed out')
 Nantucket: 0
-  commons raw Yas Marina Circuit 40
-  openverse Yas Marina Circuit 8
-  commons raw Sheikh Zayed Grand Mosque 40
-  openverse error Sheikh Zayed Grand Mosque TimeoutError('The read operation timed out')
-  fetch failed abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Yas_Marina_Circuit.png <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Yas_Marina_Circuit%2C_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Yas_Marina_circuit_by_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/North_Grandstand_at_th <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Abu Dhabi: 6
+Abu Dhabi: 6 (kept)
   commons raw Venice Grand Canal 40
-  openverse error Venice Grand Canal TimeoutError('The read operation timed out')
+  openverse Venice Grand Canal 8
   commons raw Venice lagoon aerial 40
-  openverse error Venice lagoon aerial TimeoutError('The read operation timed out')
-Venice: 0
+  openverse Venice lagoon aerial 3
+  fetch failed venice https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Taco_Bell_at_the_Venic <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed venice https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Interior_of_Venice_Gra <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Venice: 6
   commons raw Basel Rhine Mittlere Brücke 40
   openverse Basel Rhine Mittlere Brücke 4
   commons raw Basel Münster 40
   openverse error Basel Münster TimeoutError('The read operation timed out')
-  fetch failed basel https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Waggis_2013_2.jpg/1800 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed basel https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Altstadt_Grossbasel%2C <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed basel https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/1_Rheinbr%C3%BCcke_in_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed basel https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Switzerland_020.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  openverse error Basel Münster TimeoutError('The read operation timed out')
 Basel: 4
   commons raw Maastricht Vrijthof 40
-  openverse error Maastricht Vrijthof <HTTPError 502: 'Bad Gateway'>
+  openverse error Maastricht Vrijthof TimeoutError('The read operation timed out')
+  openverse error Maastricht Vrijthof TimeoutError('The read operation timed out')
   commons raw Maastricht Maas 40
-  openverse error Maastricht Maas <HTTPError 502: 'Bad Gateway'>
+  openverse error Maastricht Maas TimeoutError('The read operation timed out')
+  openverse error Maastricht Maas TimeoutError('The read operation timed out')
 Maastricht: 0
   commons raw Milan Duomo 40
-  openverse error Milan Duomo <HTTPError 502: 'Bad Gateway'>
+  openverse error Milan Duomo TimeoutError('The read operation timed out')
+  openverse error Milan Duomo TimeoutError('The read operation timed out')
   commons raw Galleria Vittorio Emanuele II 40
-  openverse error Galleria Vittorio Emanuele II <HTTPError 502: 'Bad Gateway'>
+  openverse error Galleria Vittorio Emanuele II TimeoutError('The read operation timed out')
+  openverse error Galleria Vittorio Emanuele II TimeoutError('The read operation timed out')
 Milan: 3
   commons raw Courchevel ski 40
-  openverse error Courchevel ski <HTTPError 502: 'Bad Gateway'>
+  openverse error Courchevel ski TimeoutError('The read operation timed out')
+  openverse error Courchevel ski TimeoutError('The read operation timed out')
   commons raw Courchevel altiport 40
-  openverse error Courchevel altiport <HTTPError 502: 'Bad Gateway'>
+  openverse error Courchevel altiport TimeoutError('The read operation timed out')
+  openverse error Courchevel altiport TimeoutError('The read operation timed out')
 Courchevel: 0
   commons raw Austin Texas skyline 40
-  openverse error Austin Texas skyline <HTTPError 502: 'Bad Gateway'>
+  openverse error Austin Texas skyline TimeoutError('The read operation timed out')
+  openverse error Austin Texas skyline TimeoutError('The read operation timed out')
   commons raw Circuit of the Americas 40
-  openverse error Circuit of the Americas <HTTPError 502: 'Bad Gateway'>
+  openverse error Circuit of the Americas TimeoutError('The read operation timed out')
+  openverse error Circuit of the Americas TimeoutError('The read operation timed out')
 Austin: 0
   commons raw Las Vegas Strip night 40
-  openverse error Las Vegas Strip night <HTTPError 502: 'Bad Gateway'>
+  openverse error Las Vegas Strip night TimeoutError('The read operation timed out')
+  openverse error Las Vegas Strip night TimeoutError('The read operation timed out')
   commons raw Bellagio fountains 40
-  openverse error Bellagio fountains <HTTPError 502: 'Bad Gateway'>
+  openverse error Bellagio fountains TimeoutError('The read operation timed out')
+  openverse error Bellagio fountains TimeoutError('The read operation timed out')
 Las Vegas: 0
   commons raw Autodromo Nazionale Monza 40
-  openverse error Autodromo Nazionale Monza <HTTPError 502: 'Bad Gateway'>
+  openverse error Autodromo Nazionale Monza TimeoutError('The read operation timed out')
+  openverse error Autodromo Nazionale Monza TimeoutError('The read operation timed out')
   commons raw Villa Reale di Monza 40
-  openverse error Villa Reale di Monza TimeoutError('The read operation timed out')
-Monza: 0
-  commons raw Silverstone Circuit 40
-  openverse Silverstone Circuit 8
-  commons raw Stowe House 40
-  openverse Stowe House 8
-  fetch failed silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Silverstone_Circuit_ve <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Silverstone: 6
-  commons raw Melbourne skyline Yarra 40
-  openverse Melbourne skyline Yarra 8
-  commons raw Albert Park Melbourne 40
-  openverse Albert Park Melbourne 8
-  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Melbourne_skyline_on_1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Melbourne_docklands_tw <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yarra_River_in_summer. <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_Yarra_Flats%2C_Nor <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Aerial_panorama_of_Sou <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Yarra_Flats_Park_facin <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Melbourne: 6
-dropped dead images: 2
-cities with photos: 33 of 40
+  openverse Villa Reale di Monza 8
+Monza: 6
+Silverstone: 6 (kept)
+Melbourne: 6 (kept)
+dropped dead images: 0
+cities with photos: 35 of 40

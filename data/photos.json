@@ -2190,7 +2190,86 @@
    "local_of": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sunset_at_Yas_Marina_circuit_-_Abu_Dhabi_2014.jpg"
   }
  ],
- "venice": [],
+ "venice": [
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/1_venice_grand_canal_rialto_bridge_2012.jpg/1280px-1_venice_grand_canal_rialto_bridge_2012.jpg",
+   "url": "/img/venice/0.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/a/a3/1_venice_grand_canal_rialto_bridge_2012.jpg",
+   "w": 7360,
+   "h": 4912,
+   "credit": "chensiyuan",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=20076316",
+   "source": "openverse:wikimedia",
+   "q": "Venice Grand Canal",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/1_venice_grand_canal_rialto_bridge_2012.jpg/1280px-1_venice_grand_canal_rialto_bridge_2012.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Venice_%28grand_canal%29_-_panoramio.jpg/1280px-Venice_%28grand_canal%29_-_panoramio.jpg",
+   "url": "/img/venice/1.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Venice_%28grand_canal%29_-_panoramio.jpg",
+   "w": 2848,
+   "h": 2134,
+   "credit": "Paul Berzinn",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=44789603",
+   "source": "openverse:wikimedia",
+   "q": "Venice Grand Canal",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Venice_%28grand_canal%29_-_panoramio.jpg/1280px-Venice_%28grand_canal%29_-_panoramio.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Venice_-_Grand_Canal_09.jpg/1280px-Venice_-_Grand_Canal_09.jpg",
+   "url": "/img/venice/2.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/0/09/Venice_-_Grand_Canal_09.jpg",
+   "w": 3072,
+   "h": 2048,
+   "credit": "User:Nino Barbieri",
+   "license": "CC BY-SA 2.5",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=1914430",
+   "source": "openverse:wikimedia",
+   "q": "Venice Grand Canal",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Venice_-_Grand_Canal_09.jpg/1280px-Venice_-_Grand_Canal_09.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Taco_Bell_at_the_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Taco_Bell_at_the_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "/img/venice/3.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/65/Taco_Bell_at_the_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 4608,
+   "h": 3072,
+   "credit": "Wide Awake!",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=186028605",
+   "source": "openverse:wikimedia",
+   "q": "Venice Grand Canal",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Taco_Bell_at_the_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Taco_Bell_at_the_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Venice_%E2%80%93_Grand_Canal_-_Palaces.jpg/1280px-Venice_%E2%80%93_Grand_Canal_-_Palaces.jpg",
+   "url": "/img/venice/4.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/1/19/Venice_%E2%80%93_Grand_Canal_-_Palaces.jpg",
+   "w": 3076,
+   "h": 2051,
+   "credit": "User:Nino Barbieri",
+   "license": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=1616575",
+   "source": "openverse:wikimedia",
+   "q": "Venice Grand Canal",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Venice_%E2%80%93_Grand_Canal_-_Palaces.jpg/1280px-Venice_%E2%80%93_Grand_Canal_-_Palaces.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Interior_of_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Interior_of_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "url": "/img/venice/5.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Interior_of_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "w": 4608,
+   "h": 3072,
+   "credit": "Wide Awake!",
+   "license": "CC BY 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=186028597",
+   "source": "openverse:wikimedia",
+   "q": "Venice Grand Canal",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Interior_of_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1280px-Interior_of_Venice_Grand_Canal_Mall_%282026-01-17%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+  }
+ ],
  "basel": [
   {
    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Waggis_2013_2.jpg/1800px-Waggis_2013_2.jpg",
@@ -2290,7 +2369,86 @@
  "courchevel": [],
  "austin": [],
  "las-vegas": [],
- "monza": [],
+ "monza": [
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Roseto_della_Villa_Reale_di_Monza.jpg/1280px-Roseto_della_Villa_Reale_di_Monza.jpg",
+   "url": "/img/monza/0.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/4/40/Roseto_della_Villa_Reale_di_Monza.jpg",
+   "w": 6000,
+   "h": 4000,
+   "credit": "Valentina Gualtieri",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=73161336",
+   "source": "openverse:wikimedia",
+   "q": "Villa Reale di Monza",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Roseto_della_Villa_Reale_di_Monza.jpg/1280px-Roseto_della_Villa_Reale_di_Monza.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Villa_Reale_di_Monza_%28Giuseppe_Piermarini%2C_1777-1780%29%2C_veduta_di_tre_quarti.jpg/1280px-Villa_Reale_di_Monza_%28Giuseppe_Piermarini%2C_1777-1780%29%2C_veduta_di_tre_quarti.jpg",
+   "url": "/img/monza/1.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Villa_Reale_di_Monza_%28Giuseppe_Piermarini%2C_1777-1780%29%2C_veduta_di_tre_quarti.jpg",
+   "w": 3000,
+   "h": 2000,
+   "credit": "Paolobon140",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=77676760",
+   "source": "openverse:wikimedia",
+   "q": "Villa Reale di Monza",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Villa_Reale_di_Monza_%28Giuseppe_Piermarini%2C_1777-1780%29%2C_veduta_di_tre_quarti.jpg/1280px-Villa_Reale_di_Monza_%28Giuseppe_Piermarini%2C_1777-1780%29%2C_veduta_di_tre_quarti.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Villa_Reale_di_Monza_-_rose_garden_in_Italy.jpg/1280px-Villa_Reale_di_Monza_-_rose_garden_in_Italy.jpg",
+   "url": "/img/monza/2.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Villa_Reale_di_Monza_-_rose_garden_in_Italy.jpg",
+   "w": 2148,
+   "h": 1557,
+   "credit": "Rebecca South (it.wikipedia/Rebecca South",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=25469929",
+   "source": "openverse:wikimedia",
+   "q": "Villa Reale di Monza",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Villa_Reale_di_Monza_-_rose_garden_in_Italy.jpg/1280px-Villa_Reale_di_Monza_-_rose_garden_in_Italy.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/UNA_DELLE_STANZE_DELLA_VILLA_REALE_DI_MONZA.jpg/1280px-UNA_DELLE_STANZE_DELLA_VILLA_REALE_DI_MONZA.jpg",
+   "url": "/img/monza/3.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/6/6f/UNA_DELLE_STANZE_DELLA_VILLA_REALE_DI_MONZA.jpg",
+   "w": 3614,
+   "h": 2711,
+   "credit": "Monica Rondoni",
+   "license": "CC CC0 1.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=154212019",
+   "source": "openverse:wikimedia",
+   "q": "Villa Reale di Monza",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/UNA_DELLE_STANZE_DELLA_VILLA_REALE_DI_MONZA.jpg/1280px-UNA_DELLE_STANZE_DELLA_VILLA_REALE_DI_MONZA.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Villa_Reale_di_Monza.jpg/1280px-Villa_Reale_di_Monza.jpg",
+   "url": "/img/monza/4.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/3/36/Villa_Reale_di_Monza.jpg",
+   "w": 3456,
+   "h": 2304,
+   "credit": "Corbyflo",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=62395567",
+   "source": "openverse:wikimedia",
+   "q": "Villa Reale di Monza",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Villa_Reale_di_Monza.jpg/1280px-Villa_Reale_di_Monza.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Villa_reale_di_monza%2C_cappella3.jpg/1280px-Villa_reale_di_monza%2C_cappella3.jpg",
+   "url": "/img/monza/5.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Villa_reale_di_monza%2C_cappella3.jpg",
+   "w": 4160,
+   "h": 3120,
+   "credit": "Carlodell",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=65521736",
+   "source": "openverse:wikimedia",
+   "q": "Villa Reale di Monza",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Villa_reale_di_monza%2C_cappella3.jpg/1280px-Villa_reale_di_monza%2C_cappella3.jpg"
+  }
+ ],
  "silverstone": [
   {
    "url": "/img/silverstone/0.webp",
