@@ -42,9 +42,9 @@ QUERIES = {
  "silverstone": ["Silverstone Circuit", "Stowe House"], "melbourne": ["Melbourne skyline Yarra", "Albert Park Melbourne"],
 }
 OK = ("cc0", "cc by", "cc-by", "public domain", "pd-", "no restrictions", "attribution")
-def get(url, headers=None):
+def get(url, headers=None, timeout=40):
     req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
-    with urllib.request.urlopen(req, timeout=40) as r: return json.loads(r.read().decode())
+    with urllib.request.urlopen(req, timeout=timeout) as r: return json.loads(r.read().decode())
 def strip(s): return html.unescape(re.sub(r"<[^>]+>", "", s or "")).strip()
 def thumb(url, w=1280, orig_w=None):
     """Wikimedia originals run to 6000px and several MB. Serve the 1800px rendition instead.
@@ -86,19 +86,23 @@ def localize(slug, idx, p):
 def commons(query, n):
     q = urllib.parse.quote(f"filetype:bitmap {query}")
     url = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
-           f"&gsrsearch={q}&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1800")
+           f"&gsrsearch={q}&gsrnamespace=6&gsrlimit=40&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1280")
     try: data = get(url)
     except Exception as e: log("  commons error", query, repr(e)); return []
-    pages = data.get("query", {}).get("pages", {}); log("  commons raw", query, len(pages))
+    pages = data.get("query", {}).get("pages", {})
+    rej = {"small": 0, "portrait": 0, "type": 0, "licence": 0}
     out = []
     for p in sorted(pages.values(), key=lambda p: p.get("index", 0)):
         ii = (p.get("imageinfo") or [{}])[0]; w, h = ii.get("width", 0), ii.get("height", 0)
-        if w < 1200 or h < 700 or w < h * 1.1 or not ii.get("url", "").lower().endswith((".jpg", ".jpeg")): continue
+        if not ii.get("url", "").lower().endswith((".jpg", ".jpeg", ".png")): rej["type"] += 1; continue
+        if w < 1000 or h < 600: rej["small"] += 1; continue
+        if w < h: rej["portrait"] += 1; continue
         md = ii.get("extmetadata", {}); lic = (md.get("LicenseShortName", {}).get("value") or "").lower()
-        if not any(k in lic for k in OK) or "-nc" in lic or "-nd" in lic: continue
+        if "-nc" in lic or "-nd" in lic or not any(k in lic for k in OK): rej["licence"] += 1; continue
         out.append({"src": ii.get("thumburl") or ii["url"], "url": ii.get("thumburl") or ii["url"], "full": ii["url"], "w": w, "h": h, "credit": strip(md.get("Artist", {}).get("value"))[:80] or "Wikimedia Commons",
                     "license": md.get("LicenseShortName", {}).get("value", ""), "page": ii.get("descriptionurl", ""), "source": "commons", "q": query})
         if len(out) >= n: break
+    log("  commons", query, "kept", len(out), "of", len(pages), "rejected", {k: v for k, v in rej.items() if v})
     return out
 def unsplash(query, n, key):
     url = f"https://api.unsplash.com/search/photos?query={urllib.parse.quote(query)}&orientation=landscape&per_page={n}&content_filter=high"
@@ -109,10 +113,10 @@ def unsplash(query, n, key):
              "page": r["links"]["html"] + "?utm_source=the_coriumist&utm_medium=referral", "download": r["links"]["download_location"], "source": "unsplash", "q": query}
             for r in data.get("results", [])]
 def openverse(query, n):
-    url = f"https://api.openverse.org/v1/images/?q={urllib.parse.quote(query)}&license_type=commercial&size=large&aspect_ratio=wide&page_size={n*2}"
+    url = f"https://api.openverse.org/v1/images/?q={urllib.parse.quote(query)}&license_type=commercial&size=large&aspect_ratio=wide&page_size={min(n, 8)}"
     data = None
-    for attempt in (1, 2):
-        try: data = get(url, {"Accept": "application/json"}); break
+    for attempt in (1, 2, 3):
+        try: data = get(url, {"Accept": "application/json"}, timeout=90); break
         except Exception as e:
             log("  openverse error", query, repr(e)[:60]); time.sleep(2)
     if data is None: return []
@@ -141,11 +145,13 @@ for c in CIRCUIT["cities"]:
         else: dropped += 1
     if len(man) + len(kept) >= 5 and not REFRESH: photos[s] = (man + kept)[:WANT]; log(f"{c['name']}: {len(photos[s])} (kept)"); continue
     got = []
-    for q in QUERIES.get(s, [c["name"]]):
+    queries = list(QUERIES.get(s, [])) + [c["name"]]
+    for q in queries:
+        if len(man) + len(kept) + len(got) >= WANT: break
         if key: got += unsplash(q, 4, key)
         else:
-            got += commons(q, 3)
-            got += openverse(q, 8)
+            got += commons(q, 4)
+            if len(got) < WANT: got += openverse(q, 6)
         time.sleep(0.6)
     seen = set(p.get("src") for p in kept) | set(p.get("full") for p in kept)
     for p in got:
