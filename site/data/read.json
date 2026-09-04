@@ -28,16 +28,40 @@
    ],
    "photos": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Port_Hercule_-_monaco_-_panoramio_-_kajikawa_%2811%29.jpg",
+     "url": "/img/monaco/0.webp",
      "credit": "kajikawa",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=52945655"
     },
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Port_Hercule_-_monaco_-_panoramio_-_kajikawa_%2814%29.jpg",
+     "url": "/img/monaco/1.webp",
      "credit": "kajikawa",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=52945669"
+    },
+    {
+     "url": "/img/monaco/2.webp",
+     "credit": "Uhooep",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=115701228"
+    },
+    {
+     "url": "/img/monaco/3.webp",
+     "credit": "Horizon06",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=106027685"
+    },
+    {
+     "url": "/img/monaco/4.webp",
+     "credit": "Alexander Migl",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79865888"
+    },
+    {
+     "url": "/img/monaco/5.webp",
+     "credit": "M.Strīķis",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=53193680"
     }
    ]
   },
@@ -68,16 +92,40 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzM1NTIzLWltYWdlLWt3dnkyeWtoLmpwZw.jpg",
+     "url": "/img/singapore/0.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
     },
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Parliament_House_and_the_Singapore_skyline_-_2002.jpg",
+     "url": "/img/singapore/1.webp",
      "credit": "AngMoKio",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=3359011"
+    },
+    {
+     "url": "/img/singapore/2.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
+    },
+    {
+     "url": "/img/singapore/3.webp",
+     "credit": "Lanneixi",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
+    },
+    {
+     "url": "/img/singapore/4.webp",
+     "credit": "RoyalCathayan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959673"
+    },
+    {
+     "url": "/img/singapore/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
     }
    ]
   },
@@ -108,28 +156,40 @@
    ],
    "photos": [
     {
-     "url": "https://cdn.stocksnap.io/img-thumbs/960w/XYSW9DP8QZ.jpg",
-     "credit": "Matt Moloney",
-     "license": "CC CC0 1.0",
-     "page": "https://stocksnap.io/photo/eiffel-tower-XYSW9DP8QZ"
-    },
-    {
-     "url": "https://cdn.stocksnap.io/img-thumbs/960w/32KNS2DHYT.jpg",
-     "credit": "Matt Moloney",
-     "license": "CC CC0 1.0",
-     "page": "https://stocksnap.io/photo/eiffel-tower-32KNS2DHYT"
-    },
-    {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L3Vwd2s2MTg5OTg3NC13aWtpbWVkaWEtaW1hZ2Uta293b3J6aDMuanBn.jpg",
+     "url": "/img/paris/0.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3299548/free-photo-image-paris-montmartre-adventure"
     },
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/P1040391_Paris_Ier_rue_de_la_Paix_place_Vend%C3%B4me_rwk.JPG",
+     "url": "/img/paris/1.webp",
      "credit": "Mbzt",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=16317649"
+    },
+    {
+     "url": "/img/paris/2.webp",
+     "credit": "Barry Lewis",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27493143"
+    },
+    {
+     "url": "/img/paris/3.webp",
+     "credit": "Vinceesq",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25553670"
+    },
+    {
+     "url": "/img/paris/4.webp",
+     "credit": "Jorge Royan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=21374991"
+    },
+    {
+     "url": "/img/paris/5.webp",
+     "credit": "Barry Lewis",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27493138"
     }
    ]
   },
@@ -187,37 +247,37 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYxNzQ4NDE2LXdpa2ltZWRpYS1pbWFnZS1rb3diaDhuNS5qcGc.jpg",
+     "url": "/img/new-york/0.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3283573/free-photo-image-new-york-skyline-city"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHUyMzI4MzkxLWltYWdlLWt3eXJ1MGJjLmpwZw.jpg",
+     "url": "/img/new-york/1.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5966369/photo-image-cloud-public-domain-nature"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg4NzU0NDAtaW1hZ2Uta3d5bzdsOWwuanBn.jpg",
+     "url": "/img/new-york/2.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5942628/free-public-domain-cc0-photo"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQyMDctMS00NTkuanBn.jpg",
+     "url": "/img/new-york/3.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3094356/free-photo-image-new-york-911-aerial-view"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxOS0zLTE0MzM0MWEuanBn.jpg",
+     "url": "/img/new-york/4.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/421944/free-photo-image-skyline-new-york-architecture"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbG9jMjAyMDczNzQxNy1pbWFnZS5qcGc.jpg",
+     "url": "/img/new-york/5.webp",
      "credit": "libraryofcongress",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6296543/image-building-water-city"
@@ -249,7 +309,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/porto-cervo/0.webp",
+     "credit": "HenSti",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=84761372"
+    },
+    {
+     "url": "/img/porto-cervo/1.webp",
+     "credit": "Dr. Thomas Liptak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=176070613"
+    },
+    {
+     "url": "/img/porto-cervo/2.webp",
+     "credit": "Ökologix",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=23398070"
+    },
+    {
+     "url": "/img/porto-cervo/3.webp",
+     "credit": "Marek Ślusarczyk (Tupungato) Photo gallery",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=22813042"
+    },
+    {
+     "url": "/img/porto-cervo/4.webp",
+     "credit": "Eustace Bagge",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=94569047"
+    },
+    {
+     "url": "/img/porto-cervo/5.webp",
+     "credit": "Alistair Wettin",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=49069428"
+    }
+   ]
   },
   {
    "slug": "milan",
@@ -278,19 +375,19 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL2dldHR5MTA4am5uLWltYWdlLmpwZw.jpg",
+     "url": "/img/milan/0.webp",
      "credit": "thegetty",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/14312260/airplane-and-milan-duomo-fedele-azari"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL2dldHR5MTA4am1iLWltYWdlLmpwZw.jpg",
+     "url": "/img/milan/1.webp",
      "credit": "thegetty",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/14264222/milan-duomo-fedele-azari"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAyL2xyL2dldHR5MTA4am5xLWltYWdlLmpwZw.jpg",
+     "url": "/img/milan/2.webp",
      "credit": "thegetty",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/14258792/milan-duomo-fedele-azari"
@@ -349,7 +446,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/ibiza/0.webp",
+     "credit": "Vicenç Salvador Torres Guerola",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119241406"
+    },
+    {
+     "url": "/img/ibiza/1.webp",
+     "credit": "Stavros1",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20871322"
+    },
+    {
+     "url": "/img/ibiza/2.webp",
+     "credit": "Vicenç Salvador Torres Guerola",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119563220"
+    },
+    {
+     "url": "/img/ibiza/3.webp",
+     "credit": "Itelchan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=69105689"
+    },
+    {
+     "url": "/img/ibiza/4.webp",
+     "credit": "Gerda Arendt",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=141092785"
+    },
+    {
+     "url": "/img/ibiza/5.webp",
+     "credit": "Gutca",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=191788001"
+    }
+   ]
   },
   {
    "slug": "lake-como",
@@ -376,7 +510,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/lake-como/0.webp",
+     "credit": ". Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110134713"
+    },
+    {
+     "url": "/img/lake-como/1.webp",
+     "credit": "Deensel",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73531603"
+    },
+    {
+     "url": "/img/lake-como/2.webp",
+     "credit": "Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=88175366"
+    },
+    {
+     "url": "/img/lake-como/3.webp",
+     "credit": ". Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110134706"
+    },
+    {
+     "url": "/img/lake-como/4.webp",
+     "credit": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82627585"
+    },
+    {
+     "url": "/img/lake-como/5.webp",
+     "credit": "RaminusFalcon",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
+    }
+   ]
   },
   {
    "slug": "london",
@@ -405,10 +576,40 @@
    ],
    "photos": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Mayfair_London_222_Regent_Street.jpeg",
+     "url": "/img/london/0.webp",
      "credit": "Zeisterre",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
+    },
+    {
+     "url": "/img/london/1.webp",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "/img/london/2.webp",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "/img/london/3.webp",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "/img/london/4.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "/img/london/5.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
     }
    ]
   },
@@ -439,22 +640,40 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEwL2Vhc3QtaGFtcHRvbi1iZWFjaC5qcGc.jpg",
+     "url": "/img/the-hamptons/0.webp",
      "credit": "nationalgalleryofart",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxOTgtMDkzLXBsb3lfMS5qcGc.jpg",
+     "url": "/img/the-hamptons/1.webp",
      "credit": "nationalgalleryofart",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2xvYzIwMTg3MTczNzctaW1hZ2UuanBn.jpg",
+     "url": "/img/the-hamptons/2.webp",
      "credit": "libraryofcongress",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
+    },
+    {
+     "url": "/img/the-hamptons/3.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
+    },
+    {
+     "url": "/img/the-hamptons/4.webp",
+     "credit": "Fred222wiki",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
+    },
+    {
+     "url": "/img/the-hamptons/5.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
     }
    ]
   },
@@ -485,31 +704,31 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYxNzUxMTg5LXdpa2ltZWRpYS1pbWFnZS1rb3diY2M2ai5qcGc.jpg",
+     "url": "/img/dubai/0.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2ZyZHViYWlfc2t5c2NyYXBlcnNfaGlnaF9yaXNlcy1pbWFnZS1reWJib3pzZS5qcGc.jpg",
+     "url": "/img/dubai/1.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMzA1ODYtaW1hZ2Uta3d5cXNxcDUuanBn.jpg",
+     "url": "/img/dubai/2.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL3B4NjQ4MTI2LWltYWdlLWt3dnY4aW5sLmpwZw.jpg",
+     "url": "/img/dubai/3.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
     },
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Burj_Al_Arab_and_Jumeirah_Beach_%289601659067%29.jpg",
+     "url": "/img/dubai/4.webp",
      "credit": "Yacine Hary",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
@@ -541,7 +760,44 @@
     72,
     36
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/geneva/0.webp",
+     "credit": "Choinowski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
+    },
+    {
+     "url": "/img/geneva/1.webp",
+     "credit": "Spinarak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
+    },
+    {
+     "url": "/img/geneva/2.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
+    },
+    {
+     "url": "/img/geneva/3.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
+    },
+    {
+     "url": "/img/geneva/4.webp",
+     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
+    },
+    {
+     "url": "/img/geneva/5.webp",
+     "credit": "Boschtjan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
+    }
+   ]
   },
   {
    "slug": "miami",
@@ -570,37 +826,37 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L2xvYzIwMjA3MjEwNTYtaW1hZ2UuanBn.jpg",
+     "url": "/img/miami/0.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/8052462/photo-image-beach-public-domain-united-states"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQyMDctMS0zNTVfMS5qcGc.jpg",
+     "url": "/img/miami/1.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3094491/free-photo-image-miami-beach-aerial-view"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L2xvYzIwMjA3MjEwMjYtaW1hZ2UuanBn.jpg",
+     "url": "/img/miami/2.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/8054938/photo-image-beach-public-domain-united-states"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L2xvYzIwMjA3MjEwNjItaW1hZ2UuanBn.jpg",
+     "url": "/img/miami/3.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/8071365/photo-image-cloud-sky-ocean"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L2xvYzIwMjA3MjEwMDUtaW1hZ2UuanBn.jpg",
+     "url": "/img/miami/4.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/8069882/photo-image-beach-public-domain-united-states"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA5L2xvYzIwMjA3MjA5ODQtaW1hZ2UuanBn.jpg",
+     "url": "/img/miami/5.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/8069952/photo-image-cloud-sky-ocean"
@@ -632,7 +888,44 @@
     34,
     34
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/zurich/0.webp",
+     "credit": "Charlemagne at Dutch Wikipedia",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1773146"
+    },
+    {
+     "url": "/img/zurich/1.webp",
+     "credit": "Andrzej Otrębski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=78876116"
+    },
+    {
+     "url": "/img/zurich/2.webp",
+     "credit": "Andrzej Otrębski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=78369277"
+    },
+    {
+     "url": "/img/zurich/3.webp",
+     "credit": "Andrzej Otrębski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=78369276"
+    },
+    {
+     "url": "/img/zurich/4.webp",
+     "credit": "Andrzej Otrębski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79549328"
+    },
+    {
+     "url": "/img/zurich/5.webp",
+     "credit": "Andrzej Otrębski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79509447"
+    }
+   ]
   },
   {
    "slug": "hong-kong",
@@ -661,10 +954,40 @@
    ],
    "photos": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Skyline_-_Hong_Kong%2C_China.jpg",
+     "url": "/img/hong-kong/0.webp",
      "credit": "Jim Trodel",
      "license": "CC BY-SA 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=10856204"
+    },
+    {
+     "url": "/img/hong-kong/1.webp",
+     "credit": "Mk2010",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20478641"
+    },
+    {
+     "url": "/img/hong-kong/2.webp",
+     "credit": "Mk2010",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=39754974"
+    },
+    {
+     "url": "/img/hong-kong/3.webp",
+     "credit": "Ank Kumar",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=105141852"
+    },
+    {
+     "url": "/img/hong-kong/4.webp",
+     "credit": "Daniel Case",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=28294917"
+    },
+    {
+     "url": "/img/hong-kong/5.webp",
+     "credit": "Ank Kumar",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=105140633"
     }
    ]
   },
@@ -695,16 +1018,40 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQyMDctMi0wNTZfMS5qcGc.jpg",
+     "url": "/img/palm-beach/0.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3092107/free-photo-image-america-breakers-luxury-beachfront-resort"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbG9jaGhoZmwwMTc0cGhvdG9zc3AxLWltYWdlLmpwZw.jpg",
+     "url": "/img/palm-beach/1.webp",
      "credit": "libraryofcongress",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6294051/the-breakers-hotel-south-county-road-palm-beach-palm-beach-county"
+    },
+    {
+     "url": "/img/palm-beach/2.webp",
+     "credit": "Michael Kagdis",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42147898"
+    },
+    {
+     "url": "/img/palm-beach/3.webp",
+     "credit": "Volkan Yuksel",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=26549189"
+    },
+    {
+     "url": "/img/palm-beach/4.webp",
+     "credit": "User:MVASCO",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=84644819"
+    },
+    {
+     "url": "/img/palm-beach/5.webp",
+     "credit": "P. Valdés",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
     }
    ]
   },
@@ -735,31 +1082,31 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmw0ODk1MjE1ODY3Ny1pbWFnZS1reWNpc2d2ei5qcGc.jpg",
+     "url": "/img/tokyo/0.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmw0MDIzNzU2MzY4MS1pbWFnZS1reWJlaWlhcy5qcGc.jpg",
+     "url": "/img/tokyo/1.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwzMzUyMDMyNjEwMC1pbWFnZS1reWNqYTZtcC5qcGc.jpg",
+     "url": "/img/tokyo/2.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6078979/tokyo"
     },
     {
-     "url": "https://pd.w.org/2023/04/779642d466720c975.95073633-2048x1536.jpg",
+     "url": "/img/tokyo/3.webp",
      "credit": "Marina Koleva",
      "license": "CC CC0 1.0",
      "page": "https://wordpress.org/photos/photo/779642d466/"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHUyMzMxMzQyLWltYWdlLWt3eXJ1Ym9uLmpwZw.jpg",
+     "url": "/img/tokyo/4.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
@@ -793,37 +1140,37 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxOS0zLTI0MDgwYS5qcGc.jpg",
+     "url": "/img/los-angeles/0.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/434168/free-photo-image-city-night-los-angeles"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA2L3Vwd2s2MjA3NzY0My13aWtpbWVkaWEtaW1hZ2Uta293bngwbXguanBn.jpg",
+     "url": "/img/los-angeles/1.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3297969/free-photo-image-city-sun-cc0"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg1NDQ3ODUtaW1hZ2Uta3d5cDduZ3cuanBn.jpg",
+     "url": "/img/los-angeles/2.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5949715/free-public-domain-cc0-photo"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHgxMDg4MTg1LWltYWdlLWt3eXJhOGNhLmpwZw.jpg",
+     "url": "/img/los-angeles/3.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5962508/free-public-domain-cc0-photo"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg2ODYwMjktaW1hZ2Uta3d5b3YwdWEuanBn.jpg",
+     "url": "/img/los-angeles/4.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5947232/free-public-domain-cc0-photo"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHg2Njc0MzItaW1hZ2Uta3d5b3ZzYTQuanBn.jpg",
+     "url": "/img/los-angeles/5.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5947425/free-public-domain-cc0-photo"
@@ -857,10 +1204,40 @@
    ],
    "photos": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Por_do_sol_no_circuito_Yas_Marina_-_Sunset_at_Yas_Marina_circuit_-_Abu_Dhabi_%2817173577080%29.jpg",
+     "url": "/img/abu-dhabi/0.webp",
      "credit": "Cesar I. Martins from Jundiai, Brazil",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=64171224"
+    },
+    {
+     "url": "/img/abu-dhabi/1.webp",
+     "credit": "Anthony Alessio Tralongo",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110172274"
+    },
+    {
+     "url": "/img/abu-dhabi/2.webp",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77063890"
+    },
+    {
+     "url": "/img/abu-dhabi/3.webp",
+     "credit": "JiteshJagadish",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=12075238"
+    },
+    {
+     "url": "/img/abu-dhabi/4.webp",
+     "credit": "TravelPhotosNL",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151995611"
+    },
+    {
+     "url": "/img/abu-dhabi/5.webp",
+     "credit": "Cesar I. Martins",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
     }
    ]
   },
@@ -916,7 +1293,44 @@
     0,
     88
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/st-barths/0.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420599"
+    },
+    {
+     "url": "/img/st-barths/1.webp",
+     "credit": "User:Mattes",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=49126355"
+    },
+    {
+     "url": "/img/st-barths/2.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420593"
+    },
+    {
+     "url": "/img/st-barths/3.webp",
+     "credit": "Gordon Leggett",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=91830671"
+    },
+    {
+     "url": "/img/st-barths/4.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420605"
+    },
+    {
+     "url": "/img/st-barths/5.webp",
+     "credit": "David Broad",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=54354098"
+    }
+   ]
   },
   {
    "slug": "st-moritz",
@@ -945,10 +1359,40 @@
    ],
    "photos": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lake_St._Moritz_in_winter.jpg",
+     "url": "/img/st-moritz/0.webp",
      "credit": "Etiaetia1020",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=25090291"
+    },
+    {
+     "url": "/img/st-moritz/1.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091244"
+    },
+    {
+     "url": "/img/st-moritz/2.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091301"
+    },
+    {
+     "url": "/img/st-moritz/3.webp",
+     "credit": "Bphstm",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37139045"
+    },
+    {
+     "url": "/img/st-moritz/4.webp",
+     "credit": "Bphstm",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37139046"
+    },
+    {
+     "url": "/img/st-moritz/5.webp",
+     "credit": "Kecko from Switzerland (Rheintal SG)",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37425059"
     }
    ]
   },
@@ -979,10 +1423,40 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Vwd2s2MjIxODE1My13aWtpbWVkaWEtaW1hZ2Uta293czI0ODAuanBn.jpg",
+     "url": "/img/davos/0.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3305631/free-photo-image-sport-winter-nature-people"
+    },
+    {
+     "url": "/img/davos/1.webp",
+     "credit": "Kabelleger / David Gubler",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=107794545"
+    },
+    {
+     "url": "/img/davos/2.webp",
+     "credit": "AO Foundation",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25665126"
+    },
+    {
+     "url": "/img/davos/3.webp",
+     "credit": "MadGeographer",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=5872735"
+    },
+    {
+     "url": "/img/davos/4.webp",
+     "credit": "JoachimKohlerBremen",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71826924"
+    },
+    {
+     "url": "/img/davos/5.webp",
+     "credit": "snow-world.ch",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=117448085"
     }
    ]
   },
@@ -1013,31 +1487,31 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbWFyb29uLWJlbGxzLTIuanBn.jpg",
+     "url": "/img/aspen/0.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYyMjE3MTAwLXdpa2ltZWRpYS1pbWFnZS1rb3dyd3l1cy5qcGc.jpg",
+     "url": "/img/aspen/1.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvMjI1YTI5ODctbDBhM2s4OW8uanBn.jpg",
+     "url": "/img/aspen/2.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxOS0zLTAzNTg1OWEuanBn.jpg",
+     "url": "/img/aspen/3.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BkMTktMy0zNjQzNDlhLmpwZw.jpg",
+     "url": "/img/aspen/4.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
@@ -1069,7 +1543,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/cannes/0.webp",
+     "credit": "Christophe.Finot",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1223696"
+    },
+    {
+     "url": "/img/cannes/1.webp",
+     "credit": "Horizon06",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=107678714"
+    },
+    {
+     "url": "/img/cannes/2.webp",
+     "credit": "Wolfgang Sauber",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=128039699"
+    },
+    {
+     "url": "/img/cannes/3.webp",
+     "credit": "Horizon06",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=107678430"
+    },
+    {
+     "url": "/img/cannes/4.webp",
+     "credit": "Christophe.Finot",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1223698"
+    },
+    {
+     "url": "/img/cannes/5.webp",
+     "credit": "Joseph Plotz",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=7814495"
+    }
+   ]
   },
   {
    "slug": "sun-valley",
@@ -1096,7 +1607,44 @@
     0,
     45
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/sun-valley/0.webp",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
+    },
+    {
+     "url": "/img/sun-valley/1.webp",
+     "credit": "Kingmiwok",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
+    },
+    {
+     "url": "/img/sun-valley/2.webp",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
+    },
+    {
+     "url": "/img/sun-valley/3.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137880"
+    },
+    {
+     "url": "/img/sun-valley/4.webp",
+     "credit": "Scott Brenner",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=178215849"
+    },
+    {
+     "url": "/img/sun-valley/5.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
+    }
+   ]
   },
   {
    "slug": "pebble-beach",
@@ -1123,7 +1671,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/pebble-beach/0.webp",
+     "credit": "Tewy",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1383062"
+    },
+    {
+     "url": "/img/pebble-beach/1.webp",
+     "credit": "Bernard Gagnon",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=6095187"
+    },
+    {
+     "url": "/img/pebble-beach/2.webp",
+     "credit": "Tewy",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1383065"
+    },
+    {
+     "url": "/img/pebble-beach/3.webp",
+     "credit": "Bernard Gagnon",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=6095210"
+    },
+    {
+     "url": "/img/pebble-beach/4.webp",
+     "credit": "Bernard Gagnon",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=6095174"
+    },
+    {
+     "url": "/img/pebble-beach/5.webp",
+     "credit": "Bernard Gagnon",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=6095248"
+    }
+   ]
   },
   {
    "slug": "mykonos",
@@ -1152,22 +1737,40 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmwyODI2MjIyNjg1NS1pbWFnZS1reWJlbHlzci5qcGc.jpg",
+     "url": "/img/mykonos/0.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6043142/photo-image-public-domain-blue-free"
     },
     {
-     "url": "https://images.rawpixel.com/editor_1024/cHJpdmF0ZS9zdGF0aWMvaW1hZ2Uvd2Vic2l0ZS8yMDIyLTA0L2xyL2ZyZ3JlZWNlX215a29ub3Nfd2luZG1pbGxzX2lzbGFuZC1pbWFnZS1reWJiZmlnMi5qcGc.jpg",
+     "url": "/img/mykonos/1.webp",
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6023706/photo-image-public-domain-blue-free"
     },
     {
-     "url": "https://pd.w.org/2024/04/64966211544c77092.69048344-2048x1365.jpg",
+     "url": "/img/mykonos/2.webp",
      "credit": "Sam Alderson",
      "license": "CC CC0 1.0",
      "page": "https://wordpress.org/photos/photo/6496621154/"
+    },
+    {
+     "url": "/img/mykonos/3.webp",
+     "credit": "wikimedia",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=80837"
+    },
+    {
+     "url": "/img/mykonos/4.webp",
+     "credit": "dronepicr",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=101655529"
+    },
+    {
+     "url": "/img/mykonos/5.webp",
+     "credit": "Iantomferry",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48227599"
     }
    ]
   },
@@ -1198,10 +1801,40 @@
    ],
    "photos": [
     {
-     "url": "https://pd.w.org/2025/08/2568987aed4edb55.60720605-2048x1363.jpeg",
+     "url": "/img/capri/0.webp",
      "credit": "Pablo Moratinos",
      "license": "CC CC0 1.0",
      "page": "https://wordpress.org/photos/photo/2568987aed/"
+    },
+    {
+     "url": "/img/capri/1.webp",
+     "credit": "Hkabla",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=6748869"
+    },
+    {
+     "url": "/img/capri/2.webp",
+     "credit": "Amyp03",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=128961589"
+    },
+    {
+     "url": "/img/capri/3.webp",
+     "credit": "Mgimelfarb",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=50787099"
+    },
+    {
+     "url": "/img/capri/4.webp",
+     "credit": "Endless34",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=57760720"
+    },
+    {
+     "url": "/img/capri/5.webp",
+     "credit": "my late related person",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=152454133"
     }
    ]
   },
@@ -1230,7 +1863,26 @@
     0,
     74
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/gstaad/0.webp",
+     "credit": "Otto Juchli, Nussbaumen",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=2946769"
+    },
+    {
+     "url": "/img/gstaad/1.webp",
+     "credit": "GstaadTourismus",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17528605"
+    },
+    {
+     "url": "/img/gstaad/2.webp",
+     "credit": "Samuel Barlow",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=95880446"
+    }
+   ]
   },
   {
    "slug": "jackson-hole",
@@ -1259,13 +1911,13 @@
    ],
    "photos": [
     {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcGQxOS0zLTM2NDkzYS5qcGc.jpg",
+     "url": "/img/jackson-hole/0.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/434478/free-photo-image-carol-highsmith-elk-snow-fish"
     },
     {
-     "url": "https://images.rawpixel.com/image_1300/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA0L2ZsMzU5MDM4OTQzMTUtaW1hZ2Uta3UyZWM2aGkuanBn.jpg",
+     "url": "/img/jackson-hole/1.webp",
      "credit": "U.S. Forest Service (source)",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/4033050/photo-image-background-forest-nature"
@@ -1324,7 +1976,32 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/basel/0.webp",
+     "credit": "Gzzz",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24830910"
+    },
+    {
+     "url": "/img/basel/1.webp",
+     "credit": "Ascasis",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=97167508"
+    },
+    {
+     "url": "/img/basel/2.webp",
+     "credit": "W. Bulach",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=56142906"
+    },
+    {
+     "url": "/img/basel/3.webp",
+     "credit": "frozenwords",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24819956"
+    }
+   ]
   },
   {
    "slug": "maastricht",
@@ -1434,10 +2111,40 @@
    ],
    "photos": [
     {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Silverstone_Circuit_2020.png",
+     "url": "/img/silverstone/0.webp",
      "credit": "Antoine266",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=97517203"
+    },
+    {
+     "url": "/img/silverstone/1.webp",
+     "credit": "Tom McKay",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48187854"
+    },
+    {
+     "url": "/img/silverstone/2.webp",
+     "credit": "Anthony Alessio Tralongo",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=106986749"
+    },
+    {
+     "url": "/img/silverstone/3.webp",
+     "credit": "Tom McKay",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48187866"
+    },
+    {
+     "url": "/img/silverstone/4.webp",
+     "credit": "Tom McKay",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48187855"
+    },
+    {
+     "url": "/img/silverstone/5.webp",
+     "credit": "Tom McKay",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48187869"
     }
    ]
   },
@@ -1466,7 +2173,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/melbourne/0.webp",
+     "credit": "David Wallace",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=30529192"
+    },
+    {
+     "url": "/img/melbourne/1.webp",
+     "credit": "Diliff",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=385380"
+    },
+    {
+     "url": "/img/melbourne/2.webp",
+     "credit": "Chris Brown",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=38022063"
+    },
+    {
+     "url": "/img/melbourne/3.webp",
+     "credit": "BobTanGo",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=147522105"
+    },
+    {
+     "url": "/img/melbourne/4.webp",
+     "credit": "Bob Tan",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=136779270"
+    },
+    {
+     "url": "/img/melbourne/5.webp",
+     "credit": "BobTanGo",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=147522103"
+    }
+   ]
   }
  ],
  "wire": [

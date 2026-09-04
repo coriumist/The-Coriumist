@@ -1,923 +1,293 @@
-  dead london https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Water_feature_Silence%2C_Mayfair
-  dead london https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mayfair%2C_London%2C_UK_-_panora
-  dead london https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Dorchester%2C_Mayfair%2C_Lon
-  dead london https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pattersons%2C_Mayfair%2C_London_
-  dead london https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/London_Skyline_%28125508655_crop
-  dead london https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/London_Skyline_%28232548719%29.j
   commons raw Mayfair London 40
   openverse Mayfair London 8
   commons raw London skyline Thames dusk 17
   openverse London skyline Thames dusk 5
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Water_feature_Silence%2C_Mayfair
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mayfair%2C_London%2C_UK_-_panora
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Dorchester%2C_Mayfair%2C_Lon
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pattersons%2C_Mayfair%2C_London_
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Cecconis%2C_Mayfair%2C_London_%2
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Langan%27s_Brasserie_Mayfair_Lon
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Kashket_Mayfair_London_2529.JPG/
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/London_Skyline_%28125508655_crop
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/London_Skyline_%28232548719%29.j
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/London_at_Dusk.jpg/1800px-London
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/London_Eye_%28254727501%29.jpeg/
-  dead on fetch london https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/St_George_Wharf_%28231565917%29.
-London: 1
-  dead new-york https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Fremont_Central_Park_aerial_view
-  dead new-york https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Salt_Lake_City_with_Kestopur_Can
-  commons raw Manhattan skyline aerial 40
-  openverse Manhattan skyline aerial 8
-  commons raw Central Park aerial 40
-  openverse Central Park aerial 8
-New York: 6
-  dead miami https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fontainebleau_Miami_Beach_Aerial
-  dead miami https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Leslie%2C_Ocean_Drive%2C_Miami_B
-  dead miami https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Casa_Casuarina_at_night_Versace_
-  commons raw Miami Beach aerial 40
-  openverse Miami Beach aerial 8
-  commons raw Ocean Drive Miami Beach 40
-  openverse Ocean Drive Miami Beach 8
-  dead on fetch miami https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fontainebleau_Miami_Beach_Aerial
-Miami: 6
-  dead monaco https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Port_Hercules%2C_Monaco.jpg/1800
-  dead monaco https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20210527_122514_Yacht_port_Hercu
-  dead monaco https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Port_Hercule_Monaco_IMG_1155.jpg
-  dead monaco https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Port_Hercule%2C_Monaco_-_panoram
-  dead monaco https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Real_Monte_Carlo_Casino.jpg/1800
-  dead monaco https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Monte_Carlo_Casino_at_Dusk.JPG/1
+  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Water_feature_Silence% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mayfair%2C_London%2C_U <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Dorchester%2C_Mayf <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pattersons%2C_Mayfair% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed london https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Cecconis%2C_Mayfair%2C <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+London: 6
+New York: 6 (kept)
+Miami: 6 (kept)
   commons raw Port Hercule Monaco 40
   openverse Port Hercule Monaco 8
   commons raw Monte Carlo Casino 40
   openverse Monte Carlo Casino 8
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Port_Hercules%2C_Monaco.jpg/1800
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20210527_122514_Yacht_port_Hercu
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Port_Hercule_Monaco_IMG_1155.jpg
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Port_Hercule%2C_Monaco_-_panoram
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Port_Hercule_Monaco_IMG_1177.jpg
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Port_Hercule_Monaco_with_yachts_
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Real_Monte_Carlo_Casino.jpg/1800
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Monte_Carlo_Casino_at_Dusk.JPG/1
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Monte_Carlo_Casino%2C_The_Main_S
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Monte_Carlo_Casino_Monaco.jpg/18
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/b/b6/Monte_Carlo_Casino%2C_Monaco_-_interio
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/E5825-Monte-Carlo-Casino.jpg/180
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Monte_Carlo_Casino_-_panoramio_%
-  dead on fetch monaco https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Gezicht_op_het_plein_voor_het_Mo
-Monaco: 2
-  dead dubai https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dubai_Marina_Skyline.jpg/1800px-
-  dead dubai https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dubai_Marina_Skyline_93.jpg/1800
-  dead dubai https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Dubai_Jumeirah_Beach.JPG/1800px-
-  dead dubai https://upload.wikimedia.org/wikipedia/commons/1/1c/Burj_Al_Arab_and_Jumeirah_Beach_%28960
-  dead dubai https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Burj_Al_Arab_and_the_beach_%28Pe
-  commons raw Dubai Marina skyline 31
-  openverse Dubai Marina skyline 8
-  commons raw Burj Al Arab 40
-  openverse Burj Al Arab 8
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dubai_Marina_Skyline.jpg/1800px-
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Dubai_Marina_Skyline_93.jpg/1800
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Dubai_Jumeirah_Beach.JPG/1800px-
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Dubai_Marina_%28222830069%29.jpe
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Burj_Al_Arab_and_the_beach_%28Pe
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dubai_-_Burj_Al_Arab_-_Sheikh-Za
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Burj_Al_Arab%2C_Dubai%2C_by_Joi_
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Burj_Al-Arab_%2813996844503%29.j
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Hotel_Burj_al_Arab_in_Dubay_6.jp
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Hotel_Burj_al_Arab_in_Dubay_4.jp
-  dead on fetch dubai https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Hotel_Burj_al_Arab_in_Dubay_2.jp
-Dubai: 5
-  dead singapore https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_bay_sands_night_skypark_2
-  dead singapore https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Marina_Bay_Sands_Night_Panorama.
-  dead singapore https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marina_Bay_Sands_Night_Panorama_
-  dead singapore https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Singapore_Skyline.jpg/1800px-Sin
-  dead singapore https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Singapore_skyline_at_sunset_view
+  fetch failed monaco https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Port_Hercules%2C_Monac <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed monaco https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/20210527_122514_Yacht_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed monaco https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Port_Hercule_Monaco_IM <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed monaco https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Port_Hercule%2C_Monaco <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Monaco: 6
+Dubai: 5 (kept)
   commons raw Marina Bay Sands night 40
   openverse Marina Bay Sands night 8
   commons raw Singapore skyline 40
   openverse Singapore skyline 8
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_bay_sands_night_skypark_2
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Marina_Bay_Sands_Night_Panorama.
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marina_Bay_Sands_Night_Panorama_
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/1_singapore_f1_night_race_2012_c
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/1_marina_sands_skypark_night_vie
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Aerial_photographs_of_The_Fuller
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/1_marina_bay_sands_skypark_night
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Singapore_Skyline.jpg/1800px-Sin
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Singapore_skyline_at_sunset_view
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Singapore_Skyline_Raffles_Place.
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Singapore_Skyline_Panorama.jpg/1
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Singapore_Skyline_2019-10.jpg/18
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Padang_singapore_skyline.JPG/180
-  dead on fetch singapore https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Singapore_skyline_viewed_from_Ga
-Singapore: 2
-  dead hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Victoria_Harbour_%28Hong_Kong%29
-  dead hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Aqua_Luna%2C_a_Chinese_Junk_in_V
-  dead hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Aqua_Luna_Ship_at_Victoria_Harbo
-  dead hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Central_Skyline_with_IFC_buildin
-  dead hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Hong_Kong_Night_Skyline.jpg/1800
-  dead hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hong_Kong_Harbour_Night_2019-06-
+  fetch failed singapore https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_bay_sands_night <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed singapore https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Marina_Bay_Sands_Night <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed singapore https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marina_Bay_Sands_Night <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed singapore https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/1_singapore_f1_night_r <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Singapore: 6
   commons raw Victoria Harbour Hong Kong 40
   openverse Victoria Harbour Hong Kong 8
   commons raw Hong Kong skyline night 40
   openverse Hong Kong skyline night 8
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Victoria_Harbour_%28Hong_Kong%29
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Aqua_Luna%2C_a_Chinese_Junk_in_V
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Aqua_Luna_Ship_at_Victoria_Harbo
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Central_Skyline_with_IFC_buildin
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Aqua_Luna_boat_at_Victoria_Harbo
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Aqua_Luna_boat_at_Victoria_Harbo
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Aqua_Luna_boat_at_Victoria_Harbo
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Night_View_Kowloon_on_Dinner_Cru
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Hong_Kong_Night_Skyline.jpg/1800
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hong_Kong_Harbour_Night_2019-06-
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Hong_Kong_Night_Skyline_non-HDR.
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Hong_Kong_Night_Skyline_v2.jpg/1
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Hong_Kong_skyline_night_lights.j
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Hong_Kong_Night_Skyline_from_Lug
-  dead on fetch hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Hong_Kong_Night_Skyline_dirty_ne
-Hong Kong: 1
-  dead geneva https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Jet_d%27eau_Geneva.jpg/1800px-Je
-  dead geneva https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jet_d%27eau_Geneva_Switzerland.j
-  dead geneva https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Jet_d%27eau%2C_Geneva%2C_Switzer
-  dead geneva https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Jet_d%27eau%2C_Geneva.jpg/1800px
-  dead geneva https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2009-08-27_Lake_Geneva_464.JPG/1
-  dead geneva https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lake_Geneva_Lavaux.jpg/1800px-La
+  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Victoria_Harbour_%28Ho <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Aqua_Luna%2C_a_Chinese <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Aqua_Luna_Ship_at_Vict <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Central_Skyline_with_I <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed hong-kong https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Aqua_Luna_boat_at_Vict <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Hong Kong: 6
   commons raw Jet d'Eau Geneva 40
   openverse Jet d'Eau Geneva 8
   commons raw Lake Geneva 40
   openverse Lake Geneva 8
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Jet_d%27eau_Geneva.jpg/1800px-Je
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jet_d%27eau_Geneva_Switzerland.j
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Jet_d%27eau%2C_Geneva%2C_Switzer
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Jet_d%27eau%2C_Geneva.jpg/1800px
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mus%C3%A9um_d%27histoire_naturel
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Jet_d%27Eau_Geneva.jpg/1800px-Je
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Geneva_Lac_Leman.jpg/1800px-Gene
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Geneva_Water_Fountain.JPG/18
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2009-08-27_Lake_Geneva_464.JPG/1
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lake_Geneva_Lavaux.jpg/1800px-La
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Main_Street_Historic_District_La
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Lake_Geneva_from_Chillon_Castle.
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2009-08-27_Lake_Geneva_433.JPG/1
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Lake_Geneva_aerial.jpg/1800px-La
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Common_sandpiper_lake_geneva-4.j
-  dead on fetch geneva https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Montreux_-_Lake_Geneva.jpg/1800p
-Geneva: 0
-  dead zurich https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ch_zurich_limmat.jpg/1800px-Ch_z
-  dead zurich https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Zurich_Limmat_5.jpg/1800px-Zuric
-  dead zurich https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Zurich_Limmat_2.jpg/1800px-Zuric
-  dead zurich https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Zurich_Limmat_1.jpg/1800px-Zuric
-  dead zurich https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lachen_seen_from_lake_Zurich.jpg
-  dead zurich https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Lake_Zurich_Tiefenbrunnen.jpg/18
+  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Jet_d%27eau_Geneva.jpg <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Jet_d%27eau_Geneva_Swi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Jet_d%27eau%2C_Geneva% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Jet_d%27eau%2C_Geneva. <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mus%C3%A9um_d%27histoi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed geneva https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Jet_d%27Eau_Geneva.jpg <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Geneva: 6
   commons raw Zurich Limmat 40
   openverse Zurich Limmat 8
   commons raw Lake Zurich 40
   openverse Lake Zurich 8
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ch_zurich_limmat.jpg/1800px-Ch_z
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Zurich_Limmat_5.jpg/1800px-Zuric
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Zurich_Limmat_2.jpg/1800px-Zuric
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Zurich_Limmat_1.jpg/1800px-Zuric
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Zurich_Limmat_10.jpg/1800px-Zuri
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Zurich_Limmat_9.jpg/1800px-Zuric
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Zurich_Limmat_4.jpg/1800px-Zuric
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Zurich_Limmat_3.jpg/1800px-Zuric
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lachen_seen_from_lake_Zurich.jpg
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Lake_Zurich_Tiefenbrunnen.jpg/18
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Etzel_Lake_Zurich.JPG/1800px-Etz
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Lake_Zurich_%28Ank_Kumar%2C_Info
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2009-06-17_Suisse_Lake_Zurich_Ki
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lake_Zurich_%28Ank_Kumar%2C_Info
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ship_%27Stadt_Rapperswil%27%2C_L
-  dead on fetch zurich https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/WP_Shirt_white_Suisse_Lake_Zuric
-Zurich: 0
-  dead paris https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Jardins_du_Trocad%C3%A9ro_from_t
-  dead paris https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Place_Vend%C3%B4me_Column-Pa
+  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ch_zurich_limmat.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Zurich_Limmat_5.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Zurich_Limmat_2.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Zurich_Limmat_1.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Zurich_Limmat_10.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed zurich https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Zurich_Limmat_9.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Zurich: 6
+  too small paris https://cdn.stocksnap.io/img-thumbs/960w/XYSW9DP8QZ.jpg
+  too small paris https://cdn.stocksnap.io/img-thumbs/960w/32KNS2DHYT.jpg
   commons raw Paris rooftops Eiffel Tower 23
   openverse Paris rooftops Eiffel Tower 8
   commons raw Place Vendôme 40
   openverse Place Vendôme 8
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Jardins_du_Trocad%C3%A9ro_from_t
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/View_Of_The_Eiffel_Tower_%26_Par
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Paris_-_Rooftops_-_Eiffel_Tower_
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Paris_View_from_the_Eiffel_Tower
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Architecture%2C_Paris_-_Maison_d
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/The_Place_Vend%C3%B4me_Column-Pa
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Place_Vend%C3%B4me_6.jpg/1800px-
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Place_Vend%C3%B4me%2C_Paris_Augu
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Plaque_Ambassade_du_Texas%2C_1_p
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Place_Vend%C3%B4me_-_Panorama.jp
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Charvet_Place_Vend%C3%B4me_first
-  dead on fetch paris https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Charvet_Place_Vend%C3%B4me_third
-Paris: 4
-  dead st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Gustavia%2C_Saint_Barth%C3%A9lem
-  dead st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gustavia_%28Saint-Barth%C3%A9lem
-  dead st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Gustavia%2C_Saint_Barth%C3%A9lem
-  dead st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2020-01-24_SEADREAM_II_-_IMO_820
-  dead st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Panneau_de_la_plage_gouverneur_d
-  dead st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Beach_of_Saint-Barth%C3%A9lemy_2
+  fetch failed paris https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Jardins_du_Trocad%C3%A <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  too small paris https://cdn.stocksnap.io/img-thumbs/960w/XYSW9DP8QZ.jpg
+  too small paris https://cdn.stocksnap.io/img-thumbs/960w/32KNS2DHYT.jpg
+  fetch failed paris https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/View_Of_The_Eiffel_Tow <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed paris https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Paris_-_Rooftops_-_Eif <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed paris https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Paris_View_from_the_Ei <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Paris: 6
   commons raw Gustavia Saint Barthélemy 40
   openverse Gustavia Saint Barthélemy 8
   commons raw Saint-Barthélemy beach 33
   openverse Saint-Barthélemy beach 2
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Gustavia%2C_Saint_Barth%C3%A9lem
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gustavia_%28Saint-Barth%C3%A9lem
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Gustavia%2C_Saint_Barth%C3%A9lem
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2020-01-24_SEADREAM_II_-_IMO_820
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gustavia%2C_Saint_Barth%C3%A9lem
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Traditional_style_house_in_Gusta
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Traditional_style_house_in_Gusta
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Gustavia%2C_Saint_Barth%C3%A9lem
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Panneau_de_la_plage_gouverneur_d
-  dead on fetch st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Beach_of_Saint-Barth%C3%A9lemy_2
-St. Barths: 0
-  dead st-moritz https://upload.wikimedia.org/wikipedia/commons/7/78/Lake_St._Moritz_and_St._Moritz_town.jp
-  dead st-moritz https://upload.wikimedia.org/wikipedia/commons/2/2b/Lake_St._Moritz_and_St._Moritz_town_in
-  dead st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sailing_Boat_Badrutt%27s_Palace_
-  dead st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Entrance_Badrutt%27s_Palace_Hote
-  dead st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/St._Moritz_-_Badrutt%E2%80%99s_P
+  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Gustavia%2C_Saint_Bart <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gustavia_%28Saint-Bart <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Gustavia%2C_Saint_Bart <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2020-01-24_SEADREAM_II <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Gustavia%2C_Saint_Bart <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed st-barths https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Traditional_style_hous <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+St. Barths: 6
   commons raw St. Moritz lake winter 10
   openverse St. Moritz lake winter 3
   commons raw Badrutt's Palace 40
   openverse Badrutt's Palace 8
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/7/78/Lake_St._Moritz_and_St._Moritz_town.jp
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/2/2b/Lake_St._Moritz_and_St._Moritz_town_in
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sailing_Boat_Badrutt%27s_Palace_
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Entrance_Badrutt%27s_Palace_Hote
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/St._Moritz_-_Badrutt%E2%80%99s_P
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Badrutt%27s_Palace_Sankt_Moritz_
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Badrutt%27s_Palace_Sankt_Moritz_
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Badrutts_Palace_Eingang1.JPG/180
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Badrutts_Palace_Rolls.JPG/1800px
-  dead on fetch st-moritz https://upload.wikimedia.org/wikipedia/commons/3/3f/Badrutt%27s_Palace_Hotel.jpg
-St. Moritz: 1
-  dead davos https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/RhB_ABe_8-12_Malans_winter.jpg/1
-  dead davos https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AO_Foundation_Center_Davos.jpg/1
-  dead davos https://upload.wikimedia.org/wikipedia/commons/7/75/Parsenn.jpg
-  dead davos https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Badeanstalt_am_Davosersee_im_Win
-  dead davos https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Berghotel_Schatzalp.jpg/1800px-B
-  dead davos https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Davos%2C_Berghotel_Schatzalm_voo
+  fetch failed st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Sailing_Boat_Badrutt%2 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Entrance_Badrutt%27s_P <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed st-moritz https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/St._Moritz_-_Badrutt%E <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+St. Moritz: 6
   commons raw Davos winter 40
   openverse Davos winter 8
   commons raw Schatzalp Davos 40
   openverse Schatzalp Davos 8
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/RhB_ABe_8-12_Malans_winter.jpg/1
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AO_Foundation_Center_Davos.jpg/1
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/7/75/Parsenn.jpg
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Badeanstalt_am_Davosersee_im_Win
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Eistraum_Davos.jpg/1800px-Eistra
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/DavosKirche.JPG/1800px-DavosKirc
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Capaul_Blumenthal_Architects%2C_
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Berghotel_Schatzalp.jpg/1800px-B
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Davos%2C_Berghotel_Schatzalm_voo
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Schatzalp_Bahn_01.JPG/1800px-Sch
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mountain_station_of_Schatzalp-St
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Schatzalp_Bahn.jpg/1800px-Schatz
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Davos_Schatzalp_Bar_1K4A4548.jpg
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Schatzalp.jpg/1800px-Schatzalp.j
-  dead on fetch davos https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Davos_Schatzalp_Gang_1OG_1K4A452
-Davos: 1
-  dead aspen https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hayden_Peak%2C_winter.jpg/1800px
-  dead aspen https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Buttermilk_in_Winter.jpg/1800px-
-  dead aspen https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ute_cemetery_Aspen_winter.jpg/18
-  dead aspen https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rudbeckia_occidentalis_on_Aspen_
-  dead aspen https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lift_1A_on_Aspen_Mountain.jpg/18
-  commons raw Aspen Colorado winter 40
-  openverse Aspen Colorado winter 8
-  commons raw Aspen Mountain 40
-  openverse Aspen Mountain 8
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Hayden_Peak%2C_winter.jpg/1800px
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Buttermilk_in_Winter.jpg/1800px-
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ute_cemetery_Aspen_winter.jpg/18
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rudbeckia_occidentalis_on_Aspen_
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lift_1A_on_Aspen_Mountain.jpg/18
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Aspen_Mountain_spring_skiing_ove
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Aspen_Mountain_spring_skiing_Cop
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Aspen_Mountain_Silver_Queen_Gond
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Skiers_on_Aspen_Mountain%2C_Colo
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Aspen_Mountain_spring_skiing_201
-  dead on fetch aspen https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Aspen_Mountain_firs_with_fresh_s
-Aspen: 5
-  dead palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/PALM_BEACH_FLORIDA_AERIAL_2011.j
-  dead palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Night_view_from_Palm_Beach_Flori
-  dead palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Society_Of_The_Four_Arts_in_Palm
-  dead palm-beach https://upload.wikimedia.org/wikipedia/commons/d/db/Habitat_of_Semiardistomis_viridis_%28S
-  dead palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Montauk_Manor.jpg/1800px-Montauk
-  dead palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Breakers_%28Palm_Beach%2C_Florid
+  fetch failed davos https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/RhB_ABe_8-12_Malans_wi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed davos https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AO_Foundation_Center_D <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed davos https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Badeanstalt_am_Davoser <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed davos https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Eistraum_Davos.jpg/180 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Davos: 6
+Aspen: 5 (kept)
   commons raw Palm Beach Florida 40
   openverse Palm Beach Florida 8
   commons raw The Breakers Palm Beach 40
   openverse The Breakers Palm Beach 8
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/PALM_BEACH_FLORIDA_AERIAL_2011.j
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Night_view_from_Palm_Beach_Flori
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Society_Of_The_Four_Arts_in_Palm
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/d/db/Habitat_of_Semiardistomis_viridis_%28S
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/La_Querida_in_Palm_Beach%2C_Flor
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Sailfish_Marina_on_Singer_Island
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lake_Worth_lagoon_-_part_of_the_
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ram_Cargo_Van_-_United_States_Po
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Montauk_Manor.jpg/1800px-Montauk
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Breakers_%28Palm_Beach%2C_Florid
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Breakers_%28Palm_Beach%2C_Florid
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Breakers_%28Palm_Beach%2C_Florid
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/PB_FL_Breakers_Hotel_booth01.jpg
-  dead on fetch palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/PB_FL_Breakers_Hotel_fntn01.jpg/
-Palm Beach: 2
-  dead tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tokyo_Skyline_%28214472347%29.jp
-  dead tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tokyo_Skyline_2026.png/1800px-To
-  dead tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tokyo_skyline_seen_from_Tokyo_Sk
-  dead tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Meguro_River_Cherry_Blossom_Illu
-  dead tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Meguro_River_Cherry_Blossom_Fest
-  commons raw Tokyo skyline 40
-  openverse Tokyo skyline 8
-  commons raw Meguro River cherry blossom 40
-  openverse Meguro River cherry blossom 8
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tokyo_Skyline_%28214472347%29.jp
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tokyo_Skyline_2026.png/1800px-To
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tokyo_skyline_seen_from_Tokyo_Sk
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Meguro_River_Cherry_Blossom_Illu
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Meguro_River_Cherry_Blossom_Fest
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Meguro_River_Cherry_Blossom_Fest
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Meguro_River_Cherry_Blossom_Fest
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Meguro_River_Cherry_Blossom_Fest
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Meguro_River_Cherry_Blossom_Fest
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Meguro_River_Cherry_Blossom_Fest
-  dead on fetch tokyo https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Meguro_River_Cherry_Blossom_Fest
-Tokyo: 5
-  dead los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Beverly_Hills_Shopping_Center_%2
-  dead los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Beverly_Hills_hires.jpg/1800px-B
-  dead los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/LaFerrari_in_Beverly_Hills_%2814
-  dead los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Beverly-Hills-TF.jpg/1800px-Beve
-  commons raw Beverly Hills 40
-  openverse Beverly Hills 8
-  commons raw Los Angeles skyline sunset 22
-  openverse Los Angeles skyline sunset 8
-  dead on fetch los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Beverly_Hills_Shopping_Center_%2
-  dead on fetch los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Beverly_Hills_hires.jpg/1800px-B
-  dead on fetch los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/LaFerrari_in_Beverly_Hills_%2814
-  dead on fetch los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Beverly-Hills-TF.jpg/1800px-Beve
-  dead on fetch los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rodeo_Drive_Beverly_Hills.jpg/18
-  dead on fetch los-angeles https://upload.wikimedia.org/wikipedia/commons/6/6f/Downtown_Beverly_Hills_At_Night.jpg
-  dead on fetch los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Entrance_of_Beverly_Hills_Civic_
-  dead on fetch los-angeles https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Via_Rodeo%2C_Beverly_Hills.jpg/1
-Los Angeles: 6
-  dead cannes https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cannes_-_Croisette.jpg/1800px-Ca
-  dead cannes https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/20210719_132212_Cannes_Croisette
-  dead cannes https://upload.wikimedia.org/wikipedia/commons/4/41/Cannes_Croisette_1903.png
-  dead cannes https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/20210719_131506_Cannes_Croisette
-  dead cannes https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cannes_Vieux_Port_01.jpg/1800px-
-  dead cannes https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Vieux_Port_de_Cannes_%2850519003
+  fetch failed palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/PALM_BEACH_FLORIDA_AER <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Night_view_from_Palm_B <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed palm-beach https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Society_Of_The_Four_Ar <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Palm Beach: 6
+Tokyo: 5 (kept)
+Los Angeles: 6 (kept)
   commons raw Cannes Croisette 40
   openverse Cannes Croisette 8
   commons raw Cannes Vieux Port 40
   openverse Cannes Vieux Port 8
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cannes_-_Croisette.jpg/1800px-Ca
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/20210719_132212_Cannes_Croisette
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/4/41/Cannes_Croisette_1903.png
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/20210719_131506_Cannes_Croisette
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Cannes_-_port_et_croisette.jpg/1
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Cannes_promenade.jpg/1800px-Cann
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/H%C3%B4tel_Majestic_Barri%C3%A8r
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Cannes_-_La_Croisette.jpg/1800px
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Cannes_Vieux_Port_01.jpg/1800px-
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Vieux_Port_de_Cannes_%2850519003
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Cannes_-_Promenade_de_la_Pantier
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Vieux_Port_de_Cannes_%2850518103
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Vieux_Port_de_Cannes_-_panoramio
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Vieux_Port_de_Cannes_%2850518831
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Vieux_Port_de_Cannes_%2850519006
-  dead on fetch cannes https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Vue_du_Vieux-Port_de_Cannes_%28a
-Cannes: 0
-  dead sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bald_Mountain_in_Sun_Valley%2C_I
-  dead sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/The_chairlift_at_Ruud_-_Proctor_
-  dead sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bald_Mountain_as_seen_from_Sun_V
-  dead sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sun_Valley%2C_Idaho_2024_-_Old_P
-  dead sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ketchum_Sun_Valley_in_winter.jpg
+  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cannes_-_Croisette.jpg <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/20210719_132212_Cannes <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/20210719_131506_Cannes <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Cannes_-_port_et_crois <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed cannes https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Cannes_promenade.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Cannes: 6
   commons raw Sun Valley Idaho 40
   openverse Sun Valley Idaho 8
   commons raw Bald Mountain Ketchum 3
   openverse Bald Mountain Ketchum 1
-  dead on fetch sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bald_Mountain_in_Sun_Valley%2C_I
-  dead on fetch sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/The_chairlift_at_Ruud_-_Proctor_
-  dead on fetch sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bald_Mountain_as_seen_from_Sun_V
-  dead on fetch sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sun_Valley%2C_Idaho_2024_-_Old_P
-  dead on fetch sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/US_Ski_%26_Snowboard_Hall_of_Fam
-  dead on fetch sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sun_Valley%2C_Idaho_Classic_Chev
-  dead on fetch sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/De_sjah_van_Iran_en_zijn_regerin
-  dead on fetch sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Sun_Valley%2C_Idaho_Hemmingway_M
-  dead on fetch sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ketchum_Sun_Valley_in_winter.jpg
-Sun Valley: 0
-  dead porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Costa_Smeralda_Storeb%C3%A6lt_IV
-  dead porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sardinia%2C_Olbia%2C_Aeroporto_O
-  dead porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Costa_Smeralda.jpg/1800px-Costa_
-  dead porto-cervo https://upload.wikimedia.org/wikipedia/commons/d/d8/Olbia_Costa_Smeralda_Airport.jpg
+  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Bald_Mountain_in_Sun_V <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/The_chairlift_at_Ruud_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bald_Mountain_as_seen_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sun_Valley%2C_Idaho_20 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/US_Ski_%26_Snowboard_H <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed sun-valley https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sun_Valley%2C_Idaho_Cl <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Sun Valley: 6
   commons raw Porto Cervo marina 40
   openverse Porto Cervo marina 0
   commons raw Costa Smeralda 40
   openverse Costa Smeralda 8
-  dead on fetch porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Costa_Smeralda_Storeb%C3%A6lt_IV
-  dead on fetch porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sardinia%2C_Olbia%2C_Aeroporto_O
-  dead on fetch porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Costa_Smeralda.jpg/1800px-Costa_
-  dead on fetch porto-cervo https://upload.wikimedia.org/wikipedia/commons/d/d8/Olbia_Costa_Smeralda_Airport.jpg
-  dead on fetch porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Costa_Smeralda_in_Savona_%28Sept
-  dead on fetch porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Costa_Smeralda_1.jpg/1800px-Cost
-  dead on fetch porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Costa_Smeralda_veduta_panoramica
-  dead on fetch porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sardegna%2C_costa_smeralda_-_pan
-Porto Cervo: 0
-  dead pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Pebble_Beach_Golf_Links_01.jpg/1
-  dead pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pebble_Beach_Golf_Links_04.jpg/1
-  dead pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pebble_Beach_Golf_Links_02.jpg/1
-  dead pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Pebble_Beach_Golf_Links_05.jpg/1
-  dead pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Lone_Cypress_17-Mile_Drive_2013.
-  dead pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/17-mile_drive_1.jpg/1800px-17-mi
+  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Costa_Smeralda_Storeb% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sardinia%2C_Olbia%2C_A <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Costa_Smeralda.jpg/180 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Costa_Smeralda_in_Savo <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed porto-cervo https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Costa_Smeralda_1.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Porto Cervo: 6
   commons raw Pebble Beach Golf Links 40
   openverse Pebble Beach Golf Links 8
   commons raw 17-Mile Drive 40
   openverse 17-Mile Drive 8
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Pebble_Beach_Golf_Links_01.jpg/1
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pebble_Beach_Golf_Links_04.jpg/1
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pebble_Beach_Golf_Links_02.jpg/1
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Pebble_Beach_Golf_Links_05.jpg/1
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Pebble_Beach_Golf_Links_03.jpg/1
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pebble_Beach_18th_hole.jpg/1800p
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Pebble_Beach_6th_hole.jpg/1800px
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/U.S._Open_2010_at_Pebble_Beach.j
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Lone_Cypress_17-Mile_Drive_2013.
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/17-mile_drive_1.jpg/1800px-17-mi
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/17_mile_drive_cypress.jpg/1800px
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/17_mile_drive_at_Pacific_Grove_e
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/17_Mile_Drive_Bird_Rock.jpg/1800
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/17-Mile_Drive_Coast.JPG/1800px-1
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/17-Mile_Drive_Bird_Rock_01_2013.
-  dead on fetch pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/17_Mile_Drive_Golfing.jpg/1800px
-Pebble Beach: 0
-  dead the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Montauk_Point_Lighthouse_New_Yor
-  dead the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Montauk_Point_Lighthouse_2_-6900
-  dead the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Montauk_Point_Lighthouse_State_P
-  dead the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Montauk_Point_Lighthouse_2018_%2
+  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Pebble_Beach_Golf_Link <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed pebble-beach https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Pebble_Beach_18th_hole <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Pebble Beach: 6
   commons raw Montauk Point Lighthouse 40
   openverse Montauk Point Lighthouse 8
   commons raw East Hampton beach 40
   openverse East Hampton beach 8
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Montauk_Point_Lighthouse_New_Yor
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Montauk_Point_Lighthouse_2_-6900
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Montauk_Point_Lighthouse_State_P
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Montauk_Point_Lighthouse_2018_%2
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/1/1b/US-NY_-_North_Fork_-_Montauk_Point_Lig
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Montauk_Point_Lighthouse_New_Yor
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/a/ae/Montauk_Point_Lighthouse_Art_Deco_Gran
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/a/a3/Window_of_Keeper%27s_House_from_Montau
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Winslow_Homer%2C_East_Hampton_Be
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Beach_in_East_Hampton.jpg/1800px
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/NRHP_Contributing_property_East_
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Shabbat_on_the_Beach.jpg/1800px-
-  dead on fetch the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fisherman_Island_National_Wildli
-The Hamptons: 3
-  dead mykonos https://upload.wikimedia.org/wikipedia/commons/e/e4/Mykonos_Windmills.jpg
-  dead mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mykonos_windmills_with_a_view_of
-  dead mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Mykonos_Windmills_at_Chora.jpg/1
-  dead mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Little_Venice%2C_Mykonos%2C_Gree
-  dead mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Little_Venice_-_Mykonos.jpg/1800
+  fetch failed the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Montauk_Point_Lighthou <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Montauk_Point_Lighthou <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed the-hamptons https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Montauk_Point_Lighthou <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+The Hamptons: 6
   commons raw Mykonos windmills 40
   openverse Mykonos windmills 8
   commons raw Little Venice Mykonos 40
   openverse Little Venice Mykonos 8
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/e/e4/Mykonos_Windmills.jpg
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mykonos_windmills_with_a_view_of
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Mykonos_Windmills_at_Chora.jpg/1
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Mykonos_Windmills_%281%29.jpg/18
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Mykonos_Windmills_%282%29.jpg/18
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Little_Venice%2C_Mykonos%2C_Gree
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Little_Venice_-_Mykonos.jpg/1800
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Windmills_-_view_from_little_ven
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Little_Venice%2C_Mykonos%2C_2024
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Little_Venice%2C_Mykonos%2C_Gree
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Windmills_2_-_view_from_little_v
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Dinner_with_a_view_of_Little_Ven
-  dead on fetch mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Little_Venice%2C_Mykonos_%285718
-Mykonos: 3
-  dead ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1._Es_Vedr%C3%A0_%28vessant_migj
-  dead ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ibiza_Wall_Lizard_Podarcis_pityu
-  dead ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/2._Es_Vedr%C3%A0_i_es_Vedranell_
-  dead ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/View_of_Es_Vedr%C3%A0_from_Cala_
-  dead ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Eglesia_Sant_Pere%2C_Dalt_Vila%2
-  dead ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Altar_in_Cathedral_of_Santa_Mari
+  fetch failed mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mykonos_windmills_with <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed mykonos https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Mykonos_Windmills_at_C <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Mykonos: 6
   commons raw Es Vedrà 40
   openverse Es Vedrà 8
   commons raw Dalt Vila Ibiza 40
   openverse Dalt Vila Ibiza 8
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1._Es_Vedr%C3%A0_%28vessant_migj
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ibiza_Wall_Lizard_Podarcis_pityu
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/2._Es_Vedr%C3%A0_i_es_Vedranell_
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/View_of_Es_Vedr%C3%A0_from_Cala_
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Es_Vedr%C3%A0_from_road%2C_Ibiza
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/DSC02258_Isla_de_Es_Vedr%C3%A0.j
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/DSC02268_Isla_de_Es_Vedr%C3%A0.j
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Es_Vedr%C3%A0_from_Cala_d%27Hort
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Eglesia_Sant_Pere%2C_Dalt_Vila%2
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Altar_in_Cathedral_of_Santa_Mari
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Carrer_de_la_Conquista%2C_Dalt_V
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Carrer_del_General_Balanzat%2C_D
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Carrer_de_la_Conquista%2C_Dalt_V
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Carrer_de_la_Conquista%2C_Dalt_V
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Carrer_de_la_Conquista%2C_Dalt_V
-  dead on fetch ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Carrer_de_la_Conquista%2C_Dalt_V
-Ibiza: 0
-  dead capri https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Faraglioni-Capri.jpg/1800px-Fara
-  dead capri https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Faraglioni_Capri_2.jpg/1800px-Fa
-  dead capri https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Faraglioni_Capri.jpg/1800px-Fara
-  dead capri https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rochers_Faraglioni%2C_Capri.jpg/
-  dead capri https://upload.wikimedia.org/wikipedia/commons/8/87/Marina_Grande%2C_Capri.png
-  dead capri https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Marina_Grande_Capri.jpg/1800px-M
+  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1._Es_Vedr%C3%A0_%28ve <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ibiza_Wall_Lizard_Poda <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/2._Es_Vedr%C3%A0_i_es_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/View_of_Es_Vedr%C3%A0_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Es_Vedr%C3%A0_from_roa <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed ibiza https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/DSC02258_Isla_de_Es_Ve <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Ibiza: 6
   commons raw Faraglioni Capri 40
   openverse Faraglioni Capri 8
   commons raw Marina Grande Capri 40
   openverse Marina Grande Capri 8
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Faraglioni-Capri.jpg/1800px-Fara
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Faraglioni_Capri_2.jpg/1800px-Fa
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Faraglioni_Capri.jpg/1800px-Fara
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rochers_Faraglioni%2C_Capri.jpg/
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Faraglioni_Capri_1963.jpg/1800px
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Capri_BW_2013-05-14_15-19-56_DxO
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/I_Faraglioni.JPG/1800px-I_Faragl
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/8/87/Marina_Grande%2C_Capri.png
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Marina_Grande_Capri.jpg/1800px-M
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/SNAV_Antares_in_Marina_Grande%2C
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/%22Marina_Grande%22_Capri_1963.j
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Marina_Grande%2C_Capri_%E5%8D%A1
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Marina_Grande_%28Capri%29.jpg/18
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Marina_Grande%2C_Capri%2C_Italy_
-  dead on fetch capri https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Flickr_-_%E2%80%A6trialsanderror
-Capri: 1
-  dead lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Vista_dal_lago_su_Villa_del_Balb
-  dead lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Villa_del_Balbianello_Lago_di_Co
-  dead lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Villa-del-Balbianello-wedding_01
-  dead lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Lenno_-_Villa_del_Balbianello_06
-  dead lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_Lake_Como%2C_Italy_%
-  dead lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_lake_Como_%283825556
+  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Faraglioni-Capri.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Faraglioni_Capri_2.jpg <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Faraglioni_Capri.jpg/1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rochers_Faraglioni%2C_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed capri https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Faraglioni_Capri_1963. <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Capri: 6
   commons raw Villa del Balbianello 40
-  openverse Villa del Balbianello 8
+  openverse error Villa del Balbianello TimeoutError('The read operation timed out')
   commons raw Bellagio Lake Como 40
   openverse Bellagio Lake Como 8
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Vista_dal_lago_su_Villa_del_Balb
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Villa_del_Balbianello_Lago_di_Co
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Villa-del-Balbianello-wedding_01
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Lenno_-_Villa_del_Balbianello_06
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Lenno_-_Villa_del_Balbianello_03
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Lenno_-_Villa_del_Balbianello_04
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/2/2a/Villa_del_Balbianello_sul_lago_di_Como
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Lenno_-_Villa_del_Balbianello_05
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_Lake_Como%2C_Italy_%
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_lake_Como_%283825556
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Villa_Melzi%2C_Bellagio%2C_Lake_
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Villa_Melzi%2C_Bellagio%2C_Lake_
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Town_of_Bellagio_%28Lake_Como%29
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/BellagioPromontorio.jpg/1800px-B
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Panoramic_view_of_Como_Lake_%28L
-  dead on fetch lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Bellagio_sfhb.jpg/1800px-Bellagi
-Lake Como: 0
-  dead gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Arnensee.jpg/1800px-Arnensee.jpg
-  dead gstaad https://upload.wikimedia.org/wikipedia/commons/5/50/GstaadPanoramaVillage.jpg
-  dead gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Gstaad_Palace.jpg/1800px-The
-  dead gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ASW_Winter_Weekend_Gstaad.jpg/18
+  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_Lake_Como% <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Bellagio%2C_lake_Como_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Villa_Melzi%2C_Bellagi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Villa_Melzi%2C_Bellagi <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Town_of_Bellagio_%28La <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed lake-como https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/BellagioPromontorio.jp <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Lake Como: 6
   commons raw Gstaad village 40
   openverse Gstaad village 3
   commons raw Gstaad winter 25
-  openverse Gstaad winter 1
-  dead on fetch gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Arnensee.jpg/1800px-Arnensee.jpg
-  dead on fetch gstaad https://upload.wikimedia.org/wikipedia/commons/5/50/GstaadPanoramaVillage.jpg
-  dead on fetch gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Gstaad_Palace.jpg/1800px-The
-  dead on fetch gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/ASW_Winter_Weekend_Gstaad.jpg/18
-Gstaad: 0
-  dead jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Willow_Flats_area_and_Teton_Rang
-  dead jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Bison_fight_in_Grand_Teton_NP.jp
-  dead jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Oxbow_Bend_outlook_in_the_Grand_
-  dead jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Moose_in_Grand_Teton_National_Pa
-  dead jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Teton_Range_%26_Jackson_Hole_Val
-  dead jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Teton_Range_%26_Jackson_Hole_Val
+  openverse error Gstaad winter TimeoutError('The read operation timed out')
+  fetch failed gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Arnensee.jpg/1800px-Ar <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed gstaad https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Gstaad_Palace.jpg/ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Gstaad: 3
   commons raw Grand Teton 40
-  openverse Grand Teton 8
+  openverse error Grand Teton TimeoutError('The read operation timed out')
   commons raw Jackson Hole valley 40
-  openverse Jackson Hole valley 8
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Willow_Flats_area_and_Teton_Rang
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Bison_fight_in_Grand_Teton_NP.jp
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Oxbow_Bend_outlook_in_the_Grand_
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Moose_in_Grand_Teton_National_Pa
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Middle_Teton_Grand_Teton_NP1.jpg
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Chapel_of_the_Transfiguration_Gr
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/South_Teton_Grand_Teton_NP1.jpg/
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mt_Owen_Grand_Teton_GTNP1.jpg/18
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Teton_Range_%26_Jackson_Hole_Val
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Teton_Range_%26_Jackson_Hole_Val
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Teton_Range_%26_Jackson_Hole_Val
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Teton_Range_%26_Jackson_Hole_Val
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Teton_Range_%26_Jackson_Hole_Val
-  dead on fetch jackson-hole https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Teton_Range_%26_Jackson_Hole_Val
+  openverse error Jackson Hole valley TimeoutError('The read operation timed out')
 Jackson Hole: 2
-  dead nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Nantucket_Harbor_%283120845112%2
-  dead nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jetty%2C_Nantucket_harbor%2C_MA%
-  dead nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2011-boston-harbor-nantucket-1.j
-  dead nantucket https://upload.wikimedia.org/wikipedia/commons/2/29/MV_Naushon_Sept_1979.jpg
-  dead nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Brant_Point_Light_-_Brant_Point_
-  dead nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2008_06_09_-_2775_-_Nantucket_-_
   commons raw Nantucket harbor 40
-  openverse Nantucket harbor 8
+  openverse error Nantucket harbor TimeoutError('The read operation timed out')
   commons raw Brant Point Light 40
-  openverse Brant Point Light 8
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Nantucket_Harbor_%283120845112%2
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jetty%2C_Nantucket_harbor%2C_MA%
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/2011-boston-harbor-nantucket-1.j
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/2/29/MV_Naushon_Sept_1979.jpg
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Lightship_Nantucket_%28LV-112%29
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/b/be/MV_Naushon_warping_in.jpg
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Coast_Guard_Station_Brant_Point.
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Lightship_Nantucket_%28LV-112%29
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Brant_Point_Light_-_Brant_Point_
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2008_06_09_-_2775_-_Nantucket_-_
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/2008_06_09_-_2795_-_Nantucket_-_
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/2008_06_09_-_2768_-_Nantucket_-_
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/2008_06_09_-_2756_-_Nantucket_-_
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2008_06_09_-_2764_-_Nantucket_-_
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2008_06_09_-_2774_-_Nantucket_-_
-  dead on fetch nantucket https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2008_06_09_-_2773_-_Nantucket_-_
+  openverse error Brant Point Light TimeoutError('The read operation timed out')
 Nantucket: 0
-  dead abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Yas_Marina_Circuit.png/1800px-Ya
-  dead abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Yas_Marina_Circuit%2C_October_12
-  dead abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Yas_Marina_circuit_by_night.jpg/
-  dead abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/North_Grandstand_at_the_Yas_Mari
-  dead abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Sheikh_Zayed_Grand_Mosque_%40_Ab
-  dead abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sheikh_Zayed_Grand_Mosque_%40_Ab
   commons raw Yas Marina Circuit 40
   openverse Yas Marina Circuit 8
   commons raw Sheikh Zayed Grand Mosque 40
-  openverse Sheikh Zayed Grand Mosque 8
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Yas_Marina_Circuit.png/1800px-Ya
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Yas_Marina_Circuit%2C_October_12
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Yas_Marina_circuit_by_night.jpg/
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/North_Grandstand_at_the_Yas_Mari
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/3/3d/Sunset_at_Yas_Marina_circuit_-_Abu_Dha
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/b/b2/Yas_Marina_Circuit%2C_Abu_Dhabi.jpg
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Caterham_Seven_360_Richard_Mille
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Sheikh_Zayed_Grand_Mosque_%40_Ab
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sheikh_Zayed_Grand_Mosque_%40_Ab
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sheikh_Zayed_Grand_Mosque_Iftar_
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sheikh_Zayed_Grand_Mosque_%40_Ab
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sheikh_Zayed_Grand_Mosque_%40_Ab
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sheikh_Zayed_Grand_Mosque_%40_Ab
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Sheikh_Zayed_Grand_Mosque_%40_Ab
-  dead on fetch abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sheikh_Zayed_Grand_Mosque_At_Nig
-Abu Dhabi: 1
-  dead venice https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/1_venice_grand_canal_rialto_brid
-  dead venice https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Venice_%28grand_canal%29_-_panor
-  dead venice https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Venice_-_Grand_Canal_09.jpg/1800
-  dead venice https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Taco_Bell_at_the_Venice_Grand_Ca
-  dead venice https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ponte_della_Libert%C3%A0%2C_rail
-  dead venice https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hazy_aerial_panorama_of_Venice_r
+  openverse error Sheikh Zayed Grand Mosque TimeoutError('The read operation timed out')
+  fetch failed abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Yas_Marina_Circuit.png <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Yas_Marina_Circuit%2C_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Yas_Marina_circuit_by_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed abu-dhabi https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/North_Grandstand_at_th <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Abu Dhabi: 6
   commons raw Venice Grand Canal 40
-  openverse Venice Grand Canal 8
+  openverse error Venice Grand Canal TimeoutError('The read operation timed out')
   commons raw Venice lagoon aerial 40
-  openverse Venice lagoon aerial 3
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/1_venice_grand_canal_rialto_brid
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Venice_%28grand_canal%29_-_panor
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Venice_-_Grand_Canal_09.jpg/1800
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Taco_Bell_at_the_Venice_Grand_Ca
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Venice_%E2%80%93_Grand_Canal_-_P
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Interior_of_Venice_Grand_Canal_M
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Venice_-_Grand_Canal_11.jpg/1800
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Venice_Grand_Canal_at_sunrise_%2
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Ponte_della_Libert%C3%A0%2C_rail
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hazy_aerial_panorama_of_Venice_r
-  dead on fetch venice https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Aerial_panorama_of_Venetian_roof
+  openverse error Venice lagoon aerial TimeoutError('The read operation timed out')
 Venice: 0
-  dead basel https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Waggis_2013_2.jpg/1800px-Waggis_
-  dead basel https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Altstadt_Grossbasel%2C_vom_Basle
-  dead basel https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/1_Rheinbr%C3%BCcke_in_Basel.jpg/
-  dead basel https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Switzerland_020.jpg/1800px-Switz
-  dead basel https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Basel_M%C3%BCnster_Querschiff_3.
-  dead basel https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Basel_M%C3%BCnster_Krypta_P6A945
   commons raw Basel Rhine Mittlere Brücke 40
   openverse Basel Rhine Mittlere Brücke 4
   commons raw Basel Münster 40
-  openverse Basel Münster 8
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Waggis_2013_2.jpg/1800px-Waggis_
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Altstadt_Grossbasel%2C_vom_Basle
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/1_Rheinbr%C3%BCcke_in_Basel.jpg/
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Switzerland_020.jpg/1800px-Switz
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Basel_M%C3%BCnster_Querschiff_3.
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Basel_M%C3%BCnster_Krypta_P6A945
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Basel_M%C3%BCnster_Chorpfeiler_P
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Basel_M%C3%BCnster_Innen_2.JPG/1
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Basel_M%C3%BCnster_-_panoramio_%
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Basel_M%C3%BCnster_Kanzel_P6A947
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Basel_M%C3%BCnster_-_panoramio.j
-  dead on fetch basel https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Basel-_%28M%C3%BCnster%29_Heilig
-Basel: 0
-  dead maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2016_Maastricht%2C_Vrijthof%2C_S
-  dead maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2016_Maastricht%2C_Vrijthof_polo
-  dead maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Maastricht%2C_Vrijthof%2C_Preuve
-  dead maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2016-Maastricht%2C_Vrijthof%2C_K
-  dead maastricht https://upload.wikimedia.org/wikipedia/commons/e/e3/Maastricht%2C_Maas_en_stadspark1.jpg
-  dead maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2018-Maastricht%2C_Maas_%26_Sapp
+  openverse error Basel Münster TimeoutError('The read operation timed out')
+  fetch failed basel https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Waggis_2013_2.jpg/1800 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed basel https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Altstadt_Grossbasel%2C <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed basel https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/1_Rheinbr%C3%BCcke_in_ <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed basel https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Switzerland_020.jpg/18 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Basel: 4
   commons raw Maastricht Vrijthof 40
-  openverse Maastricht Vrijthof 8
+  openverse error Maastricht Vrijthof <HTTPError 502: 'Bad Gateway'>
   commons raw Maastricht Maas 40
-  openverse Maastricht Maas 8
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2016_Maastricht%2C_Vrijthof%2C_S
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2016_Maastricht%2C_Vrijthof_polo
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Maastricht%2C_Vrijthof%2C_Preuve
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2016-Maastricht%2C_Vrijthof%2C_K
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2016_Maastricht%2C_Vrijthof_21%2
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/0/0e/Maastricht%2C_Vrijthof%2C_GAM_8722.jpg
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Maastricht_-_Vrijthof_36_-_rijks
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/d/de/Maastricht_-_Vrijthof_8_-_rijksmonumen
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/e/e3/Maastricht%2C_Maas_en_stadspark1.jpg
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2018-Maastricht%2C_Maas_%26_Sapp
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Maastricht%2C_Maas.jpg/1800px-Ma
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/2018-Maastricht%2C_Maas%2C_spoor
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Maastricht_Maas_2.jpg/1800px-Maa
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/d/de/Maastricht%2C_Maas%2C_rondvaartboten.j
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/2018_Maastricht%2C_Maas_vanaf_de
-  dead on fetch maastricht https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/2018_Maastricht%2C_Maas_vanaf_de
+  openverse error Maastricht Maas <HTTPError 502: 'Bad Gateway'>
 Maastricht: 0
-  dead milan https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Milan-Duomo_underground_access_M
-  dead milan https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Milan_duomo.JPG/1800px-Milan_duo
-  dead milan https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Milan_-_Duomo_-_Interieur_-_Nef.
-  dead milan https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Milan_-_Duomo_-_Interieur_-_Nef1
-  dead milan https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Veduta_della_Galleria_Vittorio_E
-  dead milan https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Galleria_Vittorio_Emanuele_II_-_
   commons raw Milan Duomo 40
-  openverse Milan Duomo 8
+  openverse error Milan Duomo <HTTPError 502: 'Bad Gateway'>
   commons raw Galleria Vittorio Emanuele II 40
-  openverse Galleria Vittorio Emanuele II 8
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Milan-Duomo_underground_access_M
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Milan_duomo.JPG/1800px-Milan_duo
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Milan_-_Duomo_-_Interieur_-_Nef.
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Milan_-_Duomo_-_Interieur_-_Nef1
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Milan_Duomo_%28Ank_Kumar%2C_Info
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Veduta_della_Galleria_Vittorio_E
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Galleria_Vittorio_Emanuele_II_-_
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Galleria_Vittorio_Emanuele_II_%2
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Galleria_Vittorio_Emanuele_II_%2
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/f/f5/Prada_boutique_at_the_Galleria_Vittori
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/e/ec/Galleria_Vittorio_Emanuele_II_%2835285
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/K%C3%A9p-Galleria_Vittorio_Emanu
-  dead on fetch milan https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Galleria_Vittorio_Emanuele_II_Mi
+  openverse error Galleria Vittorio Emanuele II <HTTPError 502: 'Bad Gateway'>
 Milan: 3
-  dead courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Marie-Mich%C3%A8le_Gagnon_in_Cou
-  dead courchevel https://upload.wikimedia.org/wikipedia/commons/0/01/Adeline_Baud_Mugnier_in_Courchevel%2C_
-  dead courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Marie-Pier_Pr%C3%A9fontaine_in_C
-  dead courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/L%27%C3%89clipse_ski_course_-_Mu
-  dead courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Piper_PA-46_taxiing_at_Courcheve
-  dead courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Courchevel_Altiport_dent_du_Vill
   commons raw Courchevel ski 40
-  openverse Courchevel ski 8
+  openverse error Courchevel ski <HTTPError 502: 'Bad Gateway'>
   commons raw Courchevel altiport 40
-  openverse Courchevel altiport 8
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Marie-Mich%C3%A8le_Gagnon_in_Cou
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/0/01/Adeline_Baud_Mugnier_in_Courchevel%2C_
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Marie-Pier_Pr%C3%A9fontaine_in_C
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/L%27%C3%89clipse_ski_course_-_Mu
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Lara_Gut_in_Courchevel%2C_20_dec
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/L%27%C3%89clipse_ski_course_-_Mu
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/4/43/Marta_Bassino_in_Courchevel%2C_20_dece
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/L%27%C3%89clipse_ski_course_-_st
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Piper_PA-46_taxiing_at_Courcheve
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Courchevel_Altiport_dent_du_Vill
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Courchevel_Altiport.jpg/1800px-C
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Altiport_Courchevel2.jpg/1800px-
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Altiport_Courchevel1.jpg/1800px-
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Becca_Motta_%40_Altiport_de_Cour
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Roc_du_B%C3%A9coin_%40_Altiport_
-  dead on fetch courchevel https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Pointe_de_M%C3%A9ribel_%40_Altip
+  openverse error Courchevel altiport <HTTPError 502: 'Bad Gateway'>
 Courchevel: 0
-  dead austin https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Austin%2C_Texas_Skyline_2018.jpg
-  dead austin https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Colorado_River_and_Austin%2C_Tex
-  dead austin https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Austin_Texas_skyline%2C_December
-  dead austin https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Austin_Texas_skyline_at_dusk_in_
-  dead austin https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Circuit_of_the_Americas%2C_April
-  dead austin https://upload.wikimedia.org/wikipedia/commons/f/fe/Crowds_at_Circuit_of_the_Americas.jpg
   commons raw Austin Texas skyline 40
-  openverse Austin Texas skyline 8
+  openverse error Austin Texas skyline <HTTPError 502: 'Bad Gateway'>
   commons raw Circuit of the Americas 40
-  openverse Circuit of the Americas 8
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Austin%2C_Texas_Skyline_2018.jpg
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Colorado_River_and_Austin%2C_Tex
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Austin_Texas_skyline%2C_December
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Austin_Texas_skyline_at_dusk_in_
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Austin_Texas_Skyline.jpg/1800px-
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Austin_Texas_skyline%2C_December
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Austin%2C_Texas_Skyline.jpg/1800
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Austin_August_2019_19_%28skyline
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Circuit_of_the_Americas%2C_April
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/f/fe/Crowds_at_Circuit_of_the_Americas.jpg
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Collective_Soul%2C_Circuit_of_th
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/2017_FIA_Masters_Historic_Formul
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/2017_FIA_Masters_Historic_Formul
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Main_straight_and_turn_1_hill%2C
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2017_FIA_Masters_Historic_Formul
-  dead on fetch austin https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2017_FIA_Masters_Historic_Formul
+  openverse error Circuit of the Americas <HTTPError 502: 'Bad Gateway'>
 Austin: 0
-  dead las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Las_Vegas_Strip_at_night%2C_2012
-  dead las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Stardust_sign_015.JPG/1800px-Sta
-  dead las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Las_Vegas_Strip_lights_at_night.
-  dead las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flamingo_Las_Vegas_at_night.jpg/
-  dead las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bellagio_fountain_show_2010_las_
-  dead las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Paris_las_vegas_bellagio_fountai
   commons raw Las Vegas Strip night 40
-  openverse Las Vegas Strip night 8
+  openverse error Las Vegas Strip night <HTTPError 502: 'Bad Gateway'>
   commons raw Bellagio fountains 40
-  openverse Bellagio fountains 8
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Las_Vegas_Strip_at_night%2C_2012
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Stardust_sign_015.JPG/1800px-Sta
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Las_Vegas_Strip_lights_at_night.
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Flamingo_Las_Vegas_at_night.jpg/
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Night_mode_2_Bellagio.jpg/1800px
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Front_of_the_Bellagio_at_night.j
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Las_Vegas_Strip_2013.jpg/1800px-
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Las_Vegas_strip_at_night%2C_Neva
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Bellagio_fountain_show_2010_las_
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Paris_las_vegas_bellagio_fountai
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/The_Bellagio_Fountains%2C_Las_Ve
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Bellagio_Fountain_and_Center_Str
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Bellagio_Fountain_Club_%282023%2
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Bellagio_Fountains_%287980145866
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bellagio_Fountains_3_%2814944026
-  dead on fetch las-vegas https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Bellagio_Fountains_%287980142135
+  openverse error Bellagio fountains <HTTPError 502: 'Bad Gateway'>
 Las Vegas: 0
-  dead monza https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Autodromo_Nazionale_Monza%2C_Apr
-  dead monza https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2018_FIA_Formula_2_Championship%
-  dead monza https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2018_FIA_Formula_2_Championship%
-  dead monza https://upload.wikimedia.org/wikipedia/commons/0/0d/62%C2%B0_Coppa_Intereuropa_-_Autodromo
-  dead monza https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Roseto_della_Villa_Reale_di_Monz
-  dead monza https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Villa_Reale_di_Monza_%28Giuseppe
   commons raw Autodromo Nazionale Monza 40
-  openverse Autodromo Nazionale Monza 8
+  openverse error Autodromo Nazionale Monza <HTTPError 502: 'Bad Gateway'>
   commons raw Villa Reale di Monza 40
-  openverse Villa Reale di Monza 8
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Autodromo_Nazionale_Monza%2C_Apr
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2018_FIA_Formula_2_Championship%
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2018_FIA_Formula_2_Championship%
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/0/0d/62%C2%B0_Coppa_Intereuropa_-_Autodromo
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/a/aa/62%C2%B0_Coppa_Intereuropa_-_Autodromo
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/8/88/62%C2%B0_Coppa_Intereuropa_-_Autodromo
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/7/74/62%C2%B0_Coppa_Intereuropa_-_Autodromo
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/0/00/62%C2%B0_Coppa_Intereuropa_-_Autodromo
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Roseto_della_Villa_Reale_di_Monz
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Villa_Reale_di_Monza_%28Giuseppe
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Villa_Reale_di_Monza_-_rose_gard
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/UNA_DELLE_STANZE_DELLA_VILLA_REA
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Villa_Reale_di_Monza.jpg/1800px-
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Villa_reale_di_monza%2C_cappella
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Villa_Reale_di_Monza_%28Giuseppe
-  dead on fetch monza https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/ATRIO_D%27INGRESSO_ALLA_VILLA_RE
+  openverse error Villa Reale di Monza TimeoutError('The read operation timed out')
 Monza: 0
-  dead silverstone https://upload.wikimedia.org/wikipedia/commons/1/19/Silverstone_Circuit_1952_to_1974.png
-  dead silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Silverstone_Circuit_vector_map.p
-  dead silverstone https://upload.wikimedia.org/wikipedia/commons/9/97/Silverstone_Circuit_2004_to_2009.png
-  dead silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Stowe_House%2C_Buckinghamshire.j
-  dead silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Music_Room_fireplace_-_Stowe_Hou
   commons raw Silverstone Circuit 40
   openverse Silverstone Circuit 8
   commons raw Stowe House 40
   openverse Stowe House 8
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/1/19/Silverstone_Circuit_1952_to_1974.png
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Silverstone_Circuit_vector_map.p
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/9/97/Silverstone_Circuit_2004_to_2009.png
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/a/aa/Silverstone_Circuit_1975_to_1986.png
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/1/1a/Silverstone_Circuit_2011.png
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/3/37/Silverstone_Circuit_1991_to_1993.png
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/b/b2/Silverstone_Circuit_2000_to_2002.png
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Stowe_House%2C_Buckinghamshire.j
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Music_Room_fireplace_-_Stowe_Hou
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Stowe_House_-_Buckinghamshire%2C
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stowe_House%2C_6_Clumber_Road_We
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Stowe_House%2C_Oakham.jpg/1800px
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/North_Hall_ceiling_-_Stowe_House
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/North_Hall_-_Stowe_House_-_Bucki
-  dead on fetch silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Stow_House_7245.jpg/1800px-Stow_
-Silverstone: 1
-  dead melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Melbourne_skyline_on_14_Septembe
-  dead melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Melbourne_docklands_twilight.jpg
-  dead melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yarra_River_in_summer.jpg/1800px
-  dead melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_Yarra_Flats%2C_Northeast_Lin
-  dead melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Carousel_venue%2C_Albert_Park%2C
-  dead melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Duck_dish_at_Carousel_venue%2C_A
+  fetch failed silverstone https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Silverstone_Circuit_ve <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Silverstone: 6
   commons raw Melbourne skyline Yarra 40
   openverse Melbourne skyline Yarra 8
   commons raw Albert Park Melbourne 40
   openverse Albert Park Melbourne 8
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Melbourne_skyline_on_14_Septembe
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Melbourne_docklands_twilight.jpg
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yarra_River_in_summer.jpg/1800px
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_Yarra_Flats%2C_Northeast_Lin
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Aerial_panorama_of_South_Yarra_f
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Yarra_Flats_Park_facing_the_Melb
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Melbourne_skyline_2008.jpg/1800p
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Carey_Boat_Crew_on_Yarra%2C_Melb
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Carousel_venue%2C_Albert_Park%2C
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Duck_dish_at_Carousel_venue%2C_A
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Melbourne_CBD_seen_from_Carousel
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Melbourne_CBD_at_night_seen_from
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Carousel_venue%2C_Albert_Park%2C
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Carousel_venue%2C_Albert_Park%2C
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Pork_belly_dish_at_Carousel_venu
-  dead on fetch melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Carousel_venue%2C_Albert_Park%2C
-Melbourne: 0
-dropped dead images: 213
-cities with photos: 21 of 40
+  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Melbourne_skyline_on_1 <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Melbourne_docklands_tw <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Yarra_River_in_summer. <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/The_Yarra_Flats%2C_Nor <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Aerial_panorama_of_Sou <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+  fetch failed melbourne https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Yarra_Flats_Park_facin <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
+Melbourne: 6
+dropped dead images: 2
+cities with photos: 33 of 40
