@@ -46,9 +46,11 @@ def get(url, headers=None):
     req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
     with urllib.request.urlopen(req, timeout=40) as r: return json.loads(r.read().decode())
 def strip(s): return html.unescape(re.sub(r"<[^>]+>", "", s or "")).strip()
-def thumb(url, w=1800, orig_w=None):
+def thumb(url, w=1280, orig_w=None):
     """Wikimedia originals run to 6000px and several MB. Serve the 1800px rendition instead.
     Wikimedia refuses a thumbnail wider than the original, so small originals are served as they are."""
+    for allowed in (320, 640, 800, 1024, 1280, 1920, 2560):
+        if allowed >= w: w = allowed; break
     if orig_w and orig_w <= w: return url
     m = re.match(r"^(https://upload\.wikimedia\.org/wikipedia/commons)/([0-9a-f])/([0-9a-f]{2})/([^/]+)$", url)
     return f"{m.group(1)}/thumb/{m.group(2)}/{m.group(3)}/{m.group(4)}/{w}px-{m.group(4)}" if m else url
@@ -62,7 +64,10 @@ def localize(slug, idx, p):
     out = os.path.join(IMG_DIR, slug, f"{idx}.webp"); rel = f"/img/{slug}/{idx}.webp"
     if os.path.exists(out) and os.path.getsize(out) > 20000 and p.get("local_of") == p.get("src"): return rel
     candidates = [p.get("src") or p.get("url")]
-    if p.get("full") and p["full"] not in candidates: candidates.append(p["full"])
+    if p.get("full"):
+        if p["full"] not in candidates: candidates.append(p["full"])
+        alt = thumb(p["full"], 1280)
+        if alt not in candidates: candidates.append(alt)
     for u in candidates:
         try:
             req = urllib.request.Request(u, headers={"User-Agent": UA, "Accept": "image/*"})
@@ -105,14 +110,18 @@ def unsplash(query, n, key):
             for r in data.get("results", [])]
 def openverse(query, n):
     url = f"https://api.openverse.org/v1/images/?q={urllib.parse.quote(query)}&license_type=commercial&size=large&aspect_ratio=wide&page_size={n*2}"
-    try: data = get(url, {"Accept": "application/json"})
-    except Exception as e: log("  openverse error", query, repr(e)); return []
+    data = None
+    for attempt in (1, 2):
+        try: data = get(url, {"Accept": "application/json"}); break
+        except Exception as e:
+            log("  openverse error", query, repr(e)[:60]); time.sleep(2)
+    if data is None: return []
     out = []
     for r in data.get("results", []):
         w, h = r.get("width") or 0, r.get("height") or 0
         if w and (w < 1200 or w < h * 1.1 or w > h * 3.2): continue
         if (r.get("license") or "").lower() in ("by-nc", "by-nd", "by-nc-sa", "by-nc-nd"): continue
-        out.append({"src": thumb(r["url"], 1800, w), "url": thumb(r["url"], 1800, w), "full": r["url"], "w": w, "h": h, "credit": (r.get("creator") or r.get("source") or "")[:80],
+        out.append({"src": thumb(r["url"], 1280, w), "url": thumb(r["url"], 1280, w), "full": r["url"], "w": w, "h": h, "credit": (r.get("creator") or r.get("source") or "")[:80],
                     "license": ("CC " + r.get("license", "").upper() + " " + (r.get("license_version") or "")).strip(), "page": r.get("foreign_landing_url", ""), "source": "openverse:" + (r.get("source") or ""), "q": query})
         if len(out) >= n: break
     log("  openverse", query, len(out)); return out

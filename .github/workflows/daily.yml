@@ -16,6 +16,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - name: Destination photography (licensed; Unsplash if a key is set, else Wikimedia Commons)
+        timeout-minutes: 25
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
         run: |
