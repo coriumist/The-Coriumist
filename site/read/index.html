@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded",reveal);
 const rows=await sb("content?id=eq."+encodeURIComponent(id)+"&status=eq.published&select=id,format,title,body,publish_at,media_urls&limit=1");const r=rows[0];
 if(!r){document.getElementById("a-title").textContent="Not filed, or not yet published.";return}
 document.title=r.title+". The Coriumist";document.getElementById("a-title").textContent=r.title;document.getElementById("a-kicker").innerHTML='<a href="/latest/">Dispatches</a> / '+(r.format||"Dispatch");document.getElementById("a-date").textContent=fmtDate(r.publish_at);
-const img=(r.media_urls&&r.media_urls[0])||FALLBACK[Math.abs([...id].reduce((a,c)=>a+c.charCodeAt(0),0))%FALLBACK.length]||"";if(img){const el=document.getElementById("a-img");el.src=img;el.style.display="block"}
+const img=(r.media_urls&&r.media_urls[0])||FALLBACK[Math.abs([...id].reduce((a,c)=>a+c.charCodeAt(0),0))%FALLBACK.length]||"";const el=document.getElementById("a-img");el.onerror=()=>{el.onerror=null;el.src="/assets/placeholder.svg"};el.src=img||"/assets/placeholder.svg";el.style.display="block";
 const b=r.body||"";document.getElementById("a-body").innerHTML=/<[a-z][\s\S]*>/i.test(b)?b:b.split(/\n\s*\n/).map(p=>"<p>"+p.replace(/\n/g,"<br>")+"</p>").join("");
 })();</script></main><footer><div class="wrap"><div class="foot mono">
 <div><h5>The circuit</h5><ul><li><a href="/circuit/">Cities</a></li><li><a href="/map/">Map</a></li><li><a href="/index/">The Index</a></li><li><a href="/places/">Places</a></li></ul></div>

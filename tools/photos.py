@@ -46,10 +46,29 @@ def get(url, headers=None):
     req = urllib.request.Request(url, headers={"User-Agent": UA, **(headers or {})})
     with urllib.request.urlopen(req, timeout=40) as r: return json.loads(r.read().decode())
 def strip(s): return html.unescape(re.sub(r"<[^>]+>", "", s or "")).strip()
-def thumb(url, w=1800):
-    """Wikimedia originals run to 6000px and several MB. Serve the 1800px rendition instead."""
+def thumb(url, w=1800, orig_w=None):
+    """Wikimedia originals run to 6000px and several MB. Serve the 1800px rendition instead.
+    Wikimedia refuses a thumbnail wider than the original, so small originals are served as they are."""
+    if orig_w and orig_w <= w: return url
     m = re.match(r"^(https://upload\.wikimedia\.org/wikipedia/commons)/([0-9a-f])/([0-9a-f]{2})/([^/]+)$", url)
     return f"{m.group(1)}/thumb/{m.group(2)}/{m.group(3)}/{m.group(4)}/{w}px-{m.group(4)}" if m else url
+BROWSER = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
+def alive(url):
+    """Does this image actually load for a visitor? HEAD as a phone browser with our referer; GET a byte range if HEAD is refused."""
+    for method in ("HEAD", "GET"):
+        try:
+            req = urllib.request.Request(url, method=method, headers={"User-Agent": BROWSER, "Referer": "https://coriumist.com/", "Accept": "image/*,*/*;q=0.8", **({"Range": "bytes=0-1023"} if method == "GET" else {})})
+            with urllib.request.urlopen(req, timeout=25) as r:
+                ct = r.headers.get("Content-Type", "")
+                if r.status in (200, 206) and ct.startswith("image/"): return True
+                if r.status in (200, 206) and method == "GET": return True
+        except urllib.error.HTTPError as e:
+            if e.code in (405, 403) and method == "HEAD": continue
+            return False
+        except Exception:
+            if method == "HEAD": continue
+            return False
+    return False
 def commons(query, n):
     q = urllib.parse.quote(f"filetype:bitmap {query}")
     url = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
@@ -84,27 +103,38 @@ def openverse(query, n):
         w, h = r.get("width") or 0, r.get("height") or 0
         if w and (w < 1200 or w < h * 1.1 or w > h * 3.2): continue
         if (r.get("license") or "").lower() in ("by-nc", "by-nd", "by-nc-sa", "by-nc-nd"): continue
-        out.append({"url": thumb(r["url"]), "full": r["url"], "w": w, "h": h, "credit": (r.get("creator") or r.get("source") or "")[:80],
+        out.append({"url": thumb(r["url"], 1800, w), "full": r["url"], "w": w, "h": h, "credit": (r.get("creator") or r.get("source") or "")[:80],
                     "license": ("CC " + r.get("license", "").upper() + " " + (r.get("license_version") or "")).strip(), "page": r.get("foreign_landing_url", ""), "source": "openverse:" + (r.get("source") or ""), "q": query})
         if len(out) >= n: break
     log("  openverse", query, len(out)); return out
 photos = json.load(open(OUT)) if os.path.exists(OUT) else {}
 manual = json.load(open(MANUAL)) if os.path.exists(MANUAL) else {}
 key = os.environ.get("UNSPLASH_ACCESS_KEY")
+dropped = 0
 for c in CIRCUIT["cities"]:
     s = c["slug"]; man = [dict(p, source="manual") for p in manual.get(s, [])]
-    auto = [p for p in photos.get(s, []) if p.get("source") != "manual"]
+    auto = []
+    for p in photos.get(s, []):
+        if p.get("source") == "manual": continue
+        if p.get("w") and p["w"] <= 1800 and "px-" in p["url"]: p["url"] = p.get("full") or p["url"]
+        if alive(p["url"]): auto.append(p)
+        else: dropped += 1; log("  dead", s, p["url"][:90])
     if len(man) + len(auto) >= 5 and not REFRESH: photos[s] = (man + auto)[:WANT]; continue
     got = []
     for q in QUERIES.get(s, [c["name"]]):
         if key: got += unsplash(q, 3, key)
         else:
             got += commons(q, 3)
-            got += openverse(q, 4)
+            got += openverse(q, 8)
         time.sleep(0.6)
-    seen, dedup = set(), []
+    seen, dedup = set(p["url"] for p in auto), list(auto)
     for p in got:
-        if p["url"] not in seen: seen.add(p["url"]); dedup.append(p)
+        if p["url"] in seen: continue
+        seen.add(p["url"])
+        if alive(p["url"]): dedup.append(p)
+        else: log("  dead on fetch", s, p["url"][:90])
+        if len(man) + len(dedup) >= WANT: break
     photos[s] = (man + dedup)[:WANT]; log(f"{c['name']}: {len(photos[s])}")
 json.dump(photos, open(OUT, "w"), indent=1, ensure_ascii=False)
+log("dropped dead images:", dropped)
 log("cities with photos:", sum(1 for c in CIRCUIT["cities"] if photos.get(c["slug"])), "of", len(CIRCUIT["cities"]))

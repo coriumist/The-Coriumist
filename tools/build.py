@@ -238,9 +238,9 @@ def nav(current=None):
     links = "".join(f'<a href="{h}"{" style=color:var(--ink)" if h == current else ""}>{n}</a>' for n, h in NAVL)
     return f'<nav class="hnav"><a class="brand" href="/"><img src="/assets/mark-cream.webp" alt=""><span class="wordmark">The Coriumist</span></a><div class="links">{links}<a class="door" href="/#door">The Door</a></div><button class="menu mono" aria-label="Menu" aria-expanded="false" onclick="document.body.classList.toggle(\'menu-open\');this.setAttribute(\'aria-expanded\',document.body.classList.contains(\'menu-open\'))">Menu</button></nav><div class="sheet"><div class="mono" style="color:var(--mute);margin-bottom:1.2rem">The Coriumist</div>{links}<a href="/#door">The Door</a></div>' + ticker()
 def figure(p, cap="", cls="ph", lazy=True):
-    if not p: return f'<div class="{cls}"><div class="cap">{cap}</div></div>'
+    if not p: return f'<figure class="{cls}"><img src="/assets/placeholder.svg" alt=""><div class="cap">{cap}</div></figure>'
     cr = esc(p.get("credit", "")) + (f'. {esc(p.get("license",""))}' if p.get("license") else "")
-    return f'<figure class="{cls}"><img src="{esc(p["url"])}" alt="" {"loading=lazy" if lazy else "fetchpriority=high"}><div class="cap">{cap}</div><figcaption class="credit mono">{cr}</figcaption></figure>'
+    return f'<figure class="{cls}"><img src="{esc(p["url"])}" alt="" {"loading=lazy" if lazy else "fetchpriority=high"} onerror="this.onerror=null;this.src=\'/assets/placeholder.svg\'"><div class="cap">{cap}</div><figcaption class="credit mono">{cr}</figcaption></figure>'
 def foot():
     return f"""<footer><div class="wrap"><div class="foot mono">
 <div><h5>The circuit</h5><ul><li><a href="/circuit/">Cities</a></li><li><a href="/map/">Map</a></li><li><a href="/index/">The Index</a></li><li><a href="/places/">Places</a></li></ul></div>
@@ -276,10 +276,11 @@ setTimeout(frame,250);window.addEventListener("load",frame);
 let approved=new Set();
 try{{const a=await (await fetch("{SB_URL}/rest/v1/venues?approved=eq.true&select=city_slug,slug",{{headers:{{apikey:"{SB_KEY}",Authorization:"Bearer {SB_KEY}"}}}})).json();approved=new Set(a.map(x=>x.city_slug+"/"+x.slug))}}catch(e){{}}
 const panel=document.getElementById("panel");
-const fig=(p,cls)=>p?`<figure class="ph ${{cls||""}}"><img src="${{p.url}}" alt="" loading="lazy"><figcaption class="credit mono">${{p.credit||""}}${{p.license?". "+p.license:""}}</figcaption></figure>`:`<div class="ph ${{cls||""}}"></div>`;
+const OE=`onerror="this.onerror=null;this.src='/assets/placeholder.svg'"`;
+const fig=(p,cls)=>p?`<figure class="ph ${{cls||""}}"><img src="${{p.url}}" alt="" loading="lazy" ${{OE}}><figcaption class="credit mono">${{p.credit||""}}${{p.license?". "+p.license:""}}</figcaption></figure>`:`<div class="ph ${{cls||""}}"></div>`;
 function col(d,kind,label){{const rs=(read.rooms[d.slug]||[]).filter(r=>r.k===kind).slice(0,5);return `<div><h4 class="mono">${{label}}</h4><ul>${{rs.map(r=>`<li><a href="/places/${{d.slug}}/${{r.s}}/">${{r.n}}</a>${{approved.has(d.slug+"/"+r.s)?'<span class="ap mono">Approved</span>':''}}</li>`).join("")}}</ul></div>`}}
 function show(d,noscroll){{panel.style.display="block";const ps=d.photos||[];
- panel.innerHTML=`<div class="pgrid"><div>${{fig(ps[0],"main")}}<div class="strip">${{ps.slice(1,6).map((p,i)=>`<div class="ph" data-i="${{i+1}}"><img src="${{p.url}}" alt="" loading="lazy"></div>`).join("")}}</div></div>
+ panel.innerHTML=`<div class="pgrid"><div>${{fig(ps[0],"main")}}<div class="strip">${{ps.slice(1,6).map((p,i)=>`<div class="ph" data-i="${{i+1}}"><img src="${{p.url}}" alt="" loading="lazy" ${{OE}}></div>`).join("")}}</div></div>
  <div><div class="mono" style="color:var(--accent)">${{ST[d.state]}} · Score ${{d.score}} · ${{"●".repeat(d.rings)}}</div><h3><a href="/circuit/${{d.slug}}/">${{d.name}}</a></h3><p class="pnote">${{d.note}}</p><p style="margin-top:14px"><a class="btn" href="/circuit/${{d.slug}}/">The destination</a></p></div></div>
  <div class="rooms">${{col(d,"hotel","Hotels")}}${{col(d,"restaurant","Restaurants")}}${{col(d,"attraction","Attractions and nightlife")}}</div>`;
  panel.querySelectorAll(".strip .ph").forEach(el=>el.onclick=()=>{{const p=ps[+el.dataset.i];panel.querySelector(".ph.main img").src=p.url;panel.querySelector(".ph.main .credit").textContent=(p.credit||"")+(p.license?". "+p.license:"")}});
@@ -312,7 +313,7 @@ def city_card(r, wide=False):
 hero_p = hero(reads[0]["slug"]) or next((hero(r["slug"]) for r in reads if hero(r["slug"])), None)
 fallback_photos = [hero(r["slug"])["url"] for r in reads if hero(r["slug"])][:12]
 home = f"""
-<header class="hero" id="top"><div class="bg">{f'<img src="{esc(hero_p["url"])}" alt="" fetchpriority="high">' if hero_p else ""}</div>
+<header class="hero" id="top"><div class="bg">{f'<img src="{esc(hero_p["url"])}" alt="" fetchpriority="high" onerror="this.onerror=null;this.src=\'/assets/placeholder.svg\'">' if hero_p else ""}</div>
  <div class="hero-stage"><p class="hero-eyebrow mono">A private intelligence publication</p><div class="mark-hero" role="img" aria-label="The Coriumist"></div><p class="hero-the">The</p><h1 class="hero-title">Coriumist</h1><p class="hero-deck">Where capital congregates.</p><p class="hero-sub mono">Public record, read closely &nbsp;·&nbsp; est. MMXXVI</p></div>
  <p class="where mono">{esc(reads[0]["name"])} is open. {esc(date_long(TODAY))}.</p><p class="hero-cue mono">Scroll</p></header>
 
@@ -331,8 +332,8 @@ window.FALLBACK={json.dumps(fallback_photos)};
 (async()=>{{
  const rows=await sb("content?status=eq.published&select=id,format,title,body,publish_at,media_urls&order=publish_at.desc&limit=5");
  const grid=document.getElementById("drail");
- const card=(r,i)=>{{const img=(r.media_urls&&r.media_urls[0])||FALLBACK[i%FALLBACK.length]||"";return `<a class="card wide" href="/read/?id=${{r.id}}"><figure class="ph">${{img?`<img src="${{img}}" alt="" loading="lazy">`:""}}<div class="cap"><div class="k mono"><span>${{r.format||"Dispatch"}}</span><span>${{fmtDate(r.publish_at)}}</span></div><h3>${{r.title}}</h3><p>${{strip(r.body).slice(0,150)}}</p></div></figure></a>`}};
- grid.innerHTML=rows.length?rows.map(card).join(""):`<a class="card wide" href="/latest/"><figure class="ph"><img src="${{FALLBACK[0]||""}}" alt=""><div class="cap"><div class="k mono"><span>Dispatch</span></div><h3>Filed when it is filed.</h3><p>The first pieces publish through the article pipeline and appear here.</p></div></figure></a>`;
+ const card=(r,i)=>{{const img=(r.media_urls&&r.media_urls[0])||FALLBACK[i%FALLBACK.length]||"";return `<a class="card wide" href="/read/?id=${{r.id}}"><figure class="ph">${{img?`<img src="${{img}}" alt="" loading="lazy" onerror="this.onerror=null;this.src='/assets/placeholder.svg'">`:`<img src="/assets/placeholder.svg" alt="">`}}<div class="cap"><div class="k mono"><span>${{r.format||"Dispatch"}}</span><span>${{fmtDate(r.publish_at)}}</span></div><h3>${{r.title}}</h3><p>${{strip(r.body).slice(0,150)}}</p></div></figure></a>`}};
+ grid.innerHTML=rows.length?rows.map(card).join(""):`<a class="card wide" href="/latest/"><figure class="ph"><img src="${{FALLBACK[0]||"/assets/placeholder.svg"}}" alt="" onerror="this.onerror=null;this.src='/assets/placeholder.svg'"><div class="cap"><div class="k mono"><span>Dispatch</span></div><h3>Filed when it is filed.</h3><p>The first pieces publish through the article pipeline and appear here.</p></div></figure></a>`;
  document.querySelectorAll("[data-rail]").forEach(b=>b.onclick=()=>{{const r=document.getElementById(b.dataset.rail);r.scrollBy({{left:+b.dataset.dir*(r.firstElementChild?.offsetWidth+18||400),behavior:"smooth"}})}});
 }})();
 </script>"""
@@ -359,7 +360,7 @@ for r in reads:
     rooms = "".join(f'<div><h4 class="mono">{lbl}</h4><ul class="venues">' + "".join(f'<li><a href="/places/{c["slug"]}/{v["slug"]}/">{esc(v["name"])}</a><span class="k mono" data-v="{v["slug"]}"></span></li>' for v in c["venues"] if v["kind"] == k) + "</ul></div>" for k, lbl in KIND_WORD.items())
     windows = "".join(f'<div><dt class="mono">{calendar.month_name[k]}</dt><dd>{esc(v["note"])}</dd></div>' for k, v in active)
     body = f"""
-<header class="hero" style="height:76svh;min-height:520px"><div class="bg">{f'<img src="{esc(ps[0]["url"])}" alt="" fetchpriority="high">' if ps else ""}</div>
+<header class="hero" style="height:76svh;min-height:520px"><div class="bg">{f'<img src="{esc(ps[0]["url"])}" alt="" fetchpriority="high" onerror="this.onerror=null;this.src=\'/assets/placeholder.svg\'">' if ps else ""}</div>
  <div class="hero-stage" style="justify-content:flex-end;align-items:flex-start;text-align:left;padding-bottom:3rem"><div class="wrap" style="width:100%"><p class="crumb mono"><a href="/circuit/">The circuit</a> / {TIER_WORD[c["tier"]]}</p><h1 class="big" style="font-size:clamp(3rem,9vw,7rem)">{esc(c["name"])}</h1><p class="dek" style="color:var(--ink)">{esc(c["why"])}</p><p class="mono" style="margin-top:1rem;color:var(--accent)">{STATE_WORD[r["state"]]} · Score {r["score"]} · {"●"*r["rings"]}</p></div></div>
  {f'<p class="where mono">{esc(ps[0].get("credit",""))}. {esc(ps[0].get("license",""))}</p>' if ps else ""}</header>
 <section style="border:0"><div class="wrap two"><div><p class="eyebrow mono">The read, {esc(calendar.month_name[TODAY.month])}</p><p class="prose">{esc(r["note"])}</p>{gal}</div>
@@ -379,7 +380,7 @@ for c in DATA["cities"]:
     for i, v in enumerate(c["venues"]):
         p = ps[i % len(ps)] if ps else None
         body = f"""
-<header class="hero" style="height:60svh;min-height:440px"><div class="bg">{f'<img src="{esc(p["url"])}" alt="">' if p else ""}</div>
+<header class="hero" style="height:60svh;min-height:440px"><div class="bg">{f'<img src="{esc(p["url"])}" alt="" onerror="this.onerror=null;this.src=\'/assets/placeholder.svg\'">' if p else ""}</div>
  <div class="hero-stage" style="justify-content:flex-end;align-items:flex-start;text-align:left;padding-bottom:3rem"><div class="wrap" style="width:100%"><p class="crumb mono"><a href="/places/">Places</a> / <a href="/circuit/{c["slug"]}/">{esc(c["name"])}</a> / {KIND_WORD[v["kind"]]}</p><h1 class="big" style="font-size:clamp(2.4rem,7vw,5.5rem)">{esc(v["name"])}</h1><p class="mono" id="v-status" style="margin-top:1rem;color:var(--accent)">On the map. Designation pending.</p></div></div>
  {f'<p class="where mono">{esc(c["name"])}. {esc(p.get("credit",""))}. {esc(p.get("license",""))}</p>' if p else ""}</header>
 <section style="border:0"><div class="wrap two"><div><p class="eyebrow mono">Coriumist Approved</p><div class="prose"><p id="v-what" style="color:var(--mute)">The designation runs three sentences: what it is, who it attracts and why that matters, what to know before arriving. This room has not yet been designated.</p><p id="v-who"></p><p id="v-know"></p></div><p class="mono" id="v-date" style="color:var(--mute)"></p></div>
@@ -392,7 +393,7 @@ def feed_page(title, kicker, h1, dek, query, path, current):
     return shell(title, f"""<section style="border:0;padding-top:1rem"><div class="wrap"><p class="eyebrow mono">{kicker}</p><h1 class="big">{h1}</h1><p class="dek">{dek}</p></div></section>
 <section><div class="wrap"><div class="dir" id="feed" data-reveal><p class="mono" style="color:var(--mute)">Loading.</p></div></div></section>
 <script>window.FALLBACK={json.dumps(fallback_photos)};(async()=>{{const rows=await sb("{query}");const g=document.getElementById("feed");
-g.innerHTML=rows.length?rows.map((r,i)=>{{const img=(r.media_urls&&r.media_urls[0])||FALLBACK[i%FALLBACK.length]||"";return `<a class="card wide" href="/read/?id=${{r.id}}"><figure class="ph">${{img?`<img src="${{img}}" alt="" loading="lazy">`:""}}<div class="cap"><div class="k mono"><span>${{r.format||"Dispatch"}}</span><span>${{fmtDate(r.publish_at)}}</span></div><h3>${{r.title}}</h3><p>${{strip(r.body).slice(0,150)}}</p></div></figure></a>`}}).join(""):'<p class="mono" style="color:var(--mute)">Nothing filed yet.</p>'}})();</script>""", current)
+g.innerHTML=rows.length?rows.map((r,i)=>{{const img=(r.media_urls&&r.media_urls[0])||FALLBACK[i%FALLBACK.length]||"";return `<a class="card wide" href="/read/?id=${{r.id}}"><figure class="ph">${{img?`<img src="${{img}}" alt="" loading="lazy" onerror="this.onerror=null;this.src='/assets/placeholder.svg'">`:`<img src="/assets/placeholder.svg" alt="">`}}<div class="cap"><div class="k mono"><span>${{r.format||"Dispatch"}}</span><span>${{fmtDate(r.publish_at)}}</span></div><h3>${{r.title}}</h3><p>${{strip(r.body).slice(0,150)}}</p></div></figure></a>`}}).join(""):'<p class="mono" style="color:var(--mute)">Nothing filed yet.</p>'}})();</script>""", current)
 write("latest/index.html", feed_page("Dispatches. The Coriumist", "Dispatches", "Everything filed, in order.", "Four hundred words, no more. What moved, what it suggests, where to look next.", "content?status=eq.published&select=id,format,title,body,publish_at,media_urls&order=publish_at.desc&limit=200", "latest", "/latest/"))
 write("the-games/index.html", feed_page("The Games. The Coriumist", "The Games", "Sport as a capital event.", "Racing, sailing, tennis, polo, the paddock. Who is in the box, what the box costs, and what the season is really for.", "content?status=eq.published&format=ilike.*game*&select=id,format,title,body,publish_at,media_urls&order=publish_at.desc&limit=60", "the-games", "/the-games/"))
 
@@ -405,7 +406,7 @@ write("read/index.html", shell("The Coriumist", f"""
 const rows=await sb("content?id=eq."+encodeURIComponent(id)+"&status=eq.published&select=id,format,title,body,publish_at,media_urls&limit=1");const r=rows[0];
 if(!r){{document.getElementById("a-title").textContent="Not filed, or not yet published.";return}}
 document.title=r.title+". The Coriumist";document.getElementById("a-title").textContent=r.title;document.getElementById("a-kicker").innerHTML='<a href="/latest/">Dispatches</a> / '+(r.format||"Dispatch");document.getElementById("a-date").textContent=fmtDate(r.publish_at);
-const img=(r.media_urls&&r.media_urls[0])||FALLBACK[Math.abs([...id].reduce((a,c)=>a+c.charCodeAt(0),0))%FALLBACK.length]||"";if(img){{const el=document.getElementById("a-img");el.src=img;el.style.display="block"}}
+const img=(r.media_urls&&r.media_urls[0])||FALLBACK[Math.abs([...id].reduce((a,c)=>a+c.charCodeAt(0),0))%FALLBACK.length]||"";const el=document.getElementById("a-img");el.onerror=()=>{{el.onerror=null;el.src="/assets/placeholder.svg"}};el.src=img||"/assets/placeholder.svg";el.style.display="block";
 const b=r.body||"";document.getElementById("a-body").innerHTML=/<[a-z][\\s\\S]*>/i.test(b)?b:b.split(/\\n\\s*\\n/).map(p=>"<p>"+p.replace(/\\n/g,"<br>")+"</p>").join("");
 }})();</script>""", "/latest/"))
 
