@@ -24,82 +24,41 @@ Mykonos: 6 (kept)
 Ibiza: 6 (kept)
 Capri: 6 (kept)
 Lake Como: 6 (kept)
-  commons raw Gstaad village 40
+  commons Gstaad village kept 0 of 40 rejected {'type': 40}
   openverse Gstaad village 3
-  commons raw Gstaad winter 25
-  openverse error Gstaad winter TimeoutError('The read operation timed out')
-  openverse error Gstaad winter TimeoutError('The read operation timed out')
 Gstaad: 3
-  commons raw Grand Teton 40
-  openverse error Grand Teton TimeoutError('The read operation timed out')
-  openverse error Grand Teton TimeoutError('The read operation timed out')
-  commons raw Jackson Hole valley 40
-  openverse error Jackson Hole valley <HTTPError 500: 'Internal Server Error'>
-  openverse error Jackson Hole valley TimeoutError('The read operation timed out')
-Jackson Hole: 2
-  commons raw Nantucket harbor 40
-  openverse error Nantucket harbor TimeoutError('The read operation timed out')
-  openverse error Nantucket harbor TimeoutError('The read operation timed out')
-  commons raw Brant Point Light 40
-  openverse error Brant Point Light TimeoutError('The read operation timed out')
-  openverse error Brant Point Light TimeoutError('The read operation timed out')
-Nantucket: 0
+  commons Grand Teton kept 0 of 40 rejected {'type': 40}
+  openverse Grand Teton 6
+Jackson Hole: 6
+  commons Nantucket harbor kept 0 of 40 rejected {'type': 40}
+  openverse Nantucket harbor 6
+Nantucket: 6
 Abu Dhabi: 6 (kept)
-  commons raw Venice Grand Canal 40
-  openverse Venice Grand Canal 8
-  commons raw Venice lagoon aerial 40
-  openverse Venice lagoon aerial 3
-  fetch failed venice https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Taco_Bell_at_the_Venic <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-  fetch failed venice https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Interior_of_Venice_Gra <HTTPError 400: 'Use thumbnail sizes listed on https://w.wiki/GHai'>
-Venice: 6
-  commons raw Basel Rhine Mittlere Brücke 40
+Venice: 6 (kept)
+  commons Basel Rhine Mittlere Brücke kept 0 of 40 rejected {'type': 40}
   openverse Basel Rhine Mittlere Brücke 4
-  commons raw Basel Münster 40
-  openverse error Basel Münster TimeoutError('The read operation timed out')
-  openverse error Basel Münster TimeoutError('The read operation timed out')
 Basel: 4
-  commons raw Maastricht Vrijthof 40
-  openverse error Maastricht Vrijthof TimeoutError('The read operation timed out')
-  openverse error Maastricht Vrijthof TimeoutError('The read operation timed out')
-  commons raw Maastricht Maas 40
-  openverse error Maastricht Maas TimeoutError('The read operation timed out')
-  openverse error Maastricht Maas TimeoutError('The read operation timed out')
-Maastricht: 0
-  commons raw Milan Duomo 40
-  openverse error Milan Duomo TimeoutError('The read operation timed out')
-  openverse error Milan Duomo TimeoutError('The read operation timed out')
-  commons raw Galleria Vittorio Emanuele II 40
-  openverse error Galleria Vittorio Emanuele II TimeoutError('The read operation timed out')
-  openverse error Galleria Vittorio Emanuele II TimeoutError('The read operation timed out')
-Milan: 3
-  commons raw Courchevel ski 40
-  openverse error Courchevel ski TimeoutError('The read operation timed out')
-  openverse error Courchevel ski TimeoutError('The read operation timed out')
-  commons raw Courchevel altiport 40
-  openverse error Courchevel altiport TimeoutError('The read operation timed out')
-  openverse error Courchevel altiport TimeoutError('The read operation timed out')
-Courchevel: 0
-  commons raw Austin Texas skyline 40
-  openverse error Austin Texas skyline TimeoutError('The read operation timed out')
-  openverse error Austin Texas skyline TimeoutError('The read operation timed out')
-  commons raw Circuit of the Americas 40
-  openverse error Circuit of the Americas TimeoutError('The read operation timed out')
-  openverse error Circuit of the Americas TimeoutError('The read operation timed out')
-Austin: 0
-  commons raw Las Vegas Strip night 40
-  openverse error Las Vegas Strip night TimeoutError('The read operation timed out')
-  openverse error Las Vegas Strip night TimeoutError('The read operation timed out')
-  commons raw Bellagio fountains 40
-  openverse error Bellagio fountains TimeoutError('The read operation timed out')
-  openverse error Bellagio fountains TimeoutError('The read operation timed out')
-Las Vegas: 0
-  commons raw Autodromo Nazionale Monza 40
-  openverse error Autodromo Nazionale Monza TimeoutError('The read operation timed out')
-  openverse error Autodromo Nazionale Monza TimeoutError('The read operation timed out')
-  commons raw Villa Reale di Monza 40
-  openverse Villa Reale di Monza 8
-Monza: 6
+  commons Maastricht Vrijthof kept 0 of 40 rejected {'type': 40}
+  openverse Maastricht Vrijthof 6
+Maastricht: 6
+  commons Milan Duomo kept 0 of 40 rejected {'type': 40}
+  openverse Milan Duomo 6
+Milan: 6
+  commons Courchevel ski kept 0 of 40 rejected {'type': 40}
+  openverse Courchevel ski 6
+Courchevel: 6
+  commons Austin Texas skyline kept 0 of 40 rejected {'type': 40}
+  openverse Austin Texas skyline 5
+  commons Circuit of the Americas kept 0 of 40 rejected {'type': 40}
+  openverse Circuit of the Americas 6
+Austin: 6
+  commons Las Vegas Strip night kept 0 of 40 rejected {'type': 40}
+  openverse Las Vegas Strip night 5
+  commons Bellagio fountains kept 0 of 40 rejected {'type': 40}
+  openverse Bellagio fountains 6
+Las Vegas: 6
+Monza: 6 (kept)
 Silverstone: 6 (kept)
 Melbourne: 6 (kept)
 dropped dead images: 0
-cities with photos: 35 of 40
+cities with photos: 40 of 40

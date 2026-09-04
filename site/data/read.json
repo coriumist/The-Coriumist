@@ -428,6 +428,24 @@
      "credit": "thegetty",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/14258792/milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/3.webp",
+     "credit": "FlavMi",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=99979796"
+    },
+    {
+     "url": "/img/milan/4.webp",
+     "credit": "Warburg",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3513643"
+    },
+    {
+     "url": "/img/milan/5.webp",
+     "credit": "Jean-Christophe BENOIST",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
     }
    ]
   },
@@ -1340,7 +1358,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/austin/0.webp",
+     "credit": "Sk5893",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
+    },
+    {
+     "url": "/img/austin/1.webp",
+     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
+    },
+    {
+     "url": "/img/austin/2.webp",
+     "credit": "Steve",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
+    },
+    {
+     "url": "/img/austin/3.webp",
+     "credit": "J Dimas",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76225857"
+    },
+    {
+     "url": "/img/austin/4.webp",
+     "credit": "Comrade Goose",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=163304125"
+    },
+    {
+     "url": "/img/austin/5.webp",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
+    }
+   ]
   },
   {
    "slug": "st-barths",
@@ -1995,6 +2050,30 @@
      "credit": "U.S. Forest Service (source)",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/4033050/photo-image-background-forest-nature"
+    },
+    {
+     "url": "/img/jackson-hole/2.webp",
+     "credit": "Michael Gäbler",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=8807982"
+    },
+    {
+     "url": "/img/jackson-hole/3.webp",
+     "credit": "Yunner",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=15423460"
+    },
+    {
+     "url": "/img/jackson-hole/4.webp",
+     "credit": "Michael Gäbler",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=8794037"
+    },
+    {
+     "url": "/img/jackson-hole/5.webp",
+     "credit": "Tony Hisgett from Birmingham, UK",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27317651"
     }
    ]
   },
@@ -2023,7 +2102,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/nantucket/0.webp",
+     "credit": "http://maps.bpl.org",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27807008"
+    },
+    {
+     "url": "/img/nantucket/1.webp",
+     "credit": "Le grand Cricri",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=22062214"
+    },
+    {
+     "url": "/img/nantucket/2.webp",
+     "credit": "Elmschrat Coaching38",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=16133003"
+    },
+    {
+     "url": "/img/nantucket/3.webp",
+     "credit": "NantoLeb",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=10940649"
+    },
+    {
+     "url": "/img/nantucket/4.webp",
+     "credit": "ArnoldReinhold",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=70975216"
+    },
+    {
+     "url": "/img/nantucket/5.webp",
+     "credit": "NantoLeb",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=10940681"
+    }
+   ]
   },
   {
    "slug": "basel",
@@ -2102,7 +2218,44 @@
     0,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/maastricht/0.webp",
+     "credit": "Kleon3",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=53921374"
+    },
+    {
+     "url": "/img/maastricht/1.webp",
+     "credit": "Kleon3",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=47708486"
+    },
+    {
+     "url": "/img/maastricht/2.webp",
+     "credit": "Kleon3",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73106740"
+    },
+    {
+     "url": "/img/maastricht/3.webp",
+     "credit": "Kleon3",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=56425527"
+    },
+    {
+     "url": "/img/maastricht/4.webp",
+     "credit": "Kleon3",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=53921352"
+    },
+    {
+     "url": "/img/maastricht/5.webp",
+     "credit": "Unknown photographer (Fotografische Dienst Gemeente Maastricht)",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=131139421"
+    }
+   ]
   },
   {
    "slug": "courchevel",
@@ -2129,7 +2282,44 @@
     0,
     68
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/courchevel/0.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48553790"
+    },
+    {
+     "url": "/img/courchevel/1.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548846"
+    },
+    {
+     "url": "/img/courchevel/2.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548650"
+    },
+    {
+     "url": "/img/courchevel/3.webp",
+     "credit": "Jules Rohault de Fleury",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=129508705"
+    },
+    {
+     "url": "/img/courchevel/4.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=45787049"
+    },
+    {
+     "url": "/img/courchevel/5.webp",
+     "credit": "Jules Rohault de Fleury",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=129508704"
+    }
+   ]
   },
   {
    "slug": "las-vegas",
@@ -2156,7 +2346,44 @@
     74,
     0
    ],
-   "photos": []
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
+    }
+   ]
   },
   {
    "slug": "silverstone",
