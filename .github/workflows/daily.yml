@@ -21,6 +21,12 @@ jobs:
         run: python3 tools/photos.py || echo "photo step failed; site falls back to the tint layer"
       - name: Build today's read and every page
         run: python3 tools/build.py
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Smoke test every page type (fails the run before anything is committed)
+        run: |
+          npm install --silent --no-save jsdom@24 leaflet@1.9.4
+          node tools/smoke.js
       - name: Commit if anything changed
         run: |
           git config user.name "coriumist-daily"

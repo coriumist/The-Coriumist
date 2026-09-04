@@ -114,6 +114,10 @@ img{display:block;max-width:100%}
 .hnav .wordmark{font-family:"Space Mono",monospace;font-size:.72rem;letter-spacing:.28em;font-weight:700;text-transform:uppercase}
 .hnav .links{display:flex;gap:1.5rem}.hnav .links a{font-family:"Space Mono",monospace;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--soft);transition:color .25s}.hnav .links a:hover{color:var(--ink);text-decoration:none}
 .hnav .links a.door{color:var(--ink);border:1px solid var(--line);padding:.45em .9em;border-radius:999px}.hnav .links a.door:hover{background:var(--ink);color:var(--bg)}
+.hnav .menu{display:none;background:transparent;border:1px solid var(--line);color:var(--ink);padding:.45em .9em;border-radius:999px;cursor:pointer}
+.sheet{display:none;position:fixed;inset:3.2rem 0 0 0;z-index:48;background:rgba(11,23,16,.97);padding:2rem var(--pad);flex-direction:column;gap:1.1rem}
+.sheet a{font-family:"Fraunces",serif;font-variation-settings:"opsz" 72,"wght" 460;font-size:2rem;line-height:1.1}
+body.menu-open .sheet{display:flex}body.menu-open{overflow:hidden}
 .ticker{position:fixed;top:calc(3.2rem + 1px);left:0;right:0;z-index:49;overflow:hidden;border-bottom:1px solid var(--line2);background:rgba(11,23,16,.72);backdrop-filter:blur(12px);padding:.42rem 0}
 .ticker-track{display:flex;width:max-content;animation:tick 70s linear infinite}
 .ticker span{font-family:"Space Mono",monospace;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--soft);white-space:nowrap;padding-right:3.2rem}.ticker span::after{content:"·";padding-left:3.2rem;color:var(--line)}
@@ -167,7 +171,7 @@ section{padding:clamp(3.4rem,8vh,6rem) 0;border-top:1px solid var(--line2)}
 .facts{border-top:1px solid var(--line)}.facts dl{display:grid;grid-template-columns:1fr 1fr}
 .facts div{padding:12px 0;border-bottom:1px solid var(--line2)}.facts div:nth-child(odd){padding-right:20px;border-right:1px solid var(--line2)}.facts div:nth-child(even){padding-left:20px}
 .facts dt{color:var(--mute)}.facts dd{margin-top:5px;font-size:17px;line-height:1.35}
-.disc{color:var(--mute);padding-top:14px;font-size:10px}
+.disc{color:var(--mute);padding-top:14px;font-size:10px;text-transform:none;letter-spacing:.04em}
 .two{display:grid;grid-template-columns:1.4fr 1fr;gap:56px;align-items:start}
 .three{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
 .venues{list-style:none}.venues li{padding:10px 0;border-bottom:1px solid var(--line2);display:flex;justify-content:space-between;gap:12px;align-items:baseline}
@@ -206,7 +210,7 @@ footer{padding:36px 0 44px;border-top:1px solid var(--line2)}.foot{display:grid;
 #panel h3{font-variation-settings:"opsz" 72,"wght" 460;font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1.05;margin:.4rem 0 .6rem}#panel .pnote{font-size:18px;color:var(--soft);max-width:48ch}
 #panel .rooms{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:22px}#panel .rooms ul{list-style:none}#panel .rooms li{padding:7px 0;border-bottom:1px solid var(--line2);display:flex;justify-content:space-between;gap:8px;align-items:baseline}#panel .rooms h4{color:var(--soft);margin-bottom:6px}#panel .rooms .ap{color:var(--accent);white-space:nowrap}
 @media (max-width:900px){
- .hnav .links a:not(.door){display:none}.two,#panel .pgrid{grid-template-columns:1fr}.three,.dir,.foot,#panel .rooms{grid-template-columns:1fr}
+ .hnav .links{display:none}.hnav .menu{display:block}.two,#panel .pgrid{grid-template-columns:1fr}.three,.dir,.foot,#panel .rooms{grid-template-columns:1fr}
  .gallery{grid-template-columns:1fr 1fr;grid-auto-rows:150px}.gallery .ph:first-child{grid-column:span 2}
  .facts div:nth-child(odd){border-right:0;padding-right:0}.facts div:nth-child(even){padding-left:0}
  #lmap{height:70vh;min-height:420px}.rail>*{flex:0 0 82vw}
@@ -230,7 +234,7 @@ def ticker():
     return '<div class="ticker" aria-hidden="true"><div class="ticker-track">' + "".join(f"<span>{esc(t)}</span>" for t in lines * 2) + "</div></div>"
 def nav(current=None):
     links = "".join(f'<a href="{h}"{" style=color:var(--ink)" if h == current else ""}>{n}</a>' for n, h in NAVL)
-    return f'<nav class="hnav"><a class="brand" href="/"><img src="/assets/mark-cream.webp" alt=""><span class="wordmark">The Coriumist</span></a><div class="links">{links}<a class="door" href="/#door">The Door</a></div></nav>' + ticker()
+    return f'<nav class="hnav"><a class="brand" href="/"><img src="/assets/mark-cream.webp" alt=""><span class="wordmark">The Coriumist</span></a><div class="links">{links}<a class="door" href="/#door">The Door</a></div><button class="menu mono" aria-label="Menu" aria-expanded="false" onclick="document.body.classList.toggle(\'menu-open\');this.setAttribute(\'aria-expanded\',document.body.classList.contains(\'menu-open\'))">Menu</button></nav><div class="sheet"><div class="mono" style="color:var(--mute);margin-bottom:1.2rem">The Coriumist</div>{links}<a href="/#door">The Door</a></div>' + ticker()
 def figure(p, cap="", cls="ph", lazy=True):
     if not p: return f'<div class="{cls}"><div class="cap">{cap}</div></div>'
     cr = esc(p.get("credit", "")) + (f'. {esc(p.get("license",""))}' if p.get("license") else "")
@@ -244,8 +248,8 @@ def foot():
 <div class="sign"><span class="line">Money moves. We map it.</span><span class="mono">Public sources. City level. Never an address. The Coriumist, {TODAY.year}.</span></div></div></footer>"""
 def shell(title, body, current=None, desc="Where capital congregates, by season and coordinate. Public record only.", head="", og=None):
     ogt = f'<meta property="og:image" content="{esc(og)}">' if og else ""
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}">{ogt}{FONTS}<style>{CSS}</style>{head}</head>
-<body><div class="grain" aria-hidden="true"></div>{nav(current)}<main>{body}</main>{foot()}{SB_JS}</body></html>"""
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}">{ogt}{FONTS}<style>{CSS}</style>{SB_JS}{head}</head>
+<body><div class="grain" aria-hidden="true"></div>{nav(current)}<main>{body}</main>{foot()}</body></html>"""
 def write(path, content):
     full = os.path.join(SITE, path); os.makedirs(os.path.dirname(full), exist_ok=True); open(full, "w").write(content)
 
@@ -291,7 +295,7 @@ show(read.cities[0],true);
 
 # ----------------------------------------------------------------- pages
 DOOR = """<section class="doorblk" id="door"><div class="ghost" aria-hidden="true"></div><h3>The door is currently closed.</h3><p>Leave an address. When the door opens, it opens in order of arrival.</p>
-<form action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST"><input type="email" name="email" placeholder="Email" required aria-label="Email"><button type="submit">Enter</button></form></section>"""
+<form name="door" method="POST" action="/door/" data-netlify="true" netlify-honeypot="field"><input type="hidden" name="form-name" value="door"><input type="text" name="field" style="display:none" tabindex="-1" autocomplete="off"><input type="email" name="email" placeholder="Email" required aria-label="Email"><button type="submit">Enter</button></form></section>"""
 MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
 def city_card(r, wide=False):
@@ -399,6 +403,9 @@ document.title=r.title+". The Coriumist";document.getElementById("a-title").text
 const img=(r.media_urls&&r.media_urls[0])||FALLBACK[Math.abs([...id].reduce((a,c)=>a+c.charCodeAt(0),0))%FALLBACK.length]||"";if(img){{const el=document.getElementById("a-img");el.src=img;el.style.display="block"}}
 const b=r.body||"";document.getElementById("a-body").innerHTML=/<[a-z][\\s\\S]*>/i.test(b)?b:b.split(/\\n\\s*\\n/).map(p=>"<p>"+p.replace(/\\n/g,"<br>")+"</p>").join("");
 }})();</script>""", "/latest/"))
+
+# ---- door received
+write("door/index.html", shell("Received. The Coriumist", """<section class="doorblk" style="min-height:70vh;display:flex;flex-direction:column;justify-content:center"><div class="ghost" aria-hidden="true"></div><h3>Received.</h3><p>When the door opens, it opens in order of arrival. You are in the order.</p><p style="margin-top:2rem"><a class="btn" href="/">Back to the circuit</a></p></section>"""))
 
 # ---- methodology
 write("methodology/index.html", shell("Methodology. The Coriumist", f"""<section style="border:0;padding-top:1rem"><div class="wrap"><p class="eyebrow mono">Methodology</p><h1 class="big">How the number is made.</h1></div></section>

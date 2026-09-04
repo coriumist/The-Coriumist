@@ -1,5 +1,5 @@
 {
- "date": "2026-09-03",
+ "date": "2026-09-04",
  "cities": [
   {
    "slug": "monaco",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 43.7384,
    "lon": 7.4246,
-   "score": 91,
+   "score": 90,
    "rings": 7,
    "state": "open",
    "slope": -0.55,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 84,
+   "score": 83,
    "rings": 6,
    "state": "open",
    "slope": -0.31,
@@ -199,7 +199,7 @@
    "tier": 2,
    "lat": 45.4408,
    "lon": 12.3155,
-   "score": 69,
+   "score": 67,
    "rings": 5,
    "state": "open",
    "slope": -0.74,
@@ -263,7 +263,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 68,
+   "score": 66,
    "rings": 5,
    "state": "open",
    "slope": -0.36,
@@ -327,7 +327,7 @@
    "tier": 2,
    "lat": 41.1339,
    "lon": 9.535,
-   "score": 67,
+   "score": 65,
    "rings": 5,
    "state": "open",
    "slope": -0.72,
@@ -379,7 +379,7 @@
    "tier": 2,
    "lat": 45.4642,
    "lon": 9.19,
-   "score": 66,
+   "score": 65,
    "rings": 5,
    "state": "open",
    "slope": -0.54,
@@ -443,9 +443,9 @@
    "tier": 2,
    "lat": 45.6206,
    "lon": 9.281,
-   "score": 62,
+   "score": 59,
    "rings": 5,
-   "state": "open",
+   "state": "quiet",
    "slope": -0.66,
    "note": "Italian Grand Prix. Como absorbs the overflow.",
    "year": [
@@ -507,7 +507,7 @@
    "tier": 2,
    "lat": 38.9067,
    "lon": 1.4206,
-   "score": 47,
+   "score": 45,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.5,
@@ -571,7 +571,7 @@
    "tier": 2,
    "lat": 45.9856,
    "lon": 9.258,
-   "score": 45,
+   "score": 43,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.48,
@@ -630,12 +630,76 @@
    ]
   },
   {
+   "slug": "london",
+   "name": "London",
+   "tier": 1,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "score": 40,
+   "rings": 4,
+   "state": "flat",
+   "slope": 0.56,
+   "note": "Global finance. Old wealth. Sovereign capital.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    92,
+    60,
+    34,
+    34,
+    90,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Water_feature_Silence%2C_Mayfair%2C_London.JPG/1800px-Water_feature_Silence%2C_Mayfair%2C_London.JPG",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mayfair%2C_London%2C_UK_-_panoramio_%288%29.jpg/1800px-Mayfair%2C_London%2C_UK_-_panoramio_%288%29.jpg",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Dorchester%2C_Mayfair%2C_London%2C_UK_-_20100501.jpg/1800px-The_Dorchester%2C_Mayfair%2C_London%2C_UK_-_20100501.jpg",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pattersons%2C_Mayfair%2C_London_%287313808984%29.jpg/1800px-Pattersons%2C_Mayfair%2C_London_%287313808984%29.jpg",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/London_Skyline_%28125508655_cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1800px-London_Skyline_%28125508655_cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+     "credit": "Igrigorik",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=190400523"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/London_Skyline_%28232548719%29.jpeg/1800px-London_Skyline_%28232548719%29.jpeg",
+     "credit": "William Warby",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71261459"
+    }
+   ]
+  },
+  {
    "slug": "the-hamptons",
    "name": "The Hamptons",
    "tier": 2,
    "lat": 40.9634,
    "lon": -72.1848,
-   "score": 42,
+   "score": 40,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.45,
@@ -690,70 +754,6 @@
      "credit": "nationalgalleryofart",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
-    }
-   ]
-  },
-  {
-   "slug": "london",
-   "name": "London",
-   "tier": 1,
-   "lat": 51.5074,
-   "lon": -0.1278,
-   "score": 38,
-   "rings": 3,
-   "state": "flat",
-   "slope": 0.56,
-   "note": "Global finance. Old wealth. Sovereign capital.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    92,
-    60,
-    34,
-    34,
-    90,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Water_feature_Silence%2C_Mayfair%2C_London.JPG/1800px-Water_feature_Silence%2C_Mayfair%2C_London.JPG",
-     "credit": "Eluveitie",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mayfair%2C_London%2C_UK_-_panoramio_%288%29.jpg/1800px-Mayfair%2C_London%2C_UK_-_panoramio_%288%29.jpg",
-     "credit": "Tabraiz Feham",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/The_Dorchester%2C_Mayfair%2C_London%2C_UK_-_20100501.jpg/1800px-The_Dorchester%2C_Mayfair%2C_London%2C_UK_-_20100501.jpg",
-     "credit": "[1].",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Pattersons%2C_Mayfair%2C_London_%287313808984%29.jpg/1800px-Pattersons%2C_Mayfair%2C_London_%287313808984%29.jpg",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/London_Skyline_%28125508655_cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original/1800px-London_Skyline_%28125508655_cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-     "credit": "Igrigorik",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=190400523"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/London_Skyline_%28232548719%29.jpeg/1800px-London_Skyline_%28232548719%29.jpeg",
-     "credit": "William Warby",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=71261459"
     }
    ]
   },
@@ -1142,6 +1142,70 @@
    ]
   },
   {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "tier": 2,
+   "lat": 35.6762,
+   "lon": 139.6503,
+   "score": 16,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.38,
+   "note": "Not loud. Very high quality.",
+   "year": [
+    12,
+    12,
+    12,
+    76,
+    12,
+    12,
+    12,
+    12,
+    12,
+    50,
+    12,
+    12
+   ],
+   "photos": [
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tokyo_Skyline_%28214472347%29.jpeg/1800px-Tokyo_Skyline_%28214472347%29.jpeg",
+     "credit": "Andreas Bunen",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71414830"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tokyo_Skyline_2026.png/1800px-Tokyo_Skyline_2026.png",
+     "credit": "Ivan Petrov",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=181183952"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tokyo_skyline_seen_from_Tokyo_Skytree.jpg/1800px-Tokyo_skyline_seen_from_Tokyo_Skytree.jpg",
+     "credit": "Ruthsic",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=124361528"
+    },
+    {
+     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmw0ODk1MjE1ODY3Ny1pbWFnZS1reWNpc2d2ei5qcGc.jpg",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Meguro_River_Cherry_Blossom_Illumination.png/1800px-Meguro_River_Cherry_Blossom_Illumination.png",
+     "credit": "Manish Prabhune",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=178849489"
+    },
+    {
+     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Meguro_River_Cherry_Blossom_Festival_%40_Meguro_River_%2813592997474%29.jpg/1800px-Meguro_River_Cherry_Blossom_Festival_%40_Meguro_River_%2813592997474%29.jpg",
+     "credit": "Guilhem Vellut from Annecy, France",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=150216688"
+    }
+   ]
+  },
+  {
    "slug": "los-angeles",
    "name": "Los Angeles",
    "tier": 2,
@@ -1202,70 +1266,6 @@
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/3297969/free-photo-image-city-sun-cc0"
-    }
-   ]
-  },
-  {
-   "slug": "tokyo",
-   "name": "Tokyo",
-   "tier": 2,
-   "lat": 35.6762,
-   "lon": 139.6503,
-   "score": 15,
-   "rings": 2,
-   "state": "opening",
-   "slope": 0.38,
-   "note": "Not loud. Very high quality.",
-   "year": [
-    12,
-    12,
-    12,
-    76,
-    12,
-    12,
-    12,
-    12,
-    12,
-    50,
-    12,
-    12
-   ],
-   "photos": [
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Tokyo_Skyline_%28214472347%29.jpeg/1800px-Tokyo_Skyline_%28214472347%29.jpeg",
-     "credit": "Andreas Bunen",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=71414830"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tokyo_Skyline_2026.png/1800px-Tokyo_Skyline_2026.png",
-     "credit": "Ivan Petrov",
-     "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=181183952"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Tokyo_skyline_seen_from_Tokyo_Skytree.jpg/1800px-Tokyo_skyline_seen_from_Tokyo_Skytree.jpg",
-     "credit": "Ruthsic",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=124361528"
-    },
-    {
-     "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvZmw0ODk1MjE1ODY3Ny1pbWFnZS1reWNpc2d2ei5qcGc.jpg",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Meguro_River_Cherry_Blossom_Illumination.png/1800px-Meguro_River_Cherry_Blossom_Illumination.png",
-     "credit": "Manish Prabhune",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=178849489"
-    },
-    {
-     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Meguro_River_Cherry_Blossom_Festival_%40_Meguro_River_%2813592997474%29.jpg/1800px-Meguro_River_Cherry_Blossom_Festival_%40_Meguro_River_%2813592997474%29.jpg",
-     "credit": "Guilhem Vellut from Annecy, France",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=150216688"
     }
    ]
   },
@@ -1339,7 +1339,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 5,
+   "score": 7,
    "rings": 1,
    "state": "opening",
    "slope": 0.7,
@@ -2533,6 +2533,14 @@
   }
  ],
  "wire": [
+  {
+   "slug": "monza",
+   "name": "Monza",
+   "state": "quiet",
+   "was": "open",
+   "note": "Italian Grand Prix. Como absorbs the overflow.",
+   "date": "2026-09-04"
+  },
   {
    "slug": "monaco",
    "name": "Monaco",
