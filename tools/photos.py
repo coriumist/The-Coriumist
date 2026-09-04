@@ -52,23 +52,32 @@ def thumb(url, w=1800, orig_w=None):
     if orig_w and orig_w <= w: return url
     m = re.match(r"^(https://upload\.wikimedia\.org/wikipedia/commons)/([0-9a-f])/([0-9a-f]{2})/([^/]+)$", url)
     return f"{m.group(1)}/thumb/{m.group(2)}/{m.group(3)}/{m.group(4)}/{w}px-{m.group(4)}" if m else url
-BROWSER = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1"
-def alive(url):
-    """Does this image actually load for a visitor? HEAD as a phone browser with our referer; GET a byte range if HEAD is refused."""
-    for method in ("HEAD", "GET"):
+IMG_DIR = os.path.join(ROOT, "site", "img")
+def localize(slug, idx, p):
+    """Download the photograph with our own honest User-Agent, resize to 1600px, store as WebP under site/img/.
+    Returns the local URL or None if the source cannot be fetched. Self-hosted images never depend on a third party."""
+    from PIL import Image
+    from io import BytesIO
+    os.makedirs(os.path.join(IMG_DIR, slug), exist_ok=True)
+    out = os.path.join(IMG_DIR, slug, f"{idx}.webp"); rel = f"/img/{slug}/{idx}.webp"
+    if os.path.exists(out) and os.path.getsize(out) > 20000 and p.get("local_of") == p.get("src"): return rel
+    candidates = [p.get("src") or p.get("url")]
+    if p.get("full") and p["full"] not in candidates: candidates.append(p["full"])
+    for u in candidates:
         try:
-            req = urllib.request.Request(url, method=method, headers={"User-Agent": BROWSER, "Referer": "https://coriumist.com/", "Accept": "image/*,*/*;q=0.8", **({"Range": "bytes=0-1023"} if method == "GET" else {})})
-            with urllib.request.urlopen(req, timeout=25) as r:
-                ct = r.headers.get("Content-Type", "")
-                if r.status in (200, 206) and ct.startswith("image/"): return True
-                if r.status in (200, 206) and method == "GET": return True
-        except urllib.error.HTTPError as e:
-            if e.code in (405, 403) and method == "HEAD": continue
-            return False
-        except Exception:
-            if method == "HEAD": continue
-            return False
-    return False
+            req = urllib.request.Request(u, headers={"User-Agent": UA, "Accept": "image/*"})
+            with urllib.request.urlopen(req, timeout=60) as r: data = r.read()
+            im = Image.open(BytesIO(data)); im.load()
+            if im.width < 1000: log("  too small", slug, u[:80]); continue
+            im = im.convert("RGB")
+            if im.width > 1600: im = im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS)
+            im.save(out, "WEBP", quality=80, method=4)
+            p["local_of"] = p.get("src") or u
+            time.sleep(0.8)
+            return rel
+        except Exception as e:
+            log("  fetch failed", slug, u[:80], repr(e)[:80]); time.sleep(0.8)
+    return None
 def commons(query, n):
     q = urllib.parse.quote(f"filetype:bitmap {query}")
     url = ("https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search"
@@ -82,7 +91,7 @@ def commons(query, n):
         if w < 1200 or h < 700 or w < h * 1.1 or not ii.get("url", "").lower().endswith((".jpg", ".jpeg")): continue
         md = ii.get("extmetadata", {}); lic = (md.get("LicenseShortName", {}).get("value") or "").lower()
         if not any(k in lic for k in OK) or "-nc" in lic or "-nd" in lic: continue
-        out.append({"url": ii.get("thumburl") or ii["url"], "full": ii["url"], "w": w, "h": h, "credit": strip(md.get("Artist", {}).get("value"))[:80] or "Wikimedia Commons",
+        out.append({"src": ii.get("thumburl") or ii["url"], "url": ii.get("thumburl") or ii["url"], "full": ii["url"], "w": w, "h": h, "credit": strip(md.get("Artist", {}).get("value"))[:80] or "Wikimedia Commons",
                     "license": md.get("LicenseShortName", {}).get("value", ""), "page": ii.get("descriptionurl", ""), "source": "commons", "q": query})
         if len(out) >= n: break
     return out
@@ -90,7 +99,7 @@ def unsplash(query, n, key):
     url = f"https://api.unsplash.com/search/photos?query={urllib.parse.quote(query)}&orientation=landscape&per_page={n}&content_filter=high"
     try: data = get(url, {"Authorization": f"Client-ID {key}", "Accept-Version": "v1"})
     except Exception as e: log("  unsplash error", query, repr(e)); return []
-    return [{"url": r["urls"]["regular"], "full": r["urls"]["full"], "w": r["width"], "h": r["height"], "credit": r["user"]["name"],
+    return [{"src": r["urls"]["regular"], "url": r["urls"]["regular"], "full": r["urls"]["full"], "w": r["width"], "h": r["height"], "credit": r["user"]["name"],
              "credit_url": r["user"]["links"]["html"] + "?utm_source=the_coriumist&utm_medium=referral", "license": "Unsplash License",
              "page": r["links"]["html"] + "?utm_source=the_coriumist&utm_medium=referral", "download": r["links"]["download_location"], "source": "unsplash", "q": query}
             for r in data.get("results", [])]
@@ -103,7 +112,7 @@ def openverse(query, n):
         w, h = r.get("width") or 0, r.get("height") or 0
         if w and (w < 1200 or w < h * 1.1 or w > h * 3.2): continue
         if (r.get("license") or "").lower() in ("by-nc", "by-nd", "by-nc-sa", "by-nc-nd"): continue
-        out.append({"url": thumb(r["url"], 1800, w), "full": r["url"], "w": w, "h": h, "credit": (r.get("creator") or r.get("source") or "")[:80],
+        out.append({"src": thumb(r["url"], 1800, w), "url": thumb(r["url"], 1800, w), "full": r["url"], "w": w, "h": h, "credit": (r.get("creator") or r.get("source") or "")[:80],
                     "license": ("CC " + r.get("license", "").upper() + " " + (r.get("license_version") or "")).strip(), "page": r.get("foreign_landing_url", ""), "source": "openverse:" + (r.get("source") or ""), "q": query})
         if len(out) >= n: break
     log("  openverse", query, len(out)); return out
@@ -113,28 +122,30 @@ key = os.environ.get("UNSPLASH_ACCESS_KEY")
 dropped = 0
 for c in CIRCUIT["cities"]:
     s = c["slug"]; man = [dict(p, source="manual") for p in manual.get(s, [])]
-    auto = []
+    kept = []
     for p in photos.get(s, []):
         if p.get("source") == "manual": continue
-        if p.get("w") and p["w"] <= 1800 and "px-" in p["url"]: p["url"] = p.get("full") or p["url"]
-        if alive(p["url"]): auto.append(p)
-        else: dropped += 1; log("  dead", s, p["url"][:90])
-    if len(man) + len(auto) >= 5 and not REFRESH: photos[s] = (man + auto)[:WANT]; continue
+        p.setdefault("src", p.get("full") or p["url"])
+        if p["url"].startswith("/img/") and os.path.exists(os.path.join(ROOT, "site", p["url"].lstrip("/"))): kept.append(p); continue
+        rel = localize(s, len(kept) + len(man), p)
+        if rel: p["url"] = rel; kept.append(p)
+        else: dropped += 1
+    if len(man) + len(kept) >= 5 and not REFRESH: photos[s] = (man + kept)[:WANT]; log(f"{c['name']}: {len(photos[s])} (kept)"); continue
     got = []
     for q in QUERIES.get(s, [c["name"]]):
-        if key: got += unsplash(q, 3, key)
+        if key: got += unsplash(q, 4, key)
         else:
             got += commons(q, 3)
             got += openverse(q, 8)
         time.sleep(0.6)
-    seen, dedup = set(p["url"] for p in auto), list(auto)
+    seen = set(p.get("src") for p in kept) | set(p.get("full") for p in kept)
     for p in got:
-        if p["url"] in seen: continue
-        seen.add(p["url"])
-        if alive(p["url"]): dedup.append(p)
-        else: log("  dead on fetch", s, p["url"][:90])
-        if len(man) + len(dedup) >= WANT: break
-    photos[s] = (man + dedup)[:WANT]; log(f"{c['name']}: {len(photos[s])}")
-json.dump(photos, open(OUT, "w"), indent=1, ensure_ascii=False)
+        if len(man) + len(kept) >= WANT: break
+        if p["src"] in seen or p["full"] in seen: continue
+        seen.add(p["src"]); seen.add(p["full"])
+        rel = localize(s, len(kept) + len(man), p)
+        if rel: p["url"] = rel; kept.append(p)
+    photos[s] = (man + kept)[:WANT]; log(f"{c['name']}: {len(photos[s])}")
 log("dropped dead images:", dropped)
+json.dump(photos, open(OUT, "w"), indent=1, ensure_ascii=False)
 log("cities with photos:", sum(1 for c in CIRCUIT["cities"] if photos.get(c["slug"])), "of", len(CIRCUIT["cities"]))

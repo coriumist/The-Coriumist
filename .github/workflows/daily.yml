@@ -18,7 +18,9 @@ jobs:
       - name: Destination photography (licensed; Unsplash if a key is set, else Wikimedia Commons)
         env:
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-        run: python3 tools/photos.py || echo "photo step failed; site falls back to the tint layer"
+        run: |
+          pip install --quiet pillow
+          python3 tools/photos.py || echo "photo step failed; site falls back to the tint layer"
       - name: Build today's read and every page
         run: python3 tools/build.py
       - uses: actions/setup-node@v4
