@@ -95,7 +95,7 @@ KIND_WORD = {"hotel": "Hotels", "restaurant": "Restaurants", "attraction": "Attr
 cities_by_slug = {c["slug"]: c for c in DATA["cities"]}
 reads_by_slug = {r["slug"]: r for r in reads}
 FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,480;9..144,520&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">'
-LEAFLET = '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>'
+LEAFLET = '<link rel="stylesheet" href="/assets/leaflet/leaflet.css"><script src="/assets/leaflet/leaflet.js"></script>'
 
 # The dark system. Deep forest ground, cream ink, the green as accent and as the tint that sits behind every photograph.
 CSS = """
@@ -194,7 +194,9 @@ footer{padding:36px 0 44px;border-top:1px solid var(--line2)}.foot{display:grid;
 .sign{display:flex;justify-content:space-between;align-items:center;padding-top:26px;gap:12px;flex-wrap:wrap}.sign .line{font-variation-settings:"opsz" 40,"wght" 460;font-size:20px}.sign .mono{color:var(--mute)}
 /* map */
 #lmap{height:min(78vh,760px);min-height:460px;width:100%;background:#0a1610;border-radius:4px;overflow:hidden;border:1px solid var(--line2)}
-.leaflet-container{background:#0a1610;font-family:"Space Mono",monospace}.leaflet-control-attribution{background:rgba(11,23,16,.7)!important;color:var(--mute)!important;font-size:9px!important}.leaflet-control-attribution a{color:var(--soft)!important}
+.leaflet-container{background:#0a1610;font-family:"Space Mono",monospace}
+.leaflet-tile.sat{filter:saturate(.55) brightness(.62) contrast(1.08) sepia(.25) hue-rotate(95deg)}.leaflet-tile.osm{filter:invert(.92) hue-rotate(120deg) saturate(.5) brightness(.75)}
+.leaflet-tile-pane::after{content:"";position:absolute;inset:0;background:rgba(47,93,63,.18);pointer-events:none;z-index:1}.leaflet-control-attribution{background:rgba(11,23,16,.7)!important;color:var(--mute)!important;font-size:9px!important}.leaflet-control-attribution a{color:var(--soft)!important}
 .leaflet-control-zoom a{background:rgba(11,23,16,.85)!important;color:var(--ink)!important;border-color:var(--line)!important}
 .cm{position:relative;width:100%;height:100%}.cm img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 0 6px rgba(127,191,152,.6))}
 .cm.live::before{content:"";position:absolute;inset:-30%;border-radius:50%;border:1px solid var(--accent);animation:halo 2.8s ease-out infinite;opacity:0}
@@ -265,9 +267,12 @@ const read=await (await fetch("/data/read.json?d={TODAY.isoformat()}")).json();
 const ST={{opening:"Opening",open:"Open",closing:"Closing",dispersing:"Dispersing",flat:"Flat",quiet:"Quiet"}};
 const mobile=matchMedia("(max-width:900px)").matches;
 const map=L.map("lmap",{{worldCopyJump:true,minZoom:1,maxZoom:15,zoomControl:!mobile,attributionControl:true,scrollWheelZoom:false}});
-L.tileLayer("https://{{s}}.basemaps.cartocdn.com/dark_nolabels/{{z}}/{{x}}/{{y}}{{r}}.png",{{attribution:"&copy; OpenStreetMap &copy; CARTO",subdomains:"abcd",maxZoom:19}}).addTo(map);
-L.tileLayer("https://{{s}}.basemaps.cartocdn.com/dark_only_labels/{{z}}/{{x}}/{{y}}{{r}}.png",{{subdomains:"abcd",maxZoom:19,opacity:.55,pane:"shadowPane"}}).addTo(map);
-map.fitBounds([[-40,-125],[62,150]],{{padding:[10,10]}});
+const sat=L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{{z}}/{{y}}/{{x}}",{{attribution:"Tiles &copy; Esri, Maxar, Earthstar Geographics",maxZoom:18,className:"sat"}}).addTo(map);
+const lbl=L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{{z}}/{{y}}/{{x}}",{{maxZoom:18,opacity:.7,pane:"shadowPane"}}).addTo(map);
+let fell=false;sat.on("tileerror",()=>{{if(fell)return;fell=true;map.removeLayer(sat);map.removeLayer(lbl);L.tileLayer("https://tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png",{{attribution:"&copy; OpenStreetMap contributors",maxZoom:19,className:"osm"}}).addTo(map)}});
+map.setView([30,10],mobile?1:2);
+const frame=()=>{{map.invalidateSize();if(map.getSize().x>0)map.fitBounds([[-42,-128],[64,152]],{{padding:[8,8]}})}};
+setTimeout(frame,250);window.addEventListener("load",frame);
 let approved=new Set();
 try{{const a=await (await fetch("{SB_URL}/rest/v1/venues?approved=eq.true&select=city_slug,slug",{{headers:{{apikey:"{SB_KEY}",Authorization:"Bearer {SB_KEY}"}}}})).json();approved=new Set(a.map(x=>x.city_slug+"/"+x.slug))}}catch(e){{}}
 const panel=document.getElementById("panel");

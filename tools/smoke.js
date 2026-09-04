@@ -4,7 +4,7 @@ const SITE=path.join(__dirname,"..","site");
 const content=[{id:"11111111-1111-1111-1111-111111111111",format:"Dispatch",title:"Test dispatch",body:"Para one.\n\nPara two.",publish_at:"2026-09-01T10:00:00Z",media_urls:[]}];
 async function test(rel,url){
   let html=fs.readFileSync(path.join(SITE,rel),"utf8");
-  html=html.replace(/<script src="https:\/\/cdnjs[^"]*leaflet[^"]*"><\/script>/,`<script>${fs.readFileSync(require.resolve("leaflet/dist/leaflet.js"),"utf8")}</script>`).replace(/<link rel="stylesheet" href="https:\/\/cdnjs[^"]*leaflet[^"]*">/,"").replace(/<link href="https:\/\/fonts[^"]*"[^>]*>/g,"");
+  html=html.replace('<script src="/assets/leaflet/leaflet.js"></script>',`<script>${fs.readFileSync(path.join(SITE,"assets/leaflet/leaflet.js"),"utf8")}</script>`).replace('<link rel="stylesheet" href="/assets/leaflet/leaflet.css">',"").replace(/<link href="https:\/\/fonts[^"]*"[^>]*>/g,"");
   const errors=[];const vc=new VirtualConsole();vc.on("jsdomError",e=>errors.push("jsdomError: "+e.message.split("\n")[0]));vc.on("error",m=>errors.push("console.error: "+m));
   const dom=new JSDOM(html,{url,runScripts:"dangerously",pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){
   w.IntersectionObserver=class{constructor(cb){this.cb=cb}observe(el){this.cb([{isIntersecting:true,target:el}])}unobserve(){}};
