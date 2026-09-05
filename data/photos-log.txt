@@ -25,38 +25,40 @@ Ibiza: 6 (kept)
 Capri: 6 (kept)
 Lake Como: 6 (kept)
   commons Gstaad village kept 0 of 40 rejected {'type': 40}
-  openverse Gstaad village 3
+  openverse error Gstaad village <HTTPError 504: 'Gateway Timeout'>
+  openverse error Gstaad village <HTTPError 504: 'Gateway Timeout'>
+  openverse error Gstaad village <HTTPError 504: 'Gateway Timeout'>
+  commons Gstaad winter kept 0 of 25 rejected {'type': 25}
+  openverse error Gstaad winter <HTTPError 504: 'Gateway Timeout'>
+  openverse error Gstaad winter <HTTPError 504: 'Gateway Timeout'>
+  openverse error Gstaad winter <HTTPError 504: 'Gateway Timeout'>
+  commons Gstaad kept 0 of 40 rejected {'type': 40}
+  openverse error Gstaad <HTTPError 504: 'Gateway Timeout'>
+  openverse error Gstaad <HTTPError 504: 'Gateway Timeout'>
+  openverse error Gstaad <HTTPError 504: 'Gateway Timeout'>
 Gstaad: 3
-  commons Grand Teton kept 0 of 40 rejected {'type': 40}
-  openverse Grand Teton 6
-Jackson Hole: 6
-  commons Nantucket harbor kept 0 of 40 rejected {'type': 40}
-  openverse Nantucket harbor 6
-Nantucket: 6
+Jackson Hole: 6 (kept)
+Nantucket: 6 (kept)
 Abu Dhabi: 6 (kept)
 Venice: 6 (kept)
   commons Basel Rhine Mittlere Brücke kept 0 of 40 rejected {'type': 40}
-  openverse Basel Rhine Mittlere Brücke 4
+  openverse error Basel Rhine Mittlere Brücke <HTTPError 504: 'Gateway Timeout'>
+  openverse error Basel Rhine Mittlere Brücke <HTTPError 504: 'Gateway Timeout'>
+  openverse error Basel Rhine Mittlere Brücke <HTTPError 504: 'Gateway Timeout'>
+  commons Basel Münster kept 0 of 40 rejected {'type': 40}
+  openverse error Basel Münster <HTTPError 504: 'Gateway Timeout'>
+  openverse error Basel Münster <HTTPError 504: 'Gateway Timeout'>
+  openverse error Basel Münster <HTTPError 504: 'Gateway Timeout'>
+  commons Basel kept 0 of 40 rejected {'type': 40}
+  openverse error Basel <HTTPError 504: 'Gateway Timeout'>
+  openverse error Basel <HTTPError 504: 'Gateway Timeout'>
+  openverse error Basel <HTTPError 504: 'Gateway Timeout'>
 Basel: 4
-  commons Maastricht Vrijthof kept 0 of 40 rejected {'type': 40}
-  openverse Maastricht Vrijthof 6
-Maastricht: 6
-  commons Milan Duomo kept 0 of 40 rejected {'type': 40}
-  openverse Milan Duomo 6
-Milan: 6
-  commons Courchevel ski kept 0 of 40 rejected {'type': 40}
-  openverse Courchevel ski 6
-Courchevel: 6
-  commons Austin Texas skyline kept 0 of 40 rejected {'type': 40}
-  openverse Austin Texas skyline 5
-  commons Circuit of the Americas kept 0 of 40 rejected {'type': 40}
-  openverse Circuit of the Americas 6
-Austin: 6
-  commons Las Vegas Strip night kept 0 of 40 rejected {'type': 40}
-  openverse Las Vegas Strip night 5
-  commons Bellagio fountains kept 0 of 40 rejected {'type': 40}
-  openverse Bellagio fountains 6
-Las Vegas: 6
+Maastricht: 6 (kept)
+Milan: 6 (kept)
+Courchevel: 6 (kept)
+Austin: 6 (kept)
+Las Vegas: 6 (kept)
 Monza: 6 (kept)
 Silverstone: 6 (kept)
 Melbourne: 6 (kept)
