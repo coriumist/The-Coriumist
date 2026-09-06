@@ -42,17 +42,7 @@ Nantucket: 6 (kept)
 Abu Dhabi: 6 (kept)
 Venice: 6 (kept)
   commons Basel Rhine Mittlere Brücke kept 0 of 40 rejected {'type': 40}
-  openverse error Basel Rhine Mittlere Brücke <HTTPError 504: 'Gateway Timeout'>
-  openverse error Basel Rhine Mittlere Brücke <HTTPError 504: 'Gateway Timeout'>
-  openverse error Basel Rhine Mittlere Brücke <HTTPError 504: 'Gateway Timeout'>
-  commons Basel Münster kept 0 of 40 rejected {'type': 40}
-  openverse error Basel Münster <HTTPError 504: 'Gateway Timeout'>
-  openverse error Basel Münster <HTTPError 504: 'Gateway Timeout'>
-  openverse error Basel Münster <HTTPError 504: 'Gateway Timeout'>
-  commons Basel kept 0 of 40 rejected {'type': 40}
-  openverse error Basel <HTTPError 504: 'Gateway Timeout'>
-  openverse error Basel <HTTPError 504: 'Gateway Timeout'>
-  openverse error Basel <HTTPError 504: 'Gateway Timeout'>
+  openverse Basel Rhine Mittlere Brücke 4
 Basel: 4
 Maastricht: 6 (kept)
 Milan: 6 (kept)

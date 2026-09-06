@@ -1,5 +1,5 @@
 {
- "date": "2026-09-05",
+ "date": "2026-09-06",
  "cities": [
   {
    "slug": "monaco",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 43.7384,
    "lon": 7.4246,
-   "score": 88,
+   "score": 86,
    "rings": 7,
    "state": "open",
    "slope": -0.55,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 82,
+   "score": 81,
    "rings": 6,
    "state": "open",
    "slope": -0.31,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 65,
+   "score": 64,
    "rings": 5,
    "state": "open",
    "slope": -0.36,
@@ -263,7 +263,7 @@
    "tier": 2,
    "lat": 45.4408,
    "lon": 12.3155,
-   "score": 64,
+   "score": 62,
    "rings": 5,
    "state": "open",
    "slope": -0.74,
@@ -327,7 +327,7 @@
    "tier": 2,
    "lat": 45.4642,
    "lon": 9.19,
-   "score": 63,
+   "score": 61,
    "rings": 5,
    "state": "open",
    "slope": -0.54,
@@ -391,7 +391,7 @@
    "tier": 2,
    "lat": 41.1339,
    "lon": 9.535,
-   "score": 62,
+   "score": 60,
    "rings": 5,
    "state": "open",
    "slope": -0.72,
@@ -455,7 +455,7 @@
    "tier": 2,
    "lat": 45.6206,
    "lon": 9.281,
-   "score": 57,
+   "score": 55,
    "rings": 5,
    "state": "quiet",
    "slope": -0.66,
@@ -514,12 +514,76 @@
    ]
   },
   {
+   "slug": "london",
+   "name": "London",
+   "tier": 1,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "score": 43,
+   "rings": 4,
+   "state": "flat",
+   "slope": 0.56,
+   "note": "Global finance. Old wealth. Sovereign capital.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    92,
+    60,
+    34,
+    34,
+    90,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/london/0.webp",
+     "credit": "Zeisterre",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
+    },
+    {
+     "url": "/img/london/1.webp",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "/img/london/2.webp",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "/img/london/3.webp",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "/img/london/4.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "/img/london/5.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
+    }
+   ]
+  },
+  {
    "slug": "ibiza",
    "name": "Ibiza",
    "tier": 2,
    "lat": 38.9067,
    "lon": 1.4206,
-   "score": 43,
+   "score": 42,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.5,
@@ -583,7 +647,7 @@
    "tier": 2,
    "lat": 45.9856,
    "lon": 9.258,
-   "score": 42,
+   "score": 40,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.48,
@@ -642,76 +706,12 @@
    ]
   },
   {
-   "slug": "london",
-   "name": "London",
-   "tier": 1,
-   "lat": 51.5074,
-   "lon": -0.1278,
-   "score": 41,
-   "rings": 4,
-   "state": "flat",
-   "slope": 0.56,
-   "note": "Global finance. Old wealth. Sovereign capital.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    92,
-    60,
-    34,
-    34,
-    90,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/london/0.webp",
-     "credit": "Zeisterre",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
-    },
-    {
-     "url": "/img/london/1.webp",
-     "credit": "Eluveitie",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
-    },
-    {
-     "url": "/img/london/2.webp",
-     "credit": "Tabraiz Feham",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
-    },
-    {
-     "url": "/img/london/3.webp",
-     "credit": "[1].",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
-    },
-    {
-     "url": "/img/london/4.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
-    },
-    {
-     "url": "/img/london/5.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
-    }
-   ]
-  },
-  {
    "slug": "the-hamptons",
    "name": "The Hamptons",
    "tier": 2,
    "lat": 40.9634,
    "lon": -72.1848,
-   "score": 39,
+   "score": 38,
    "rings": 3,
    "state": "dispersing",
    "slope": -0.45,
@@ -1153,7 +1153,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 17,
+   "score": 18,
    "rings": 2,
    "state": "opening",
    "slope": 0.38,
@@ -1339,8 +1339,8 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 9,
-   "rings": 1,
+   "score": 12,
+   "rings": 2,
    "state": "opening",
    "slope": 0.7,
    "note": "The American paddock stop that turned into a capital week.",
