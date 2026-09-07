@@ -1,5 +1,5 @@
 {
- "date": "2026-09-06",
+ "date": "2026-09-07",
  "cities": [
   {
    "slug": "monaco",
@@ -7,8 +7,8 @@
    "tier": 1,
    "lat": 43.7384,
    "lon": 7.4246,
-   "score": 86,
-   "rings": 7,
+   "score": 84,
+   "rings": 6,
    "state": "open",
    "slope": -0.55,
    "note": "Yacht Show. Not a boat show. A liquidity event with three days of runway.",
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 81,
+   "score": 80,
    "rings": 6,
    "state": "open",
    "slope": -0.31,
@@ -135,7 +135,7 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 78,
+   "score": 79,
    "rings": 6,
    "state": "open",
    "slope": 0.14,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 64,
+   "score": 63,
    "rings": 5,
    "state": "open",
    "slope": -0.36,
@@ -263,9 +263,9 @@
    "tier": 2,
    "lat": 45.4408,
    "lon": 12.3155,
-   "score": 62,
+   "score": 59,
    "rings": 5,
-   "state": "open",
+   "state": "quiet",
    "slope": -0.74,
    "note": "The Lido. Eleven days in which the people buying and the people selling cannot avoid each other.",
    "year": [
@@ -327,9 +327,9 @@
    "tier": 2,
    "lat": 45.4642,
    "lon": 9.19,
-   "score": 61,
+   "score": 59,
    "rings": 5,
-   "state": "open",
+   "state": "quiet",
    "slope": -0.54,
    "note": "Fashion week returns.",
    "year": [
@@ -391,9 +391,9 @@
    "tier": 2,
    "lat": 41.1339,
    "lon": 9.535,
-   "score": 60,
+   "score": 58,
    "rings": 5,
-   "state": "open",
+   "state": "dispersing",
    "slope": -0.72,
    "note": "Maxi Yacht Rolex Cup, then the Swan Cup. The marina holds its weight into the second week, then empties toward Monaco.",
    "year": [
@@ -455,8 +455,8 @@
    "tier": 2,
    "lat": 45.6206,
    "lon": 9.281,
-   "score": 55,
-   "rings": 5,
+   "score": 53,
+   "rings": 4,
    "state": "quiet",
    "slope": -0.66,
    "note": "Italian Grand Prix. Como absorbs the overflow.",
@@ -519,9 +519,9 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 43,
+   "score": 45,
    "rings": 4,
-   "state": "flat",
+   "state": "opening",
    "slope": 0.56,
    "note": "Global finance. Old wealth. Sovereign capital.",
    "year": [
@@ -583,7 +583,7 @@
    "tier": 2,
    "lat": 38.9067,
    "lon": 1.4206,
-   "score": 42,
+   "score": 40,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.5,
@@ -647,8 +647,8 @@
    "tier": 2,
    "lat": 45.9856,
    "lon": 9.258,
-   "score": 40,
-   "rings": 4,
+   "score": 38,
+   "rings": 3,
    "state": "dispersing",
    "slope": -0.48,
    "note": "Closing. The best light of the year.",
@@ -702,70 +702,6 @@
      "credit": "RaminusFalcon",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
-    }
-   ]
-  },
-  {
-   "slug": "the-hamptons",
-   "name": "The Hamptons",
-   "tier": 2,
-   "lat": 40.9634,
-   "lon": -72.1848,
-   "score": 38,
-   "rings": 3,
-   "state": "dispersing",
-   "slope": -0.45,
-   "note": "Labor Day closes it. The best two weeks are after.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    60,
-    82,
-    86,
-    45,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/the-hamptons/0.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
-    },
-    {
-     "url": "/img/the-hamptons/1.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
-    },
-    {
-     "url": "/img/the-hamptons/2.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
-    },
-    {
-     "url": "/img/the-hamptons/3.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
-    },
-    {
-     "url": "/img/the-hamptons/4.webp",
-     "credit": "Fred222wiki",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
-    },
-    {
-     "url": "/img/the-hamptons/5.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
     }
    ]
   },
@@ -888,6 +824,70 @@
      "credit": "Boschtjan",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
+    }
+   ]
+  },
+  {
+   "slug": "the-hamptons",
+   "name": "The Hamptons",
+   "tier": 2,
+   "lat": 40.9634,
+   "lon": -72.1848,
+   "score": 36,
+   "rings": 3,
+   "state": "dispersing",
+   "slope": -0.45,
+   "note": "Labor Day closes it. The best two weeks are after.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    60,
+    82,
+    86,
+    45,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/the-hamptons/0.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
+    },
+    {
+     "url": "/img/the-hamptons/1.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
+    },
+    {
+     "url": "/img/the-hamptons/2.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
+    },
+    {
+     "url": "/img/the-hamptons/3.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
+    },
+    {
+     "url": "/img/the-hamptons/4.webp",
+     "credit": "Fred222wiki",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
+    },
+    {
+     "url": "/img/the-hamptons/5.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
     }
    ]
   },
@@ -1153,7 +1153,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 18,
+   "score": 20,
    "rings": 2,
    "state": "opening",
    "slope": 0.38,
@@ -1339,7 +1339,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 12,
+   "score": 14,
    "rings": 2,
    "state": "opening",
    "slope": 0.7,
@@ -2516,6 +2516,38 @@
  ],
  "wire": [
   {
+   "slug": "venice",
+   "name": "Venice",
+   "state": "quiet",
+   "was": "open",
+   "note": "The Lido. Eleven days in which the people buying and the people selling cannot avoid each other.",
+   "date": "2026-09-07"
+  },
+  {
+   "slug": "milan",
+   "name": "Milan",
+   "state": "quiet",
+   "was": "open",
+   "note": "Fashion week returns.",
+   "date": "2026-09-07"
+  },
+  {
+   "slug": "porto-cervo",
+   "name": "Porto Cervo",
+   "state": "dispersing",
+   "was": "open",
+   "note": "Maxi Yacht Rolex Cup, then the Swan Cup. The marina holds its weight into the second week, then empties toward Monaco.",
+   "date": "2026-09-07"
+  },
+  {
+   "slug": "london",
+   "name": "London",
+   "state": "opening",
+   "was": "flat",
+   "note": "Global finance. Old wealth. Sovereign capital.",
+   "date": "2026-09-07"
+  },
+  {
    "slug": "monza",
    "name": "Monza",
    "state": "quiet",
@@ -2545,22 +2577,6 @@
    "state": "open",
    "was": null,
    "note": "Ready-to-wear returns. Dinner tables are harder than the shows.",
-   "date": "2026-09-02"
-  },
-  {
-   "slug": "venice",
-   "name": "Venice",
-   "state": "open",
-   "was": null,
-   "note": "The Lido. Eleven days in which the people buying and the people selling cannot avoid each other.",
-   "date": "2026-09-02"
-  },
-  {
-   "slug": "porto-cervo",
-   "name": "Porto Cervo",
-   "state": "open",
-   "was": null,
-   "note": "Maxi Yacht Rolex Cup, then the Swan Cup. The marina holds its weight into the second week, then empties toward Monaco.",
    "date": "2026-09-02"
   },
   {

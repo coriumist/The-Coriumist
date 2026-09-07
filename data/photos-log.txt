@@ -25,17 +25,7 @@ Ibiza: 6 (kept)
 Capri: 6 (kept)
 Lake Como: 6 (kept)
   commons Gstaad village kept 0 of 40 rejected {'type': 40}
-  openverse error Gstaad village <HTTPError 504: 'Gateway Timeout'>
-  openverse error Gstaad village <HTTPError 504: 'Gateway Timeout'>
-  openverse error Gstaad village <HTTPError 504: 'Gateway Timeout'>
-  commons Gstaad winter kept 0 of 25 rejected {'type': 25}
-  openverse error Gstaad winter <HTTPError 504: 'Gateway Timeout'>
-  openverse error Gstaad winter <HTTPError 504: 'Gateway Timeout'>
-  openverse error Gstaad winter <HTTPError 504: 'Gateway Timeout'>
-  commons Gstaad kept 0 of 40 rejected {'type': 40}
-  openverse error Gstaad <HTTPError 504: 'Gateway Timeout'>
-  openverse error Gstaad <HTTPError 504: 'Gateway Timeout'>
-  openverse error Gstaad <HTTPError 504: 'Gateway Timeout'>
+  openverse Gstaad village 3
 Gstaad: 3
 Jackson Hole: 6 (kept)
 Nantucket: 6 (kept)
