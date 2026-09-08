@@ -1,5 +1,5 @@
 {
- "date": "2026-09-07",
+ "date": "2026-09-08",
  "cities": [
   {
    "slug": "monaco",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 43.7384,
    "lon": 7.4246,
-   "score": 84,
+   "score": 82,
    "rings": 6,
    "state": "open",
    "slope": -0.55,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 80,
+   "score": 79,
    "rings": 6,
    "state": "open",
    "slope": -0.31,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 63,
+   "score": 62,
    "rings": 5,
    "state": "open",
    "slope": -0.36,
@@ -263,7 +263,7 @@
    "tier": 2,
    "lat": 45.4408,
    "lon": 12.3155,
-   "score": 59,
+   "score": 57,
    "rings": 5,
    "state": "quiet",
    "slope": -0.74,
@@ -327,7 +327,7 @@
    "tier": 2,
    "lat": 45.4642,
    "lon": 9.19,
-   "score": 59,
+   "score": 57,
    "rings": 5,
    "state": "quiet",
    "slope": -0.54,
@@ -391,7 +391,7 @@
    "tier": 2,
    "lat": 41.1339,
    "lon": 9.535,
-   "score": 58,
+   "score": 55,
    "rings": 5,
    "state": "dispersing",
    "slope": -0.72,
@@ -455,7 +455,7 @@
    "tier": 2,
    "lat": 45.6206,
    "lon": 9.281,
-   "score": 53,
+   "score": 51,
    "rings": 4,
    "state": "quiet",
    "slope": -0.66,
@@ -519,7 +519,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 45,
+   "score": 47,
    "rings": 4,
    "state": "opening",
    "slope": 0.56,
@@ -583,8 +583,8 @@
    "tier": 2,
    "lat": 38.9067,
    "lon": 1.4206,
-   "score": 40,
-   "rings": 4,
+   "score": 38,
+   "rings": 3,
    "state": "dispersing",
    "slope": -0.5,
    "note": "Closing parties. Better rooms, fewer people.",
@@ -647,7 +647,7 @@
    "tier": 2,
    "lat": 45.9856,
    "lon": 9.258,
-   "score": 38,
+   "score": 37,
    "rings": 3,
    "state": "dispersing",
    "slope": -0.48,
@@ -828,70 +828,6 @@
    ]
   },
   {
-   "slug": "the-hamptons",
-   "name": "The Hamptons",
-   "tier": 2,
-   "lat": 40.9634,
-   "lon": -72.1848,
-   "score": 36,
-   "rings": 3,
-   "state": "dispersing",
-   "slope": -0.45,
-   "note": "Labor Day closes it. The best two weeks are after.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    60,
-    82,
-    86,
-    45,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/the-hamptons/0.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
-    },
-    {
-     "url": "/img/the-hamptons/1.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
-    },
-    {
-     "url": "/img/the-hamptons/2.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
-    },
-    {
-     "url": "/img/the-hamptons/3.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
-    },
-    {
-     "url": "/img/the-hamptons/4.webp",
-     "credit": "Fred222wiki",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
-    },
-    {
-     "url": "/img/the-hamptons/5.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
-    }
-   ]
-  },
-  {
    "slug": "miami",
    "name": "Miami",
    "tier": 1,
@@ -1020,6 +956,70 @@
    ]
   },
   {
+   "slug": "the-hamptons",
+   "name": "The Hamptons",
+   "tier": 2,
+   "lat": 40.9634,
+   "lon": -72.1848,
+   "score": 34,
+   "rings": 3,
+   "state": "dispersing",
+   "slope": -0.45,
+   "note": "Labor Day closes it. The best two weeks are after.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    60,
+    82,
+    86,
+    45,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/the-hamptons/0.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
+    },
+    {
+     "url": "/img/the-hamptons/1.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
+    },
+    {
+     "url": "/img/the-hamptons/2.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
+    },
+    {
+     "url": "/img/the-hamptons/3.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
+    },
+    {
+     "url": "/img/the-hamptons/4.webp",
+     "credit": "Fred222wiki",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
+    },
+    {
+     "url": "/img/the-hamptons/5.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
+    }
+   ]
+  },
+  {
    "slug": "hong-kong",
    "name": "Hong Kong",
    "tier": 1,
@@ -1080,6 +1080,64 @@
      "credit": "Ank Kumar",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=105140633"
+    }
+   ]
+  },
+  {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "tier": 2,
+   "lat": 35.6762,
+   "lon": 139.6503,
+   "score": 21,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.38,
+   "note": "Not loud. Very high quality.",
+   "year": [
+    12,
+    12,
+    12,
+    76,
+    12,
+    12,
+    12,
+    12,
+    12,
+    50,
+    12,
+    12
+   ],
+   "photos": [
+    {
+     "url": "/img/tokyo/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
+    },
+    {
+     "url": "/img/tokyo/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
+    },
+    {
+     "url": "/img/tokyo/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6078979/tokyo"
+    },
+    {
+     "url": "/img/tokyo/3.webp",
+     "credit": "Marina Koleva",
+     "license": "CC CC0 1.0",
+     "page": "https://wordpress.org/photos/photo/779642d466/"
+    },
+    {
+     "url": "/img/tokyo/4.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
     }
    ]
   },
@@ -1148,64 +1206,6 @@
    ]
   },
   {
-   "slug": "tokyo",
-   "name": "Tokyo",
-   "tier": 2,
-   "lat": 35.6762,
-   "lon": 139.6503,
-   "score": 20,
-   "rings": 2,
-   "state": "opening",
-   "slope": 0.38,
-   "note": "Not loud. Very high quality.",
-   "year": [
-    12,
-    12,
-    12,
-    76,
-    12,
-    12,
-    12,
-    12,
-    12,
-    50,
-    12,
-    12
-   ],
-   "photos": [
-    {
-     "url": "/img/tokyo/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
-    },
-    {
-     "url": "/img/tokyo/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
-    },
-    {
-     "url": "/img/tokyo/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6078979/tokyo"
-    },
-    {
-     "url": "/img/tokyo/3.webp",
-     "credit": "Marina Koleva",
-     "license": "CC CC0 1.0",
-     "page": "https://wordpress.org/photos/photo/779642d466/"
-    },
-    {
-     "url": "/img/tokyo/4.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
-    }
-   ]
-  },
-  {
    "slug": "los-angeles",
    "name": "Los Angeles",
    "tier": 2,
@@ -1270,6 +1270,70 @@
    ]
   },
   {
+   "slug": "austin",
+   "name": "Austin",
+   "tier": 2,
+   "lat": 30.2672,
+   "lon": -97.7431,
+   "score": 16,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.7,
+   "note": "The American paddock stop that turned into a capital week.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    70,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/austin/0.webp",
+     "credit": "Sk5893",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
+    },
+    {
+     "url": "/img/austin/1.webp",
+     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
+    },
+    {
+     "url": "/img/austin/2.webp",
+     "credit": "Steve",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
+    },
+    {
+     "url": "/img/austin/3.webp",
+     "credit": "J Dimas",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76225857"
+    },
+    {
+     "url": "/img/austin/4.webp",
+     "credit": "Comrade Goose",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=163304125"
+    },
+    {
+     "url": "/img/austin/5.webp",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
+    }
+   ]
+  },
+  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
@@ -1330,70 +1394,6 @@
      "credit": "Cesar I. Martins",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
-    }
-   ]
-  },
-  {
-   "slug": "austin",
-   "name": "Austin",
-   "tier": 2,
-   "lat": 30.2672,
-   "lon": -97.7431,
-   "score": 14,
-   "rings": 2,
-   "state": "opening",
-   "slope": 0.7,
-   "note": "The American paddock stop that turned into a capital week.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    70,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/austin/0.webp",
-     "credit": "Sk5893",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
-    },
-    {
-     "url": "/img/austin/1.webp",
-     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
-    },
-    {
-     "url": "/img/austin/2.webp",
-     "credit": "Steve",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
-    },
-    {
-     "url": "/img/austin/3.webp",
-     "credit": "J Dimas",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76225857"
-    },
-    {
-     "url": "/img/austin/4.webp",
-     "credit": "Comrade Goose",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=163304125"
-    },
-    {
-     "url": "/img/austin/5.webp",
-     "credit": "Planet Labs, Inc.",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
     }
    ]
   },
