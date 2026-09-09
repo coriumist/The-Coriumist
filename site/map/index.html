@@ -134,7 +134,7 @@ document.addEventListener("DOMContentLoaded",reveal);
 <p class="disc mono">The Coriumist Index is an intelligence visualization tool. This is not financial advice or investment guidance.. Map tiles © OpenStreetMap contributors, © CARTO.</p>
 <script>
 (async()=>{
-const read=await (await fetch("/data/read.json?d=2026-09-08")).json();
+const read=await (await fetch("/data/read.json?d=2026-09-09")).json();
 const ST={opening:"Opening",open:"Open",closing:"Closing",dispersing:"Dispersing",flat:"Flat",quiet:"Quiet"};
 const mobile=matchMedia("(max-width:900px)").matches;
 const map=L.map("lmap",{worldCopyJump:true,minZoom:1,maxZoom:15,zoomControl:!mobile,attributionControl:true,scrollWheelZoom:false});
