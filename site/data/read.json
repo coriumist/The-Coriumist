@@ -1,5 +1,5 @@
 {
- "date": "2026-09-10",
+ "date": "2026-09-11",
  "cities": [
   {
    "slug": "paris",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 80,
+   "score": 81,
    "rings": 6,
    "state": "open",
    "slope": 0.14,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 43.7384,
    "lon": 7.4246,
-   "score": 78,
+   "score": 77,
    "rings": 6,
    "state": "open",
    "slope": -0.55,
@@ -135,7 +135,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 77,
+   "score": 76,
    "rings": 6,
    "state": "open",
    "slope": -0.31,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 59,
+   "score": 58,
    "rings": 5,
    "state": "quiet",
    "slope": -0.36,
@@ -258,12 +258,76 @@
    ]
   },
   {
+   "slug": "london",
+   "name": "London",
+   "tier": 1,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "score": 53,
+   "rings": 4,
+   "state": "opening",
+   "slope": 0.56,
+   "note": "Global finance. Old wealth. Sovereign capital.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    92,
+    60,
+    34,
+    34,
+    90,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/london/0.webp",
+     "credit": "Zeisterre",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
+    },
+    {
+     "url": "/img/london/1.webp",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "/img/london/2.webp",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "/img/london/3.webp",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "/img/london/4.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "/img/london/5.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
+    }
+   ]
+  },
+  {
    "slug": "milan",
    "name": "Milan",
    "tier": 2,
    "lat": 45.4642,
    "lon": 9.19,
-   "score": 54,
+   "score": 52,
    "rings": 4,
    "state": "quiet",
    "slope": -0.54,
@@ -327,7 +391,7 @@
    "tier": 2,
    "lat": 45.4408,
    "lon": 12.3155,
-   "score": 52,
+   "score": 49,
    "rings": 4,
    "state": "quiet",
    "slope": -0.74,
@@ -386,76 +450,12 @@
    ]
   },
   {
-   "slug": "london",
-   "name": "London",
-   "tier": 1,
-   "lat": 51.5074,
-   "lon": -0.1278,
-   "score": 51,
-   "rings": 4,
-   "state": "opening",
-   "slope": 0.56,
-   "note": "Global finance. Old wealth. Sovereign capital.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    92,
-    60,
-    34,
-    34,
-    90,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/london/0.webp",
-     "credit": "Zeisterre",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
-    },
-    {
-     "url": "/img/london/1.webp",
-     "credit": "Eluveitie",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
-    },
-    {
-     "url": "/img/london/2.webp",
-     "credit": "Tabraiz Feham",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
-    },
-    {
-     "url": "/img/london/3.webp",
-     "credit": "[1].",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
-    },
-    {
-     "url": "/img/london/4.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
-    },
-    {
-     "url": "/img/london/5.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
-    }
-   ]
-  },
-  {
    "slug": "porto-cervo",
    "name": "Porto Cervo",
    "tier": 2,
    "lat": 41.1339,
    "lon": 9.535,
-   "score": 50,
+   "score": 48,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.72,
@@ -519,7 +519,7 @@
    "tier": 2,
    "lat": 45.6206,
    "lon": 9.281,
-   "score": 46,
+   "score": 44,
    "rings": 4,
    "state": "quiet",
    "slope": -0.66,
@@ -700,70 +700,6 @@
    ]
   },
   {
-   "slug": "ibiza",
-   "name": "Ibiza",
-   "tier": 2,
-   "lat": 38.9067,
-   "lon": 1.4206,
-   "score": 35,
-   "rings": 3,
-   "state": "dispersing",
-   "slope": -0.5,
-   "note": "Closing parties. Better rooms, fewer people.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    55,
-    76,
-    80,
-    50,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/ibiza/0.webp",
-     "credit": "Vicenç Salvador Torres Guerola",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=119241406"
-    },
-    {
-     "url": "/img/ibiza/1.webp",
-     "credit": "Stavros1",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20871322"
-    },
-    {
-     "url": "/img/ibiza/2.webp",
-     "credit": "Vicenç Salvador Torres Guerola",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=119563220"
-    },
-    {
-     "url": "/img/ibiza/3.webp",
-     "credit": "Itelchan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=69105689"
-    },
-    {
-     "url": "/img/ibiza/4.webp",
-     "credit": "Gerda Arendt",
-     "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=141092785"
-    },
-    {
-     "url": "/img/ibiza/5.webp",
-     "credit": "Gutca",
-     "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=191788001"
-    }
-   ]
-  },
-  {
    "slug": "miami",
    "name": "Miami",
    "tier": 1,
@@ -892,66 +828,66 @@
    ]
   },
   {
-   "slug": "lake-como",
-   "name": "Lake Como",
+   "slug": "ibiza",
+   "name": "Ibiza",
    "tier": 2,
-   "lat": 45.9856,
-   "lon": 9.258,
-   "score": 34,
+   "lat": 38.9067,
+   "lon": 1.4206,
+   "score": 33,
    "rings": 3,
    "state": "dispersing",
-   "slope": -0.48,
-   "note": "Closing. The best light of the year.",
+   "slope": -0.5,
+   "note": "Closing parties. Better rooms, fewer people.",
    "year": [
     0,
     0,
     0,
     0,
+    0,
+    55,
+    76,
+    80,
     50,
-    60,
-    68,
-    70,
-    48,
     0,
     0,
     0
    ],
    "photos": [
     {
-     "url": "/img/lake-como/0.webp",
-     "credit": ". Ray in Manila",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=110134713"
-    },
-    {
-     "url": "/img/lake-como/1.webp",
-     "credit": "Deensel",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=73531603"
-    },
-    {
-     "url": "/img/lake-como/2.webp",
-     "credit": "Ray in Manila",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=88175366"
-    },
-    {
-     "url": "/img/lake-como/3.webp",
-     "credit": ". Ray in Manila",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=110134706"
-    },
-    {
-     "url": "/img/lake-como/4.webp",
-     "credit": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=82627585"
-    },
-    {
-     "url": "/img/lake-como/5.webp",
-     "credit": "RaminusFalcon",
+     "url": "/img/ibiza/0.webp",
+     "credit": "Vicenç Salvador Torres Guerola",
      "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119241406"
+    },
+    {
+     "url": "/img/ibiza/1.webp",
+     "credit": "Stavros1",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20871322"
+    },
+    {
+     "url": "/img/ibiza/2.webp",
+     "credit": "Vicenç Salvador Torres Guerola",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119563220"
+    },
+    {
+     "url": "/img/ibiza/3.webp",
+     "credit": "Itelchan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=69105689"
+    },
+    {
+     "url": "/img/ibiza/4.webp",
+     "credit": "Gerda Arendt",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=141092785"
+    },
+    {
+     "url": "/img/ibiza/5.webp",
+     "credit": "Gutca",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=191788001"
     }
    ]
   },
@@ -1020,12 +956,76 @@
    ]
   },
   {
+   "slug": "lake-como",
+   "name": "Lake Como",
+   "tier": 2,
+   "lat": 45.9856,
+   "lon": 9.258,
+   "score": 32,
+   "rings": 3,
+   "state": "dispersing",
+   "slope": -0.48,
+   "note": "Closing. The best light of the year.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    50,
+    60,
+    68,
+    70,
+    48,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/lake-como/0.webp",
+     "credit": ". Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110134713"
+    },
+    {
+     "url": "/img/lake-como/1.webp",
+     "credit": "Deensel",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73531603"
+    },
+    {
+     "url": "/img/lake-como/2.webp",
+     "credit": "Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=88175366"
+    },
+    {
+     "url": "/img/lake-como/3.webp",
+     "credit": ". Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110134706"
+    },
+    {
+     "url": "/img/lake-como/4.webp",
+     "credit": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82627585"
+    },
+    {
+     "url": "/img/lake-como/5.webp",
+     "credit": "RaminusFalcon",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
+    }
+   ]
+  },
+  {
    "slug": "the-hamptons",
    "name": "The Hamptons",
    "tier": 2,
    "lat": 40.9634,
    "lon": -72.1848,
-   "score": 32,
+   "score": 30,
    "rings": 3,
    "state": "dispersing",
    "slope": -0.45,
@@ -1089,8 +1089,8 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 23,
-   "rings": 2,
+   "score": 25,
+   "rings": 3,
    "state": "opening",
    "slope": 0.38,
    "note": "Not loud. Very high quality.",
@@ -1147,7 +1147,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 21,
+   "score": 23,
    "rings": 2,
    "state": "opening",
    "slope": 0.7,
