@@ -1,5 +1,5 @@
 {
- "date": "2026-09-11",
+ "date": "2026-09-12",
  "cities": [
   {
    "slug": "paris",
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 43.7384,
    "lon": 7.4246,
-   "score": 77,
+   "score": 75,
    "rings": 6,
    "state": "open",
    "slope": -0.55,
@@ -135,7 +135,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 76,
+   "score": 75,
    "rings": 6,
    "state": "open",
    "slope": -0.31,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 58,
+   "score": 57,
    "rings": 5,
    "state": "quiet",
    "slope": -0.36,
@@ -263,8 +263,8 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 53,
-   "rings": 4,
+   "score": 55,
+   "rings": 5,
    "state": "opening",
    "slope": 0.56,
    "note": "Global finance. Old wealth. Sovereign capital.",
@@ -327,7 +327,7 @@
    "tier": 2,
    "lat": 45.4642,
    "lon": 9.19,
-   "score": 52,
+   "score": 50,
    "rings": 4,
    "state": "quiet",
    "slope": -0.54,
@@ -391,7 +391,7 @@
    "tier": 2,
    "lat": 45.4408,
    "lon": 12.3155,
-   "score": 49,
+   "score": 47,
    "rings": 4,
    "state": "quiet",
    "slope": -0.74,
@@ -455,7 +455,7 @@
    "tier": 2,
    "lat": 41.1339,
    "lon": 9.535,
-   "score": 48,
+   "score": 46,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.72,
@@ -519,7 +519,7 @@
    "tier": 2,
    "lat": 45.6206,
    "lon": 9.281,
-   "score": 44,
+   "score": 42,
    "rings": 4,
    "state": "quiet",
    "slope": -0.66,
@@ -828,70 +828,6 @@
    ]
   },
   {
-   "slug": "ibiza",
-   "name": "Ibiza",
-   "tier": 2,
-   "lat": 38.9067,
-   "lon": 1.4206,
-   "score": 33,
-   "rings": 3,
-   "state": "dispersing",
-   "slope": -0.5,
-   "note": "Closing parties. Better rooms, fewer people.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    55,
-    76,
-    80,
-    50,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/ibiza/0.webp",
-     "credit": "Vicenç Salvador Torres Guerola",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=119241406"
-    },
-    {
-     "url": "/img/ibiza/1.webp",
-     "credit": "Stavros1",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20871322"
-    },
-    {
-     "url": "/img/ibiza/2.webp",
-     "credit": "Vicenç Salvador Torres Guerola",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=119563220"
-    },
-    {
-     "url": "/img/ibiza/3.webp",
-     "credit": "Itelchan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=69105689"
-    },
-    {
-     "url": "/img/ibiza/4.webp",
-     "credit": "Gerda Arendt",
-     "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=141092785"
-    },
-    {
-     "url": "/img/ibiza/5.webp",
-     "credit": "Gutca",
-     "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=191788001"
-    }
-   ]
-  },
-  {
    "slug": "hong-kong",
    "name": "Hong Kong",
    "tier": 1,
@@ -956,12 +892,76 @@
    ]
   },
   {
+   "slug": "ibiza",
+   "name": "Ibiza",
+   "tier": 2,
+   "lat": 38.9067,
+   "lon": 1.4206,
+   "score": 32,
+   "rings": 3,
+   "state": "dispersing",
+   "slope": -0.5,
+   "note": "Closing parties. Better rooms, fewer people.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    55,
+    76,
+    80,
+    50,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/ibiza/0.webp",
+     "credit": "Vicenç Salvador Torres Guerola",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119241406"
+    },
+    {
+     "url": "/img/ibiza/1.webp",
+     "credit": "Stavros1",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20871322"
+    },
+    {
+     "url": "/img/ibiza/2.webp",
+     "credit": "Vicenç Salvador Torres Guerola",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119563220"
+    },
+    {
+     "url": "/img/ibiza/3.webp",
+     "credit": "Itelchan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=69105689"
+    },
+    {
+     "url": "/img/ibiza/4.webp",
+     "credit": "Gerda Arendt",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=141092785"
+    },
+    {
+     "url": "/img/ibiza/5.webp",
+     "credit": "Gutca",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=191788001"
+    }
+   ]
+  },
+  {
    "slug": "lake-como",
    "name": "Lake Como",
    "tier": 2,
    "lat": 45.9856,
    "lon": 9.258,
-   "score": 32,
+   "score": 30,
    "rings": 3,
    "state": "dispersing",
    "slope": -0.48,
@@ -1025,7 +1025,7 @@
    "tier": 2,
    "lat": 40.9634,
    "lon": -72.1848,
-   "score": 30,
+   "score": 28,
    "rings": 3,
    "state": "dispersing",
    "slope": -0.45,
@@ -1089,7 +1089,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 25,
+   "score": 26,
    "rings": 3,
    "state": "opening",
    "slope": 0.38,
@@ -1147,8 +1147,8 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 23,
-   "rings": 2,
+   "score": 26,
+   "rings": 3,
    "state": "opening",
    "slope": 0.7,
    "note": "The American paddock stop that turned into a capital week.",
