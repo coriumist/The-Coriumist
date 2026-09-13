@@ -1,0 +1,177 @@
+name: card render
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: install
+        run: pip install --quiet pillow requests
+
+      - name: render pending cards
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python - <<'PY'
+          import os, io, sys, math, json, datetime
+          import requests
+          from PIL import Image, ImageDraw, ImageFont
+
+          URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
+          KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
+          if not URL or not KEY:
+              sys.exit("FATAL: SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY not set in repo secrets")
+
+          H = {"apikey": KEY, "Authorization": "Bearer " + KEY}
+          GROUND = (247, 243, 233)
+          INK    = (47, 93, 63)
+
+          SRC = {
+            "display": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf",
+            "mono":    "https://raw.githubusercontent.com/google/fonts/main/ofl/spacemono/SpaceMono-Regular.ttf",
+          }
+          FP = {}
+          for k, u in SRC.items():
+              r = requests.get(u, timeout=90); r.raise_for_status()
+              p = "/tmp/%s.ttf" % k
+              open(p, "wb").write(r.content)
+              FP[k] = p
+
+          def display(size, wght=500, opsz=144):
+              f = ImageFont.truetype(FP["display"], size)
+              try:
+                  f.set_variation_by_axes([0.0, 0.0, float(opsz), float(wght)])
+              except Exception:
+                  pass
+              return f
+
+          def mono(size):
+              return ImageFont.truetype(FP["mono"], size)
+
+          def tracked(d, x, y, text, font, track):
+              for ch in text:
+                  d.text((x, y), ch, font=font, fill=INK)
+                  x += d.textlength(ch, font=font) + track
+
+          def wrap(d, text, font, maxw):
+              lines, cur = [], ""
+              for w in text.split():
+                  t = (cur + " " + w).strip()
+                  if d.textlength(t, font=font) <= maxw:
+                      cur = t
+                  else:
+                      if cur: lines.append(cur)
+                      cur = w
+              if cur: lines.append(cur)
+              return lines
+
+          def mark(d, cx, cy, R, rings):
+              bands = max(1, min(int(rings or 3), 8)) * 2
+              for k in range(bands):
+                  rr = R * (1.0 - k / float(bands))
+                  col = INK if k % 2 == 0 else GROUND
+                  pts = []
+                  for i in range(260):
+                      t = 2 * math.pi * i / 260.0
+                      m = (1 + 0.11 * math.sin(3 * t + 0.7)
+                             + 0.06 * math.sin(5 * t + 2.1)
+                             + 0.035 * math.sin(7 * t + 4.3))
+                      pts.append((cx + rr * m * math.cos(t), cy + rr * m * math.sin(t)))
+                  d.polygon(pts, fill=col)
+
+          def render(row):
+              W, Hh = (1200, 1200) if (row.get("fmt") or "ig") == "x" else (1080, 1350)
+              img = Image.new("RGB", (W, Hh), GROUND)
+              d = ImageDraw.Draw(img)
+              M = int(W * 0.093)
+              R = int(W * 0.058)
+
+              mark(d, M + R, M + R, R, row.get("rings"))
+              y = M + 2 * R + int(W * 0.072)
+
+              eb = (row.get("eyebrow") or "").upper()
+              if eb:
+                  f = mono(int(W * 0.0205))
+                  tracked(d, M, y, eb, f, W * 0.0035)
+                  y += int(W * 0.055)
+
+              head = (row.get("headline") or "").strip()
+              if head:
+                  fs = int(W * 0.072)
+                  f = display(fs, 500, 144)
+                  lines = wrap(d, head, f, W - 2 * M)
+                  while len(lines) > 5 and fs > int(W * 0.044):
+                      fs = int(fs * 0.92)
+                      f = display(fs, 500, 144)
+                      lines = wrap(d, head, f, W - 2 * M)
+                  for ln in lines:
+                      d.text((M, y), ln, font=f, fill=INK)
+                      y += int(fs * 1.14)
+                  y += int(W * 0.038)
+
+              body = (row.get("body") or "").strip()
+              if body:
+                  fs = int(W * 0.0315)
+                  f = display(fs, 400, 48)
+                  for ln in wrap(d, body, f, W - 2 * M)[:9]:
+                      d.text((M, y), ln, font=f, fill=INK)
+                      y += int(fs * 1.5)
+
+              st = (row.get("stamp") or "").upper()
+              if st:
+                  f = mono(int(W * 0.0185))
+                  tracked(d, M, Hh - M - int(W * 0.022), st, f, W * 0.003)
+
+              buf = io.BytesIO()
+              img.save(buf, "PNG", optimize=True)
+              return buf.getvalue()
+
+          q = requests.get(URL + "/rest/v1/card_queue", headers=H, timeout=60,
+                           params={"status": "eq.pending", "select": "*",
+                                   "order": "id.asc", "limit": "25"})
+          q.raise_for_status()
+          rows = q.json()
+          print("pending:", len(rows))
+
+          JH = dict(H); JH["Content-Type"] = "application/json"; JH["Prefer"] = "return=minimal"
+          ok = 0
+          for row in rows:
+              rid = row["id"]
+              fn = row.get("filename") or ("card-%s.png" % rid)
+              try:
+                  png = render(row)
+                  UH = dict(H); UH["Content-Type"] = "image/png"; UH["x-upsert"] = "true"
+                  up = requests.post(URL + "/storage/v1/object/cards/" + fn,
+                                     headers=UH, data=png, timeout=180)
+                  if up.status_code not in (200, 201):
+                      raise RuntimeError("upload %s %s" % (up.status_code, up.text[:200]))
+                  pub = URL + "/storage/v1/object/public/cards/" + fn
+                  r = requests.patch(URL + "/rest/v1/card_queue", headers=JH, timeout=60,
+                                     params={"id": "eq.%d" % rid},
+                                     data=json.dumps({
+                                        "status": "done",
+                                        "public_url": pub,
+                                        "error_detail": None,
+                                        "rendered_at": datetime.datetime.now(
+                                            datetime.timezone.utc).isoformat()}))
+                  r.raise_for_status()
+                  print("done", rid, pub)
+                  ok += 1
+              except Exception as e:
+                  requests.patch(URL + "/rest/v1/card_queue", headers=JH, timeout=60,
+                                 params={"id": "eq.%d" % rid},
+                                 data=json.dumps({"status": "error",
+                                                  "error_detail": str(e)[:500]}))
+                  print("error", rid, e)
+
+          print("rendered %d of %d" % (ok, len(rows)))
+          PY
