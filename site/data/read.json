@@ -1,5 +1,5 @@
 {
- "date": "2026-09-17",
+ "date": "2026-09-18",
  "cities": [
   {
    "slug": "paris",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 83,
+   "score": 84,
    "rings": 6,
    "state": "open",
    "slope": 0.14,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 69,
+   "score": 68,
    "rings": 5,
    "state": "closing",
    "slope": -0.31,
@@ -130,76 +130,12 @@
    ]
   },
   {
-   "slug": "monaco",
-   "name": "Monaco",
-   "tier": 1,
-   "lat": 43.7384,
-   "lon": 7.4246,
-   "score": 66,
-   "rings": 5,
-   "state": "closing",
-   "slope": -0.55,
-   "note": "Yacht Show. Not a boat show. A liquidity event with three days of runway.",
-   "year": [
-    40,
-    40,
-    40,
-    40,
-    96,
-    70,
-    72,
-    68,
-    95,
-    40,
-    40,
-    40
-   ],
-   "photos": [
-    {
-     "url": "/img/monaco/0.webp",
-     "credit": "kajikawa",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=52945655"
-    },
-    {
-     "url": "/img/monaco/1.webp",
-     "credit": "kajikawa",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=52945669"
-    },
-    {
-     "url": "/img/monaco/2.webp",
-     "credit": "Uhooep",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=115701228"
-    },
-    {
-     "url": "/img/monaco/3.webp",
-     "credit": "Horizon06",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=106027685"
-    },
-    {
-     "url": "/img/monaco/4.webp",
-     "credit": "Alexander Migl",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=79865888"
-    },
-    {
-     "url": "/img/monaco/5.webp",
-     "credit": "M.Strīķis",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=53193680"
-    }
-   ]
-  },
-  {
    "slug": "london",
    "name": "London",
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 64,
+   "score": 66,
    "rings": 5,
    "state": "open",
    "slope": 0.56,
@@ -258,12 +194,76 @@
    ]
   },
   {
+   "slug": "monaco",
+   "name": "Monaco",
+   "tier": 1,
+   "lat": 43.7384,
+   "lon": 7.4246,
+   "score": 64,
+   "rings": 5,
+   "state": "closing",
+   "slope": -0.55,
+   "note": "Yacht Show. Not a boat show. A liquidity event with three days of runway.",
+   "year": [
+    40,
+    40,
+    40,
+    40,
+    96,
+    70,
+    72,
+    68,
+    95,
+    40,
+    40,
+    40
+   ],
+   "photos": [
+    {
+     "url": "/img/monaco/0.webp",
+     "credit": "kajikawa",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=52945655"
+    },
+    {
+     "url": "/img/monaco/1.webp",
+     "credit": "kajikawa",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=52945669"
+    },
+    {
+     "url": "/img/monaco/2.webp",
+     "credit": "Uhooep",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=115701228"
+    },
+    {
+     "url": "/img/monaco/3.webp",
+     "credit": "Horizon06",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=106027685"
+    },
+    {
+     "url": "/img/monaco/4.webp",
+     "credit": "Alexander Migl",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79865888"
+    },
+    {
+     "url": "/img/monaco/5.webp",
+     "credit": "M.Strīķis",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=53193680"
+    }
+   ]
+  },
+  {
    "slug": "new-york",
    "name": "New York",
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 51,
+   "score": 50,
    "rings": 4,
    "state": "quiet",
    "slope": -0.36,
@@ -322,77 +322,13 @@
    ]
   },
   {
-   "slug": "milan",
-   "name": "Milan",
-   "tier": 2,
-   "lat": 45.4642,
-   "lon": 9.19,
-   "score": 41,
-   "rings": 4,
-   "state": "quiet",
-   "slope": -0.54,
-   "note": "Fashion week returns.",
-   "year": [
-    16,
-    66,
-    16,
-    80,
-    16,
-    16,
-    16,
-    16,
-    70,
-    16,
-    16,
-    16
-   ],
-   "photos": [
-    {
-     "url": "/img/milan/0.webp",
-     "credit": "thegetty",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/14312260/airplane-and-milan-duomo-fedele-azari"
-    },
-    {
-     "url": "/img/milan/1.webp",
-     "credit": "thegetty",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/14264222/milan-duomo-fedele-azari"
-    },
-    {
-     "url": "/img/milan/2.webp",
-     "credit": "thegetty",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/14258792/milan-duomo-fedele-azari"
-    },
-    {
-     "url": "/img/milan/3.webp",
-     "credit": "FlavMi",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=99979796"
-    },
-    {
-     "url": "/img/milan/4.webp",
-     "credit": "Warburg",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=3513643"
-    },
-    {
-     "url": "/img/milan/5.webp",
-     "credit": "Jean-Christophe BENOIST",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
-    }
-   ]
-  },
-  {
    "slug": "austin",
    "name": "Austin",
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 37,
-   "rings": 3,
+   "score": 40,
+   "rings": 4,
    "state": "opening",
    "slope": 0.7,
    "note": "The American paddock stop that turned into a capital week.",
@@ -446,6 +382,70 @@
      "credit": "Planet Labs, Inc.",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
+    }
+   ]
+  },
+  {
+   "slug": "milan",
+   "name": "Milan",
+   "tier": 2,
+   "lat": 45.4642,
+   "lon": 9.19,
+   "score": 39,
+   "rings": 3,
+   "state": "quiet",
+   "slope": -0.54,
+   "note": "Fashion week returns.",
+   "year": [
+    16,
+    66,
+    16,
+    80,
+    16,
+    16,
+    16,
+    16,
+    70,
+    16,
+    16,
+    16
+   ],
+   "photos": [
+    {
+     "url": "/img/milan/0.webp",
+     "credit": "thegetty",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/14312260/airplane-and-milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/1.webp",
+     "credit": "thegetty",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/14264222/milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/2.webp",
+     "credit": "thegetty",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/14258792/milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/3.webp",
+     "credit": "FlavMi",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=99979796"
+    },
+    {
+     "url": "/img/milan/4.webp",
+     "credit": "Warburg",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3513643"
+    },
+    {
+     "url": "/img/milan/5.webp",
+     "credit": "Jean-Christophe BENOIST",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
     }
    ]
   },
@@ -568,70 +568,6 @@
      "credit": "Boschtjan",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
-    }
-   ]
-  },
-  {
-   "slug": "venice",
-   "name": "Venice",
-   "tier": 2,
-   "lat": 45.4408,
-   "lon": 12.3155,
-   "score": 35,
-   "rings": 3,
-   "state": "quiet",
-   "slope": -0.74,
-   "note": "The Lido. Eleven days in which the people buying and the people selling cannot avoid each other.",
-   "year": [
-    0,
-    0,
-    0,
-    70,
-    50,
-    0,
-    0,
-    0,
-    74,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/venice/0.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20076316"
-    },
-    {
-     "url": "/img/venice/1.webp",
-     "credit": "Paul Berzinn",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=44789603"
-    },
-    {
-     "url": "/img/venice/2.webp",
-     "credit": "User:Nino Barbieri",
-     "license": "CC BY-SA 2.5",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=1914430"
-    },
-    {
-     "url": "/img/venice/3.webp",
-     "credit": "Wide Awake!",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=186028605"
-    },
-    {
-     "url": "/img/venice/4.webp",
-     "credit": "User:Nino Barbieri",
-     "license": "CC BY 2.5",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=1616575"
-    },
-    {
-     "url": "/img/venice/5.webp",
-     "credit": "Wide Awake!",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=186028597"
     }
    ]
   },
@@ -764,66 +700,60 @@
    ]
   },
   {
-   "slug": "porto-cervo",
-   "name": "Porto Cervo",
+   "slug": "tokyo",
+   "name": "Tokyo",
    "tier": 2,
-   "lat": 41.1339,
-   "lon": 9.535,
+   "lat": 35.6762,
+   "lon": 139.6503,
    "score": 34,
    "rings": 3,
-   "state": "dispersing",
-   "slope": -0.72,
-   "note": "Maxi Yacht Rolex Cup, then the Swan Cup. The marina holds its weight into the second week, then empties toward Monaco.",
+   "state": "opening",
+   "slope": 0.38,
+   "note": "Not loud. Very high quality.",
    "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
+    12,
+    12,
+    12,
+    76,
+    12,
+    12,
+    12,
+    12,
+    12,
     50,
-    92,
-    96,
-    72,
-    0,
-    0,
-    0
+    12,
+    12
    ],
    "photos": [
     {
-     "url": "/img/porto-cervo/0.webp",
-     "credit": "HenSti",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=84761372"
-    },
-    {
-     "url": "/img/porto-cervo/1.webp",
-     "credit": "Dr. Thomas Liptak",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=176070613"
-    },
-    {
-     "url": "/img/porto-cervo/2.webp",
-     "credit": "Ökologix",
+     "url": "/img/tokyo/0.webp",
+     "credit": "rawpixel",
      "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=23398070"
+     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
     },
     {
-     "url": "/img/porto-cervo/3.webp",
-     "credit": "Marek Ślusarczyk (Tupungato) Photo gallery",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=22813042"
+     "url": "/img/tokyo/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
     },
     {
-     "url": "/img/porto-cervo/4.webp",
-     "credit": "Eustace Bagge",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=94569047"
+     "url": "/img/tokyo/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6078979/tokyo"
     },
     {
-     "url": "/img/porto-cervo/5.webp",
-     "credit": "Alistair Wettin",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=49069428"
+     "url": "/img/tokyo/3.webp",
+     "credit": "Marina Koleva",
+     "license": "CC CC0 1.0",
+     "page": "https://wordpress.org/photos/photo/779642d466/"
+    },
+    {
+     "url": "/img/tokyo/4.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
     }
    ]
   },
@@ -892,60 +822,130 @@
    ]
   },
   {
-   "slug": "tokyo",
-   "name": "Tokyo",
+   "slug": "venice",
+   "name": "Venice",
    "tier": 2,
-   "lat": 35.6762,
-   "lon": 139.6503,
+   "lat": 45.4408,
+   "lon": 12.3155,
    "score": 32,
    "rings": 3,
-   "state": "opening",
-   "slope": 0.38,
-   "note": "Not loud. Very high quality.",
+   "state": "quiet",
+   "slope": -0.74,
+   "note": "The Lido. Eleven days in which the people buying and the people selling cannot avoid each other.",
    "year": [
-    12,
-    12,
-    12,
-    76,
-    12,
-    12,
-    12,
-    12,
-    12,
+    0,
+    0,
+    0,
+    70,
     50,
-    12,
-    12
+    0,
+    0,
+    0,
+    74,
+    0,
+    0,
+    0
    ],
    "photos": [
     {
-     "url": "/img/tokyo/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
+     "url": "/img/venice/0.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20076316"
     },
     {
-     "url": "/img/tokyo/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
+     "url": "/img/venice/1.webp",
+     "credit": "Paul Berzinn",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=44789603"
     },
     {
-     "url": "/img/tokyo/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6078979/tokyo"
+     "url": "/img/venice/2.webp",
+     "credit": "User:Nino Barbieri",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1914430"
     },
     {
-     "url": "/img/tokyo/3.webp",
-     "credit": "Marina Koleva",
-     "license": "CC CC0 1.0",
-     "page": "https://wordpress.org/photos/photo/779642d466/"
+     "url": "/img/venice/3.webp",
+     "credit": "Wide Awake!",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=186028605"
     },
     {
-     "url": "/img/tokyo/4.webp",
-     "credit": "rawpixel",
+     "url": "/img/venice/4.webp",
+     "credit": "User:Nino Barbieri",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1616575"
+    },
+    {
+     "url": "/img/venice/5.webp",
+     "credit": "Wide Awake!",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=186028597"
+    }
+   ]
+  },
+  {
+   "slug": "porto-cervo",
+   "name": "Porto Cervo",
+   "tier": 2,
+   "lat": 41.1339,
+   "lon": 9.535,
+   "score": 31,
+   "rings": 3,
+   "state": "dispersing",
+   "slope": -0.72,
+   "note": "Maxi Yacht Rolex Cup, then the Swan Cup. The marina holds its weight into the second week, then empties toward Monaco.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    50,
+    92,
+    96,
+    72,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/porto-cervo/0.webp",
+     "credit": "HenSti",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=84761372"
+    },
+    {
+     "url": "/img/porto-cervo/1.webp",
+     "credit": "Dr. Thomas Liptak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=176070613"
+    },
+    {
+     "url": "/img/porto-cervo/2.webp",
+     "credit": "Ökologix",
      "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
+     "page": "https://commons.wikimedia.org/w/index.php?curid=23398070"
+    },
+    {
+     "url": "/img/porto-cervo/3.webp",
+     "credit": "Marek Ślusarczyk (Tupungato) Photo gallery",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=22813042"
+    },
+    {
+     "url": "/img/porto-cervo/4.webp",
+     "credit": "Eustace Bagge",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=94569047"
+    },
+    {
+     "url": "/img/porto-cervo/5.webp",
+     "credit": "Alistair Wettin",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=49069428"
     }
    ]
   },
@@ -955,7 +955,7 @@
    "tier": 2,
    "lat": 45.6206,
    "lon": 9.281,
-   "score": 31,
+   "score": 29,
    "rings": 3,
    "state": "quiet",
    "slope": -0.66,
@@ -1019,7 +1019,7 @@
    "tier": 2,
    "lat": 38.9067,
    "lon": 1.4206,
-   "score": 23,
+   "score": 22,
    "rings": 2,
    "state": "dispersing",
    "slope": -0.5,
@@ -1083,7 +1083,7 @@
    "tier": 2,
    "lat": 45.9856,
    "lon": 9.258,
-   "score": 22,
+   "score": 21,
    "rings": 2,
    "state": "dispersing",
    "slope": -0.48,
@@ -1138,70 +1138,6 @@
      "credit": "RaminusFalcon",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
-    }
-   ]
-  },
-  {
-   "slug": "the-hamptons",
-   "name": "The Hamptons",
-   "tier": 2,
-   "lat": 40.9634,
-   "lon": -72.1848,
-   "score": 21,
-   "rings": 2,
-   "state": "dispersing",
-   "slope": -0.45,
-   "note": "Labor Day closes it. The best two weeks are after.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    60,
-    82,
-    86,
-    45,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/the-hamptons/0.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
-    },
-    {
-     "url": "/img/the-hamptons/1.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
-    },
-    {
-     "url": "/img/the-hamptons/2.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
-    },
-    {
-     "url": "/img/the-hamptons/3.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
-    },
-    {
-     "url": "/img/the-hamptons/4.webp",
-     "credit": "Fred222wiki",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
-    },
-    {
-     "url": "/img/the-hamptons/5.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
     }
    ]
   },
@@ -1266,6 +1202,70 @@
      "credit": "P. Valdés",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
+    }
+   ]
+  },
+  {
+   "slug": "the-hamptons",
+   "name": "The Hamptons",
+   "tier": 2,
+   "lat": 40.9634,
+   "lon": -72.1848,
+   "score": 20,
+   "rings": 2,
+   "state": "dispersing",
+   "slope": -0.45,
+   "note": "Labor Day closes it. The best two weeks are after.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    60,
+    82,
+    86,
+    45,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/the-hamptons/0.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
+    },
+    {
+     "url": "/img/the-hamptons/1.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
+    },
+    {
+     "url": "/img/the-hamptons/2.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
+    },
+    {
+     "url": "/img/the-hamptons/3.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
+    },
+    {
+     "url": "/img/the-hamptons/4.webp",
+     "credit": "Fred222wiki",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
+    },
+    {
+     "url": "/img/the-hamptons/5.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
     }
    ]
   },
