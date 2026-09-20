@@ -1,5 +1,5 @@
 {
- "date": "2026-09-19",
+ "date": "2026-09-20",
  "cities": [
   {
    "slug": "paris",
@@ -7,8 +7,8 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 84,
-   "rings": 6,
+   "score": 85,
+   "rings": 7,
    "state": "open",
    "slope": 0.14,
    "note": "Ready-to-wear returns. Dinner tables are harder than the shows.",
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 68,
+   "score": 69,
    "rings": 5,
    "state": "open",
    "slope": 0.56,
@@ -135,7 +135,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 67,
+   "score": 66,
    "rings": 5,
    "state": "closing",
    "slope": -0.31,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 43.7384,
    "lon": 7.4246,
-   "score": 62,
+   "score": 60,
    "rings": 5,
    "state": "closing",
    "slope": -0.55,
@@ -263,7 +263,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 48,
+   "score": 47,
    "rings": 4,
    "state": "quiet",
    "slope": -0.36,
@@ -327,7 +327,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 42,
+   "score": 44,
    "rings": 4,
    "state": "opening",
    "slope": 0.7,
@@ -382,70 +382,6 @@
      "credit": "Planet Labs, Inc.",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
-    }
-   ]
-  },
-  {
-   "slug": "milan",
-   "name": "Milan",
-   "tier": 2,
-   "lat": 45.4642,
-   "lon": 9.19,
-   "score": 38,
-   "rings": 3,
-   "state": "quiet",
-   "slope": -0.54,
-   "note": "Fashion week returns.",
-   "year": [
-    16,
-    66,
-    16,
-    80,
-    16,
-    16,
-    16,
-    16,
-    70,
-    16,
-    16,
-    16
-   ],
-   "photos": [
-    {
-     "url": "/img/milan/0.webp",
-     "credit": "thegetty",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/14312260/airplane-and-milan-duomo-fedele-azari"
-    },
-    {
-     "url": "/img/milan/1.webp",
-     "credit": "thegetty",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/14264222/milan-duomo-fedele-azari"
-    },
-    {
-     "url": "/img/milan/2.webp",
-     "credit": "thegetty",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/14258792/milan-duomo-fedele-azari"
-    },
-    {
-     "url": "/img/milan/3.webp",
-     "credit": "FlavMi",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=99979796"
-    },
-    {
-     "url": "/img/milan/4.webp",
-     "credit": "Warburg",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=3513643"
-    },
-    {
-     "url": "/img/milan/5.webp",
-     "credit": "Jean-Christophe BENOIST",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
     }
    ]
   },
@@ -577,7 +513,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 35,
+   "score": 36,
    "rings": 3,
    "state": "opening",
    "slope": 0.38,
@@ -626,6 +562,70 @@
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
+    }
+   ]
+  },
+  {
+   "slug": "milan",
+   "name": "Milan",
+   "tier": 2,
+   "lat": 45.4642,
+   "lon": 9.19,
+   "score": 36,
+   "rings": 3,
+   "state": "quiet",
+   "slope": -0.54,
+   "note": "Fashion week returns.",
+   "year": [
+    16,
+    66,
+    16,
+    80,
+    16,
+    16,
+    16,
+    16,
+    70,
+    16,
+    16,
+    16
+   ],
+   "photos": [
+    {
+     "url": "/img/milan/0.webp",
+     "credit": "thegetty",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/14312260/airplane-and-milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/1.webp",
+     "credit": "thegetty",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/14264222/milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/2.webp",
+     "credit": "thegetty",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/14258792/milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/3.webp",
+     "credit": "FlavMi",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=99979796"
+    },
+    {
+     "url": "/img/milan/4.webp",
+     "credit": "Warburg",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3513643"
+    },
+    {
+     "url": "/img/milan/5.webp",
+     "credit": "Jean-Christophe BENOIST",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
     }
    ]
   },
@@ -827,7 +827,7 @@
    "tier": 2,
    "lat": 45.4408,
    "lon": 12.3155,
-   "score": 30,
+   "score": 27,
    "rings": 3,
    "state": "quiet",
    "slope": -0.74,
@@ -891,7 +891,7 @@
    "tier": 2,
    "lat": 41.1339,
    "lon": 9.535,
-   "score": 29,
+   "score": 26,
    "rings": 3,
    "state": "dispersing",
    "slope": -0.72,
@@ -955,8 +955,8 @@
    "tier": 2,
    "lat": 45.6206,
    "lon": 9.281,
-   "score": 26,
-   "rings": 3,
+   "score": 24,
+   "rings": 2,
    "state": "quiet",
    "slope": -0.66,
    "note": "Italian Grand Prix. Como absorbs the overflow.",
@@ -1083,7 +1083,7 @@
    "tier": 2,
    "lat": 38.9067,
    "lon": 1.4206,
-   "score": 20,
+   "score": 18,
    "rings": 2,
    "state": "dispersing",
    "slope": -0.5,
@@ -1147,7 +1147,7 @@
    "tier": 2,
    "lat": 45.9856,
    "lon": 9.258,
-   "score": 19,
+   "score": 18,
    "rings": 2,
    "state": "dispersing",
    "slope": -0.48,
@@ -1202,70 +1202,6 @@
      "credit": "RaminusFalcon",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
-    }
-   ]
-  },
-  {
-   "slug": "the-hamptons",
-   "name": "The Hamptons",
-   "tier": 2,
-   "lat": 40.9634,
-   "lon": -72.1848,
-   "score": 18,
-   "rings": 2,
-   "state": "dispersing",
-   "slope": -0.45,
-   "note": "Labor Day closes it. The best two weeks are after.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    60,
-    82,
-    86,
-    45,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/the-hamptons/0.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
-    },
-    {
-     "url": "/img/the-hamptons/1.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
-    },
-    {
-     "url": "/img/the-hamptons/2.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
-    },
-    {
-     "url": "/img/the-hamptons/3.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
-    },
-    {
-     "url": "/img/the-hamptons/4.webp",
-     "credit": "Fred222wiki",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
-    },
-    {
-     "url": "/img/the-hamptons/5.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
     }
    ]
   },
@@ -1330,6 +1266,70 @@
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5947425/free-public-domain-cc0-photo"
+    }
+   ]
+  },
+  {
+   "slug": "the-hamptons",
+   "name": "The Hamptons",
+   "tier": 2,
+   "lat": 40.9634,
+   "lon": -72.1848,
+   "score": 16,
+   "rings": 2,
+   "state": "dispersing",
+   "slope": -0.45,
+   "note": "Labor Day closes it. The best two weeks are after.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    60,
+    82,
+    86,
+    45,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/the-hamptons/0.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
+    },
+    {
+     "url": "/img/the-hamptons/1.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
+    },
+    {
+     "url": "/img/the-hamptons/2.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
+    },
+    {
+     "url": "/img/the-hamptons/3.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
+    },
+    {
+     "url": "/img/the-hamptons/4.webp",
+     "credit": "Fred222wiki",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
+    },
+    {
+     "url": "/img/the-hamptons/5.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
     }
    ]
   },
