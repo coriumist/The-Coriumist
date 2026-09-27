@@ -1,5 +1,5 @@
 {
- "date": "2026-09-26",
+ "date": "2026-09-27",
  "cities": [
   {
    "slug": "paris",
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 81,
+   "score": 83,
    "rings": 6,
    "state": "open",
    "slope": 0.56,
@@ -130,78 +130,14 @@
    ]
   },
   {
-   "slug": "singapore",
-   "name": "Singapore",
-   "tier": 1,
-   "lat": 1.3521,
-   "lon": 103.8198,
-   "score": 60,
-   "rings": 5,
-   "state": "closing",
-   "slope": -0.31,
-   "note": "Night race weekend. The only week the city's family offices are fully visible.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    86,
-    55,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/singapore/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
-    },
-    {
-     "url": "/img/singapore/1.webp",
-     "credit": "AngMoKio",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=3359011"
-    },
-    {
-     "url": "/img/singapore/2.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
-    },
-    {
-     "url": "/img/singapore/3.webp",
-     "credit": "Lanneixi",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
-    },
-    {
-     "url": "/img/singapore/4.webp",
-     "credit": "RoyalCathayan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=114959673"
-    },
-    {
-     "url": "/img/singapore/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
-    }
-   ]
-  },
-  {
    "slug": "austin",
    "name": "Austin",
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 58,
+   "score": 61,
    "rings": 5,
-   "state": "opening",
+   "state": "open",
    "slope": 0.7,
    "note": "The American paddock stop that turned into a capital week.",
    "year": [
@@ -258,12 +194,76 @@
    ]
   },
   {
+   "slug": "singapore",
+   "name": "Singapore",
+   "tier": 1,
+   "lat": 1.3521,
+   "lon": 103.8198,
+   "score": 59,
+   "rings": 5,
+   "state": "quiet",
+   "slope": -0.31,
+   "note": "Night race weekend. The only week the city's family offices are fully visible.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    86,
+    55,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/singapore/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
+    },
+    {
+     "url": "/img/singapore/1.webp",
+     "credit": "AngMoKio",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3359011"
+    },
+    {
+     "url": "/img/singapore/2.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
+    },
+    {
+     "url": "/img/singapore/3.webp",
+     "credit": "Lanneixi",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
+    },
+    {
+     "url": "/img/singapore/4.webp",
+     "credit": "RoyalCathayan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959673"
+    },
+    {
+     "url": "/img/singapore/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
+    }
+   ]
+  },
+  {
    "slug": "monaco",
    "name": "Monaco",
    "tier": 1,
    "lat": 43.7384,
    "lon": 7.4246,
-   "score": 49,
+   "score": 47,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.55,
@@ -327,7 +327,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 44,
+   "score": 45,
    "rings": 4,
    "state": "opening",
    "slope": 0.38,
@@ -385,8 +385,8 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 40,
-   "rings": 4,
+   "score": 39,
+   "rings": 3,
    "state": "flat",
    "slope": -0.36,
    "note": "Return week. Everyone is back and pretending they never left.",
@@ -763,8 +763,8 @@
    "tier": 2,
    "lat": 45.4642,
    "lon": 9.19,
-   "score": 25,
-   "rings": 3,
+   "score": 23,
+   "rings": 2,
    "state": "quiet",
    "slope": -0.54,
    "note": "Fashion week returns.",
@@ -1019,8 +1019,8 @@
    "tier": 2,
    "lat": 41.1339,
    "lon": 9.535,
-   "score": 12,
-   "rings": 2,
+   "score": 10,
+   "rings": 1,
    "state": "dispersing",
    "slope": -0.72,
    "note": "Maxi Yacht Rolex Cup, then the Swan Cup. The marina holds its weight into the second week, then empties toward Monaco.",
@@ -1083,8 +1083,8 @@
    "tier": 2,
    "lat": 45.4408,
    "lon": 12.3155,
-   "score": 12,
-   "rings": 2,
+   "score": 10,
+   "rings": 1,
    "state": "quiet",
    "slope": -0.74,
    "note": "The Lido. Eleven days in which the people buying and the people selling cannot avoid each other.",
@@ -1147,7 +1147,7 @@
    "tier": 2,
    "lat": 45.6206,
    "lon": 9.281,
-   "score": 11,
+   "score": 9,
    "rings": 1,
    "state": "quiet",
    "slope": -0.66,
@@ -1211,7 +1211,7 @@
    "tier": 2,
    "lat": 38.9067,
    "lon": 1.4206,
-   "score": 8,
+   "score": 7,
    "rings": 1,
    "state": "dispersing",
    "slope": -0.5,
@@ -1270,76 +1270,12 @@
    ]
   },
   {
-   "slug": "lake-como",
-   "name": "Lake Como",
-   "tier": 2,
-   "lat": 45.9856,
-   "lon": 9.258,
-   "score": 8,
-   "rings": 1,
-   "state": "dispersing",
-   "slope": -0.48,
-   "note": "Closing. The best light of the year.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    50,
-    60,
-    68,
-    70,
-    48,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/lake-como/0.webp",
-     "credit": ". Ray in Manila",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=110134713"
-    },
-    {
-     "url": "/img/lake-como/1.webp",
-     "credit": "Deensel",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=73531603"
-    },
-    {
-     "url": "/img/lake-como/2.webp",
-     "credit": "Ray in Manila",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=88175366"
-    },
-    {
-     "url": "/img/lake-como/3.webp",
-     "credit": ". Ray in Manila",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=110134706"
-    },
-    {
-     "url": "/img/lake-como/4.webp",
-     "credit": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=82627585"
-    },
-    {
-     "url": "/img/lake-como/5.webp",
-     "credit": "RaminusFalcon",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
-    }
-   ]
-  },
-  {
    "slug": "the-hamptons",
    "name": "The Hamptons",
    "tier": 2,
    "lat": 40.9634,
    "lon": -72.1848,
-   "score": 7,
+   "score": 6,
    "rings": 1,
    "state": "dispersing",
    "slope": -0.45,
@@ -1394,6 +1330,70 @@
      "credit": "Hayden Soloviev",
      "license": "CC BY 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
+    }
+   ]
+  },
+  {
+   "slug": "lake-como",
+   "name": "Lake Como",
+   "tier": 2,
+   "lat": 45.9856,
+   "lon": 9.258,
+   "score": 6,
+   "rings": 1,
+   "state": "dispersing",
+   "slope": -0.48,
+   "note": "Closing. The best light of the year.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    50,
+    60,
+    68,
+    70,
+    48,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/lake-como/0.webp",
+     "credit": ". Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110134713"
+    },
+    {
+     "url": "/img/lake-como/1.webp",
+     "credit": "Deensel",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73531603"
+    },
+    {
+     "url": "/img/lake-como/2.webp",
+     "credit": "Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=88175366"
+    },
+    {
+     "url": "/img/lake-como/3.webp",
+     "credit": ". Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110134706"
+    },
+    {
+     "url": "/img/lake-como/4.webp",
+     "credit": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82627585"
+    },
+    {
+     "url": "/img/lake-como/5.webp",
+     "credit": "RaminusFalcon",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
     }
    ]
   },
@@ -2516,6 +2516,22 @@
  ],
  "wire": [
   {
+   "slug": "austin",
+   "name": "Austin",
+   "state": "open",
+   "was": "opening",
+   "note": "The American paddock stop that turned into a capital week.",
+   "date": "2026-09-27"
+  },
+  {
+   "slug": "singapore",
+   "name": "Singapore",
+   "state": "quiet",
+   "was": "closing",
+   "note": "Night race weekend. The only week the city's family offices are fully visible.",
+   "date": "2026-09-27"
+  },
+  {
    "slug": "new-york",
    "name": "New York",
    "state": "flat",
@@ -2530,14 +2546,6 @@
    "was": "closing",
    "note": "Yacht Show. Not a boat show. A liquidity event with three days of runway.",
    "date": "2026-09-21"
-  },
-  {
-   "slug": "singapore",
-   "name": "Singapore",
-   "state": "closing",
-   "was": "open",
-   "note": "Night race weekend. The only week the city's family offices are fully visible.",
-   "date": "2026-09-16"
   },
   {
    "slug": "london",
