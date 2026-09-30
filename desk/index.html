@@ -406,12 +406,14 @@ function approvalCard(row){
   });
   card.querySelector('[data-act=approve]').addEventListener('click', async ()=>{
     if(!confirm('Approve and publish "'+(row.title||'untitled')+'"? This makes it live immediately.')) return;
-    await sb.from('content').update({ status:'published', approved_at:new Date().toISOString() }).eq('id', row.id);
+    const { error: pubErr } = await sb.from('content').update({ status:'published', approved_at:new Date().toISOString() }).eq('id', row.id);
+    if(pubErr){ alert('Publish failed: '+pubErr.message); console.error(pubErr); return; }
     loadApprovals();
   });
   card.querySelector('[data-act=kill]').addEventListener('click', async ()=>{
     if(!confirm('Kill "'+(row.title||'untitled')+'"? Moves it to Archive, off the queue.')) return;
-    await sb.from('content').update({ status:'killed' }).eq('id', row.id);
+    const { error: killErr } = await sb.from('content').update({ status:'killed' }).eq('id', row.id);
+    if(killErr){ alert('Kill failed: '+killErr.message); console.error(killErr); return; }
     loadApprovals();
   });
   card.querySelector('[data-act=edit]').addEventListener('click', ()=>{
@@ -424,7 +426,8 @@ function approvalCard(row){
     saveBtn.textContent='Save edit'; saveBtn.className='primary';
     ta.after(saveBtn);
     saveBtn.addEventListener('click', async ()=>{
-      await sb.from('content').update({ body: ta.value }).eq('id', row.id);
+      const { error: editErr } = await sb.from('content').update({ body: ta.value }).eq('id', row.id);
+      if(editErr){ alert('Save failed: '+editErr.message); console.error(editErr); return; }
       loadApprovals();
     });
   });
