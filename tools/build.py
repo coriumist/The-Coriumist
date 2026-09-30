@@ -236,7 +236,7 @@ def ticker():
     return '<div class="ticker" aria-hidden="true"><div class="ticker-track">' + "".join(f"<span>{esc(t)}</span>" for t in lines * 2) + "</div></div>"
 def nav(current=None):
     links = "".join(f'<a href="{h}"{" style=color:var(--ink)" if h == current else ""}>{n}</a>' for n, h in NAVL)
-    return f'<nav class="hnav"><a class="brand" href="/"><img src="/assets/mark-cream.webp" alt=""><span class="wordmark">The Coriumist</span></a><div class="links">{links}<a class="door" href="/#door">The Door</a></div><button class="menu mono" aria-label="Menu" aria-expanded="false" onclick="document.body.classList.toggle(\'menu-open\');this.setAttribute(\'aria-expanded\',document.body.classList.contains(\'menu-open\'))">Menu</button></nav><div class="sheet"><div class="mono" style="color:var(--mute);margin-bottom:1.2rem">The Coriumist</div>{links}<a href="/#door">The Door</a></div>' + ticker()
+    return f'<nav class="hnav"><a class="brand" href="/"><img src="/assets/mark-cream.webp" alt=""><span class="wordmark">The Coriumist</span></a><div class="links">{links}<a class="door" href="/#door">Newsletter</a></div><button class="menu mono" aria-label="Menu" aria-expanded="false" onclick="document.body.classList.toggle(\'menu-open\');this.setAttribute(\'aria-expanded\',document.body.classList.contains(\'menu-open\'))">Menu</button></nav><div class="sheet"><div class="mono" style="color:var(--mute);margin-bottom:1.2rem">The Coriumist</div>{links}<a href="/#door">Newsletter</a></div>' + ticker()
 def figure(p, cap="", cls="ph", lazy=True):
     if not p: return f'<figure class="{cls}"><img src="/assets/placeholder.svg" alt=""><div class="cap">{cap}</div></figure>'
     cr = esc(p.get("credit", "")) + (f'. {esc(p.get("license",""))}' if p.get("license") else "")
@@ -244,7 +244,7 @@ def figure(p, cap="", cls="ph", lazy=True):
 def foot():
     return f"""<footer><div class="wrap"><div class="foot mono">
 <div><h5>The circuit</h5><ul><li><a href="/circuit/">Cities</a></li><li><a href="/map/">Map</a></li><li><a href="/index/">The Index</a></li><li><a href="/places/">Places</a></li></ul></div>
-<div><h5>The desk</h5><ul><li><a href="/latest/">Dispatches</a></li><li><a href="/the-games/">The Games</a></li></ul></div>
+<div><h5>The desk</h5><ul><li><a href="/latest/">Dispatches</a></li><li><a href="/the-games/">The Games</a></li><li><a href="/rooms/">The Rooms</a></li></ul></div>
 <div><h5>The data</h5><ul><li><a href="/methodology/">Methodology</a></li><li><a href="/data/read.json">Today's read (JSON)</a></li></ul></div>
 <div><h5>The Coriumist</h5><ul><li><a href="mailto:coriumist.ops@gmail.com">Contact</a></li><li><a href="https://www.instagram.com/coriumist">Instagram</a></li></ul></div></div>
 <div class="sign"><span class="line">Money moves. We map it.</span><span class="mono">Public sources. City level. Never an address. The Coriumist, {TODAY.year}.</span></div></div></footer>"""
@@ -300,8 +300,9 @@ show(read.cities[0],true);
 </script>"""
 
 # ----------------------------------------------------------------- pages
-DOOR = """<section class="doorblk" id="door"><div class="ghost" aria-hidden="true"></div><h3>The door is currently closed.</h3><p>Leave an address. When the door opens, it opens in order of arrival.</p>
-<form name="door" method="POST" action="/door/" data-netlify="true" netlify-honeypot="field"><input type="hidden" name="form-name" value="door"><input type="text" name="field" style="display:none" tabindex="-1" autocomplete="off"><input type="email" name="email" placeholder="Email" required aria-label="Email"><button type="submit">Enter</button></form></section>"""
+# NEWSLETTER: interim Netlify capture. When Beehiiv is live, swap the form for the Beehiiv embed.
+DOOR = """<section class="doorblk" id="door"><div class="ghost" aria-hidden="true"></div><p class="mono" style="color:rgba(247,243,233,.62);margin-bottom:1rem">The newsletter</p><h3>The Circuit, weekly.</h3><p>One email. Where the money is, where it is going, where to be. Free, every Monday. The free index tells you where capital is. <a href="/rooms/" style="text-decoration:underline;text-underline-offset:3px">The Rooms</a> tell you where to be.</p>
+<form name="circuit" method="POST" action="/door/" data-netlify="true" netlify-honeypot="field"><input type="hidden" name="form-name" value="circuit"><input type="text" name="field" style="display:none" tabindex="-1" autocomplete="off"><input type="email" name="email" placeholder="Email" required aria-label="Email"><button type="submit">Subscribe</button></form></section>"""
 MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
 
 def city_card(r, wide=False):
@@ -314,7 +315,7 @@ hero_p = hero(reads[0]["slug"]) or next((hero(r["slug"]) for r in reads if hero(
 fallback_photos = [hero(r["slug"])["url"] for r in reads if hero(r["slug"])][:12]
 home = f"""
 <header class="hero" id="top"><div class="bg">{f'<img src="{esc(hero_p["url"])}" alt="" fetchpriority="high" onerror="this.onerror=null;this.src=\'/assets/placeholder.svg\'">' if hero_p else ""}</div>
- <div class="hero-stage"><p class="hero-eyebrow mono">A private intelligence publication</p><div class="mark-hero" role="img" aria-label="The Coriumist"></div><p class="hero-the">The</p><h1 class="hero-title">Coriumist</h1><p class="hero-deck">Where capital congregates.</p><p class="hero-sub mono">Public record, read closely &nbsp;·&nbsp; est. MMXXVI</p></div>
+ <div class="hero-stage"><p class="hero-eyebrow mono">A private intelligence publication</p><div class="mark-hero" role="img" aria-label="The Coriumist"></div><p class="hero-the">The</p><h1 class="hero-title">Coriumist</h1><p class="hero-deck">Where capital congregates.</p><p class="hero-sub mono">Public record, read closely &nbsp;·&nbsp; est. MMXXVI</p><p style="margin-top:1.4rem"><a class="btn" href="#door">Get the Circuit, weekly. Free.</a></p></div>
  <p class="where mono">{esc(reads[0]["name"])} is open. {esc(date_long(TODAY))}.</p><p class="hero-cue mono">Scroll</p></header>
 
 <section id="circuit"><div class="wrap"><div class="railhead"><div><p class="eyebrow mono" style="margin-bottom:.6rem">01 · The circuit this week</p><h2 class="big" style="font-size:clamp(1.8rem,4vw,3rem)">Six places carrying the weight.</h2></div><div class="nav"><button aria-label="Back" data-rail="crail" data-dir="-1">←</button><button aria-label="Forward" data-rail="crail" data-dir="1">→</button></div></div>
@@ -401,7 +402,7 @@ write("the-games/index.html", feed_page("The Games. The Coriumist", "The Games",
 write("read/index.html", shell("The Coriumist", f"""
 <header class="hero" id="a-hero" style="height:72svh;min-height:480px"><div class="bg"><img id="a-img" src="" alt="" style="display:none"></div>
  <div class="hero-stage" style="justify-content:flex-end;align-items:flex-start;text-align:left;padding-bottom:3rem"><div class="wrap" style="width:100%"><p class="crumb mono" id="a-kicker"><a href="/latest/">Dispatches</a></p><h1 class="big" id="a-title" style="font-size:clamp(2.2rem,6vw,4.8rem);max-width:22ch">Loading.</h1><p class="mono" id="a-date" style="margin-top:1rem;color:var(--accent)"></p></div></div></header>
-<section style="border:0"><div class="wrap"><article class="prose" id="a-body"></article><p style="margin-top:2rem"><a class="btn" href="/latest/">All dispatches</a></p></div></section>
+<section style="border:0"><div class="wrap"><article class="prose" id="a-body"></article></div></section>{DOOR}
 <script>window.FALLBACK={json.dumps(fallback_photos)};(async()=>{{const id=new URLSearchParams(location.search).get("id");if(!id){{location.replace("/latest/");return}}
 const rows=await sb("content?id=eq."+encodeURIComponent(id)+"&status=eq.published&select=id,format,title,body,publish_at,media_urls&limit=1");const r=rows[0];
 if(!r){{document.getElementById("a-title").textContent="Not filed, or not yet published.";return}}
@@ -411,7 +412,16 @@ const b=r.body||"";document.getElementById("a-body").innerHTML=/<[a-z][\\s\\S]*>
 }})();</script>""", "/latest/"))
 
 # ---- door received
-write("door/index.html", shell("Received. The Coriumist", """<section class="doorblk" style="min-height:70vh;display:flex;flex-direction:column;justify-content:center"><div class="ghost" aria-hidden="true"></div><h3>Received.</h3><p>When the door opens, it opens in order of arrival. You are in the order.</p><p style="margin-top:2rem"><a class="btn" href="/">Back to the circuit</a></p></section>"""))
+
+# ---- the rooms (membership waitlist; no checkout until billing is real)
+write("rooms/index.html", shell("The Rooms. The Coriumist", f"""<section style="border:0;padding-top:1rem"><div class="wrap"><p class="eyebrow mono">Membership</p><h1 class="big">The Rooms.</h1><p class="dek">The free index tells you where capital is. The Rooms tell you where to be. The full Circuit briefing, the seating charts, the rooms that matter, every week. Founding members are taken in order of arrival.</p></div></section>
+<section><div class="wrap"><div class="three">
+<div><p class="eyebrow mono">Founding</p><p style="font-size:2.6rem;font-variation-settings:'opsz' 72,'wght' 460">$20<span class="mono" style="color:var(--mute)">/mo</span></p><p class="mono" style="color:var(--soft);margin:.8rem 0">$200 a year. Two months free.</p><p style="color:var(--soft)">First 100 members. Rate locked for life.</p></div>
+<div><p class="eyebrow mono">Standard</p><p style="font-size:2.6rem;font-variation-settings:'opsz' 72,'wght' 460">$35<span class="mono" style="color:var(--mute)">/mo</span></p><p class="mono" style="color:var(--soft);margin:.8rem 0">After the first 100.</p><p style="color:var(--soft)">Same rooms. Later arrival.</p></div>
+<div><p class="eyebrow mono">The list</p><p style="color:var(--soft)">Leave an address. Founding places go in order of arrival, and the count is public.</p><form name="rooms" method="POST" action="/door/" data-netlify="true" netlify-honeypot="field" style="margin-top:1rem;display:flex;border-bottom:1px solid var(--line)"><input type="hidden" name="form-name" value="rooms"><input type="text" name="field" style="display:none" tabindex="-1" autocomplete="off"><input type="email" name="email" placeholder="Email" required aria-label="Email" style="flex:1;background:transparent;border:0;padding:.7rem 0;color:var(--ink);font-family:'Space Mono',monospace;font-size:.85rem"><button type="submit" class="mono" style="background:transparent;border:0;color:var(--ink);letter-spacing:.24em;text-transform:uppercase;cursor:pointer">Join</button></form></div>
+</div><p class="disc mono" style="margin-top:2.4rem">No checkout yet. The list decides the order when billing opens.</p></div></section>""", "/rooms/", desc="The Rooms. The paid tier of The Coriumist. The free index tells you where capital is. The Rooms tell you where to be."))
+
+write("door/index.html", shell("Received. The Coriumist", """<section class="doorblk" style="min-height:70vh;display:flex;flex-direction:column;justify-content:center"><div class="ghost" aria-hidden="true"></div><h3>Received.</h3><p>The first Circuit lands Monday. The Rooms open in order of arrival.</p><p style="margin-top:2rem"><a class="btn" href="/">Back to the circuit</a></p></section>"""))
 
 # ---- methodology
 write("methodology/index.html", shell("Methodology. The Coriumist", f"""<section style="border:0;padding-top:1rem"><div class="wrap"><p class="eyebrow mono">Methodology</p><h1 class="big">How the number is made.</h1></div></section>
@@ -425,7 +435,7 @@ write("methodology/index.html", shell("Methodology. The Coriumist", f"""<section
 <p class="mono" style="color:var(--mute)">{DISCLAIMER}</p></div></div></section>"""))
 
 # ---- sitemap, robots
-urls = ["/", "/circuit/", "/places/", "/the-games/", "/index/", "/map/", "/methodology/", "/latest/"] + [f"/circuit/{c['slug']}/" for c in DATA["cities"]] + [f"/places/{c['slug']}/{v['slug']}/" for c in DATA["cities"] for v in c["venues"]]
+urls = ["/", "/circuit/", "/places/", "/the-games/", "/index/", "/map/", "/methodology/", "/latest/", "/rooms/"] + [f"/circuit/{c['slug']}/" for c in DATA["cities"]] + [f"/places/{c['slug']}/{v['slug']}/" for c in DATA["cities"] for v in c["venues"]]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>https://coriumist.com{u}</loc><lastmod>{TODAY.isoformat()}</lastmod></url>" for u in urls) + "</urlset>")
 write("robots.txt", "User-agent: *\nAllow: /\nSitemap: https://coriumist.com/sitemap.xml\n")
 print(f"built {len(urls)} urls. photos for {sum(1 for c in DATA['cities'] if photos(c['slug']))} cities. top: " + ", ".join(f"{r['name']} {r['score']} {r['state']}" for r in reads[:6]))
