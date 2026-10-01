@@ -1,81 +1,17 @@
 {
- "date": "2026-09-30",
+ "date": "2026-10-01",
  "cities": [
-  {
-   "slug": "paris",
-   "name": "Paris",
-   "tier": 1,
-   "lat": 48.8566,
-   "lon": 2.3522,
-   "score": 90,
-   "rings": 7,
-   "state": "open",
-   "slope": 0.14,
-   "note": "Ready-to-wear returns. Dinner tables are harder than the shows.",
-   "year": [
-    68,
-    36,
-    74,
-    36,
-    36,
-    66,
-    36,
-    36,
-    76,
-    90,
-    36,
-    36
-   ],
-   "photos": [
-    {
-     "url": "/img/paris/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3299548/free-photo-image-paris-montmartre-adventure"
-    },
-    {
-     "url": "/img/paris/1.webp",
-     "credit": "Mbzt",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=16317649"
-    },
-    {
-     "url": "/img/paris/2.webp",
-     "credit": "Barry Lewis",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27493143"
-    },
-    {
-     "url": "/img/paris/3.webp",
-     "credit": "Vinceesq",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25553670"
-    },
-    {
-     "url": "/img/paris/4.webp",
-     "credit": "Jorge Royan",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=21374991"
-    },
-    {
-     "url": "/img/paris/5.webp",
-     "credit": "Barry Lewis",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27493138"
-    }
-   ]
-  },
   {
    "slug": "london",
    "name": "London",
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 88,
+   "score": 90,
    "rings": 7,
    "state": "open",
-   "slope": 0.56,
-   "note": "Global finance. Old wealth. Sovereign capital.",
+   "slope": -0.56,
+   "note": "Frieze and auction season. Hedge funds return from the coast.",
    "year": [
     34,
     34,
@@ -130,16 +66,80 @@
    ]
   },
   {
+   "slug": "paris",
+   "name": "Paris",
+   "tier": 1,
+   "lat": 48.8566,
+   "lon": 2.3522,
+   "score": 90,
+   "rings": 7,
+   "state": "open",
+   "slope": -0.54,
+   "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
+   "year": [
+    68,
+    36,
+    74,
+    36,
+    36,
+    66,
+    36,
+    36,
+    76,
+    90,
+    36,
+    36
+   ],
+   "photos": [
+    {
+     "url": "/img/paris/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3299548/free-photo-image-paris-montmartre-adventure"
+    },
+    {
+     "url": "/img/paris/1.webp",
+     "credit": "Mbzt",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=16317649"
+    },
+    {
+     "url": "/img/paris/2.webp",
+     "credit": "Barry Lewis",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27493143"
+    },
+    {
+     "url": "/img/paris/3.webp",
+     "credit": "Vinceesq",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25553670"
+    },
+    {
+     "url": "/img/paris/4.webp",
+     "credit": "Jorge Royan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=21374991"
+    },
+    {
+     "url": "/img/paris/5.webp",
+     "credit": "Barry Lewis",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27493138"
+    }
+   ]
+  },
+  {
    "slug": "austin",
    "name": "Austin",
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 68,
-   "rings": 5,
+   "score": 70,
+   "rings": 6,
    "state": "open",
-   "slope": 0.7,
-   "note": "The American paddock stop that turned into a capital week.",
+   "slope": -0.7,
+   "note": "Race week. Tech capital and the F1 hospitality overlay.",
    "year": [
     0,
     0,
@@ -199,11 +199,11 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 56,
+   "score": 55,
    "rings": 5,
-   "state": "quiet",
-   "slope": -0.31,
-   "note": "Night race weekend. The only week the city's family offices are fully visible.",
+   "state": "dispersing",
+   "slope": -0.21,
+   "note": "Post-race. Deals started at the paddock get paperwork.",
    "year": [
     34,
     34,
@@ -263,11 +263,11 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 49,
+   "score": 50,
    "rings": 4,
-   "state": "opening",
-   "slope": 0.38,
-   "note": "Not loud. Very high quality.",
+   "state": "quiet",
+   "slope": -0.38,
+   "note": "Autumn. Collector traffic without the crowd.",
    "year": [
     12,
     12,
@@ -321,11 +321,11 @@
    "tier": 1,
    "lat": 43.7384,
    "lon": 7.4246,
-   "score": 42,
+   "score": 40,
    "rings": 4,
    "state": "dispersing",
-   "slope": -0.55,
-   "note": "Yacht Show. Not a boat show. A liquidity event with three days of runway.",
+   "slope": 0.0,
+   "note": "The European wealth operating system.",
    "year": [
     40,
     40,
@@ -388,7 +388,7 @@
    "score": 36,
    "rings": 3,
    "state": "flat",
-   "slope": 0.0,
+   "slope": 0.32,
    "note": "Gulf capital. Crypto. Sovereign money.",
    "year": [
     70,
@@ -446,7 +446,7 @@
    "score": 36,
    "rings": 3,
    "state": "flat",
-   "slope": 0.0,
+   "slope": 0.36,
    "note": "Banking. Commodities. Diplomacy.",
    "year": [
     36,
@@ -507,11 +507,11 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 35,
+   "score": 34,
    "rings": 3,
-   "state": "flat",
-   "slope": -0.36,
-   "note": "Return week. Everyone is back and pretending they never left.",
+   "state": "dispersing",
+   "slope": 0.61,
+   "note": "Markets. Hedge funds. Media. Auctions.",
    "year": [
     34,
     34,
@@ -765,8 +765,8 @@
    "lon": -80.0364,
    "score": 20,
    "rings": 2,
-   "state": "quiet",
-   "slope": 0.0,
+   "state": "opening",
+   "slope": 0.4,
    "note": "Not an event. An operating system.",
    "year": [
     78,
@@ -818,70 +818,6 @@
      "credit": "P. Valdés",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
-    }
-   ]
-  },
-  {
-   "slug": "milan",
-   "name": "Milan",
-   "tier": 2,
-   "lat": 45.4642,
-   "lon": 9.19,
-   "score": 18,
-   "rings": 2,
-   "state": "quiet",
-   "slope": -0.54,
-   "note": "Fashion week returns.",
-   "year": [
-    16,
-    66,
-    16,
-    80,
-    16,
-    16,
-    16,
-    16,
-    70,
-    16,
-    16,
-    16
-   ],
-   "photos": [
-    {
-     "url": "/img/milan/0.webp",
-     "credit": "thegetty",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/14312260/airplane-and-milan-duomo-fedele-azari"
-    },
-    {
-     "url": "/img/milan/1.webp",
-     "credit": "thegetty",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/14264222/milan-duomo-fedele-azari"
-    },
-    {
-     "url": "/img/milan/2.webp",
-     "credit": "thegetty",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/14258792/milan-duomo-fedele-azari"
-    },
-    {
-     "url": "/img/milan/3.webp",
-     "credit": "FlavMi",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=99979796"
-    },
-    {
-     "url": "/img/milan/4.webp",
-     "credit": "Warburg",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=3513643"
-    },
-    {
-     "url": "/img/milan/5.webp",
-     "credit": "Jean-Christophe BENOIST",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
     }
    ]
   },
@@ -950,6 +886,70 @@
    ]
   },
   {
+   "slug": "milan",
+   "name": "Milan",
+   "tier": 2,
+   "lat": 45.4642,
+   "lon": 9.19,
+   "score": 16,
+   "rings": 2,
+   "state": "dispersing",
+   "slope": 0.0,
+   "note": "Fashion, design, and the industrial families behind both.",
+   "year": [
+    16,
+    66,
+    16,
+    80,
+    16,
+    16,
+    16,
+    16,
+    70,
+    16,
+    16,
+    16
+   ],
+   "photos": [
+    {
+     "url": "/img/milan/0.webp",
+     "credit": "thegetty",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/14312260/airplane-and-milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/1.webp",
+     "credit": "thegetty",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/14264222/milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/2.webp",
+     "credit": "thegetty",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/14258792/milan-duomo-fedele-azari"
+    },
+    {
+     "url": "/img/milan/3.webp",
+     "credit": "FlavMi",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=99979796"
+    },
+    {
+     "url": "/img/milan/4.webp",
+     "credit": "Warburg",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3513643"
+    },
+    {
+     "url": "/img/milan/5.webp",
+     "credit": "Jean-Christophe BENOIST",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
+    }
+   ]
+  },
+  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
@@ -957,8 +957,8 @@
    "lon": 54.3773,
    "score": 14,
    "rings": 2,
-   "state": "quiet",
-   "slope": 0.0,
+   "state": "opening",
+   "slope": 0.36,
    "note": "Formula 1 closes. Sovereign capital opens.",
    "year": [
     14,
@@ -1010,390 +1010,6 @@
      "credit": "Cesar I. Martins",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
-    }
-   ]
-  },
-  {
-   "slug": "porto-cervo",
-   "name": "Porto Cervo",
-   "tier": 2,
-   "lat": 41.1339,
-   "lon": 9.535,
-   "score": 2,
-   "rings": 1,
-   "state": "dispersing",
-   "slope": -0.72,
-   "note": "Maxi Yacht Rolex Cup, then the Swan Cup. The marina holds its weight into the second week, then empties toward Monaco.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    50,
-    92,
-    96,
-    72,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/porto-cervo/0.webp",
-     "credit": "HenSti",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=84761372"
-    },
-    {
-     "url": "/img/porto-cervo/1.webp",
-     "credit": "Dr. Thomas Liptak",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=176070613"
-    },
-    {
-     "url": "/img/porto-cervo/2.webp",
-     "credit": "Ökologix",
-     "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=23398070"
-    },
-    {
-     "url": "/img/porto-cervo/3.webp",
-     "credit": "Marek Ślusarczyk (Tupungato) Photo gallery",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=22813042"
-    },
-    {
-     "url": "/img/porto-cervo/4.webp",
-     "credit": "Eustace Bagge",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=94569047"
-    },
-    {
-     "url": "/img/porto-cervo/5.webp",
-     "credit": "Alistair Wettin",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=49069428"
-    }
-   ]
-  },
-  {
-   "slug": "ibiza",
-   "name": "Ibiza",
-   "tier": 2,
-   "lat": 38.9067,
-   "lon": 1.4206,
-   "score": 2,
-   "rings": 1,
-   "state": "dispersing",
-   "slope": -0.5,
-   "note": "Closing parties. Better rooms, fewer people.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    55,
-    76,
-    80,
-    50,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/ibiza/0.webp",
-     "credit": "Vicenç Salvador Torres Guerola",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=119241406"
-    },
-    {
-     "url": "/img/ibiza/1.webp",
-     "credit": "Stavros1",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20871322"
-    },
-    {
-     "url": "/img/ibiza/2.webp",
-     "credit": "Vicenç Salvador Torres Guerola",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=119563220"
-    },
-    {
-     "url": "/img/ibiza/3.webp",
-     "credit": "Itelchan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=69105689"
-    },
-    {
-     "url": "/img/ibiza/4.webp",
-     "credit": "Gerda Arendt",
-     "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=141092785"
-    },
-    {
-     "url": "/img/ibiza/5.webp",
-     "credit": "Gutca",
-     "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=191788001"
-    }
-   ]
-  },
-  {
-   "slug": "lake-como",
-   "name": "Lake Como",
-   "tier": 2,
-   "lat": 45.9856,
-   "lon": 9.258,
-   "score": 2,
-   "rings": 1,
-   "state": "dispersing",
-   "slope": -0.48,
-   "note": "Closing. The best light of the year.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    50,
-    60,
-    68,
-    70,
-    48,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/lake-como/0.webp",
-     "credit": ". Ray in Manila",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=110134713"
-    },
-    {
-     "url": "/img/lake-como/1.webp",
-     "credit": "Deensel",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=73531603"
-    },
-    {
-     "url": "/img/lake-como/2.webp",
-     "credit": "Ray in Manila",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=88175366"
-    },
-    {
-     "url": "/img/lake-como/3.webp",
-     "credit": ". Ray in Manila",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=110134706"
-    },
-    {
-     "url": "/img/lake-como/4.webp",
-     "credit": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=82627585"
-    },
-    {
-     "url": "/img/lake-como/5.webp",
-     "credit": "RaminusFalcon",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
-    }
-   ]
-  },
-  {
-   "slug": "venice",
-   "name": "Venice",
-   "tier": 2,
-   "lat": 45.4408,
-   "lon": 12.3155,
-   "score": 2,
-   "rings": 1,
-   "state": "quiet",
-   "slope": -0.74,
-   "note": "The Lido. Eleven days in which the people buying and the people selling cannot avoid each other.",
-   "year": [
-    0,
-    0,
-    0,
-    70,
-    50,
-    0,
-    0,
-    0,
-    74,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/venice/0.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20076316"
-    },
-    {
-     "url": "/img/venice/1.webp",
-     "credit": "Paul Berzinn",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=44789603"
-    },
-    {
-     "url": "/img/venice/2.webp",
-     "credit": "User:Nino Barbieri",
-     "license": "CC BY-SA 2.5",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=1914430"
-    },
-    {
-     "url": "/img/venice/3.webp",
-     "credit": "Wide Awake!",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=186028605"
-    },
-    {
-     "url": "/img/venice/4.webp",
-     "credit": "User:Nino Barbieri",
-     "license": "CC BY 2.5",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=1616575"
-    },
-    {
-     "url": "/img/venice/5.webp",
-     "credit": "Wide Awake!",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=186028597"
-    }
-   ]
-  },
-  {
-   "slug": "monza",
-   "name": "Monza",
-   "tier": 2,
-   "lat": 45.6206,
-   "lon": 9.281,
-   "score": 2,
-   "rings": 1,
-   "state": "quiet",
-   "slope": -0.66,
-   "note": "Italian Grand Prix. Como absorbs the overflow.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    66,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/monza/0.webp",
-     "credit": "Valentina Gualtieri",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=73161336"
-    },
-    {
-     "url": "/img/monza/1.webp",
-     "credit": "Paolobon140",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=77676760"
-    },
-    {
-     "url": "/img/monza/2.webp",
-     "credit": "Rebecca South (it.wikipedia/Rebecca South",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25469929"
-    },
-    {
-     "url": "/img/monza/3.webp",
-     "credit": "Monica Rondoni",
-     "license": "CC CC0 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=154212019"
-    },
-    {
-     "url": "/img/monza/4.webp",
-     "credit": "Corbyflo",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=62395567"
-    },
-    {
-     "url": "/img/monza/5.webp",
-     "credit": "Carlodell",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=65521736"
-    }
-   ]
-  },
-  {
-   "slug": "the-hamptons",
-   "name": "The Hamptons",
-   "tier": 2,
-   "lat": 40.9634,
-   "lon": -72.1848,
-   "score": 1,
-   "rings": 1,
-   "state": "dispersing",
-   "slope": -0.45,
-   "note": "Labor Day closes it. The best two weeks are after.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    60,
-    82,
-    86,
-    45,
-    0,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/the-hamptons/0.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
-    },
-    {
-     "url": "/img/the-hamptons/1.webp",
-     "credit": "nationalgalleryofart",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
-    },
-    {
-     "url": "/img/the-hamptons/2.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
-    },
-    {
-     "url": "/img/the-hamptons/3.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
-    },
-    {
-     "url": "/img/the-hamptons/4.webp",
-     "credit": "Fred222wiki",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
-    },
-    {
-     "url": "/img/the-hamptons/5.webp",
-     "credit": "Hayden Soloviev",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
     }
    ]
   },
@@ -1776,6 +1392,70 @@
    ]
   },
   {
+   "slug": "porto-cervo",
+   "name": "Porto Cervo",
+   "tier": 2,
+   "lat": 41.1339,
+   "lon": 9.535,
+   "score": 0,
+   "rings": 1,
+   "state": "dispersing",
+   "slope": 0,
+   "note": "The Mediterranean capital. Not Italy. Not Sardinia. The marina.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    50,
+    92,
+    96,
+    72,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/porto-cervo/0.webp",
+     "credit": "HenSti",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=84761372"
+    },
+    {
+     "url": "/img/porto-cervo/1.webp",
+     "credit": "Dr. Thomas Liptak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=176070613"
+    },
+    {
+     "url": "/img/porto-cervo/2.webp",
+     "credit": "Ökologix",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=23398070"
+    },
+    {
+     "url": "/img/porto-cervo/3.webp",
+     "credit": "Marek Ślusarczyk (Tupungato) Photo gallery",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=22813042"
+    },
+    {
+     "url": "/img/porto-cervo/4.webp",
+     "credit": "Eustace Bagge",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=94569047"
+    },
+    {
+     "url": "/img/porto-cervo/5.webp",
+     "credit": "Alistair Wettin",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=49069428"
+    }
+   ]
+  },
+  {
    "slug": "pebble-beach",
    "name": "Pebble Beach",
    "tier": 2,
@@ -1783,7 +1463,7 @@
    "lon": -121.9497,
    "score": 0,
    "rings": 1,
-   "state": "dispersing",
+   "state": "quiet",
    "slope": 0,
    "note": "Collectors. Industrialists. Automotive dynasties.",
    "year": [
@@ -1840,6 +1520,70 @@
    ]
   },
   {
+   "slug": "the-hamptons",
+   "name": "The Hamptons",
+   "tier": 2,
+   "lat": 40.9634,
+   "lon": -72.1848,
+   "score": 0,
+   "rings": 1,
+   "state": "quiet",
+   "slope": 0,
+   "note": "New York, relocated, with worse traffic and better lawns.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    60,
+    82,
+    86,
+    45,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/the-hamptons/0.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8229017/image-art-vintage-public-domain"
+    },
+    {
+     "url": "/img/the-hamptons/1.webp",
+     "credit": "nationalgalleryofart",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3045814/free-illustration-image-beach-woman-winslow-homer"
+    },
+    {
+     "url": "/img/the-hamptons/2.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6761078/beach-scene-with-horses-east-hampton-long-island-arnold-genthe"
+    },
+    {
+     "url": "/img/the-hamptons/3.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=180856447"
+    },
+    {
+     "url": "/img/the-hamptons/4.webp",
+     "credit": "Fred222wiki",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=72530670"
+    },
+    {
+     "url": "/img/the-hamptons/5.webp",
+     "credit": "Hayden Soloviev",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=173263414"
+    }
+   ]
+  },
+  {
    "slug": "mykonos",
    "name": "Mykonos",
    "tier": 2,
@@ -1847,7 +1591,7 @@
    "lon": 25.3289,
    "score": 0,
    "rings": 1,
-   "state": "dispersing",
+   "state": "quiet",
    "slope": 0,
    "note": "The loudest room on the Mediterranean circuit.",
    "year": [
@@ -1904,6 +1648,70 @@
    ]
   },
   {
+   "slug": "ibiza",
+   "name": "Ibiza",
+   "tier": 2,
+   "lat": 38.9067,
+   "lon": 1.4206,
+   "score": 0,
+   "rings": 1,
+   "state": "quiet",
+   "slope": 0,
+   "note": "The Balearic leg. Quieter money than the reputation suggests.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    55,
+    76,
+    80,
+    50,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/ibiza/0.webp",
+     "credit": "Vicenç Salvador Torres Guerola",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119241406"
+    },
+    {
+     "url": "/img/ibiza/1.webp",
+     "credit": "Stavros1",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20871322"
+    },
+    {
+     "url": "/img/ibiza/2.webp",
+     "credit": "Vicenç Salvador Torres Guerola",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=119563220"
+    },
+    {
+     "url": "/img/ibiza/3.webp",
+     "credit": "Itelchan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=69105689"
+    },
+    {
+     "url": "/img/ibiza/4.webp",
+     "credit": "Gerda Arendt",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=141092785"
+    },
+    {
+     "url": "/img/ibiza/5.webp",
+     "credit": "Gutca",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=191788001"
+    }
+   ]
+  },
+  {
    "slug": "capri",
    "name": "Capri",
    "tier": 2,
@@ -1911,7 +1719,7 @@
    "lon": 14.2222,
    "score": 0,
    "rings": 1,
-   "state": "dispersing",
+   "state": "quiet",
    "slope": 0,
    "note": "Small island, old money, no room to hide.",
    "year": [
@@ -1964,6 +1772,70 @@
      "credit": "my late related person",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=152454133"
+    }
+   ]
+  },
+  {
+   "slug": "lake-como",
+   "name": "Lake Como",
+   "tier": 2,
+   "lat": 45.9856,
+   "lon": 9.258,
+   "score": 0,
+   "rings": 1,
+   "state": "quiet",
+   "slope": 0,
+   "note": "Where the Mediterranean circuit goes to be quiet.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    50,
+    60,
+    68,
+    70,
+    48,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/lake-como/0.webp",
+     "credit": ". Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110134713"
+    },
+    {
+     "url": "/img/lake-como/1.webp",
+     "credit": "Deensel",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73531603"
+    },
+    {
+     "url": "/img/lake-como/2.webp",
+     "credit": "Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=88175366"
+    },
+    {
+     "url": "/img/lake-como/3.webp",
+     "credit": ". Ray in Manila",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110134706"
+    },
+    {
+     "url": "/img/lake-como/4.webp",
+     "credit": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82627585"
+    },
+    {
+     "url": "/img/lake-como/5.webp",
+     "credit": "RaminusFalcon",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=4633086"
     }
    ]
   },
@@ -2021,7 +1893,7 @@
    "lon": -110.7624,
    "score": 0,
    "rings": 1,
-   "state": "dispersing",
+   "state": "quiet",
    "slope": 0,
    "note": "Two different crowds, one valley.",
    "year": [
@@ -2085,7 +1957,7 @@
    "lon": -70.0995,
    "score": 0,
    "rings": 1,
-   "state": "dispersing",
+   "state": "quiet",
    "slope": 0,
    "note": "Old American wealth, deliberately understated.",
    "year": [
@@ -2138,6 +2010,70 @@
      "credit": "NantoLeb",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=10940681"
+    }
+   ]
+  },
+  {
+   "slug": "venice",
+   "name": "Venice",
+   "tier": 2,
+   "lat": 45.4408,
+   "lon": 12.3155,
+   "score": 0,
+   "rings": 1,
+   "state": "dispersing",
+   "slope": 0,
+   "note": "Biennale years only. Then it is the densest collector week in Europe.",
+   "year": [
+    0,
+    0,
+    0,
+    70,
+    50,
+    0,
+    0,
+    0,
+    74,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/venice/0.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20076316"
+    },
+    {
+     "url": "/img/venice/1.webp",
+     "credit": "Paul Berzinn",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=44789603"
+    },
+    {
+     "url": "/img/venice/2.webp",
+     "credit": "User:Nino Barbieri",
+     "license": "CC BY-SA 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1914430"
+    },
+    {
+     "url": "/img/venice/3.webp",
+     "credit": "Wide Awake!",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=186028605"
+    },
+    {
+     "url": "/img/venice/4.webp",
+     "credit": "User:Nino Barbieri",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1616575"
+    },
+    {
+     "url": "/img/venice/5.webp",
+     "credit": "Wide Awake!",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=186028597"
     }
    ]
   },
@@ -2329,8 +2265,8 @@
    "lon": -115.1398,
    "score": 0,
    "rings": 1,
-   "state": "quiet",
-   "slope": 0,
+   "state": "opening",
+   "slope": 0.74,
    "note": "The newest stop and the most heavily brokered.",
    "year": [
     0,
@@ -2382,6 +2318,70 @@
      "credit": "chensiyuan",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
+    }
+   ]
+  },
+  {
+   "slug": "monza",
+   "name": "Monza",
+   "tier": 2,
+   "lat": 45.6206,
+   "lon": 9.281,
+   "score": 0,
+   "rings": 1,
+   "state": "dispersing",
+   "slope": 0,
+   "note": "The oldest room on the paddock circuit.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    66,
+    0,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/monza/0.webp",
+     "credit": "Valentina Gualtieri",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73161336"
+    },
+    {
+     "url": "/img/monza/1.webp",
+     "credit": "Paolobon140",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77676760"
+    },
+    {
+     "url": "/img/monza/2.webp",
+     "credit": "Rebecca South (it.wikipedia/Rebecca South",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25469929"
+    },
+    {
+     "url": "/img/monza/3.webp",
+     "credit": "Monica Rondoni",
+     "license": "CC CC0 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=154212019"
+    },
+    {
+     "url": "/img/monza/4.webp",
+     "credit": "Corbyflo",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=62395567"
+    },
+    {
+     "url": "/img/monza/5.webp",
+     "credit": "Carlodell",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=65521736"
     }
    ]
   },
@@ -2516,84 +2516,100 @@
  ],
  "wire": [
   {
-   "slug": "austin",
-   "name": "Austin",
-   "state": "open",
-   "was": "opening",
-   "note": "The American paddock stop that turned into a capital week.",
-   "date": "2026-09-27"
-  },
-  {
    "slug": "singapore",
    "name": "Singapore",
+   "state": "dispersing",
+   "was": "quiet",
+   "note": "Post-race. Deals started at the paddock get paperwork.",
+   "date": "2026-10-01"
+  },
+  {
+   "slug": "tokyo",
+   "name": "Tokyo",
    "state": "quiet",
-   "was": "closing",
-   "note": "Night race weekend. The only week the city's family offices are fully visible.",
-   "date": "2026-09-27"
+   "was": "opening",
+   "note": "Autumn. Collector traffic without the crowd.",
+   "date": "2026-10-01"
   },
   {
    "slug": "new-york",
    "name": "New York",
-   "state": "flat",
-   "was": "quiet",
-   "note": "Return week. Everyone is back and pretending they never left.",
-   "date": "2026-09-22"
-  },
-  {
-   "slug": "monaco",
-   "name": "Monaco",
    "state": "dispersing",
-   "was": "closing",
-   "note": "Yacht Show. Not a boat show. A liquidity event with three days of runway.",
-   "date": "2026-09-21"
+   "was": "flat",
+   "note": "Markets. Hedge funds. Media. Auctions.",
+   "date": "2026-10-01"
   },
   {
-   "slug": "london",
-   "name": "London",
-   "state": "open",
-   "was": "opening",
-   "note": "Global finance. Old wealth. Sovereign capital.",
-   "date": "2026-09-16"
-  },
-  {
-   "slug": "venice",
-   "name": "Venice",
-   "state": "quiet",
-   "was": "open",
-   "note": "The Lido. Eleven days in which the people buying and the people selling cannot avoid each other.",
-   "date": "2026-09-07"
+   "slug": "palm-beach",
+   "name": "Palm Beach",
+   "state": "opening",
+   "was": "quiet",
+   "note": "Not an event. An operating system.",
+   "date": "2026-10-01"
   },
   {
    "slug": "milan",
    "name": "Milan",
-   "state": "quiet",
-   "was": "open",
-   "note": "Fashion week returns.",
-   "date": "2026-09-07"
-  },
-  {
-   "slug": "porto-cervo",
-   "name": "Porto Cervo",
    "state": "dispersing",
-   "was": "open",
-   "note": "Maxi Yacht Rolex Cup, then the Swan Cup. The marina holds its weight into the second week, then empties toward Monaco.",
-   "date": "2026-09-07"
+   "was": "quiet",
+   "note": "Fashion, design, and the industrial families behind both.",
+   "date": "2026-10-01"
   },
   {
-   "slug": "monza",
-   "name": "Monza",
+   "slug": "abu-dhabi",
+   "name": "Abu Dhabi",
+   "state": "opening",
+   "was": "quiet",
+   "note": "Formula 1 closes. Sovereign capital opens.",
+   "date": "2026-10-01"
+  },
+  {
+   "slug": "pebble-beach",
+   "name": "Pebble Beach",
    "state": "quiet",
-   "was": "open",
-   "note": "Italian Grand Prix. Como absorbs the overflow.",
-   "date": "2026-09-04"
+   "was": "dispersing",
+   "note": "Collectors. Industrialists. Automotive dynasties.",
+   "date": "2026-10-01"
   },
   {
-   "slug": "paris",
-   "name": "Paris",
-   "state": "open",
-   "was": null,
-   "note": "Ready-to-wear returns. Dinner tables are harder than the shows.",
-   "date": "2026-09-02"
+   "slug": "the-hamptons",
+   "name": "The Hamptons",
+   "state": "quiet",
+   "was": "dispersing",
+   "note": "New York, relocated, with worse traffic and better lawns.",
+   "date": "2026-10-01"
+  },
+  {
+   "slug": "mykonos",
+   "name": "Mykonos",
+   "state": "quiet",
+   "was": "dispersing",
+   "note": "The loudest room on the Mediterranean circuit.",
+   "date": "2026-10-01"
+  },
+  {
+   "slug": "ibiza",
+   "name": "Ibiza",
+   "state": "quiet",
+   "was": "dispersing",
+   "note": "The Balearic leg. Quieter money than the reputation suggests.",
+   "date": "2026-10-01"
+  },
+  {
+   "slug": "capri",
+   "name": "Capri",
+   "state": "quiet",
+   "was": "dispersing",
+   "note": "Small island, old money, no room to hide.",
+   "date": "2026-10-01"
+  },
+  {
+   "slug": "lake-como",
+   "name": "Lake Como",
+   "state": "quiet",
+   "was": "dispersing",
+   "note": "Where the Mediterranean circuit goes to be quiet.",
+   "date": "2026-10-01"
   }
  ],
  "rooms": {
