@@ -230,9 +230,27 @@ function reveal(){{document.querySelectorAll("[data-reveal]:not(.in)").forEach(e
 document.addEventListener("DOMContentLoaded",reveal);
 </script>"""
 
-NAVL = [("Circuit", "/circuit/"), ("Places", "/places/"), ("The Games", "/the-games/"), ("Index", "/index/"), ("Map", "/map/"), ("Dispatches", "/latest/")]
+# The ticker also refreshes itself in the browser: the latest published
+# dispatches are prepended the moment the page loads, so the bar stays
+# alive between daily builds without any rebuild.
+LIVE_TICKER_JS = """<script>
+document.addEventListener("DOMContentLoaded",function(){(async function(){try{
+var rows=await sb("content?status=eq.published&select=title&order=publish_at.desc&limit=4");
+if(!rows||!rows.length)return;
+var track=document.querySelector(".ticker-track");if(!track)return;
+var escT=function(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")};
+var cur=Array.prototype.slice.call(track.querySelectorAll("span")).map(function(s){return s.textContent}).slice(0,8);
+var all=rows.map(function(r){return "Filed: "+r.title}).concat(cur);
+var half=all.map(function(t){return "<span>"+escT(t)+"</span>"}).join("");
+track.innerHTML=half+half;
+}catch(e){}})()});
+</script>"""
+
+NAVL = [("Circuit", "/circuit/"), ("Places", "/places/"), ("The Games", "/the-games/"), ("Index", "/index/"), ("Map", "/map/"), ("Money Map", "/money-map/"), ("Dispatches", "/latest/")]
 def ticker():
-    lines = [w["note"] for w in wire[:6]] or [r["note"] for r in reads[:6]]
+    items = [w["note"] for w in wire[:4]]
+    items += [f"{r['name']} is {r['state']}. Score {r['score']}" for r in reads[:3]]
+    lines = items or [r["note"] for r in reads[:6]]
     return '<div class="ticker" aria-hidden="true"><div class="ticker-track">' + "".join(f"<span>{esc(t)}</span>" for t in lines * 2) + "</div></div>"
 def nav(current=None):
     links = "".join(f'<a href="{h}"{" style=color:var(--ink)" if h == current else ""}>{n}</a>' for n, h in NAVL)
@@ -245,12 +263,12 @@ def foot():
     return f"""<footer><div class="wrap"><div class="foot mono">
 <div><h5>The circuit</h5><ul><li><a href="/circuit/">Cities</a></li><li><a href="/map/">Map</a></li><li><a href="/index/">The Index</a></li><li><a href="/places/">Places</a></li></ul></div>
 <div><h5>The desk</h5><ul><li><a href="/latest/">Dispatches</a></li><li><a href="/the-games/">The Games</a></li><li><a href="/rooms/">The Rooms</a></li></ul></div>
-<div><h5>The data</h5><ul><li><a href="/methodology/">Methodology</a></li><li><a href="/data/read.json">Today's read (JSON)</a></li></ul></div>
+<div><h5>The data</h5><ul><li><a href="/methodology/">Methodology</a></li><li><a href="/money-map/">The Money Map</a></li><li><a href="/data/read.json">Today's read (JSON)</a></li></ul></div>
 <div><h5>The Coriumist</h5><ul><li><a href="mailto:coriumist.ops@gmail.com">Contact</a></li><li><a href="https://www.instagram.com/coriumist">Instagram</a></li></ul></div></div>
 <div class="sign"><span class="line">Money moves. We map it.</span><span class="mono">Public sources. City level. Never an address. The Coriumist, {TODAY.year}.</span></div></div></footer>"""
 def shell(title, body, current=None, desc="Where capital congregates, by season and coordinate. Public record only.", head="", og=None):
     ogt = f'<meta property="og:image" content="{esc(og)}">' if og else ""
-    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}">{ogt}{FONTS}<style>{CSS}</style>{SB_JS}{head}</head>
+    return f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{esc(title)}</title><meta name="description" content="{esc(desc)}">{ogt}{FONTS}<style>{CSS}</style>{SB_JS}{LIVE_TICKER_JS}{head}</head>
 <body><div class="grain" aria-hidden="true"></div>{nav(current)}<main>{body}</main>{foot()}</body></html>"""
 def write(path, content):
     full = os.path.join(SITE, path); os.makedirs(os.path.dirname(full), exist_ok=True); open(full, "w").write(content)
@@ -341,7 +359,7 @@ window.FALLBACK={json.dumps(fallback_photos)};
 write("index.html", shell("The Coriumist", home, "/", head=LEAFLET, og=hero_p["url"] if hero_p else None))
 
 # ---- map page
-write("map/index.html", shell("The Map. The Coriumist", f'<section style="border:0;padding-top:1rem"><div class="wrap"><p class="eyebrow mono">The map</p><h1 class="big">Forty cities at today\'s weight.</h1><p class="dek">Tap a mark for the read, the photographs and the rooms: five hotels, five restaurants, five places to be after dark.</p></div></section><section style="padding-top:0;border:0"><div class="wrap">{MAP_HTML}</div></section>', "/map/", head=LEAFLET))
+write("map/index.html", shell("The Map. The Coriumist", f'<section style="border:0;padding-top:1rem"><div class="wrap"><p class="eyebrow mono">The map</p><h1 class="big">Forty cities at today\'s weight.</h1><p class="dek">Tap a mark for the read, the photographs and the rooms: five hotels, five restaurants, five places to be after dark. <a href="/money-map/" style="text-decoration:underline;text-underline-offset:3px">How the map is made.</a></p></div></section><section style="padding-top:0;border:0"><div class="wrap">{MAP_HTML}</div></section>', "/map/", head=LEAFLET))
 
 # ---- index
 rows = "".join(f'<tr><td class="num">{i+1:02d}</td><td class="n"><a href="/circuit/{r["slug"]}/">{esc(r["name"])}</a></td><td class="mono">{TIER_WORD[r["tier"]]}</td><td class="mono">{STATE_WORD[r["state"]]}</td><td class="num">{r["score"]}</td><td class="num">{"●"*r["rings"]}</td><td class="num">{"+" if r["slope"]>0 else ""}{r["slope"]:.2f}</td></tr>' for i, r in enumerate(reads))
@@ -432,10 +450,180 @@ write("methodology/index.html", shell("Methodology. The Coriumist", f"""<section
 <p>The wire records state changes only. Nothing on the wire is a forecast.</p>
 <p>The twelve dimensions of the Index are scored by the operator and layered onto the calendar read as they are entered. Where a dimension has not been scored, the calendar read stands alone.</p>
 <p>Photography is licensed: operator photographs, Unsplash, or Wikimedia Commons under CC0, CC BY or CC BY-SA, credited on the image. Sources are public only. Outputs are city and venue level. Never an address, never an individual in real time.</p>
+<p>The movement data behind the map has its own page: <a href="/money-map/" style="text-decoration:underline;text-underline-offset:3px">The Money Map</a>, the corridors, the rooms, and why wealth is a where.</p>
 <p class="mono" style="color:var(--mute)">{DISCLAIMER}</p></div></div></section>"""))
 
+MONEYMAP_HEAD = """<style>#corr-tabs button{border:0;background:transparent;color:var(--mute);font-family:"Space Mono",monospace;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;cursor:pointer;padding:0 0 6px;border-bottom:1px solid transparent}#corr-tabs button.on{color:var(--ink);border-bottom-color:var(--accent)}#corr-tabs button:hover{color:var(--ink)}.corr-card{display:none}.corr-card:first-child{display:block}.statgrid{display:grid;grid-template-columns:1fr 1fr;gap:0}</style>"""
+
+MONEYMAP_BODY = """
+<header class="hero" style="height:86svh;min-height:600px"><div class="bg"><img src="%%MONACO_URL%%" alt="" fetchpriority="high" onerror="this.onerror=null;this.src='/assets/placeholder.svg'"></div>
+ <div class="hero-stage"><p class="hero-eyebrow mono">Coriumist Intelligence</p><h1 class="hero-title" style="font-size:clamp(2.6rem,10vw,9rem)">The Money Map</h1><p class="hero-deck">We track the money's movement. Never the people.</p><p class="hero-sub mono">Aggregate &nbsp;·&nbsp; Delayed &nbsp;·&nbsp; Anonymous</p></div>
+ <p class="where mono">Port Hercule, Monaco. September 2026.</p><p class="hero-cue mono">Scroll</p></header>
+
+<section style="border:0"><div class="wrap"><p class="eyebrow mono">Why this exists</p><div class="prose"><p>Capital leaves a wake in the sky and on the water. Count the flights between seven airports near Davos in January and you have the attendance sheet of the World Economic Forum. Count the yachts along the Cote d'Azur in late September and you have the guest list of the Monaco Yacht Show, minus the names.</p><p>Aggregate enough of it and you can see where the room is going next. That is the entire product. Not who. Where.</p></div></div></section>
+
+<section><div class="wrap"><p class="eyebrow mono">01 · The method</p><h2 class="big" style="font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1.4rem">Three rules.</h2>
+<div class="three">
+<div><p class="mono" style="color:var(--accent);margin-bottom:.6rem">Aggregate</p><p style="color:var(--soft)">We count flows between airports and ports. Never an individual aircraft. Never a hull. The pattern is the product; the tail number is none of our business.</p></div>
+<div><p class="mono" style="color:var(--accent);margin-bottom:.6rem">Delayed</p><p style="color:var(--soft)">Patterns over weeks and seasons. Never a live pin. Anything that could locate a person today does not belong on this page.</p></div>
+<div><p class="mono" style="color:var(--accent);margin-bottom:.6rem">Anonymous</p><p style="color:var(--soft)">No names, no tail numbers, no vessel identities, no claims about who was aboard. The room, never the guest list.</p></div>
+</div>
+<p class="mono" style="margin-top:2rem;color:var(--soft)">Patterns over time, never a live pin.</p></div></section>
+
+<section><div class="wrap"><p class="eyebrow mono">02 · The corridors</p><h2 class="big" style="font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1.4rem">Four routes the money takes.</h2>
+<div class="mono" id="corr-tabs" style="display:flex;gap:18px;flex-wrap:wrap;margin-bottom:1.8rem"><button data-c="0" class="on">Davos / WEF</button><button data-c="1">Monaco Yacht Show</button><button data-c="2">Art Basel Miami</button><button data-c="3">Monaco to Genoa</button></div>
+<div id="corr-cards">
+
+<article class="corr-card"><div class="two"><div>
+<p class="mono" style="color:var(--accent)">January · Switzerland</p>
+<h3 style="font-variation-settings:'opsz' 72,'wght' 460;font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1.05;margin:.4rem 0 .8rem">Davos / World Economic Forum</h3>
+<p class="mono" style="color:var(--mute);margin-bottom:1rem">Zurich · Geneva · Basel-Mulhouse · Bern · St. Gallen-Altenrhein · Friedrichshafen · Munich → Davos</p>
+<div class="facts"><dl>
+<div><dt class="mono">Extra private flights, WEF week 2025</dt><dd>709 above normal levels</dd></div>
+<div><dt class="mono">Trend</dt><dd>227 in 2023 · 628 in 2024 · 709 in 2025</dd></div>
+<div><dt class="mono">Flights per participant</dt><dd>Roughly one per four, 2025</dd></div>
+<div><dt class="mono">Zurich, single day</dt><dd>54 jets, up 170% on a typical week</dd></div>
+</dl></div>
+<p class="mono" style="color:var(--mute);margin-top:1rem">Sources: Greenpeace "Davos in the Sky" (Jan 2026) · Euronews · Flightradar24</p>
+</div><div>
+<figure class="ph" style="aspect-ratio:4/5;border-radius:3px"><img src="%%DAVOS_URL%%" alt="" loading="lazy" onerror="this.onerror=null;this.src='/assets/placeholder.svg'"></figure>
+<p class="prose" style="margin-top:1rem;font-style:italic">The Coriumist read: one week a year the global elite agree on the same mountain. The flight count is the attendance sheet.</p>
+</div></div></article>
+
+<article class="corr-card"><div class="two"><div>
+<p class="mono" style="color:var(--accent)">Late September · French Riviera</p>
+<h3 style="font-variation-settings:'opsz' 72,'wght' 460;font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1.05;margin:.4rem 0 .8rem">Monaco Yacht Show</h3>
+<p class="mono" style="color:var(--mute);margin-bottom:1rem">Nice Cote d'Azur · Cannes Mandelieu · Golfe de Saint-Tropez → Port Hercule</p>
+<div class="facts"><dl>
+<div><dt class="mono">35th edition, Sep 23-26 2026</dt><dd>120+ superyachts · 60 tenders · ~30,000 visitors</dd></div>
+<div><dt class="mono">Pre-show gathering, Sep 18-21 2026</dt><dd>120+ mega yachts along the Cote d'Azur</dd></div>
+<div><dt class="mono">Riviera business aviation, 2025</dt><dd>Movements up 4% across the three airports</dd></div>
+<div><dt class="mono">Nice airport, 2025</dt><dd>Record 15.23M commercial passengers</dd></div>
+<div><dt class="mono">The last mile</dt><dd>Monaco has no fixed-wing airport. Nice to the heliport: ~7 minutes.</dd></div>
+</dl></div>
+<p class="mono" style="color:var(--mute);margin-top:1rem">Sources: Monaco Yacht Show organizers · Monaco Life · Travel and Tour World (Sep 2026) · BLADE</p>
+</div><div>
+<figure class="ph" style="aspect-ratio:4/5;border-radius:3px"><img src="%%MONACO_URL2%%" alt="" loading="lazy" onerror="this.onerror=null;this.src='/assets/placeholder.svg'"></figure>
+<p class="prose" style="margin-top:1rem;font-style:italic">The Coriumist read: the money does not fly to Monaco. It flies to Nice and takes a seven-minute helicopter. Watch the heliport, not the harbor.</p>
+</div></div></article>
+
+<article class="corr-card"><div class="two"><div>
+<p class="mono" style="color:var(--accent)">Early December · Miami</p>
+<h3 style="font-variation-settings:'opsz' 72,'wght' 460;font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1.05;margin:.4rem 0 .8rem">Art Basel Miami Beach</h3>
+<p class="mono" style="color:var(--mute);margin-bottom:1rem">Teterboro → Miami · Nassau → Miami · Providenciales → Miami</p>
+<div class="facts"><dl>
+<div><dt class="mono">The window</dt><dd>2026 fair: previews Dec 2-3, public Dec 4-6</dd></div>
+<div><dt class="mono">Departure share</dt><dd>Early December among the busiest private-aviation windows in Florida</dd></div>
+<div><dt class="mono">Parking</dt><dd>Overnight spots committed weeks out; aircraft reposition after drop-off</dd></div>
+<div><dt class="mono">Historical markers</dt><dd>~900 aircraft expected, 2017 · NetJets bookings up 16% (~250 flights), 2014</dd></div>
+</dl></div>
+<p class="mono" style="color:var(--mute);margin-top:1rem">Sources: Haute Living (Sep 2026) · flypeak · Amalfi Jets</p>
+</div><div>
+<figure class="ph" style="aspect-ratio:4/5;border-radius:3px"><img src="%%MIAMI_URL%%" alt="" loading="lazy" onerror="this.onerror=null;this.src='/assets/placeholder.svg'"></figure>
+<p class="prose" style="margin-top:1rem;font-style:italic">The Coriumist read: the art is the excuse. The real fair is the migration itself. New York empties into Miami for one week.</p>
+</div></div></article>
+
+<article class="corr-card"><div class="two"><div>
+<p class="mono" style="color:var(--accent)">Late September to early October · Ligurian Sea</p>
+<h3 style="font-variation-settings:'opsz' 72,'wght' 460;font-size:clamp(1.8rem,3.4vw,2.6rem);line-height:1.05;margin:.4rem 0 .8rem">Monaco to Genoa</h3>
+<p class="mono" style="color:var(--mute);margin-bottom:1rem">Port Hercule → Waterfront di Levante</p>
+<div class="facts"><dl>
+<div><dt class="mono">The handoff</dt><dd>Monaco closed Sep 26, 2026. Genoa opens Oct 1-6, 2026.</dd></div>
+<div><dt class="mono">Genoa, 66th edition</dt><dd>1,000+ boats · 215 new models · 45 countries</dd></div>
+<div><dt class="mono">The calendar move</dt><dd>Genoa ran Sep 18-23 in 2025; moved to Oct 1-6 in 2026</dd></div>
+</dl></div>
+<p class="mono" style="color:var(--mute);margin-top:1rem">Sources: salonenautico.com · mersetbateaux.com</p>
+</div><div>
+<figure class="ph" style="aspect-ratio:4/5;border-radius:3px"><img src="%%CANNES_URL%%" alt="" loading="lazy" onerror="this.onerror=null;this.src='/assets/placeholder.svg'"></figure>
+<p class="prose" style="margin-top:1rem;font-style:italic">The Coriumist read: Monaco was the money. Genoa is the product. The fleet does not scatter after the show. It sails east.</p>
+</div></div></article>
+
+</div>
+<script>
+(function(){var tabs=Array.prototype.slice.call(document.querySelectorAll("#corr-tabs button"));var cards=Array.prototype.slice.call(document.querySelectorAll(".corr-card"));tabs.forEach(function(b){b.addEventListener("click",function(){tabs.forEach(function(x){x.classList.remove("on")});b.classList.add("on");cards.forEach(function(c){c.style.display="none"});cards[+b.dataset.c].style.display="block";});});})();
+</script>
+</div></section>
+
+<section><div class="wrap"><p class="eyebrow mono">03 · The rooms</p><h2 class="big" style="font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1rem">Where the money sits down to eat.</h2>
+<p class="dek" style="margin-bottom:2rem">The map is where the money moves. The rooms are where it stops moving. Twelve public rooms, documented by the press and the public record, where the circuit gathers in each corridor city.</p>
+<div class="three" style="row-gap:2.2rem">
+<div><h4 class="mono" style="color:var(--soft);margin-bottom:1rem">Davos</h4>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Hotel Seehof Davos</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The deal bar</p><p style="color:var(--soft);font-size:.95rem;margin-bottom:1.4rem">The Congress Centre is the stage. The Seehof is where the week is actually negotiated, in public, over drinks the press has photographed for a decade.</p>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Morosani Schweizerhof, piano bar</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The late room</p><p style="color:var(--soft);font-size:.95rem;margin-bottom:1.4rem">The piano plays until the last delegate leaves. Nobody schedules the conversations that happen here.</p>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Kirchner Museum Davos</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The cultural alibi</p><p style="color:var(--soft);font-size:.95rem">Everyone goes. Everyone is seen going. The art is real and so is the networking.</p></div>
+<div><h4 class="mono" style="color:var(--soft);margin-bottom:1rem">Monaco</h4>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Bar Americain, Hotel de Paris</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The aperitif room</p><p style="color:var(--soft);font-size:.95rem;margin-bottom:1.4rem">Old money drinks here before the harbor lights come on. The terrace faces the casino; the room faces itself.</p>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Sass Cafe</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The dinner room</p><p style="color:var(--soft);font-size:.95rem;margin-bottom:1.4rem">The table is the message. During show week the room is a seating chart of the Mediterranean money.</p>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Yacht Club de Monaco</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The members' room</p><p style="color:var(--soft);font-size:.95rem">The building is shaped like a ship and the fleet outside is the membership list made visible.</p></div>
+<div><h4 class="mono" style="color:var(--soft);margin-bottom:1rem">Miami</h4>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Faena Forum</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The cathedral</p><p style="color:var(--soft);font-size:.95rem;margin-bottom:1.4rem">Basel week's big room. Art, money, and performance under one red dome.</p>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Soho Beach House</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The house pass</p><p style="color:var(--soft);font-size:.95rem;margin-bottom:1.4rem">If you are staying elsewhere during Basel, you are visiting. The pool deck is the week.</p>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">The Miami Beach EDITION</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The basement</p><p style="color:var(--soft);font-size:.95rem">The fair ends at midnight. The week does not. The basement has no windows and no closing time that matters.</p></div>
+</div>
+<div class="three" style="margin-top:2.2rem">
+<div><h4 class="mono" style="color:var(--soft);margin-bottom:1rem">Portofino</h4>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Belmond Hotel Splendido</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The terrace</p><p style="color:var(--soft);font-size:.95rem;margin-bottom:1.4rem">Above the harbor, above the fleet. The view is the point and everyone on the terrace knows it.</p>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Ristorante Puny</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The piazzetta table</p><p style="color:var(--soft);font-size:.95rem;margin-bottom:1.4rem">Lunch here is a seating chart made public. The harbor watches; the harbor is watched.</p>
+<p style="font-variation-settings:'opsz' 40,'wght' 460;font-size:1.15rem">Caffe Excelsior</p><p class="mono" style="color:var(--accent);margin:.25rem 0 .5rem">The morning room</p><p style="color:var(--soft);font-size:.95rem">Espresso on the piazzetta while the fleet wakes up. The day's business starts before the coffee cools.</p></div>
+<div style="grid-column:span 2"><div class="prose"><p class="mono" style="color:var(--mute)">Public rooms only. What the press documents, we map. What happens inside them is reported, never surveilled. The full seating charts, and the rooms that never make the press, live in <a href="/rooms/" style="text-decoration:underline;text-underline-offset:3px">The Rooms</a>.</p></div></div>
+</div></div></section>
+
+<section><div class="wrap"><p class="eyebrow mono">04 · The thesis</p><h2 class="big" style="font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1.4rem">Wealth is a where.</h2>
+<div class="prose">
+<p>Ask why the same billionaires, chief executives, and technology founders keep ending up at the same dinners, the same harbors, the same hotel bars, and the answers come back in layers. Some of it is business. Some of it is obligation. Some of it is status maintenance, the quiet tax on remaining legible to the people who matter. Some of it is pleasure, because a week on the water in September is genuinely pleasant.</p>
+<p>Under all of it is something simpler: proximity. Put yourself in the room and luck has a chance to mix with opportunity. The chance encounter at the hotel bar. The seat next to the billionaire at the fish restaurant in Cape Cod. The pitch that only happens because two people were standing on the same dock at the same time. None of it is plannable. All of it is positionable.</p>
+<p>The map is where the money moves. The rooms are where it sits down to eat. Under both is the human story: everyone in the room is there because being somewhere else felt like missing something.</p>
+</div></div></section>
+
+<section><div class="wrap"><p class="eyebrow mono">05 · The cost</p><h2 class="big" style="font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1.4rem">Two kinds of passengers.</h2>
+<div class="prose">
+<p>The circuit carries two kinds of people. The first owns the yacht. The second works in business development for a major firm and is maintaining the appearance of belonging: the right hotel, the right dinners, the right harbor at the right week, expensed and carefully documented, because access is the job.</p>
+<p>From the outside the two look identical. From the inside the difference is everything. One of them is on vacation. The other is performing proximity, week after week, season after season, in Sardinia in yacht week and in Davos in January, smiling through the fourth dinner of the night with people who might one day take a meeting.</p>
+<p>Sometimes the performance pays. A friendship forms. A door opens. That is the entire economics of the circuit: expensive, exhausting, and occasionally, for someone standing in exactly the right room, worth it.</p>
+<p>This page maps the rooms. It does not pretend everyone in them is having fun.</p>
+</div></div></section>
+
+<section><div class="wrap"><p class="eyebrow mono">06 · The calendar</p><h2 class="big" style="font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1.4rem">Where the room goes next.</h2>
+<div class="facts"><dl>
+<div><dt class="mono">Oct 1-6, 2026 · Genoa</dt><dd>Genoa International Boat Show, 66th edition. The build room: 1,000+ boats, 215 new models, 45 countries.</dd></div>
+<div><dt class="mono">Dec 2-6, 2026 · Miami</dt><dd>Art Basel Miami Beach. The migration: previews Dec 2-3, public Dec 4-6. Watch Teterboro.</dd></div>
+<div><dt class="mono">January, annual · Davos</dt><dd>World Economic Forum. The mountain. 709 extra flights in the 2025 week.</dd></div>
+<div><dt class="mono">May, annual · Monaco</dt><dd>Monaco Grand Prix. The harbor. The most expensive traffic jam on earth.</dd></div>
+</dl></div></div></section>
+
+<section><div class="wrap"><p class="eyebrow mono">07 · How it is built</p><h2 class="big" style="font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1.4rem">Public inputs only.</h2>
+<div class="prose">
+<p>Version one of the Money Map is built on published reports: Greenpeace's "Davos in the Sky," airport authority traffic figures, organizer announcements, and the trade press. Every number on this page carries its year and its source.</p>
+<p>What comes next: live ADS-B and AIS feeds, airport-pair flow counts computed weekly, and a corridor index for every room on the circuit.</p>
+<p>What will never be built: a live pin on a person. The method forbids it and so do we.</p>
+<p class="mono" style="color:var(--mute)">The Coriumist Index is an intelligence visualization tool. This is not financial advice or investment guidance.</p>
+</div></div></section>
+
+%%DOOR%%
+
+<section class="doorblk" style="background:var(--bg2)"><p class="mono" style="color:var(--mute);margin-bottom:1rem">The Coriumist</p><h3>Money moves. We map it.</h3><p>The Rooms waitlist opens next. Founding members are taken in order of arrival.</p><p style="margin-top:2rem"><a class="btn" href="/rooms/">The Rooms</a></p></section>
+"""
+
+def _mm_photo(slug):
+    p = hero(slug)
+    if not p: return "", ""
+    return p["url"], ((p.get("credit", "") + (". " + p.get("license", "") if p.get("license") else "")).strip())
+
+_mm_urls = {}
+for _s in ["monaco", "davos", "miami", "cannes"]:
+    _mm_urls[_s] = _mm_photo(_s)[0]
+_mm_body = MONEYMAP_BODY
+for _s, _u in _mm_urls.items():
+    _mm_body = _mm_body.replace("%%" + _s.upper() + "_URL%%", esc(_u))
+    _mm_body = _mm_body.replace("%%" + _s.upper() + "_URL2%%", esc(_u))
+_mm_body = _mm_body.replace("%%DOOR%%", DOOR)
+write("money-map/index.html", shell("The Money Map. The Coriumist", _mm_body, "/money-map/",
+    desc="How the money moves: aggregate, delayed, anonymous corridor intelligence. The method behind the map.",
+    head=MONEYMAP_HEAD, og=_mm_urls["monaco"] or None))
+
+
 # ---- sitemap, robots
-urls = ["/", "/circuit/", "/places/", "/the-games/", "/index/", "/map/", "/methodology/", "/latest/", "/rooms/"] + [f"/circuit/{c['slug']}/" for c in DATA["cities"]] + [f"/places/{c['slug']}/{v['slug']}/" for c in DATA["cities"] for v in c["venues"]]
+urls = ["/", "/circuit/", "/places/", "/the-games/", "/index/", "/map/", "/money-map/", "/methodology/", "/latest/", "/rooms/"] + [f"/circuit/{c['slug']}/" for c in DATA["cities"]] + [f"/places/{c['slug']}/{v['slug']}/" for c in DATA["cities"] for v in c["venues"]]
 write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(f"<url><loc>https://coriumist.com{u}</loc><lastmod>{TODAY.isoformat()}</lastmod></url>" for u in urls) + "</urlset>")
 write("robots.txt", "User-agent: *\nAllow: /\nSitemap: https://coriumist.com/sitemap.xml\n")
 print(f"built {len(urls)} urls. photos for {sum(1 for c in DATA['cities'] if photos(c['slug']))} cities. top: " + ", ".join(f"{r['name']} {r['score']} {r['state']}" for r in reads[:6]))
