@@ -1,5 +1,5 @@
 {
- "date": "2026-10-01",
+ "date": "2026-10-02",
  "cities": [
   {
    "slug": "london",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 90,
+   "score": 88,
    "rings": 7,
    "state": "open",
    "slope": -0.56,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 90,
+   "score": 88,
    "rings": 7,
    "state": "open",
    "slope": -0.54,
@@ -135,8 +135,8 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 70,
-   "rings": 6,
+   "score": 68,
+   "rings": 5,
    "state": "open",
    "slope": -0.7,
    "note": "Race week. Tech capital and the F1 hospitality overlay.",
@@ -199,8 +199,8 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 55,
-   "rings": 5,
+   "score": 54,
+   "rings": 4,
    "state": "dispersing",
    "slope": -0.21,
    "note": "Post-race. Deals started at the paddock get paperwork.",
@@ -263,7 +263,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 50,
+   "score": 49,
    "rings": 4,
    "state": "quiet",
    "slope": -0.38,
@@ -385,7 +385,7 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 36,
+   "score": 37,
    "rings": 3,
    "state": "flat",
    "slope": 0.32,
@@ -443,7 +443,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 36,
+   "score": 37,
    "rings": 3,
    "state": "flat",
    "slope": 0.36,
@@ -507,7 +507,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 34,
+   "score": 36,
    "rings": 3,
    "state": "dispersing",
    "slope": 0.61,
@@ -763,7 +763,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 20,
+   "score": 21,
    "rings": 2,
    "state": "opening",
    "slope": 0.4,
@@ -955,7 +955,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 14,
+   "score": 15,
    "rings": 2,
    "state": "opening",
    "slope": 0.36,
@@ -1010,6 +1010,70 @@
      "credit": "Cesar I. Martins",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
+    }
+   ]
+  },
+  {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "tier": 2,
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "score": 2,
+   "rings": 1,
+   "state": "opening",
+   "slope": 0.74,
+   "note": "The newest stop and the most heavily brokered.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
     }
    ]
   },
@@ -2254,70 +2318,6 @@
      "credit": "Jules Rohault de Fleury",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=129508704"
-    }
-   ]
-  },
-  {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
-   "tier": 2,
-   "lat": 36.1699,
-   "lon": -115.1398,
-   "score": 0,
-   "rings": 1,
-   "state": "opening",
-   "slope": 0.74,
-   "note": "The newest stop and the most heavily brokered.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/las-vegas/0.webp",
-     "credit": "Clément Bardot",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
-    },
-    {
-     "url": "/img/las-vegas/1.webp",
-     "credit": "Henning Schlottmann (User:H-stt)",
-     "license": "CC BY 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
-    },
-    {
-     "url": "/img/las-vegas/2.webp",
-     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
-    },
-    {
-     "url": "/img/las-vegas/3.webp",
-     "credit": "LasVegasGuy",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
-    },
-    {
-     "url": "/img/las-vegas/4.webp",
-     "credit": "GyozaDumpling",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
-    },
-    {
-     "url": "/img/las-vegas/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
     }
    ]
   },
