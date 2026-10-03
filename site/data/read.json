@@ -1,77 +1,13 @@
 {
- "date": "2026-10-02",
+ "date": "2026-10-03",
  "cities": [
-  {
-   "slug": "london",
-   "name": "London",
-   "tier": 1,
-   "lat": 51.5074,
-   "lon": -0.1278,
-   "score": 88,
-   "rings": 7,
-   "state": "open",
-   "slope": -0.56,
-   "note": "Frieze and auction season. Hedge funds return from the coast.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    92,
-    60,
-    34,
-    34,
-    90,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/london/0.webp",
-     "credit": "Zeisterre",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
-    },
-    {
-     "url": "/img/london/1.webp",
-     "credit": "Eluveitie",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
-    },
-    {
-     "url": "/img/london/2.webp",
-     "credit": "Tabraiz Feham",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
-    },
-    {
-     "url": "/img/london/3.webp",
-     "credit": "[1].",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
-    },
-    {
-     "url": "/img/london/4.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
-    },
-    {
-     "url": "/img/london/5.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
-    }
-   ]
-  },
   {
    "slug": "paris",
    "name": "Paris",
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 88,
+   "score": 87,
    "rings": 7,
    "state": "open",
    "slope": -0.54,
@@ -130,12 +66,76 @@
    ]
   },
   {
+   "slug": "london",
+   "name": "London",
+   "tier": 1,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "score": 86,
+   "rings": 7,
+   "state": "open",
+   "slope": -0.56,
+   "note": "Frieze and auction season. Hedge funds return from the coast.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    92,
+    60,
+    34,
+    34,
+    90,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/london/0.webp",
+     "credit": "Zeisterre",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
+    },
+    {
+     "url": "/img/london/1.webp",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "/img/london/2.webp",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "/img/london/3.webp",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "/img/london/4.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "/img/london/5.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
+    }
+   ]
+  },
+  {
    "slug": "austin",
    "name": "Austin",
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 68,
+   "score": 65,
    "rings": 5,
    "state": "open",
    "slope": -0.7,
@@ -263,7 +263,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 49,
+   "score": 48,
    "rings": 4,
    "state": "quiet",
    "slope": -0.38,
@@ -380,12 +380,76 @@
    ]
   },
   {
+   "slug": "new-york",
+   "name": "New York",
+   "tier": 1,
+   "lat": 40.7128,
+   "lon": -74.006,
+   "score": 38,
+   "rings": 3,
+   "state": "dispersing",
+   "slope": 0.61,
+   "note": "Markets. Hedge funds. Media. Auctions.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    78,
+    34,
+    34,
+    34,
+    70,
+    34,
+    95,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/new-york/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283573/free-photo-image-new-york-skyline-city"
+    },
+    {
+     "url": "/img/new-york/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966369/photo-image-cloud-public-domain-nature"
+    },
+    {
+     "url": "/img/new-york/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5942628/free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/new-york/3.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3094356/free-photo-image-new-york-911-aerial-view"
+    },
+    {
+     "url": "/img/new-york/4.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/421944/free-photo-image-skyline-new-york-architecture"
+    },
+    {
+     "url": "/img/new-york/5.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6296543/image-building-water-city"
+    }
+   ]
+  },
+  {
    "slug": "dubai",
    "name": "Dubai",
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 37,
+   "score": 38,
    "rings": 3,
    "state": "flat",
    "slope": 0.32,
@@ -443,7 +507,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 37,
+   "score": 38,
    "rings": 3,
    "state": "flat",
    "slope": 0.36,
@@ -498,70 +562,6 @@
      "credit": "Boschtjan",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
-    }
-   ]
-  },
-  {
-   "slug": "new-york",
-   "name": "New York",
-   "tier": 1,
-   "lat": 40.7128,
-   "lon": -74.006,
-   "score": 36,
-   "rings": 3,
-   "state": "dispersing",
-   "slope": 0.61,
-   "note": "Markets. Hedge funds. Media. Auctions.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    78,
-    34,
-    34,
-    34,
-    70,
-    34,
-    95,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/new-york/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3283573/free-photo-image-new-york-skyline-city"
-    },
-    {
-     "url": "/img/new-york/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966369/photo-image-cloud-public-domain-nature"
-    },
-    {
-     "url": "/img/new-york/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5942628/free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/new-york/3.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3094356/free-photo-image-new-york-911-aerial-view"
-    },
-    {
-     "url": "/img/new-york/4.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/421944/free-photo-image-skyline-new-york-architecture"
-    },
-    {
-     "url": "/img/new-york/5.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6296543/image-building-water-city"
     }
    ]
   },
@@ -763,7 +763,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 21,
+   "score": 23,
    "rings": 2,
    "state": "opening",
    "slope": 0.4,
@@ -886,6 +886,70 @@
    ]
   },
   {
+   "slug": "abu-dhabi",
+   "name": "Abu Dhabi",
+   "tier": 2,
+   "lat": 24.4539,
+   "lon": 54.3773,
+   "score": 16,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.36,
+   "note": "Formula 1 closes. Sovereign capital opens.",
+   "year": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    50,
+    88
+   ],
+   "photos": [
+    {
+     "url": "/img/abu-dhabi/0.webp",
+     "credit": "Cesar I. Martins from Jundiai, Brazil",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=64171224"
+    },
+    {
+     "url": "/img/abu-dhabi/1.webp",
+     "credit": "Anthony Alessio Tralongo",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110172274"
+    },
+    {
+     "url": "/img/abu-dhabi/2.webp",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77063890"
+    },
+    {
+     "url": "/img/abu-dhabi/3.webp",
+     "credit": "JiteshJagadish",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=12075238"
+    },
+    {
+     "url": "/img/abu-dhabi/4.webp",
+     "credit": "TravelPhotosNL",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151995611"
+    },
+    {
+     "url": "/img/abu-dhabi/5.webp",
+     "credit": "Cesar I. Martins",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
+    }
+   ]
+  },
+  {
    "slug": "milan",
    "name": "Milan",
    "tier": 2,
@@ -950,76 +1014,12 @@
    ]
   },
   {
-   "slug": "abu-dhabi",
-   "name": "Abu Dhabi",
-   "tier": 2,
-   "lat": 24.4539,
-   "lon": 54.3773,
-   "score": 15,
-   "rings": 2,
-   "state": "opening",
-   "slope": 0.36,
-   "note": "Formula 1 closes. Sovereign capital opens.",
-   "year": [
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    50,
-    88
-   ],
-   "photos": [
-    {
-     "url": "/img/abu-dhabi/0.webp",
-     "credit": "Cesar I. Martins from Jundiai, Brazil",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=64171224"
-    },
-    {
-     "url": "/img/abu-dhabi/1.webp",
-     "credit": "Anthony Alessio Tralongo",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=110172274"
-    },
-    {
-     "url": "/img/abu-dhabi/2.webp",
-     "credit": "Planet Labs, Inc.",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=77063890"
-    },
-    {
-     "url": "/img/abu-dhabi/3.webp",
-     "credit": "JiteshJagadish",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=12075238"
-    },
-    {
-     "url": "/img/abu-dhabi/4.webp",
-     "credit": "TravelPhotosNL",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151995611"
-    },
-    {
-     "url": "/img/abu-dhabi/5.webp",
-     "credit": "Cesar I. Martins",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
-    }
-   ]
-  },
-  {
    "slug": "las-vegas",
    "name": "Las Vegas",
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 2,
+   "score": 5,
    "rings": 1,
    "state": "opening",
    "slope": 0.74,
