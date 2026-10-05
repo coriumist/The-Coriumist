@@ -1,5 +1,5 @@
 {
- "date": "2026-10-04",
+ "date": "2026-10-05",
  "cities": [
   {
    "slug": "london",
@@ -7,8 +7,8 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 85,
-   "rings": 7,
+   "score": 83,
+   "rings": 6,
    "state": "open",
    "slope": -0.56,
    "note": "Frieze and auction season. Hedge funds return from the coast.",
@@ -71,8 +71,8 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 85,
-   "rings": 7,
+   "score": 83,
+   "rings": 6,
    "state": "open",
    "slope": -0.54,
    "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
@@ -135,7 +135,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 63,
+   "score": 61,
    "rings": 5,
    "state": "open",
    "slope": -0.7,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 53,
+   "score": 52,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.21,
@@ -263,7 +263,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 46,
+   "score": 45,
    "rings": 4,
    "state": "quiet",
    "slope": -0.38,
@@ -321,7 +321,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 40,
+   "score": 42,
    "rings": 4,
    "state": "dispersing",
    "slope": 0.61,
@@ -376,6 +376,70 @@
      "credit": "libraryofcongress",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6296543/image-building-water-city"
+    }
+   ]
+  },
+  {
+   "slug": "geneva",
+   "name": "Geneva",
+   "tier": 1,
+   "lat": 46.2044,
+   "lon": 6.1432,
+   "score": 41,
+   "rings": 4,
+   "state": "flat",
+   "slope": 0.36,
+   "note": "Banking. Commodities. Diplomacy.",
+   "year": [
+    36,
+    36,
+    36,
+    36,
+    70,
+    36,
+    36,
+    36,
+    36,
+    36,
+    72,
+    36
+   ],
+   "photos": [
+    {
+     "url": "/img/geneva/0.webp",
+     "credit": "Choinowski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
+    },
+    {
+     "url": "/img/geneva/1.webp",
+     "credit": "Spinarak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
+    },
+    {
+     "url": "/img/geneva/2.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
+    },
+    {
+     "url": "/img/geneva/3.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
+    },
+    {
+     "url": "/img/geneva/4.webp",
+     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
+    },
+    {
+     "url": "/img/geneva/5.webp",
+     "credit": "Boschtjan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
     }
    ]
   },
@@ -449,8 +513,8 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 39,
-   "rings": 3,
+   "score": 40,
+   "rings": 4,
    "state": "flat",
    "slope": 0.32,
    "note": "Gulf capital. Crypto. Sovereign money.",
@@ -498,70 +562,6 @@
      "credit": "Yacine Hary",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
-    }
-   ]
-  },
-  {
-   "slug": "geneva",
-   "name": "Geneva",
-   "tier": 1,
-   "lat": 46.2044,
-   "lon": 6.1432,
-   "score": 39,
-   "rings": 3,
-   "state": "flat",
-   "slope": 0.36,
-   "note": "Banking. Commodities. Diplomacy.",
-   "year": [
-    36,
-    36,
-    36,
-    36,
-    70,
-    36,
-    36,
-    36,
-    36,
-    36,
-    72,
-    36
-   ],
-   "photos": [
-    {
-     "url": "/img/geneva/0.webp",
-     "credit": "Choinowski",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
-    },
-    {
-     "url": "/img/geneva/1.webp",
-     "credit": "Spinarak",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
-    },
-    {
-     "url": "/img/geneva/2.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
-    },
-    {
-     "url": "/img/geneva/3.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
-    },
-    {
-     "url": "/img/geneva/4.webp",
-     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
-    },
-    {
-     "url": "/img/geneva/5.webp",
-     "credit": "Boschtjan",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
     }
    ]
   },
@@ -763,8 +763,8 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 24,
-   "rings": 2,
+   "score": 25,
+   "rings": 3,
    "state": "opening",
    "slope": 0.4,
    "note": "Not an event. An operating system.",
@@ -827,7 +827,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 17,
+   "score": 19,
    "rings": 2,
    "state": "opening",
    "slope": 0.36,
@@ -1019,7 +1019,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 7,
+   "score": 10,
    "rings": 1,
    "state": "opening",
    "slope": 0.74,
