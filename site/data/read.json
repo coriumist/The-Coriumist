@@ -1,5 +1,5 @@
 {
- "date": "2026-10-05",
+ "date": "2026-10-06",
  "cities": [
   {
    "slug": "london",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 83,
+   "score": 81,
    "rings": 6,
    "state": "open",
    "slope": -0.56,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 83,
+   "score": 81,
    "rings": 6,
    "state": "open",
    "slope": -0.54,
@@ -135,9 +135,9 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 61,
+   "score": 59,
    "rings": 5,
-   "state": "open",
+   "state": "quiet",
    "slope": -0.7,
    "note": "Race week. Tech capital and the F1 hospitality overlay.",
    "year": [
@@ -258,70 +258,12 @@
    ]
   },
   {
-   "slug": "tokyo",
-   "name": "Tokyo",
-   "tier": 2,
-   "lat": 35.6762,
-   "lon": 139.6503,
-   "score": 45,
-   "rings": 4,
-   "state": "quiet",
-   "slope": -0.38,
-   "note": "Autumn. Collector traffic without the crowd.",
-   "year": [
-    12,
-    12,
-    12,
-    76,
-    12,
-    12,
-    12,
-    12,
-    12,
-    50,
-    12,
-    12
-   ],
-   "photos": [
-    {
-     "url": "/img/tokyo/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
-    },
-    {
-     "url": "/img/tokyo/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
-    },
-    {
-     "url": "/img/tokyo/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6078979/tokyo"
-    },
-    {
-     "url": "/img/tokyo/3.webp",
-     "credit": "Marina Koleva",
-     "license": "CC CC0 1.0",
-     "page": "https://wordpress.org/photos/photo/779642d466/"
-    },
-    {
-     "url": "/img/tokyo/4.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
-    }
-   ]
-  },
-  {
    "slug": "new-york",
    "name": "New York",
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 42,
+   "score": 44,
    "rings": 4,
    "state": "dispersing",
    "slope": 0.61,
@@ -380,12 +322,70 @@
    ]
   },
   {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "tier": 2,
+   "lat": 35.6762,
+   "lon": 139.6503,
+   "score": 44,
+   "rings": 4,
+   "state": "quiet",
+   "slope": -0.38,
+   "note": "Autumn. Collector traffic without the crowd.",
+   "year": [
+    12,
+    12,
+    12,
+    76,
+    12,
+    12,
+    12,
+    12,
+    12,
+    50,
+    12,
+    12
+   ],
+   "photos": [
+    {
+     "url": "/img/tokyo/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
+    },
+    {
+     "url": "/img/tokyo/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
+    },
+    {
+     "url": "/img/tokyo/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6078979/tokyo"
+    },
+    {
+     "url": "/img/tokyo/3.webp",
+     "credit": "Marina Koleva",
+     "license": "CC CC0 1.0",
+     "page": "https://wordpress.org/photos/photo/779642d466/"
+    },
+    {
+     "url": "/img/tokyo/4.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
+    }
+   ]
+  },
+  {
    "slug": "geneva",
    "name": "Geneva",
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 41,
+   "score": 42,
    "rings": 4,
    "state": "flat",
    "slope": 0.36,
@@ -440,6 +440,64 @@
      "credit": "Boschtjan",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
+    }
+   ]
+  },
+  {
+   "slug": "dubai",
+   "name": "Dubai",
+   "tier": 1,
+   "lat": 25.2048,
+   "lon": 55.2708,
+   "score": 41,
+   "rings": 4,
+   "state": "flat",
+   "slope": 0.32,
+   "note": "Gulf capital. Crypto. Sovereign money.",
+   "year": [
+    70,
+    70,
+    62,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    68,
+    74
+   ],
+   "photos": [
+    {
+     "url": "/img/dubai/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
+    },
+    {
+     "url": "/img/dubai/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
+    },
+    {
+     "url": "/img/dubai/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/3.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/4.webp",
+     "credit": "Yacine Hary",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
     }
    ]
   },
@@ -504,64 +562,6 @@
      "credit": "M.Strīķis",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=53193680"
-    }
-   ]
-  },
-  {
-   "slug": "dubai",
-   "name": "Dubai",
-   "tier": 1,
-   "lat": 25.2048,
-   "lon": 55.2708,
-   "score": 40,
-   "rings": 4,
-   "state": "flat",
-   "slope": 0.32,
-   "note": "Gulf capital. Crypto. Sovereign money.",
-   "year": [
-    70,
-    70,
-    62,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    68,
-    74
-   ],
-   "photos": [
-    {
-     "url": "/img/dubai/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
-    },
-    {
-     "url": "/img/dubai/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
-    },
-    {
-     "url": "/img/dubai/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/3.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/4.webp",
-     "credit": "Yacine Hary",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
     }
    ]
   },
@@ -763,7 +763,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 25,
+   "score": 26,
    "rings": 3,
    "state": "opening",
    "slope": 0.4,
@@ -827,7 +827,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 19,
+   "score": 20,
    "rings": 2,
    "state": "opening",
    "slope": 0.36,
@@ -1019,8 +1019,8 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 10,
-   "rings": 1,
+   "score": 12,
+   "rings": 2,
    "state": "opening",
    "slope": 0.74,
    "note": "The newest stop and the most heavily brokered.",
@@ -2516,6 +2516,14 @@
  ],
  "wire": [
   {
+   "slug": "austin",
+   "name": "Austin",
+   "state": "quiet",
+   "was": "open",
+   "note": "Race week. Tech capital and the F1 hospitality overlay.",
+   "date": "2026-10-06"
+  },
+  {
    "slug": "singapore",
    "name": "Singapore",
    "state": "dispersing",
@@ -2601,14 +2609,6 @@
    "state": "quiet",
    "was": "dispersing",
    "note": "Small island, old money, no room to hide.",
-   "date": "2026-10-01"
-  },
-  {
-   "slug": "lake-como",
-   "name": "Lake Como",
-   "state": "quiet",
-   "was": "dispersing",
-   "note": "Where the Mediterranean circuit goes to be quiet.",
    "date": "2026-10-01"
   }
  ],
