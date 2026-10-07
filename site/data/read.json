@@ -1,77 +1,13 @@
 {
- "date": "2026-10-06",
+ "date": "2026-10-07",
  "cities": [
-  {
-   "slug": "london",
-   "name": "London",
-   "tier": 1,
-   "lat": 51.5074,
-   "lon": -0.1278,
-   "score": 81,
-   "rings": 6,
-   "state": "open",
-   "slope": -0.56,
-   "note": "Frieze and auction season. Hedge funds return from the coast.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    92,
-    60,
-    34,
-    34,
-    90,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/london/0.webp",
-     "credit": "Zeisterre",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
-    },
-    {
-     "url": "/img/london/1.webp",
-     "credit": "Eluveitie",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
-    },
-    {
-     "url": "/img/london/2.webp",
-     "credit": "Tabraiz Feham",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
-    },
-    {
-     "url": "/img/london/3.webp",
-     "credit": "[1].",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
-    },
-    {
-     "url": "/img/london/4.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
-    },
-    {
-     "url": "/img/london/5.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
-    }
-   ]
-  },
   {
    "slug": "paris",
    "name": "Paris",
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 81,
+   "score": 80,
    "rings": 6,
    "state": "open",
    "slope": -0.54,
@@ -130,12 +66,76 @@
    ]
   },
   {
+   "slug": "london",
+   "name": "London",
+   "tier": 1,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "score": 79,
+   "rings": 6,
+   "state": "open",
+   "slope": -0.56,
+   "note": "Frieze and auction season. Hedge funds return from the coast.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    92,
+    60,
+    34,
+    34,
+    90,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/london/0.webp",
+     "credit": "Zeisterre",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
+    },
+    {
+     "url": "/img/london/1.webp",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "/img/london/2.webp",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "/img/london/3.webp",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "/img/london/4.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "/img/london/5.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
+    }
+   ]
+  },
+  {
    "slug": "austin",
    "name": "Austin",
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 59,
+   "score": 56,
    "rings": 5,
    "state": "quiet",
    "slope": -0.7,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 52,
+   "score": 51,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.21,
@@ -263,7 +263,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 44,
+   "score": 46,
    "rings": 4,
    "state": "dispersing",
    "slope": 0.61,
@@ -322,70 +322,12 @@
    ]
   },
   {
-   "slug": "tokyo",
-   "name": "Tokyo",
-   "tier": 2,
-   "lat": 35.6762,
-   "lon": 139.6503,
-   "score": 44,
-   "rings": 4,
-   "state": "quiet",
-   "slope": -0.38,
-   "note": "Autumn. Collector traffic without the crowd.",
-   "year": [
-    12,
-    12,
-    12,
-    76,
-    12,
-    12,
-    12,
-    12,
-    12,
-    50,
-    12,
-    12
-   ],
-   "photos": [
-    {
-     "url": "/img/tokyo/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
-    },
-    {
-     "url": "/img/tokyo/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
-    },
-    {
-     "url": "/img/tokyo/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6078979/tokyo"
-    },
-    {
-     "url": "/img/tokyo/3.webp",
-     "credit": "Marina Koleva",
-     "license": "CC CC0 1.0",
-     "page": "https://wordpress.org/photos/photo/779642d466/"
-    },
-    {
-     "url": "/img/tokyo/4.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
-    }
-   ]
-  },
-  {
    "slug": "geneva",
    "name": "Geneva",
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 42,
+   "score": 43,
    "rings": 4,
    "state": "flat",
    "slope": 0.36,
@@ -444,12 +386,70 @@
    ]
   },
   {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "tier": 2,
+   "lat": 35.6762,
+   "lon": 139.6503,
+   "score": 43,
+   "rings": 4,
+   "state": "quiet",
+   "slope": -0.38,
+   "note": "Autumn. Collector traffic without the crowd.",
+   "year": [
+    12,
+    12,
+    12,
+    76,
+    12,
+    12,
+    12,
+    12,
+    12,
+    50,
+    12,
+    12
+   ],
+   "photos": [
+    {
+     "url": "/img/tokyo/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
+    },
+    {
+     "url": "/img/tokyo/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
+    },
+    {
+     "url": "/img/tokyo/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6078979/tokyo"
+    },
+    {
+     "url": "/img/tokyo/3.webp",
+     "credit": "Marina Koleva",
+     "license": "CC CC0 1.0",
+     "page": "https://wordpress.org/photos/photo/779642d466/"
+    },
+    {
+     "url": "/img/tokyo/4.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
+    }
+   ]
+  },
+  {
    "slug": "dubai",
    "name": "Dubai",
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 41,
+   "score": 42,
    "rings": 4,
    "state": "flat",
    "slope": 0.32,
@@ -763,7 +763,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 26,
+   "score": 28,
    "rings": 3,
    "state": "opening",
    "slope": 0.4,
@@ -827,7 +827,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 20,
+   "score": 21,
    "rings": 2,
    "state": "opening",
    "slope": 0.36,
@@ -1019,7 +1019,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 12,
+   "score": 14,
    "rings": 2,
    "state": "opening",
    "slope": 0.74,
