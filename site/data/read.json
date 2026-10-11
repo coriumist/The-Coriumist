@@ -1,77 +1,13 @@
 {
- "date": "2026-10-10",
+ "date": "2026-10-11",
  "cities": [
-  {
-   "slug": "london",
-   "name": "London",
-   "tier": 1,
-   "lat": 51.5074,
-   "lon": -0.1278,
-   "score": 74,
-   "rings": 6,
-   "state": "open",
-   "slope": -0.56,
-   "note": "Frieze and auction season. Hedge funds return from the coast.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    92,
-    60,
-    34,
-    34,
-    90,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/london/0.webp",
-     "credit": "Zeisterre",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
-    },
-    {
-     "url": "/img/london/1.webp",
-     "credit": "Eluveitie",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
-    },
-    {
-     "url": "/img/london/2.webp",
-     "credit": "Tabraiz Feham",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
-    },
-    {
-     "url": "/img/london/3.webp",
-     "credit": "[1].",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
-    },
-    {
-     "url": "/img/london/4.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
-    },
-    {
-     "url": "/img/london/5.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
-    }
-   ]
-  },
   {
    "slug": "paris",
    "name": "Paris",
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 74,
+   "score": 73,
    "rings": 6,
    "state": "open",
    "slope": -0.54,
@@ -130,12 +66,76 @@
    ]
   },
   {
+   "slug": "london",
+   "name": "London",
+   "tier": 1,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "score": 72,
+   "rings": 6,
+   "state": "open",
+   "slope": -0.56,
+   "note": "Frieze and auction season. Hedge funds return from the coast.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    92,
+    60,
+    34,
+    34,
+    90,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/london/0.webp",
+     "credit": "Zeisterre",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
+    },
+    {
+     "url": "/img/london/1.webp",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "/img/london/2.webp",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "/img/london/3.webp",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "/img/london/4.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "/img/london/5.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
+    }
+   ]
+  },
+  {
    "slug": "new-york",
    "name": "New York",
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 52,
+   "score": 54,
    "rings": 4,
    "state": "dispersing",
    "slope": 0.61,
@@ -194,76 +194,12 @@
    ]
   },
   {
-   "slug": "austin",
-   "name": "Austin",
-   "tier": 2,
-   "lat": 30.2672,
-   "lon": -97.7431,
-   "score": 50,
-   "rings": 4,
-   "state": "quiet",
-   "slope": -0.7,
-   "note": "Race week. Tech capital and the F1 hospitality overlay.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    70,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/austin/0.webp",
-     "credit": "Sk5893",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
-    },
-    {
-     "url": "/img/austin/1.webp",
-     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
-    },
-    {
-     "url": "/img/austin/2.webp",
-     "credit": "Steve",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
-    },
-    {
-     "url": "/img/austin/3.webp",
-     "credit": "J Dimas",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76225857"
-    },
-    {
-     "url": "/img/austin/4.webp",
-     "credit": "Comrade Goose",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=163304125"
-    },
-    {
-     "url": "/img/austin/5.webp",
-     "credit": "Planet Labs, Inc.",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
-    }
-   ]
-  },
-  {
    "slug": "singapore",
    "name": "Singapore",
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 49,
+   "score": 48,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.21,
@@ -327,7 +263,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 46,
+   "score": 48,
    "rings": 4,
    "state": "opening",
    "slope": 0.36,
@@ -386,12 +322,76 @@
    ]
   },
   {
+   "slug": "austin",
+   "name": "Austin",
+   "tier": 2,
+   "lat": 30.2672,
+   "lon": -97.7431,
+   "score": 47,
+   "rings": 4,
+   "state": "quiet",
+   "slope": -0.7,
+   "note": "Race week. Tech capital and the F1 hospitality overlay.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    70,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/austin/0.webp",
+     "credit": "Sk5893",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
+    },
+    {
+     "url": "/img/austin/1.webp",
+     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
+    },
+    {
+     "url": "/img/austin/2.webp",
+     "credit": "Steve",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
+    },
+    {
+     "url": "/img/austin/3.webp",
+     "credit": "J Dimas",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76225857"
+    },
+    {
+     "url": "/img/austin/4.webp",
+     "credit": "Comrade Goose",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=163304125"
+    },
+    {
+     "url": "/img/austin/5.webp",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
+    }
+   ]
+  },
+  {
    "slug": "dubai",
    "name": "Dubai",
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 45,
+   "score": 46,
    "rings": 4,
    "state": "opening",
    "slope": 0.32,
@@ -513,7 +513,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 39,
+   "score": 38,
    "rings": 3,
    "state": "quiet",
    "slope": -0.38,
@@ -694,6 +694,70 @@
    ]
   },
   {
+   "slug": "palm-beach",
+   "name": "Palm Beach",
+   "tier": 2,
+   "lat": 26.7056,
+   "lon": -80.0364,
+   "score": 33,
+   "rings": 3,
+   "state": "opening",
+   "slope": 0.4,
+   "note": "Not an event. An operating system.",
+   "year": [
+    78,
+    86,
+    90,
+    60,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    60,
+    66
+   ],
+   "photos": [
+    {
+     "url": "/img/palm-beach/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3092107/free-photo-image-america-breakers-luxury-beachfront-resort"
+    },
+    {
+     "url": "/img/palm-beach/1.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6294051/the-breakers-hotel-south-county-road-palm-beach-palm-beach-county"
+    },
+    {
+     "url": "/img/palm-beach/2.webp",
+     "credit": "Michael Kagdis",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42147898"
+    },
+    {
+     "url": "/img/palm-beach/3.webp",
+     "credit": "Volkan Yuksel",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=26549189"
+    },
+    {
+     "url": "/img/palm-beach/4.webp",
+     "credit": "User:MVASCO",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=84644819"
+    },
+    {
+     "url": "/img/palm-beach/5.webp",
+     "credit": "P. Valdés",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
+    }
+   ]
+  },
+  {
    "slug": "hong-kong",
    "name": "Hong Kong",
    "tier": 1,
@@ -758,77 +822,13 @@
    ]
   },
   {
-   "slug": "palm-beach",
-   "name": "Palm Beach",
-   "tier": 2,
-   "lat": 26.7056,
-   "lon": -80.0364,
-   "score": 32,
-   "rings": 3,
-   "state": "opening",
-   "slope": 0.4,
-   "note": "Not an event. An operating system.",
-   "year": [
-    78,
-    86,
-    90,
-    60,
-    20,
-    20,
-    20,
-    20,
-    20,
-    20,
-    60,
-    66
-   ],
-   "photos": [
-    {
-     "url": "/img/palm-beach/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3092107/free-photo-image-america-breakers-luxury-beachfront-resort"
-    },
-    {
-     "url": "/img/palm-beach/1.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6294051/the-breakers-hotel-south-county-road-palm-beach-palm-beach-county"
-    },
-    {
-     "url": "/img/palm-beach/2.webp",
-     "credit": "Michael Kagdis",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42147898"
-    },
-    {
-     "url": "/img/palm-beach/3.webp",
-     "credit": "Volkan Yuksel",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=26549189"
-    },
-    {
-     "url": "/img/palm-beach/4.webp",
-     "credit": "User:MVASCO",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=84644819"
-    },
-    {
-     "url": "/img/palm-beach/5.webp",
-     "credit": "P. Valdés",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
-    }
-   ]
-  },
-  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 24,
-   "rings": 2,
+   "score": 26,
+   "rings": 3,
    "state": "opening",
    "slope": 0.36,
    "note": "Formula 1 closes. Sovereign capital opens.",
@@ -891,7 +891,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 21,
+   "score": 24,
    "rings": 2,
    "state": "opening",
    "slope": 0.74,
