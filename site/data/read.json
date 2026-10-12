@@ -1,5 +1,5 @@
 {
- "date": "2026-10-11",
+ "date": "2026-10-12",
  "cities": [
   {
    "slug": "paris",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 73,
+   "score": 71,
    "rings": 6,
    "state": "open",
    "slope": -0.54,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 72,
+   "score": 70,
    "rings": 6,
    "state": "open",
    "slope": -0.56,
@@ -135,8 +135,8 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 54,
-   "rings": 4,
+   "score": 56,
+   "rings": 5,
    "state": "dispersing",
    "slope": 0.61,
    "note": "Markets. Hedge funds. Media. Auctions.",
@@ -190,6 +190,70 @@
      "credit": "libraryofcongress",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/6296543/image-building-water-city"
+    }
+   ]
+  },
+  {
+   "slug": "geneva",
+   "name": "Geneva",
+   "tier": 1,
+   "lat": 46.2044,
+   "lon": 6.1432,
+   "score": 49,
+   "rings": 4,
+   "state": "opening",
+   "slope": 0.36,
+   "note": "Banking. Commodities. Diplomacy.",
+   "year": [
+    36,
+    36,
+    36,
+    36,
+    70,
+    36,
+    36,
+    36,
+    36,
+    36,
+    72,
+    36
+   ],
+   "photos": [
+    {
+     "url": "/img/geneva/0.webp",
+     "credit": "Choinowski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
+    },
+    {
+     "url": "/img/geneva/1.webp",
+     "credit": "Spinarak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
+    },
+    {
+     "url": "/img/geneva/2.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
+    },
+    {
+     "url": "/img/geneva/3.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
+    },
+    {
+     "url": "/img/geneva/4.webp",
+     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
+    },
+    {
+     "url": "/img/geneva/5.webp",
+     "credit": "Boschtjan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
     }
    ]
   },
@@ -258,66 +322,60 @@
    ]
   },
   {
-   "slug": "geneva",
-   "name": "Geneva",
+   "slug": "dubai",
+   "name": "Dubai",
    "tier": 1,
-   "lat": 46.2044,
-   "lon": 6.1432,
-   "score": 48,
+   "lat": 25.2048,
+   "lon": 55.2708,
+   "score": 47,
    "rings": 4,
    "state": "opening",
-   "slope": 0.36,
-   "note": "Banking. Commodities. Diplomacy.",
+   "slope": 0.32,
+   "note": "Gulf capital. Crypto. Sovereign money.",
    "year": [
-    36,
-    36,
-    36,
-    36,
     70,
+    70,
+    62,
     36,
     36,
     36,
     36,
     36,
-    72,
-    36
+    36,
+    36,
+    68,
+    74
    ],
    "photos": [
     {
-     "url": "/img/geneva/0.webp",
-     "credit": "Choinowski",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
+     "url": "/img/dubai/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
     },
     {
-     "url": "/img/geneva/1.webp",
-     "credit": "Spinarak",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
+     "url": "/img/dubai/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
     },
     {
-     "url": "/img/geneva/2.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
+     "url": "/img/dubai/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
     },
     {
-     "url": "/img/geneva/3.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
+     "url": "/img/dubai/3.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
     },
     {
-     "url": "/img/geneva/4.webp",
-     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
-    },
-    {
-     "url": "/img/geneva/5.webp",
-     "credit": "Boschtjan",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
+     "url": "/img/dubai/4.webp",
+     "credit": "Yacine Hary",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
     }
    ]
   },
@@ -327,7 +385,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 47,
+   "score": 45,
    "rings": 4,
    "state": "quiet",
    "slope": -0.7,
@@ -382,64 +440,6 @@
      "credit": "Planet Labs, Inc.",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
-    }
-   ]
-  },
-  {
-   "slug": "dubai",
-   "name": "Dubai",
-   "tier": 1,
-   "lat": 25.2048,
-   "lon": 55.2708,
-   "score": 46,
-   "rings": 4,
-   "state": "opening",
-   "slope": 0.32,
-   "note": "Gulf capital. Crypto. Sovereign money.",
-   "year": [
-    70,
-    70,
-    62,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    68,
-    74
-   ],
-   "photos": [
-    {
-     "url": "/img/dubai/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
-    },
-    {
-     "url": "/img/dubai/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
-    },
-    {
-     "url": "/img/dubai/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/3.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/4.webp",
-     "credit": "Yacine Hary",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
     }
    ]
   },
@@ -513,7 +513,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 38,
+   "score": 37,
    "rings": 3,
    "state": "quiet",
    "slope": -0.38,
@@ -699,7 +699,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 33,
+   "score": 34,
    "rings": 3,
    "state": "opening",
    "slope": 0.4,
@@ -827,7 +827,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 26,
+   "score": 27,
    "rings": 3,
    "state": "opening",
    "slope": 0.36,
@@ -891,8 +891,8 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 24,
-   "rings": 2,
+   "score": 26,
+   "rings": 3,
    "state": "opening",
    "slope": 0.74,
    "note": "The newest stop and the most heavily brokered.",
