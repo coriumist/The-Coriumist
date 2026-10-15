@@ -1,77 +1,13 @@
 {
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "cities": [
-  {
-   "slug": "london",
-   "name": "London",
-   "tier": 1,
-   "lat": 51.5074,
-   "lon": -0.1278,
-   "score": 67,
-   "rings": 5,
-   "state": "open",
-   "slope": -0.56,
-   "note": "Frieze and auction season. Hedge funds return from the coast.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    92,
-    60,
-    34,
-    34,
-    90,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/london/0.webp",
-     "credit": "Zeisterre",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
-    },
-    {
-     "url": "/img/london/1.webp",
-     "credit": "Eluveitie",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
-    },
-    {
-     "url": "/img/london/2.webp",
-     "credit": "Tabraiz Feham",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
-    },
-    {
-     "url": "/img/london/3.webp",
-     "credit": "[1].",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
-    },
-    {
-     "url": "/img/london/4.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
-    },
-    {
-     "url": "/img/london/5.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
-    }
-   ]
-  },
   {
    "slug": "paris",
    "name": "Paris",
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 67,
+   "score": 66,
    "rings": 5,
    "state": "open",
    "slope": -0.54,
@@ -130,14 +66,78 @@
    ]
   },
   {
+   "slug": "london",
+   "name": "London",
+   "tier": 1,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "score": 65,
+   "rings": 5,
+   "state": "open",
+   "slope": -0.56,
+   "note": "Frieze and auction season. Hedge funds return from the coast.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    92,
+    60,
+    34,
+    34,
+    90,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/london/0.webp",
+     "credit": "Zeisterre",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
+    },
+    {
+     "url": "/img/london/1.webp",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "/img/london/2.webp",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "/img/london/3.webp",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "/img/london/4.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "/img/london/5.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
+    }
+   ]
+  },
+  {
    "slug": "new-york",
    "name": "New York",
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 60,
+   "score": 62,
    "rings": 5,
-   "state": "dispersing",
+   "state": "opening",
    "slope": 0.61,
    "note": "Markets. Hedge funds. Media. Auctions.",
    "year": [
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 51,
+   "score": 52,
    "rings": 4,
    "state": "opening",
    "slope": 0.36,
@@ -263,7 +263,7 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 49,
+   "score": 50,
    "rings": 4,
    "state": "opening",
    "slope": 0.32,
@@ -380,70 +380,6 @@
    ]
   },
   {
-   "slug": "austin",
-   "name": "Austin",
-   "tier": 2,
-   "lat": 30.2672,
-   "lon": -97.7431,
-   "score": 41,
-   "rings": 4,
-   "state": "quiet",
-   "slope": -0.7,
-   "note": "Race week. Tech capital and the F1 hospitality overlay.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    70,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/austin/0.webp",
-     "credit": "Sk5893",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
-    },
-    {
-     "url": "/img/austin/1.webp",
-     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
-    },
-    {
-     "url": "/img/austin/2.webp",
-     "credit": "Steve",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
-    },
-    {
-     "url": "/img/austin/3.webp",
-     "credit": "J Dimas",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76225857"
-    },
-    {
-     "url": "/img/austin/4.webp",
-     "credit": "Comrade Goose",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=163304125"
-    },
-    {
-     "url": "/img/austin/5.webp",
-     "credit": "Planet Labs, Inc.",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
-    }
-   ]
-  },
-  {
    "slug": "monaco",
    "name": "Monaco",
    "tier": 1,
@@ -513,7 +449,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 37,
+   "score": 38,
    "rings": 3,
    "state": "opening",
    "slope": 0.4,
@@ -568,6 +504,70 @@
      "credit": "P. Valdés",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
+    }
+   ]
+  },
+  {
+   "slug": "austin",
+   "name": "Austin",
+   "tier": 2,
+   "lat": 30.2672,
+   "lon": -97.7431,
+   "score": 38,
+   "rings": 3,
+   "state": "quiet",
+   "slope": -0.7,
+   "note": "Race week. Tech capital and the F1 hospitality overlay.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    70,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/austin/0.webp",
+     "credit": "Sk5893",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
+    },
+    {
+     "url": "/img/austin/1.webp",
+     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
+    },
+    {
+     "url": "/img/austin/2.webp",
+     "credit": "Steve",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
+    },
+    {
+     "url": "/img/austin/3.webp",
+     "credit": "J Dimas",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76225857"
+    },
+    {
+     "url": "/img/austin/4.webp",
+     "credit": "Comrade Goose",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=163304125"
+    },
+    {
+     "url": "/img/austin/5.webp",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
     }
    ]
   },
@@ -705,7 +705,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 34,
+   "score": 33,
    "rings": 3,
    "state": "quiet",
    "slope": -0.38,
@@ -754,6 +754,70 @@
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
+    }
+   ]
+  },
+  {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "tier": 2,
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "score": 33,
+   "rings": 3,
+   "state": "opening",
+   "slope": 0.74,
+   "note": "The newest stop and the most heavily brokered.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
     }
    ]
   },
@@ -822,76 +886,12 @@
    ]
   },
   {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
-   "tier": 2,
-   "lat": 36.1699,
-   "lon": -115.1398,
-   "score": 31,
-   "rings": 3,
-   "state": "opening",
-   "slope": 0.74,
-   "note": "The newest stop and the most heavily brokered.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/las-vegas/0.webp",
-     "credit": "Clément Bardot",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
-    },
-    {
-     "url": "/img/las-vegas/1.webp",
-     "credit": "Henning Schlottmann (User:H-stt)",
-     "license": "CC BY 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
-    },
-    {
-     "url": "/img/las-vegas/2.webp",
-     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
-    },
-    {
-     "url": "/img/las-vegas/3.webp",
-     "credit": "LasVegasGuy",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
-    },
-    {
-     "url": "/img/las-vegas/4.webp",
-     "credit": "GyozaDumpling",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
-    },
-    {
-     "url": "/img/las-vegas/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
-    }
-   ]
-  },
-  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 29,
+   "score": 30,
    "rings": 3,
    "state": "opening",
    "slope": 0.36,
@@ -2516,6 +2516,14 @@
  ],
  "wire": [
   {
+   "slug": "new-york",
+   "name": "New York",
+   "state": "opening",
+   "was": "dispersing",
+   "note": "Markets. Hedge funds. Media. Auctions.",
+   "date": "2026-10-15"
+  },
+  {
    "slug": "dubai",
    "name": "Dubai",
    "state": "opening",
@@ -2553,14 +2561,6 @@
    "state": "quiet",
    "was": "opening",
    "note": "Autumn. Collector traffic without the crowd.",
-   "date": "2026-10-01"
-  },
-  {
-   "slug": "new-york",
-   "name": "New York",
-   "state": "dispersing",
-   "was": "flat",
-   "note": "Markets. Hedge funds. Media. Auctions.",
    "date": "2026-10-01"
   },
   {
