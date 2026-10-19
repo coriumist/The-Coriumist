@@ -1,5 +1,5 @@
 {
- "date": "2026-10-18",
+ "date": "2026-10-19",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 67,
+   "score": 69,
    "rings": 5,
    "state": "open",
    "slope": 0.61,
@@ -71,9 +71,9 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 60,
+   "score": 59,
    "rings": 5,
-   "state": "closing",
+   "state": "dispersing",
    "slope": -0.54,
    "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
    "year": [
@@ -135,7 +135,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 59,
+   "score": 57,
    "rings": 5,
    "state": "quiet",
    "slope": -0.56,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 56,
+   "score": 57,
    "rings": 5,
    "state": "opening",
    "slope": 0.36,
@@ -263,8 +263,8 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 54,
-   "rings": 4,
+   "score": 55,
+   "rings": 5,
    "state": "opening",
    "slope": 0.32,
    "note": "Gulf capital. Crypto. Sovereign money.",
@@ -385,7 +385,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 42,
+   "score": 43,
    "rings": 4,
    "state": "opening",
    "slope": 0.4,
@@ -449,7 +449,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 41,
+   "score": 43,
    "rings": 4,
    "state": "opening",
    "slope": 0.74,
@@ -568,6 +568,70 @@
      "credit": "M.Strīķis",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=53193680"
+    }
+   ]
+  },
+  {
+   "slug": "abu-dhabi",
+   "name": "Abu Dhabi",
+   "tier": 2,
+   "lat": 24.4539,
+   "lon": 54.3773,
+   "score": 35,
+   "rings": 3,
+   "state": "opening",
+   "slope": 0.36,
+   "note": "Formula 1 closes. Sovereign capital opens.",
+   "year": [
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    50,
+    88
+   ],
+   "photos": [
+    {
+     "url": "/img/abu-dhabi/0.webp",
+     "credit": "Cesar I. Martins from Jundiai, Brazil",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=64171224"
+    },
+    {
+     "url": "/img/abu-dhabi/1.webp",
+     "credit": "Anthony Alessio Tralongo",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110172274"
+    },
+    {
+     "url": "/img/abu-dhabi/2.webp",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77063890"
+    },
+    {
+     "url": "/img/abu-dhabi/3.webp",
+     "credit": "JiteshJagadish",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=12075238"
+    },
+    {
+     "url": "/img/abu-dhabi/4.webp",
+     "credit": "TravelPhotosNL",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151995611"
+    },
+    {
+     "url": "/img/abu-dhabi/5.webp",
+     "credit": "Cesar I. Martins",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
     }
    ]
   },
@@ -700,70 +764,6 @@
    ]
   },
   {
-   "slug": "abu-dhabi",
-   "name": "Abu Dhabi",
-   "tier": 2,
-   "lat": 24.4539,
-   "lon": 54.3773,
-   "score": 34,
-   "rings": 3,
-   "state": "opening",
-   "slope": 0.36,
-   "note": "Formula 1 closes. Sovereign capital opens.",
-   "year": [
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    50,
-    88
-   ],
-   "photos": [
-    {
-     "url": "/img/abu-dhabi/0.webp",
-     "credit": "Cesar I. Martins from Jundiai, Brazil",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=64171224"
-    },
-    {
-     "url": "/img/abu-dhabi/1.webp",
-     "credit": "Anthony Alessio Tralongo",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=110172274"
-    },
-    {
-     "url": "/img/abu-dhabi/2.webp",
-     "credit": "Planet Labs, Inc.",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=77063890"
-    },
-    {
-     "url": "/img/abu-dhabi/3.webp",
-     "credit": "JiteshJagadish",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=12075238"
-    },
-    {
-     "url": "/img/abu-dhabi/4.webp",
-     "credit": "TravelPhotosNL",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151995611"
-    },
-    {
-     "url": "/img/abu-dhabi/5.webp",
-     "credit": "Cesar I. Martins",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
-    }
-   ]
-  },
-  {
    "slug": "hong-kong",
    "name": "Hong Kong",
    "tier": 1,
@@ -833,7 +833,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 32,
+   "score": 29,
    "rings": 3,
    "state": "quiet",
    "slope": -0.7,
@@ -897,7 +897,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 29,
+   "score": 28,
    "rings": 3,
    "state": "quiet",
    "slope": -0.38,
@@ -2516,6 +2516,14 @@
  ],
  "wire": [
   {
+   "slug": "paris",
+   "name": "Paris",
+   "state": "dispersing",
+   "was": "closing",
+   "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
+   "date": "2026-10-19"
+  },
+  {
    "slug": "london",
    "name": "London",
    "state": "quiet",
@@ -2529,14 +2537,6 @@
    "state": "open",
    "was": "opening",
    "note": "Markets. Hedge funds. Media. Auctions.",
-   "date": "2026-10-17"
-  },
-  {
-   "slug": "paris",
-   "name": "Paris",
-   "state": "closing",
-   "was": "open",
-   "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
    "date": "2026-10-17"
   },
   {
