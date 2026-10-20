@@ -1,5 +1,5 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "cities": [
   {
    "slug": "new-york",
@@ -7,8 +7,8 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 69,
-   "rings": 5,
+   "score": 71,
+   "rings": 6,
    "state": "open",
    "slope": 0.61,
    "note": "Markets. Hedge funds. Media. Auctions.",
@@ -66,12 +66,76 @@
    ]
   },
   {
+   "slug": "geneva",
+   "name": "Geneva",
+   "tier": 1,
+   "lat": 46.2044,
+   "lon": 6.1432,
+   "score": 58,
+   "rings": 5,
+   "state": "opening",
+   "slope": 0.36,
+   "note": "Banking. Commodities. Diplomacy.",
+   "year": [
+    36,
+    36,
+    36,
+    36,
+    70,
+    36,
+    36,
+    36,
+    36,
+    36,
+    72,
+    36
+   ],
+   "photos": [
+    {
+     "url": "/img/geneva/0.webp",
+     "credit": "Choinowski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
+    },
+    {
+     "url": "/img/geneva/1.webp",
+     "credit": "Spinarak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
+    },
+    {
+     "url": "/img/geneva/2.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
+    },
+    {
+     "url": "/img/geneva/3.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
+    },
+    {
+     "url": "/img/geneva/4.webp",
+     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
+    },
+    {
+     "url": "/img/geneva/5.webp",
+     "credit": "Boschtjan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
+    }
+   ]
+  },
+  {
    "slug": "paris",
    "name": "Paris",
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 59,
+   "score": 57,
    "rings": 5,
    "state": "dispersing",
    "slope": -0.54,
@@ -135,7 +199,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 57,
+   "score": 56,
    "rings": 5,
    "state": "quiet",
    "slope": -0.56,
@@ -194,76 +258,12 @@
    ]
   },
   {
-   "slug": "geneva",
-   "name": "Geneva",
-   "tier": 1,
-   "lat": 46.2044,
-   "lon": 6.1432,
-   "score": 57,
-   "rings": 5,
-   "state": "opening",
-   "slope": 0.36,
-   "note": "Banking. Commodities. Diplomacy.",
-   "year": [
-    36,
-    36,
-    36,
-    36,
-    70,
-    36,
-    36,
-    36,
-    36,
-    36,
-    72,
-    36
-   ],
-   "photos": [
-    {
-     "url": "/img/geneva/0.webp",
-     "credit": "Choinowski",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
-    },
-    {
-     "url": "/img/geneva/1.webp",
-     "credit": "Spinarak",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
-    },
-    {
-     "url": "/img/geneva/2.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
-    },
-    {
-     "url": "/img/geneva/3.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
-    },
-    {
-     "url": "/img/geneva/4.webp",
-     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
-    },
-    {
-     "url": "/img/geneva/5.webp",
-     "credit": "Boschtjan",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
-    }
-   ]
-  },
-  {
    "slug": "dubai",
    "name": "Dubai",
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 55,
+   "score": 56,
    "rings": 5,
    "state": "opening",
    "slope": 0.32,
@@ -316,76 +316,12 @@
    ]
   },
   {
-   "slug": "singapore",
-   "name": "Singapore",
-   "tier": 1,
-   "lat": 1.3521,
-   "lon": 103.8198,
-   "score": 43,
-   "rings": 4,
-   "state": "dispersing",
-   "slope": -0.21,
-   "note": "Post-race. Deals started at the paddock get paperwork.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    86,
-    55,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/singapore/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
-    },
-    {
-     "url": "/img/singapore/1.webp",
-     "credit": "AngMoKio",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=3359011"
-    },
-    {
-     "url": "/img/singapore/2.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
-    },
-    {
-     "url": "/img/singapore/3.webp",
-     "credit": "Lanneixi",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
-    },
-    {
-     "url": "/img/singapore/4.webp",
-     "credit": "RoyalCathayan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=114959673"
-    },
-    {
-     "url": "/img/singapore/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
-    }
-   ]
-  },
-  {
    "slug": "palm-beach",
    "name": "Palm Beach",
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 43,
+   "score": 45,
    "rings": 4,
    "state": "opening",
    "slope": 0.4,
@@ -449,7 +385,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 43,
+   "score": 45,
    "rings": 4,
    "state": "opening",
    "slope": 0.74,
@@ -504,6 +440,70 @@
      "credit": "chensiyuan",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
+    }
+   ]
+  },
+  {
+   "slug": "singapore",
+   "name": "Singapore",
+   "tier": 1,
+   "lat": 1.3521,
+   "lon": 103.8198,
+   "score": 42,
+   "rings": 4,
+   "state": "dispersing",
+   "slope": -0.21,
+   "note": "Post-race. Deals started at the paddock get paperwork.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    86,
+    55,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/singapore/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
+    },
+    {
+     "url": "/img/singapore/1.webp",
+     "credit": "AngMoKio",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3359011"
+    },
+    {
+     "url": "/img/singapore/2.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
+    },
+    {
+     "url": "/img/singapore/3.webp",
+     "credit": "Lanneixi",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
+    },
+    {
+     "url": "/img/singapore/4.webp",
+     "credit": "RoyalCathayan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959673"
+    },
+    {
+     "url": "/img/singapore/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
     }
    ]
   },
@@ -577,7 +577,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 35,
+   "score": 36,
    "rings": 3,
    "state": "opening",
    "slope": 0.36,
@@ -828,12 +828,70 @@
    ]
   },
   {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "tier": 2,
+   "lat": 35.6762,
+   "lon": 139.6503,
+   "score": 27,
+   "rings": 3,
+   "state": "quiet",
+   "slope": -0.38,
+   "note": "Autumn. Collector traffic without the crowd.",
+   "year": [
+    12,
+    12,
+    12,
+    76,
+    12,
+    12,
+    12,
+    12,
+    12,
+    50,
+    12,
+    12
+   ],
+   "photos": [
+    {
+     "url": "/img/tokyo/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
+    },
+    {
+     "url": "/img/tokyo/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
+    },
+    {
+     "url": "/img/tokyo/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6078979/tokyo"
+    },
+    {
+     "url": "/img/tokyo/3.webp",
+     "credit": "Marina Koleva",
+     "license": "CC CC0 1.0",
+     "page": "https://wordpress.org/photos/photo/779642d466/"
+    },
+    {
+     "url": "/img/tokyo/4.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
+    }
+   ]
+  },
+  {
    "slug": "austin",
    "name": "Austin",
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 29,
+   "score": 27,
    "rings": 3,
    "state": "quiet",
    "slope": -0.7,
@@ -888,64 +946,6 @@
      "credit": "Planet Labs, Inc.",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
-    }
-   ]
-  },
-  {
-   "slug": "tokyo",
-   "name": "Tokyo",
-   "tier": 2,
-   "lat": 35.6762,
-   "lon": 139.6503,
-   "score": 28,
-   "rings": 3,
-   "state": "quiet",
-   "slope": -0.38,
-   "note": "Autumn. Collector traffic without the crowd.",
-   "year": [
-    12,
-    12,
-    12,
-    76,
-    12,
-    12,
-    12,
-    12,
-    12,
-    50,
-    12,
-    12
-   ],
-   "photos": [
-    {
-     "url": "/img/tokyo/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
-    },
-    {
-     "url": "/img/tokyo/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
-    },
-    {
-     "url": "/img/tokyo/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6078979/tokyo"
-    },
-    {
-     "url": "/img/tokyo/3.webp",
-     "credit": "Marina Koleva",
-     "license": "CC CC0 1.0",
-     "page": "https://wordpress.org/photos/photo/779642d466/"
-    },
-    {
-     "url": "/img/tokyo/4.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
     }
    ]
   },
