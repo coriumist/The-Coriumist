@@ -1,5 +1,5 @@
 {
- "date": "2026-10-20",
+ "date": "2026-10-21",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 71,
+   "score": 73,
    "rings": 6,
    "state": "open",
    "slope": 0.61,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 58,
+   "score": 59,
    "rings": 5,
    "state": "opening",
    "slope": 0.36,
@@ -130,12 +130,70 @@
    ]
   },
   {
+   "slug": "dubai",
+   "name": "Dubai",
+   "tier": 1,
+   "lat": 25.2048,
+   "lon": 55.2708,
+   "score": 57,
+   "rings": 5,
+   "state": "opening",
+   "slope": 0.32,
+   "note": "Gulf capital. Crypto. Sovereign money.",
+   "year": [
+    70,
+    70,
+    62,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    68,
+    74
+   ],
+   "photos": [
+    {
+     "url": "/img/dubai/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
+    },
+    {
+     "url": "/img/dubai/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
+    },
+    {
+     "url": "/img/dubai/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/3.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/4.webp",
+     "credit": "Yacine Hary",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
+    }
+   ]
+  },
+  {
    "slug": "paris",
    "name": "Paris",
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 57,
+   "score": 55,
    "rings": 5,
    "state": "dispersing",
    "slope": -0.54,
@@ -199,8 +257,8 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 56,
-   "rings": 5,
+   "score": 54,
+   "rings": 4,
    "state": "quiet",
    "slope": -0.56,
    "note": "Frieze and auction season. Hedge funds return from the coast.",
@@ -258,134 +316,12 @@
    ]
   },
   {
-   "slug": "dubai",
-   "name": "Dubai",
-   "tier": 1,
-   "lat": 25.2048,
-   "lon": 55.2708,
-   "score": 56,
-   "rings": 5,
-   "state": "opening",
-   "slope": 0.32,
-   "note": "Gulf capital. Crypto. Sovereign money.",
-   "year": [
-    70,
-    70,
-    62,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    68,
-    74
-   ],
-   "photos": [
-    {
-     "url": "/img/dubai/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
-    },
-    {
-     "url": "/img/dubai/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
-    },
-    {
-     "url": "/img/dubai/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/3.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/4.webp",
-     "credit": "Yacine Hary",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
-    }
-   ]
-  },
-  {
-   "slug": "palm-beach",
-   "name": "Palm Beach",
-   "tier": 2,
-   "lat": 26.7056,
-   "lon": -80.0364,
-   "score": 45,
-   "rings": 4,
-   "state": "opening",
-   "slope": 0.4,
-   "note": "Not an event. An operating system.",
-   "year": [
-    78,
-    86,
-    90,
-    60,
-    20,
-    20,
-    20,
-    20,
-    20,
-    20,
-    60,
-    66
-   ],
-   "photos": [
-    {
-     "url": "/img/palm-beach/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3092107/free-photo-image-america-breakers-luxury-beachfront-resort"
-    },
-    {
-     "url": "/img/palm-beach/1.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6294051/the-breakers-hotel-south-county-road-palm-beach-palm-beach-county"
-    },
-    {
-     "url": "/img/palm-beach/2.webp",
-     "credit": "Michael Kagdis",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42147898"
-    },
-    {
-     "url": "/img/palm-beach/3.webp",
-     "credit": "Volkan Yuksel",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=26549189"
-    },
-    {
-     "url": "/img/palm-beach/4.webp",
-     "credit": "User:MVASCO",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=84644819"
-    },
-    {
-     "url": "/img/palm-beach/5.webp",
-     "credit": "P. Valdés",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
-    }
-   ]
-  },
-  {
    "slug": "las-vegas",
    "name": "Las Vegas",
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 45,
+   "score": 48,
    "rings": 4,
    "state": "opening",
    "slope": 0.74,
@@ -444,12 +380,76 @@
    ]
   },
   {
+   "slug": "palm-beach",
+   "name": "Palm Beach",
+   "tier": 2,
+   "lat": 26.7056,
+   "lon": -80.0364,
+   "score": 46,
+   "rings": 4,
+   "state": "opening",
+   "slope": 0.4,
+   "note": "Not an event. An operating system.",
+   "year": [
+    78,
+    86,
+    90,
+    60,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    60,
+    66
+   ],
+   "photos": [
+    {
+     "url": "/img/palm-beach/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3092107/free-photo-image-america-breakers-luxury-beachfront-resort"
+    },
+    {
+     "url": "/img/palm-beach/1.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6294051/the-breakers-hotel-south-county-road-palm-beach-palm-beach-county"
+    },
+    {
+     "url": "/img/palm-beach/2.webp",
+     "credit": "Michael Kagdis",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42147898"
+    },
+    {
+     "url": "/img/palm-beach/3.webp",
+     "credit": "Volkan Yuksel",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=26549189"
+    },
+    {
+     "url": "/img/palm-beach/4.webp",
+     "credit": "User:MVASCO",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=84644819"
+    },
+    {
+     "url": "/img/palm-beach/5.webp",
+     "credit": "P. Valdés",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
+    }
+   ]
+  },
+  {
    "slug": "singapore",
    "name": "Singapore",
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 42,
+   "score": 41,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.21,
@@ -577,7 +577,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 36,
+   "score": 37,
    "rings": 3,
    "state": "opening",
    "slope": 0.36,
@@ -833,7 +833,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 27,
+   "score": 25,
    "rings": 3,
    "state": "quiet",
    "slope": -0.38,
@@ -891,7 +891,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 27,
+   "score": 25,
    "rings": 3,
    "state": "quiet",
    "slope": -0.7,
