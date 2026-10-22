@@ -1,5 +1,5 @@
 {
- "date": "2026-10-21",
+ "date": "2026-10-22",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 73,
+   "score": 75,
    "rings": 6,
    "state": "open",
    "slope": 0.61,
@@ -71,9 +71,9 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 59,
+   "score": 60,
    "rings": 5,
-   "state": "opening",
+   "state": "open",
    "slope": 0.36,
    "note": "Banking. Commodities. Diplomacy.",
    "year": [
@@ -135,7 +135,7 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 57,
+   "score": 58,
    "rings": 5,
    "state": "opening",
    "slope": 0.32,
@@ -193,8 +193,8 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 55,
-   "rings": 5,
+   "score": 53,
+   "rings": 4,
    "state": "dispersing",
    "slope": -0.54,
    "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
@@ -257,7 +257,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 54,
+   "score": 52,
    "rings": 4,
    "state": "quiet",
    "slope": -0.56,
@@ -321,7 +321,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 48,
+   "score": 50,
    "rings": 4,
    "state": "opening",
    "slope": 0.74,
@@ -385,7 +385,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 46,
+   "score": 47,
    "rings": 4,
    "state": "opening",
    "slope": 0.4,
@@ -577,7 +577,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 37,
+   "score": 38,
    "rings": 3,
    "state": "opening",
    "slope": 0.36,
@@ -833,8 +833,8 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 25,
-   "rings": 3,
+   "score": 24,
+   "rings": 2,
    "state": "quiet",
    "slope": -0.38,
    "note": "Autumn. Collector traffic without the crowd.",
@@ -891,8 +891,8 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 25,
-   "rings": 3,
+   "score": 23,
+   "rings": 2,
    "state": "quiet",
    "slope": -0.7,
    "note": "Race week. Tech capital and the F1 hospitality overlay.",
@@ -2190,6 +2190,18 @@
      "credit": "frozenwords",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=24819956"
+    },
+    {
+     "url": "/img/basel/4.webp",
+     "credit": "Tschubby",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=30016102"
+    },
+    {
+     "url": "/img/basel/5.webp",
+     "credit": "Norbert Aepli, Switzerland (User:Noebu)",
+     "license": "CC BY 2.5",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=1257305"
     }
    ]
   },
@@ -2516,6 +2528,14 @@
  ],
  "wire": [
   {
+   "slug": "geneva",
+   "name": "Geneva",
+   "state": "open",
+   "was": "opening",
+   "note": "Banking. Commodities. Diplomacy.",
+   "date": "2026-10-22"
+  },
+  {
    "slug": "paris",
    "name": "Paris",
    "state": "dispersing",
@@ -2546,14 +2566,6 @@
    "was": "flat",
    "note": "Gulf capital. Crypto. Sovereign money.",
    "date": "2026-10-10"
-  },
-  {
-   "slug": "geneva",
-   "name": "Geneva",
-   "state": "opening",
-   "was": "flat",
-   "note": "Banking. Commodities. Diplomacy.",
-   "date": "2026-10-09"
   },
   {
    "slug": "austin",

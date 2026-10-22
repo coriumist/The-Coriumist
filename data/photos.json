@@ -2453,6 +2453,32 @@
    "source": "openverse:wikimedia",
    "q": "Basel Rhine Mittlere Brücke",
    "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Switzerland_020.jpg/1800px-Switzerland_020.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Reliefkarte_Basel-Landschaft_blank.png/1280px-Reliefkarte_Basel-Landschaft_blank.png",
+   "url": "/img/basel/4.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/5/59/Reliefkarte_Basel-Landschaft_blank.png",
+   "w": 1536,
+   "h": 1233,
+   "credit": "Tschubby",
+   "license": "CC BY-SA 3.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=30016102",
+   "source": "openverse:wikimedia",
+   "q": "Basel",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Reliefkarte_Basel-Landschaft_blank.png/1280px-Reliefkarte_Basel-Landschaft_blank.png"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rhine_Rhein_Basel_2006_871.JPG/1280px-Rhine_Rhein_Basel_2006_871.JPG",
+   "url": "/img/basel/5.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Rhine_Rhein_Basel_2006_871.JPG",
+   "w": 3008,
+   "h": 2000,
+   "credit": "Norbert Aepli, Switzerland (User:Noebu)",
+   "license": "CC BY 2.5",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=1257305",
+   "source": "openverse:wikimedia",
+   "q": "Basel",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rhine_Rhein_Basel_2006_871.JPG/1280px-Rhine_Rhein_Basel_2006_871.JPG"
   }
  ],
  "maastricht": [
