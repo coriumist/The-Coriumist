@@ -1,5 +1,5 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 75,
+   "score": 77,
    "rings": 6,
    "state": "open",
    "slope": 0.61,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 60,
+   "score": 62,
    "rings": 5,
    "state": "open",
    "slope": 0.36,
@@ -135,7 +135,7 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 58,
+   "score": 59,
    "rings": 5,
    "state": "opening",
    "slope": 0.32,
@@ -188,12 +188,76 @@
    ]
   },
   {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "tier": 2,
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "score": 53,
+   "rings": 4,
+   "state": "opening",
+   "slope": 0.74,
+   "note": "The newest stop and the most heavily brokered.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
+    }
+   ]
+  },
+  {
    "slug": "paris",
    "name": "Paris",
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 53,
+   "score": 52,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.54,
@@ -257,7 +321,7 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 52,
+   "score": 50,
    "rings": 4,
    "state": "quiet",
    "slope": -0.56,
@@ -316,76 +380,12 @@
    ]
   },
   {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
-   "tier": 2,
-   "lat": 36.1699,
-   "lon": -115.1398,
-   "score": 50,
-   "rings": 4,
-   "state": "opening",
-   "slope": 0.74,
-   "note": "The newest stop and the most heavily brokered.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/las-vegas/0.webp",
-     "credit": "Clément Bardot",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
-    },
-    {
-     "url": "/img/las-vegas/1.webp",
-     "credit": "Henning Schlottmann (User:H-stt)",
-     "license": "CC BY 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
-    },
-    {
-     "url": "/img/las-vegas/2.webp",
-     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
-    },
-    {
-     "url": "/img/las-vegas/3.webp",
-     "credit": "LasVegasGuy",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
-    },
-    {
-     "url": "/img/las-vegas/4.webp",
-     "credit": "GyozaDumpling",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
-    },
-    {
-     "url": "/img/las-vegas/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
-    }
-   ]
-  },
-  {
    "slug": "palm-beach",
    "name": "Palm Beach",
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 47,
+   "score": 48,
    "rings": 4,
    "state": "opening",
    "slope": 0.4,
@@ -440,70 +440,6 @@
      "credit": "P. Valdés",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
-    }
-   ]
-  },
-  {
-   "slug": "singapore",
-   "name": "Singapore",
-   "tier": 1,
-   "lat": 1.3521,
-   "lon": 103.8198,
-   "score": 41,
-   "rings": 4,
-   "state": "dispersing",
-   "slope": -0.21,
-   "note": "Post-race. Deals started at the paddock get paperwork.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    86,
-    55,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/singapore/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
-    },
-    {
-     "url": "/img/singapore/1.webp",
-     "credit": "AngMoKio",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=3359011"
-    },
-    {
-     "url": "/img/singapore/2.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
-    },
-    {
-     "url": "/img/singapore/3.webp",
-     "credit": "Lanneixi",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
-    },
-    {
-     "url": "/img/singapore/4.webp",
-     "credit": "RoyalCathayan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=114959673"
-    },
-    {
-     "url": "/img/singapore/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
     }
    ]
   },
@@ -572,13 +508,77 @@
    ]
   },
   {
+   "slug": "singapore",
+   "name": "Singapore",
+   "tier": 1,
+   "lat": 1.3521,
+   "lon": 103.8198,
+   "score": 40,
+   "rings": 4,
+   "state": "dispersing",
+   "slope": -0.21,
+   "note": "Post-race. Deals started at the paddock get paperwork.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    86,
+    55,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/singapore/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
+    },
+    {
+     "url": "/img/singapore/1.webp",
+     "credit": "AngMoKio",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3359011"
+    },
+    {
+     "url": "/img/singapore/2.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
+    },
+    {
+     "url": "/img/singapore/3.webp",
+     "credit": "Lanneixi",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
+    },
+    {
+     "url": "/img/singapore/4.webp",
+     "credit": "RoyalCathayan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959673"
+    },
+    {
+     "url": "/img/singapore/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
+    }
+   ]
+  },
+  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 38,
-   "rings": 3,
+   "score": 40,
+   "rings": 4,
    "state": "opening",
    "slope": 0.36,
    "note": "Formula 1 closes. Sovereign capital opens.",
@@ -833,7 +833,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 24,
+   "score": 23,
    "rings": 2,
    "state": "quiet",
    "slope": -0.38,
@@ -891,7 +891,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 23,
+   "score": 20,
    "rings": 2,
    "state": "quiet",
    "slope": -0.7,
