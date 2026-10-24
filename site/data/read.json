@@ -1,5 +1,5 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 77,
+   "score": 79,
    "rings": 6,
    "state": "open",
    "slope": 0.61,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 62,
+   "score": 63,
    "rings": 5,
    "state": "open",
    "slope": 0.36,
@@ -135,7 +135,7 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 59,
+   "score": 60,
    "rings": 5,
    "state": "opening",
    "slope": 0.32,
@@ -193,8 +193,8 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 53,
-   "rings": 4,
+   "score": 55,
+   "rings": 5,
    "state": "opening",
    "slope": 0.74,
    "note": "The newest stop and the most heavily brokered.",
@@ -257,7 +257,7 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 52,
+   "score": 50,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.54,
@@ -316,12 +316,76 @@
    ]
   },
   {
+   "slug": "palm-beach",
+   "name": "Palm Beach",
+   "tier": 2,
+   "lat": 26.7056,
+   "lon": -80.0364,
+   "score": 50,
+   "rings": 4,
+   "state": "opening",
+   "slope": 0.4,
+   "note": "Not an event. An operating system.",
+   "year": [
+    78,
+    86,
+    90,
+    60,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    60,
+    66
+   ],
+   "photos": [
+    {
+     "url": "/img/palm-beach/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3092107/free-photo-image-america-breakers-luxury-beachfront-resort"
+    },
+    {
+     "url": "/img/palm-beach/1.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6294051/the-breakers-hotel-south-county-road-palm-beach-palm-beach-county"
+    },
+    {
+     "url": "/img/palm-beach/2.webp",
+     "credit": "Michael Kagdis",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42147898"
+    },
+    {
+     "url": "/img/palm-beach/3.webp",
+     "credit": "Volkan Yuksel",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=26549189"
+    },
+    {
+     "url": "/img/palm-beach/4.webp",
+     "credit": "User:MVASCO",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=84644819"
+    },
+    {
+     "url": "/img/palm-beach/5.webp",
+     "credit": "P. Valdés",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
+    }
+   ]
+  },
+  {
    "slug": "london",
    "name": "London",
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 50,
+   "score": 48,
    "rings": 4,
    "state": "quiet",
    "slope": -0.56,
@@ -380,66 +444,66 @@
    ]
   },
   {
-   "slug": "palm-beach",
-   "name": "Palm Beach",
+   "slug": "abu-dhabi",
+   "name": "Abu Dhabi",
    "tier": 2,
-   "lat": 26.7056,
-   "lon": -80.0364,
-   "score": 48,
+   "lat": 24.4539,
+   "lon": 54.3773,
+   "score": 41,
    "rings": 4,
    "state": "opening",
-   "slope": 0.4,
-   "note": "Not an event. An operating system.",
+   "slope": 0.36,
+   "note": "Formula 1 closes. Sovereign capital opens.",
    "year": [
-    78,
-    86,
-    90,
-    60,
-    20,
-    20,
-    20,
-    20,
-    20,
-    20,
-    60,
-    66
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    14,
+    50,
+    88
    ],
    "photos": [
     {
-     "url": "/img/palm-beach/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3092107/free-photo-image-america-breakers-luxury-beachfront-resort"
+     "url": "/img/abu-dhabi/0.webp",
+     "credit": "Cesar I. Martins from Jundiai, Brazil",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=64171224"
     },
     {
-     "url": "/img/palm-beach/1.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6294051/the-breakers-hotel-south-county-road-palm-beach-palm-beach-county"
+     "url": "/img/abu-dhabi/1.webp",
+     "credit": "Anthony Alessio Tralongo",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=110172274"
     },
     {
-     "url": "/img/palm-beach/2.webp",
-     "credit": "Michael Kagdis",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42147898"
+     "url": "/img/abu-dhabi/2.webp",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77063890"
     },
     {
-     "url": "/img/palm-beach/3.webp",
-     "credit": "Volkan Yuksel",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=26549189"
+     "url": "/img/abu-dhabi/3.webp",
+     "credit": "JiteshJagadish",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=12075238"
     },
     {
-     "url": "/img/palm-beach/4.webp",
-     "credit": "User:MVASCO",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=84644819"
+     "url": "/img/abu-dhabi/4.webp",
+     "credit": "TravelPhotosNL",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151995611"
     },
     {
-     "url": "/img/palm-beach/5.webp",
-     "credit": "P. Valdés",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20407301"
+     "url": "/img/abu-dhabi/5.webp",
+     "credit": "Cesar I. Martins",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
     }
    ]
   },
@@ -513,8 +577,8 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 40,
-   "rings": 4,
+   "score": 39,
+   "rings": 3,
    "state": "dispersing",
    "slope": -0.21,
    "note": "Post-race. Deals started at the paddock get paperwork.",
@@ -568,70 +632,6 @@
      "credit": "chensiyuan",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
-    }
-   ]
-  },
-  {
-   "slug": "abu-dhabi",
-   "name": "Abu Dhabi",
-   "tier": 2,
-   "lat": 24.4539,
-   "lon": 54.3773,
-   "score": 40,
-   "rings": 4,
-   "state": "opening",
-   "slope": 0.36,
-   "note": "Formula 1 closes. Sovereign capital opens.",
-   "year": [
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    14,
-    50,
-    88
-   ],
-   "photos": [
-    {
-     "url": "/img/abu-dhabi/0.webp",
-     "credit": "Cesar I. Martins from Jundiai, Brazil",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=64171224"
-    },
-    {
-     "url": "/img/abu-dhabi/1.webp",
-     "credit": "Anthony Alessio Tralongo",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=110172274"
-    },
-    {
-     "url": "/img/abu-dhabi/2.webp",
-     "credit": "Planet Labs, Inc.",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=77063890"
-    },
-    {
-     "url": "/img/abu-dhabi/3.webp",
-     "credit": "JiteshJagadish",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=12075238"
-    },
-    {
-     "url": "/img/abu-dhabi/4.webp",
-     "credit": "TravelPhotosNL",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151995611"
-    },
-    {
-     "url": "/img/abu-dhabi/5.webp",
-     "credit": "Cesar I. Martins",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
     }
    ]
   },
@@ -833,7 +833,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 23,
+   "score": 22,
    "rings": 2,
    "state": "quiet",
    "slope": -0.38,
@@ -891,7 +891,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 20,
+   "score": 18,
    "rings": 2,
    "state": "quiet",
    "slope": -0.7,
