@@ -1,5 +1,5 @@
 {
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "cities": [
   {
    "slug": "new-york",
@@ -7,8 +7,8 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 83,
-   "rings": 6,
+   "score": 85,
+   "rings": 7,
    "state": "open",
    "slope": 0.61,
    "note": "Markets. Hedge funds. Media. Auctions.",
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 65,
+   "score": 66,
    "rings": 5,
    "state": "open",
    "slope": 0.36,
@@ -135,7 +135,7 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 62,
+   "score": 63,
    "rings": 5,
    "state": "open",
    "slope": 0.32,
@@ -193,9 +193,9 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 60,
+   "score": 62,
    "rings": 5,
-   "state": "opening",
+   "state": "open",
    "slope": 0.74,
    "note": "The newest stop and the most heavily brokered.",
    "year": [
@@ -257,7 +257,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 52,
+   "score": 54,
    "rings": 4,
    "state": "opening",
    "slope": 0.4,
@@ -321,7 +321,7 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 46,
+   "score": 45,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.54,
@@ -380,76 +380,12 @@
    ]
   },
   {
-   "slug": "london",
-   "name": "London",
-   "tier": 1,
-   "lat": 51.5074,
-   "lon": -0.1278,
-   "score": 45,
-   "rings": 4,
-   "state": "flat",
-   "slope": -0.56,
-   "note": "Frieze and auction season. Hedge funds return from the coast.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    92,
-    60,
-    34,
-    34,
-    90,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/london/0.webp",
-     "credit": "Zeisterre",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
-    },
-    {
-     "url": "/img/london/1.webp",
-     "credit": "Eluveitie",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
-    },
-    {
-     "url": "/img/london/2.webp",
-     "credit": "Tabraiz Feham",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
-    },
-    {
-     "url": "/img/london/3.webp",
-     "credit": "[1].",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
-    },
-    {
-     "url": "/img/london/4.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
-    },
-    {
-     "url": "/img/london/5.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
-    }
-   ]
-  },
-  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 43,
+   "score": 44,
    "rings": 4,
    "state": "opening",
    "slope": 0.36,
@@ -504,6 +440,70 @@
      "credit": "Cesar I. Martins",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
+    }
+   ]
+  },
+  {
+   "slug": "london",
+   "name": "London",
+   "tier": 1,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "score": 43,
+   "rings": 4,
+   "state": "flat",
+   "slope": -0.56,
+   "note": "Frieze and auction season. Hedge funds return from the coast.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    92,
+    60,
+    34,
+    34,
+    90,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/london/0.webp",
+     "credit": "Zeisterre",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
+    },
+    {
+     "url": "/img/london/1.webp",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "/img/london/2.webp",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "/img/london/3.webp",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "/img/london/4.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "/img/london/5.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
     }
    ]
   },
@@ -577,7 +577,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 38,
+   "score": 37,
    "rings": 3,
    "state": "dispersing",
    "slope": -0.21,
@@ -833,7 +833,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 19,
+   "score": 18,
    "rings": 2,
    "state": "quiet",
    "slope": -0.38,
@@ -1019,8 +1019,8 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 14,
-   "rings": 2,
+   "score": 11,
+   "rings": 1,
    "state": "quiet",
    "slope": -0.7,
    "note": "Race week. Tech capital and the F1 hospitality overlay.",
@@ -1946,6 +1946,24 @@
      "credit": "Samuel Barlow",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=95880446"
+    },
+    {
+     "url": "/img/gstaad/3.webp",
+     "credit": "Kabelleger",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=52453619"
+    },
+    {
+     "url": "/img/gstaad/4.webp",
+     "credit": "Le portfolio de Mr Eric Dubost",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=195967104"
+    },
+    {
+     "url": "/img/gstaad/5.webp",
+     "credit": "Arnaud 25",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=35492005"
     }
    ]
   },
@@ -2528,6 +2546,14 @@
  ],
  "wire": [
   {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "state": "open",
+   "was": "opening",
+   "note": "The newest stop and the most heavily brokered.",
+   "date": "2026-10-27"
+  },
+  {
    "slug": "london",
    "name": "London",
    "state": "flat",
@@ -2613,14 +2639,6 @@
    "state": "opening",
    "was": "quiet",
    "note": "Formula 1 closes. Sovereign capital opens.",
-   "date": "2026-10-01"
-  },
-  {
-   "slug": "pebble-beach",
-   "name": "Pebble Beach",
-   "state": "quiet",
-   "was": "dispersing",
-   "note": "Collectors. Industrialists. Automotive dynasties.",
    "date": "2026-10-01"
   }
  ],

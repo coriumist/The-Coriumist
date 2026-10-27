@@ -2079,6 +2079,45 @@
    "source": "openverse:wikimedia",
    "q": "Gstaad village",
    "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/The_Gstaad_Palace.jpg/1800px-The_Gstaad_Palace.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/MOB_GDe_4-4_6004_Gstaad_-_Gruben_with_Golden_Pass_Classic.jpg/1280px-MOB_GDe_4-4_6004_Gstaad_-_Gruben_with_Golden_Pass_Classic.jpg",
+   "url": "/img/gstaad/3.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/c/c8/MOB_GDe_4-4_6004_Gstaad_-_Gruben_with_Golden_Pass_Classic.jpg",
+   "w": 5734,
+   "h": 3540,
+   "credit": "Kabelleger",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=52453619",
+   "source": "openverse:wikimedia",
+   "q": "Gstaad",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/MOB_GDe_4-4_6004_Gstaad_-_Gruben_with_Golden_Pass_Classic.jpg/1280px-MOB_GDe_4-4_6004_Gstaad_-_Gruben_with_Golden_Pass_Classic.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/EFG_Swiss_Open_Gstaad-ATP_250%2C_Tennis_Herren_250.jpg/1280px-EFG_Swiss_Open_Gstaad-ATP_250%2C_Tennis_Herren_250.jpg",
+   "url": "/img/gstaad/4.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/2/28/EFG_Swiss_Open_Gstaad-ATP_250%2C_Tennis_Herren_250.jpg",
+   "w": 2916,
+   "h": 1810,
+   "credit": "Le portfolio de Mr Eric Dubost",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=195967104",
+   "source": "openverse:wikimedia",
+   "q": "Gstaad",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/EFG_Swiss_Open_Gstaad-ATP_250%2C_Tennis_Herren_250.jpg/1280px-EFG_Swiss_Open_Gstaad-ATP_250%2C_Tennis_Herren_250.jpg"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Alpina_Gstaad.JPG/1280px-Alpina_Gstaad.JPG",
+   "url": "/img/gstaad/5.webp",
+   "full": "https://upload.wikimedia.org/wikipedia/commons/8/88/Alpina_Gstaad.JPG",
+   "w": 2048,
+   "h": 1536,
+   "credit": "Arnaud 25",
+   "license": "CC BY-SA 4.0",
+   "page": "https://commons.wikimedia.org/w/index.php?curid=35492005",
+   "source": "openverse:wikimedia",
+   "q": "Gstaad",
+   "local_of": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Alpina_Gstaad.JPG/1280px-Alpina_Gstaad.JPG"
   }
  ],
  "jackson-hole": [
