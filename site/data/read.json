@@ -1,5 +1,5 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 87,
+   "score": 89,
    "rings": 7,
    "state": "open",
    "slope": 0.61,
@@ -71,7 +71,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 67,
+   "score": 69,
    "rings": 5,
    "state": "open",
    "slope": 0.36,
@@ -130,70 +130,12 @@
    ]
   },
   {
-   "slug": "dubai",
-   "name": "Dubai",
-   "tier": 1,
-   "lat": 25.2048,
-   "lon": 55.2708,
-   "score": 64,
-   "rings": 5,
-   "state": "open",
-   "slope": 0.32,
-   "note": "Gulf capital. Crypto. Sovereign money.",
-   "year": [
-    70,
-    70,
-    62,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    68,
-    74
-   ],
-   "photos": [
-    {
-     "url": "/img/dubai/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
-    },
-    {
-     "url": "/img/dubai/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
-    },
-    {
-     "url": "/img/dubai/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/3.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/4.webp",
-     "credit": "Yacine Hary",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
-    }
-   ]
-  },
-  {
    "slug": "las-vegas",
    "name": "Las Vegas",
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 64,
+   "score": 67,
    "rings": 5,
    "state": "open",
    "slope": 0.74,
@@ -252,12 +194,70 @@
    ]
   },
   {
+   "slug": "dubai",
+   "name": "Dubai",
+   "tier": 1,
+   "lat": 25.2048,
+   "lon": 55.2708,
+   "score": 65,
+   "rings": 5,
+   "state": "open",
+   "slope": 0.32,
+   "note": "Gulf capital. Crypto. Sovereign money.",
+   "year": [
+    70,
+    70,
+    62,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    68,
+    74
+   ],
+   "photos": [
+    {
+     "url": "/img/dubai/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
+    },
+    {
+     "url": "/img/dubai/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
+    },
+    {
+     "url": "/img/dubai/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/3.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/4.webp",
+     "credit": "Yacine Hary",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
+    }
+   ]
+  },
+  {
    "slug": "palm-beach",
    "name": "Palm Beach",
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 55,
+   "score": 56,
    "rings": 5,
    "state": "opening",
    "slope": 0.4,
@@ -321,7 +321,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 45,
+   "score": 47,
    "rings": 4,
    "state": "opening",
    "slope": 0.36,
@@ -385,7 +385,7 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 43,
+   "score": 41,
    "rings": 4,
    "state": "dispersing",
    "slope": -0.54,
@@ -440,70 +440,6 @@
      "credit": "Barry Lewis",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=27493138"
-    }
-   ]
-  },
-  {
-   "slug": "london",
-   "name": "London",
-   "tier": 1,
-   "lat": 51.5074,
-   "lon": -0.1278,
-   "score": 41,
-   "rings": 4,
-   "state": "flat",
-   "slope": -0.56,
-   "note": "Frieze and auction season. Hedge funds return from the coast.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    92,
-    60,
-    34,
-    34,
-    90,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/london/0.webp",
-     "credit": "Zeisterre",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
-    },
-    {
-     "url": "/img/london/1.webp",
-     "credit": "Eluveitie",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
-    },
-    {
-     "url": "/img/london/2.webp",
-     "credit": "Tabraiz Feham",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
-    },
-    {
-     "url": "/img/london/3.webp",
-     "credit": "[1].",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
-    },
-    {
-     "url": "/img/london/4.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
-    },
-    {
-     "url": "/img/london/5.webp",
-     "credit": "Ewan Munro from London, UK",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
     }
    ]
   },
@@ -572,12 +508,76 @@
    ]
   },
   {
+   "slug": "london",
+   "name": "London",
+   "tier": 1,
+   "lat": 51.5074,
+   "lon": -0.1278,
+   "score": 39,
+   "rings": 3,
+   "state": "flat",
+   "slope": -0.56,
+   "note": "Frieze and auction season. Hedge funds return from the coast.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    92,
+    60,
+    34,
+    34,
+    90,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/london/0.webp",
+     "credit": "Zeisterre",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27911283"
+    },
+    {
+     "url": "/img/london/1.webp",
+     "credit": "Eluveitie",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=19896950"
+    },
+    {
+     "url": "/img/london/2.webp",
+     "credit": "Tabraiz Feham",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=59208348"
+    },
+    {
+     "url": "/img/london/3.webp",
+     "credit": "[1].",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=20769473"
+    },
+    {
+     "url": "/img/london/4.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24281956"
+    },
+    {
+     "url": "/img/london/5.webp",
+     "credit": "Ewan Munro from London, UK",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24283048"
+    }
+   ]
+  },
+  {
    "slug": "singapore",
    "name": "Singapore",
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 37,
+   "score": 36,
    "rings": 3,
    "state": "dispersing",
    "slope": -0.21,
@@ -833,7 +833,7 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 17,
+   "score": 16,
    "rings": 2,
    "state": "quiet",
    "slope": -0.38,
@@ -1019,7 +1019,7 @@
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 9,
+   "score": 7,
    "rings": 1,
    "state": "quiet",
    "slope": -0.7,
