@@ -1,5 +1,5 @@
 {
- "date": "2026-10-29",
+ "date": "2026-10-30",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 89,
+   "score": 91,
    "rings": 7,
    "state": "open",
    "slope": 0.61,
@@ -71,8 +71,8 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 69,
-   "rings": 5,
+   "score": 70,
+   "rings": 6,
    "state": "open",
    "slope": 0.36,
    "note": "Banking. Commodities. Diplomacy.",
@@ -135,7 +135,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 67,
+   "score": 69,
    "rings": 5,
    "state": "open",
    "slope": 0.74,
@@ -199,7 +199,7 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 65,
+   "score": 66,
    "rings": 5,
    "state": "open",
    "slope": 0.32,
@@ -257,7 +257,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 56,
+   "score": 57,
    "rings": 5,
    "state": "opening",
    "slope": 0.4,
@@ -321,7 +321,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 47,
+   "score": 48,
    "rings": 4,
    "state": "opening",
    "slope": 0.36,
@@ -376,70 +376,6 @@
      "credit": "Cesar I. Martins",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
-    }
-   ]
-  },
-  {
-   "slug": "paris",
-   "name": "Paris",
-   "tier": 1,
-   "lat": 48.8566,
-   "lon": 2.3522,
-   "score": 41,
-   "rings": 4,
-   "state": "dispersing",
-   "slope": -0.54,
-   "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
-   "year": [
-    68,
-    36,
-    74,
-    36,
-    36,
-    66,
-    36,
-    36,
-    76,
-    90,
-    36,
-    36
-   ],
-   "photos": [
-    {
-     "url": "/img/paris/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3299548/free-photo-image-paris-montmartre-adventure"
-    },
-    {
-     "url": "/img/paris/1.webp",
-     "credit": "Mbzt",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=16317649"
-    },
-    {
-     "url": "/img/paris/2.webp",
-     "credit": "Barry Lewis",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27493143"
-    },
-    {
-     "url": "/img/paris/3.webp",
-     "credit": "Vinceesq",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25553670"
-    },
-    {
-     "url": "/img/paris/4.webp",
-     "credit": "Jorge Royan",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=21374991"
-    },
-    {
-     "url": "/img/paris/5.webp",
-     "credit": "Barry Lewis",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27493138"
     }
    ]
   },
@@ -508,12 +444,76 @@
    ]
   },
   {
+   "slug": "paris",
+   "name": "Paris",
+   "tier": 1,
+   "lat": 48.8566,
+   "lon": 2.3522,
+   "score": 39,
+   "rings": 3,
+   "state": "dispersing",
+   "slope": -0.54,
+   "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
+   "year": [
+    68,
+    36,
+    74,
+    36,
+    36,
+    66,
+    36,
+    36,
+    76,
+    90,
+    36,
+    36
+   ],
+   "photos": [
+    {
+     "url": "/img/paris/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3299548/free-photo-image-paris-montmartre-adventure"
+    },
+    {
+     "url": "/img/paris/1.webp",
+     "credit": "Mbzt",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=16317649"
+    },
+    {
+     "url": "/img/paris/2.webp",
+     "credit": "Barry Lewis",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27493143"
+    },
+    {
+     "url": "/img/paris/3.webp",
+     "credit": "Vinceesq",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25553670"
+    },
+    {
+     "url": "/img/paris/4.webp",
+     "credit": "Jorge Royan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=21374991"
+    },
+    {
+     "url": "/img/paris/5.webp",
+     "credit": "Barry Lewis",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27493138"
+    }
+   ]
+  },
+  {
    "slug": "london",
    "name": "London",
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 39,
+   "score": 38,
    "rings": 3,
    "state": "flat",
    "slope": -0.56,
@@ -577,7 +577,7 @@
    "tier": 1,
    "lat": 1.3521,
    "lon": 103.8198,
-   "score": 36,
+   "score": 35,
    "rings": 3,
    "state": "dispersing",
    "slope": -0.21,
@@ -828,64 +828,6 @@
    ]
   },
   {
-   "slug": "tokyo",
-   "name": "Tokyo",
-   "tier": 2,
-   "lat": 35.6762,
-   "lon": 139.6503,
-   "score": 16,
-   "rings": 2,
-   "state": "quiet",
-   "slope": -0.38,
-   "note": "Autumn. Collector traffic without the crowd.",
-   "year": [
-    12,
-    12,
-    12,
-    76,
-    12,
-    12,
-    12,
-    12,
-    12,
-    50,
-    12,
-    12
-   ],
-   "photos": [
-    {
-     "url": "/img/tokyo/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
-    },
-    {
-     "url": "/img/tokyo/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
-    },
-    {
-     "url": "/img/tokyo/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6078979/tokyo"
-    },
-    {
-     "url": "/img/tokyo/3.webp",
-     "credit": "Marina Koleva",
-     "license": "CC CC0 1.0",
-     "page": "https://wordpress.org/photos/photo/779642d466/"
-    },
-    {
-     "url": "/img/tokyo/4.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
-    }
-   ]
-  },
-  {
    "slug": "los-angeles",
    "name": "Los Angeles",
    "tier": 2,
@@ -1014,12 +956,70 @@
    ]
   },
   {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "tier": 2,
+   "lat": 35.6762,
+   "lon": 139.6503,
+   "score": 14,
+   "rings": 2,
+   "state": "quiet",
+   "slope": -0.38,
+   "note": "Autumn. Collector traffic without the crowd.",
+   "year": [
+    12,
+    12,
+    12,
+    76,
+    12,
+    12,
+    12,
+    12,
+    12,
+    50,
+    12,
+    12
+   ],
+   "photos": [
+    {
+     "url": "/img/tokyo/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
+    },
+    {
+     "url": "/img/tokyo/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
+    },
+    {
+     "url": "/img/tokyo/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6078979/tokyo"
+    },
+    {
+     "url": "/img/tokyo/3.webp",
+     "credit": "Marina Koleva",
+     "license": "CC CC0 1.0",
+     "page": "https://wordpress.org/photos/photo/779642d466/"
+    },
+    {
+     "url": "/img/tokyo/4.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
+    }
+   ]
+  },
+  {
    "slug": "austin",
    "name": "Austin",
    "tier": 2,
    "lat": 30.2672,
    "lon": -97.7431,
-   "score": 7,
+   "score": 5,
    "rings": 1,
    "state": "quiet",
    "slope": -0.7,
