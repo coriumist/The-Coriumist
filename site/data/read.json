@@ -1,5 +1,5 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "cities": [
   {
    "slug": "new-york",
@@ -7,11 +7,11 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 93,
+   "score": 95,
    "rings": 7,
    "state": "open",
-   "slope": 0.61,
-   "note": "Markets. Hedge funds. Media. Auctions.",
+   "slope": -0.61,
+   "note": "Autumn auctions. The largest private dinners of the American year.",
    "year": [
     34,
     34,
@@ -71,11 +71,11 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 72,
+   "score": 74,
    "rings": 6,
    "state": "open",
-   "slope": 0.74,
-   "note": "The newest stop and the most heavily brokered.",
+   "slope": -0.74,
+   "note": "Night race. Suites priced as a distinct asset class.",
    "year": [
     0,
     0,
@@ -135,11 +135,11 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 71,
+   "score": 72,
    "rings": 6,
    "state": "open",
-   "slope": 0.36,
-   "note": "Banking. Commodities. Diplomacy.",
+   "slope": -0.36,
+   "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
    "year": [
     36,
     36,
@@ -199,11 +199,11 @@
    "tier": 1,
    "lat": 25.2048,
    "lon": 55.2708,
-   "score": 67,
+   "score": 68,
    "rings": 5,
    "state": "open",
-   "slope": 0.32,
-   "note": "Gulf capital. Crypto. Sovereign money.",
+   "slope": 0.06,
+   "note": "Season opens. The Gulf reloads.",
    "year": [
     70,
     70,
@@ -257,11 +257,11 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 59,
+   "score": 60,
    "rings": 5,
-   "state": "opening",
-   "slope": 0.4,
-   "note": "Not an event. An operating system.",
+   "state": "open",
+   "slope": 0.06,
+   "note": "Season reopening ahead of the holidays.",
    "year": [
     78,
     86,
@@ -321,11 +321,11 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 49,
+   "score": 50,
    "rings": 4,
    "state": "opening",
-   "slope": 0.36,
-   "note": "Formula 1 closes. Sovereign capital opens.",
+   "slope": 0.38,
+   "note": "Building. Sovereign funds set the year's posture.",
    "year": [
     14,
     14,
@@ -387,7 +387,7 @@
    "lon": 7.4246,
    "score": 40,
    "rings": 4,
-   "state": "dispersing",
+   "state": "flat",
    "slope": 0.0,
    "note": "The European wealth operating system.",
    "year": [
@@ -449,11 +449,11 @@
    "tier": 1,
    "lat": 48.8566,
    "lon": 2.3522,
-   "score": 38,
+   "score": 36,
    "rings": 3,
    "state": "dispersing",
-   "slope": -0.54,
-   "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
+   "slope": 0.0,
+   "note": "Luxury. Fashion. The LVMH ecosystem.",
    "year": [
     68,
     36,
@@ -513,11 +513,11 @@
    "tier": 1,
    "lat": 51.5074,
    "lon": -0.1278,
-   "score": 36,
+   "score": 34,
    "rings": 3,
-   "state": "flat",
-   "slope": -0.56,
-   "note": "Frieze and auction season. Hedge funds return from the coast.",
+   "state": "dispersing",
+   "slope": 0.0,
+   "note": "Global finance. Old wealth. Sovereign capital.",
    "year": [
     34,
     34,
@@ -572,70 +572,6 @@
    ]
   },
   {
-   "slug": "singapore",
-   "name": "Singapore",
-   "tier": 1,
-   "lat": 1.3521,
-   "lon": 103.8198,
-   "score": 35,
-   "rings": 3,
-   "state": "dispersing",
-   "slope": -0.21,
-   "note": "Post-race. Deals started at the paddock get paperwork.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    86,
-    55,
-    34,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/singapore/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
-    },
-    {
-     "url": "/img/singapore/1.webp",
-     "credit": "AngMoKio",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=3359011"
-    },
-    {
-     "url": "/img/singapore/2.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
-    },
-    {
-     "url": "/img/singapore/3.webp",
-     "credit": "Lanneixi",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
-    },
-    {
-     "url": "/img/singapore/4.webp",
-     "credit": "RoyalCathayan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=114959673"
-    },
-    {
-     "url": "/img/singapore/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
-    }
-   ]
-  },
-  {
    "slug": "miami",
    "name": "Miami",
    "tier": 1,
@@ -644,7 +580,7 @@
    "score": 34,
    "rings": 3,
    "state": "flat",
-   "slope": 0.0,
+   "slope": 0.64,
    "note": "American family-office winter headquarters.",
    "year": [
     72,
@@ -696,6 +632,70 @@
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/8069952/photo-image-cloud-sky-ocean"
+    }
+   ]
+  },
+  {
+   "slug": "singapore",
+   "name": "Singapore",
+   "tier": 1,
+   "lat": 1.3521,
+   "lon": 103.8198,
+   "score": 34,
+   "rings": 3,
+   "state": "flat",
+   "slope": 0.0,
+   "note": "Asian family offices.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    86,
+    55,
+    34,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/singapore/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5924871/photo-image-public-domain-free-night"
+    },
+    {
+     "url": "/img/singapore/1.webp",
+     "credit": "AngMoKio",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=3359011"
+    },
+    {
+     "url": "/img/singapore/2.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=10725486"
+    },
+    {
+     "url": "/img/singapore/3.webp",
+     "credit": "Lanneixi",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959670"
+    },
+    {
+     "url": "/img/singapore/4.webp",
+     "credit": "RoyalCathayan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=114959673"
+    },
+    {
+     "url": "/img/singapore/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=21856333"
     }
    ]
   },
@@ -899,7 +899,7 @@
    "lon": 9.19,
    "score": 16,
    "rings": 2,
-   "state": "dispersing",
+   "state": "quiet",
    "slope": 0.0,
    "note": "Fashion, design, and the industrial families behind both.",
    "year": [
@@ -961,11 +961,11 @@
    "tier": 2,
    "lat": 35.6762,
    "lon": 139.6503,
-   "score": 13,
+   "score": 12,
    "rings": 2,
    "state": "quiet",
-   "slope": -0.38,
-   "note": "Autumn. Collector traffic without the crowd.",
+   "slope": 0.0,
+   "note": "Not loud. Very high quality.",
    "year": [
     12,
     12,
@@ -1014,70 +1014,6 @@
    ]
   },
   {
-   "slug": "austin",
-   "name": "Austin",
-   "tier": 2,
-   "lat": 30.2672,
-   "lon": -97.7431,
-   "score": 2,
-   "rings": 1,
-   "state": "quiet",
-   "slope": -0.7,
-   "note": "Race week. Tech capital and the F1 hospitality overlay.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    70,
-    0,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/austin/0.webp",
-     "credit": "Sk5893",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
-    },
-    {
-     "url": "/img/austin/1.webp",
-     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
-    },
-    {
-     "url": "/img/austin/2.webp",
-     "credit": "Steve",
-     "license": "CC BY-SA 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
-    },
-    {
-     "url": "/img/austin/3.webp",
-     "credit": "J Dimas",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76225857"
-    },
-    {
-     "url": "/img/austin/4.webp",
-     "credit": "Comrade Goose",
-     "license": "CC BY 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=163304125"
-    },
-    {
-     "url": "/img/austin/5.webp",
-     "credit": "Planet Labs, Inc.",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
-    }
-   ]
-  },
-  {
    "slug": "st-barths",
    "name": "St. Barths",
    "tier": 2,
@@ -1085,8 +1021,8 @@
    "lon": -62.8333,
    "score": 0,
    "rings": 1,
-   "state": "quiet",
-   "slope": 0,
+   "state": "opening",
+   "slope": 0.88,
    "note": "The Caribbean transition. Where the year is decided before it starts.",
    "year": [
     94,
@@ -1149,8 +1085,8 @@
    "lon": 9.8355,
    "score": 0,
    "rings": 1,
-   "state": "quiet",
-   "slope": 0,
+   "state": "opening",
+   "slope": 0.6,
    "note": "European aristocracy, Swiss banking, German industrial families.",
    "year": [
     86,
@@ -1277,8 +1213,8 @@
    "lon": -106.8175,
    "score": 0,
    "rings": 1,
-   "state": "quiet",
-   "slope": 0,
+   "state": "opening",
+   "slope": 0.8,
    "note": "American capital migrates. Snow replaces yachts.",
    "year": [
     66,
@@ -1399,8 +1335,8 @@
    "lon": -114.3517,
    "score": 0,
    "rings": 1,
-   "state": "quiet",
-   "slope": 0,
+   "state": "opening",
+   "slope": 0.45,
    "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
    "year": [
     0,
@@ -1463,7 +1399,7 @@
    "lon": 9.535,
    "score": 0,
    "rings": 1,
-   "state": "dispersing",
+   "state": "quiet",
    "slope": 0,
    "note": "The Mediterranean capital. Not Italy. Not Sardinia. The marina.",
    "year": [
@@ -1911,8 +1847,8 @@
    "lon": 7.2861,
    "score": 0,
    "rings": 1,
-   "state": "quiet",
-   "slope": 0,
+   "state": "opening",
+   "slope": 0.74,
    "note": "The most closed guest list in the Alps.",
    "year": [
     72,
@@ -1975,8 +1911,8 @@
    "lon": -110.7624,
    "score": 0,
    "rings": 1,
-   "state": "quiet",
-   "slope": 0,
+   "state": "opening",
+   "slope": 0.66,
    "note": "Two different crowds, one valley.",
    "year": [
     0,
@@ -2103,7 +2039,7 @@
    "lon": 12.3155,
    "score": 0,
    "rings": 1,
-   "state": "dispersing",
+   "state": "quiet",
    "slope": 0,
    "note": "Biennale years only. Then it is the densest collector week in Europe.",
    "year": [
@@ -2295,8 +2231,8 @@
    "lon": 6.6345,
    "score": 0,
    "rings": 1,
-   "state": "quiet",
-   "slope": 0,
+   "state": "opening",
+   "slope": 0.68,
    "note": "The altiport is the guest list.",
    "year": [
     70,
@@ -2352,6 +2288,70 @@
    ]
   },
   {
+   "slug": "austin",
+   "name": "Austin",
+   "tier": 2,
+   "lat": 30.2672,
+   "lon": -97.7431,
+   "score": 0,
+   "rings": 1,
+   "state": "dispersing",
+   "slope": 0,
+   "note": "The American paddock stop that turned into a capital week.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    70,
+    0,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/austin/0.webp",
+     "credit": "Sk5893",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=73504321"
+    },
+    {
+     "url": "/img/austin/1.webp",
+     "credit": "Tony Webster from Minneapolis, Minnesota, United States",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=79388019"
+    },
+    {
+     "url": "/img/austin/2.webp",
+     "credit": "Steve",
+     "license": "CC BY-SA 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=143251834"
+    },
+    {
+     "url": "/img/austin/3.webp",
+     "credit": "J Dimas",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76225857"
+    },
+    {
+     "url": "/img/austin/4.webp",
+     "credit": "Comrade Goose",
+     "license": "CC BY 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=163304125"
+    },
+    {
+     "url": "/img/austin/5.webp",
+     "credit": "Planet Labs, Inc.",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=77058455"
+    }
+   ]
+  },
+  {
    "slug": "monza",
    "name": "Monza",
    "tier": 2,
@@ -2359,7 +2359,7 @@
    "lon": 9.281,
    "score": 0,
    "rings": 1,
-   "state": "dispersing",
+   "state": "quiet",
    "slope": 0,
    "note": "The oldest room on the paddock circuit.",
    "year": [
@@ -2546,100 +2546,100 @@
  ],
  "wire": [
   {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
+   "slug": "palm-beach",
+   "name": "Palm Beach",
    "state": "open",
    "was": "opening",
-   "note": "The newest stop and the most heavily brokered.",
-   "date": "2026-10-27"
+   "note": "Season reopening ahead of the holidays.",
+   "date": "2026-11-01"
+  },
+  {
+   "slug": "monaco",
+   "name": "Monaco",
+   "state": "flat",
+   "was": "dispersing",
+   "note": "The European wealth operating system.",
+   "date": "2026-11-01"
   },
   {
    "slug": "london",
    "name": "London",
-   "state": "flat",
-   "was": "quiet",
-   "note": "Frieze and auction season. Hedge funds return from the coast.",
-   "date": "2026-10-26"
-  },
-  {
-   "slug": "dubai",
-   "name": "Dubai",
-   "state": "open",
-   "was": "opening",
-   "note": "Gulf capital. Crypto. Sovereign money.",
-   "date": "2026-10-25"
-  },
-  {
-   "slug": "geneva",
-   "name": "Geneva",
-   "state": "open",
-   "was": "opening",
-   "note": "Banking. Commodities. Diplomacy.",
-   "date": "2026-10-22"
-  },
-  {
-   "slug": "paris",
-   "name": "Paris",
    "state": "dispersing",
-   "was": "closing",
-   "note": "Paris+ par Art Basel. The collector base moves from London to here in 72 hours.",
-   "date": "2026-10-19"
-  },
-  {
-   "slug": "new-york",
-   "name": "New York",
-   "state": "open",
-   "was": "opening",
-   "note": "Markets. Hedge funds. Media. Auctions.",
-   "date": "2026-10-17"
-  },
-  {
-   "slug": "austin",
-   "name": "Austin",
-   "state": "quiet",
-   "was": "open",
-   "note": "Race week. Tech capital and the F1 hospitality overlay.",
-   "date": "2026-10-06"
+   "was": "flat",
+   "note": "Global finance. Old wealth. Sovereign capital.",
+   "date": "2026-11-01"
   },
   {
    "slug": "singapore",
    "name": "Singapore",
-   "state": "dispersing",
-   "was": "quiet",
-   "note": "Post-race. Deals started at the paddock get paperwork.",
-   "date": "2026-10-01"
-  },
-  {
-   "slug": "tokyo",
-   "name": "Tokyo",
-   "state": "quiet",
-   "was": "opening",
-   "note": "Autumn. Collector traffic without the crowd.",
-   "date": "2026-10-01"
-  },
-  {
-   "slug": "palm-beach",
-   "name": "Palm Beach",
-   "state": "opening",
-   "was": "quiet",
-   "note": "Not an event. An operating system.",
-   "date": "2026-10-01"
+   "state": "flat",
+   "was": "dispersing",
+   "note": "Asian family offices.",
+   "date": "2026-11-01"
   },
   {
    "slug": "milan",
    "name": "Milan",
-   "state": "dispersing",
-   "was": "quiet",
+   "state": "quiet",
+   "was": "dispersing",
    "note": "Fashion, design, and the industrial families behind both.",
-   "date": "2026-10-01"
+   "date": "2026-11-01"
   },
   {
-   "slug": "abu-dhabi",
-   "name": "Abu Dhabi",
+   "slug": "st-barths",
+   "name": "St. Barths",
    "state": "opening",
    "was": "quiet",
-   "note": "Formula 1 closes. Sovereign capital opens.",
-   "date": "2026-10-01"
+   "note": "The Caribbean transition. Where the year is decided before it starts.",
+   "date": "2026-11-01"
+  },
+  {
+   "slug": "st-moritz",
+   "name": "St. Moritz",
+   "state": "opening",
+   "was": "quiet",
+   "note": "European aristocracy, Swiss banking, German industrial families.",
+   "date": "2026-11-01"
+  },
+  {
+   "slug": "aspen",
+   "name": "Aspen",
+   "state": "opening",
+   "was": "quiet",
+   "note": "American capital migrates. Snow replaces yachts.",
+   "date": "2026-11-01"
+  },
+  {
+   "slug": "sun-valley",
+   "name": "Sun Valley",
+   "state": "opening",
+   "was": "quiet",
+   "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
+   "date": "2026-11-01"
+  },
+  {
+   "slug": "porto-cervo",
+   "name": "Porto Cervo",
+   "state": "quiet",
+   "was": "dispersing",
+   "note": "The Mediterranean capital. Not Italy. Not Sardinia. The marina.",
+   "date": "2026-11-01"
+  },
+  {
+   "slug": "gstaad",
+   "name": "Gstaad",
+   "state": "opening",
+   "was": "quiet",
+   "note": "The most closed guest list in the Alps.",
+   "date": "2026-11-01"
+  },
+  {
+   "slug": "jackson-hole",
+   "name": "Jackson Hole",
+   "state": "opening",
+   "was": "quiet",
+   "note": "Two different crowds, one valley.",
+   "date": "2026-11-01"
   }
  ],
  "rooms": {
