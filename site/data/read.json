@@ -1,5 +1,5 @@
 {
- "date": "2026-11-02",
+ "date": "2026-11-03",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 93,
+   "score": 91,
    "rings": 7,
    "state": "open",
    "slope": -0.61,
@@ -66,76 +66,12 @@
    ]
   },
   {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
-   "tier": 2,
-   "lat": 36.1699,
-   "lon": -115.1398,
-   "score": 72,
-   "rings": 6,
-   "state": "open",
-   "slope": -0.74,
-   "note": "Night race. Suites priced as a distinct asset class.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/las-vegas/0.webp",
-     "credit": "Clément Bardot",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
-    },
-    {
-     "url": "/img/las-vegas/1.webp",
-     "credit": "Henning Schlottmann (User:H-stt)",
-     "license": "CC BY 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
-    },
-    {
-     "url": "/img/las-vegas/2.webp",
-     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
-    },
-    {
-     "url": "/img/las-vegas/3.webp",
-     "credit": "LasVegasGuy",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
-    },
-    {
-     "url": "/img/las-vegas/4.webp",
-     "credit": "GyozaDumpling",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
-    },
-    {
-     "url": "/img/las-vegas/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
-    }
-   ]
-  },
-  {
    "slug": "geneva",
    "name": "Geneva",
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 71,
+   "score": 70,
    "rings": 6,
    "state": "open",
    "slope": -0.36,
@@ -190,6 +126,70 @@
      "credit": "Boschtjan",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
+    }
+   ]
+  },
+  {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "tier": 2,
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "score": 69,
+   "rings": 5,
+   "state": "open",
+   "slope": -0.74,
+   "note": "Night race. Suites priced as a distinct asset class.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
     }
    ]
   },
@@ -321,7 +321,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 51,
+   "score": 53,
    "rings": 4,
    "state": "opening",
    "slope": 0.38,
@@ -449,7 +449,7 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 36,
+   "score": 38,
    "rings": 3,
    "state": "flat",
    "slope": 0.64,
@@ -1019,7 +1019,7 @@
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 3,
+   "score": 6,
    "rings": 1,
    "state": "opening",
    "slope": 0.88,
@@ -1083,7 +1083,7 @@
    "tier": 2,
    "lat": 39.1911,
    "lon": -106.8175,
-   "score": 3,
+   "score": 5,
    "rings": 1,
    "state": "opening",
    "slope": 0.8,
@@ -1136,140 +1136,12 @@
    ]
   },
   {
-   "slug": "st-moritz",
-   "name": "St. Moritz",
-   "tier": 2,
-   "lat": 46.4908,
-   "lon": 9.8355,
-   "score": 2,
-   "rings": 1,
-   "state": "opening",
-   "slope": 0.6,
-   "note": "European aristocracy, Swiss banking, German industrial families.",
-   "year": [
-    86,
-    78,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    60
-   ],
-   "photos": [
-    {
-     "url": "/img/st-moritz/0.webp",
-     "credit": "Etiaetia1020",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25090291"
-    },
-    {
-     "url": "/img/st-moritz/1.webp",
-     "credit": "Etiaetia1020",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25091244"
-    },
-    {
-     "url": "/img/st-moritz/2.webp",
-     "credit": "Etiaetia1020",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25091301"
-    },
-    {
-     "url": "/img/st-moritz/3.webp",
-     "credit": "Bphstm",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=37139045"
-    },
-    {
-     "url": "/img/st-moritz/4.webp",
-     "credit": "Bphstm",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=37139046"
-    },
-    {
-     "url": "/img/st-moritz/5.webp",
-     "credit": "Kecko from Switzerland (Rheintal SG)",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=37425059"
-    }
-   ]
-  },
-  {
-   "slug": "sun-valley",
-   "name": "Sun Valley",
-   "tier": 2,
-   "lat": 43.6971,
-   "lon": -114.3517,
-   "score": 2,
-   "rings": 1,
-   "state": "opening",
-   "slope": 0.45,
-   "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    98,
-    40,
-    0,
-    0,
-    0,
-    45
-   ],
-   "photos": [
-    {
-     "url": "/img/sun-valley/0.webp",
-     "credit": "Rickmouser45",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
-    },
-    {
-     "url": "/img/sun-valley/1.webp",
-     "credit": "Kingmiwok",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
-    },
-    {
-     "url": "/img/sun-valley/2.webp",
-     "credit": "Rickmouser45",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
-    },
-    {
-     "url": "/img/sun-valley/3.webp",
-     "credit": "Sharon Hahn Darlin",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151137880"
-    },
-    {
-     "url": "/img/sun-valley/4.webp",
-     "credit": "Scott Brenner",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=178215849"
-    },
-    {
-     "url": "/img/sun-valley/5.webp",
-     "credit": "Sharon Hahn Darlin",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
-    }
-   ]
-  },
-  {
    "slug": "gstaad",
    "name": "Gstaad",
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 2,
+   "score": 5,
    "rings": 1,
    "state": "opening",
    "slope": 0.74,
@@ -1328,12 +1200,140 @@
    ]
   },
   {
+   "slug": "courchevel",
+   "name": "Courchevel",
+   "tier": 2,
+   "lat": 45.4154,
+   "lon": 6.6345,
+   "score": 5,
+   "rings": 1,
+   "state": "opening",
+   "slope": 0.68,
+   "note": "The altiport is the guest list.",
+   "year": [
+    70,
+    66,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    68
+   ],
+   "photos": [
+    {
+     "url": "/img/courchevel/0.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48553790"
+    },
+    {
+     "url": "/img/courchevel/1.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548846"
+    },
+    {
+     "url": "/img/courchevel/2.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548650"
+    },
+    {
+     "url": "/img/courchevel/3.webp",
+     "credit": "Jules Rohault de Fleury",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=129508705"
+    },
+    {
+     "url": "/img/courchevel/4.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=45787049"
+    },
+    {
+     "url": "/img/courchevel/5.webp",
+     "credit": "Jules Rohault de Fleury",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=129508704"
+    }
+   ]
+  },
+  {
+   "slug": "st-moritz",
+   "name": "St. Moritz",
+   "tier": 2,
+   "lat": 46.4908,
+   "lon": 9.8355,
+   "score": 4,
+   "rings": 1,
+   "state": "opening",
+   "slope": 0.6,
+   "note": "European aristocracy, Swiss banking, German industrial families.",
+   "year": [
+    86,
+    78,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    60
+   ],
+   "photos": [
+    {
+     "url": "/img/st-moritz/0.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25090291"
+    },
+    {
+     "url": "/img/st-moritz/1.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091244"
+    },
+    {
+     "url": "/img/st-moritz/2.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091301"
+    },
+    {
+     "url": "/img/st-moritz/3.webp",
+     "credit": "Bphstm",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37139045"
+    },
+    {
+     "url": "/img/st-moritz/4.webp",
+     "credit": "Bphstm",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37139046"
+    },
+    {
+     "url": "/img/st-moritz/5.webp",
+     "credit": "Kecko from Switzerland (Rheintal SG)",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37425059"
+    }
+   ]
+  },
+  {
    "slug": "jackson-hole",
    "name": "Jackson Hole",
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 2,
+   "score": 4,
    "rings": 1,
    "state": "opening",
    "slope": 0.66,
@@ -1392,66 +1392,66 @@
    ]
   },
   {
-   "slug": "courchevel",
-   "name": "Courchevel",
+   "slug": "sun-valley",
+   "name": "Sun Valley",
    "tier": 2,
-   "lat": 45.4154,
-   "lon": 6.6345,
-   "score": 2,
+   "lat": 43.6971,
+   "lon": -114.3517,
+   "score": 3,
    "rings": 1,
    "state": "opening",
-   "slope": 0.68,
-   "note": "The altiport is the guest list.",
+   "slope": 0.45,
+   "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
    "year": [
-    70,
-    66,
     0,
     0,
     0,
     0,
     0,
     0,
+    98,
+    40,
     0,
     0,
     0,
-    68
+    45
    ],
    "photos": [
     {
-     "url": "/img/courchevel/0.webp",
-     "credit": "Krzysztof Golik",
+     "url": "/img/sun-valley/0.webp",
+     "credit": "Rickmouser45",
      "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=48553790"
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
     },
     {
-     "url": "/img/courchevel/1.webp",
-     "credit": "Krzysztof Golik",
+     "url": "/img/sun-valley/1.webp",
+     "credit": "Kingmiwok",
      "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=48548846"
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
     },
     {
-     "url": "/img/courchevel/2.webp",
-     "credit": "Krzysztof Golik",
+     "url": "/img/sun-valley/2.webp",
+     "credit": "Rickmouser45",
      "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=48548650"
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
     },
     {
-     "url": "/img/courchevel/3.webp",
-     "credit": "Jules Rohault de Fleury",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=129508705"
+     "url": "/img/sun-valley/3.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137880"
     },
     {
-     "url": "/img/courchevel/4.webp",
-     "credit": "Krzysztof Golik",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=45787049"
+     "url": "/img/sun-valley/4.webp",
+     "credit": "Scott Brenner",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=178215849"
     },
     {
-     "url": "/img/courchevel/5.webp",
-     "credit": "Jules Rohault de Fleury",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=129508704"
+     "url": "/img/sun-valley/5.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
     }
    ]
   },
