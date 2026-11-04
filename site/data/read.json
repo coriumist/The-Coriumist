@@ -1,5 +1,5 @@
 {
- "date": "2026-11-03",
+ "date": "2026-11-04",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 91,
+   "score": 89,
    "rings": 7,
    "state": "open",
    "slope": -0.61,
@@ -66,13 +66,71 @@
    ]
   },
   {
+   "slug": "dubai",
+   "name": "Dubai",
+   "tier": 1,
+   "lat": 25.2048,
+   "lon": 55.2708,
+   "score": 69,
+   "rings": 5,
+   "state": "open",
+   "slope": 0.06,
+   "note": "Season opens. The Gulf reloads.",
+   "year": [
+    70,
+    70,
+    62,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    68,
+    74
+   ],
+   "photos": [
+    {
+     "url": "/img/dubai/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
+    },
+    {
+     "url": "/img/dubai/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
+    },
+    {
+     "url": "/img/dubai/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/3.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/4.webp",
+     "credit": "Yacine Hary",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
+    }
+   ]
+  },
+  {
    "slug": "geneva",
    "name": "Geneva",
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 70,
-   "rings": 6,
+   "score": 68,
+   "rings": 5,
    "state": "open",
    "slope": -0.36,
    "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
@@ -135,7 +193,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 69,
+   "score": 67,
    "rings": 5,
    "state": "open",
    "slope": -0.74,
@@ -194,70 +252,12 @@
    ]
   },
   {
-   "slug": "dubai",
-   "name": "Dubai",
-   "tier": 1,
-   "lat": 25.2048,
-   "lon": 55.2708,
-   "score": 68,
-   "rings": 5,
-   "state": "open",
-   "slope": 0.06,
-   "note": "Season opens. The Gulf reloads.",
-   "year": [
-    70,
-    70,
-    62,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    68,
-    74
-   ],
-   "photos": [
-    {
-     "url": "/img/dubai/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
-    },
-    {
-     "url": "/img/dubai/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
-    },
-    {
-     "url": "/img/dubai/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/3.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/4.webp",
-     "credit": "Yacine Hary",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
-    }
-   ]
-  },
-  {
    "slug": "palm-beach",
    "name": "Palm Beach",
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 60,
+   "score": 61,
    "rings": 5,
    "state": "open",
    "slope": 0.06,
@@ -321,7 +321,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 53,
+   "score": 54,
    "rings": 4,
    "state": "opening",
    "slope": 0.38,
@@ -376,6 +376,70 @@
      "credit": "Cesar I. Martins",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
+    }
+   ]
+  },
+  {
+   "slug": "miami",
+   "name": "Miami",
+   "tier": 1,
+   "lat": 25.7617,
+   "lon": -80.1918,
+   "score": 40,
+   "rings": 4,
+   "state": "flat",
+   "slope": 0.64,
+   "note": "American family-office winter headquarters.",
+   "year": [
+    72,
+    70,
+    62,
+    34,
+    70,
+    34,
+    34,
+    34,
+    34,
+    34,
+    34,
+    98
+   ],
+   "photos": [
+    {
+     "url": "/img/miami/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8052462/photo-image-beach-public-domain-united-states"
+    },
+    {
+     "url": "/img/miami/1.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3094491/free-photo-image-miami-beach-aerial-view"
+    },
+    {
+     "url": "/img/miami/2.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8054938/photo-image-beach-public-domain-united-states"
+    },
+    {
+     "url": "/img/miami/3.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8071365/photo-image-cloud-sky-ocean"
+    },
+    {
+     "url": "/img/miami/4.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8069882/photo-image-beach-public-domain-united-states"
+    },
+    {
+     "url": "/img/miami/5.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/8069952/photo-image-cloud-sky-ocean"
     }
    ]
   },
@@ -440,70 +504,6 @@
      "credit": "M.Strīķis",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=53193680"
-    }
-   ]
-  },
-  {
-   "slug": "miami",
-   "name": "Miami",
-   "tier": 1,
-   "lat": 25.7617,
-   "lon": -80.1918,
-   "score": 38,
-   "rings": 3,
-   "state": "flat",
-   "slope": 0.64,
-   "note": "American family-office winter headquarters.",
-   "year": [
-    72,
-    70,
-    62,
-    34,
-    70,
-    34,
-    34,
-    34,
-    34,
-    34,
-    34,
-    98
-   ],
-   "photos": [
-    {
-     "url": "/img/miami/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8052462/photo-image-beach-public-domain-united-states"
-    },
-    {
-     "url": "/img/miami/1.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3094491/free-photo-image-miami-beach-aerial-view"
-    },
-    {
-     "url": "/img/miami/2.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8054938/photo-image-beach-public-domain-united-states"
-    },
-    {
-     "url": "/img/miami/3.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8071365/photo-image-cloud-sky-ocean"
-    },
-    {
-     "url": "/img/miami/4.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8069882/photo-image-beach-public-domain-united-states"
-    },
-    {
-     "url": "/img/miami/5.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/8069952/photo-image-cloud-sky-ocean"
     }
    ]
   },
@@ -1019,7 +1019,7 @@
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 6,
+   "score": 9,
    "rings": 1,
    "state": "opening",
    "slope": 0.88,
@@ -1083,7 +1083,7 @@
    "tier": 2,
    "lat": 39.1911,
    "lon": -106.8175,
-   "score": 5,
+   "score": 8,
    "rings": 1,
    "state": "opening",
    "slope": 0.8,
@@ -1141,7 +1141,7 @@
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 5,
+   "score": 7,
    "rings": 1,
    "state": "opening",
    "slope": 0.74,
@@ -1200,12 +1200,76 @@
    ]
   },
   {
+   "slug": "jackson-hole",
+   "name": "Jackson Hole",
+   "tier": 2,
+   "lat": 43.4799,
+   "lon": -110.7624,
+   "score": 7,
+   "rings": 1,
+   "state": "opening",
+   "slope": 0.66,
+   "note": "Two different crowds, one valley.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    55,
+    80,
+    0,
+    0,
+    0,
+    66
+   ],
+   "photos": [
+    {
+     "url": "/img/jackson-hole/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/434478/free-photo-image-carol-highsmith-elk-snow-fish"
+    },
+    {
+     "url": "/img/jackson-hole/1.webp",
+     "credit": "U.S. Forest Service (source)",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/4033050/photo-image-background-forest-nature"
+    },
+    {
+     "url": "/img/jackson-hole/2.webp",
+     "credit": "Michael Gäbler",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=8807982"
+    },
+    {
+     "url": "/img/jackson-hole/3.webp",
+     "credit": "Yunner",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=15423460"
+    },
+    {
+     "url": "/img/jackson-hole/4.webp",
+     "credit": "Michael Gäbler",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=8794037"
+    },
+    {
+     "url": "/img/jackson-hole/5.webp",
+     "credit": "Tony Hisgett from Birmingham, UK",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27317651"
+    }
+   ]
+  },
+  {
    "slug": "courchevel",
    "name": "Courchevel",
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 5,
+   "score": 7,
    "rings": 1,
    "state": "opening",
    "slope": 0.68,
@@ -1269,7 +1333,7 @@
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 4,
+   "score": 6,
    "rings": 1,
    "state": "opening",
    "slope": 0.6,
@@ -1328,76 +1392,12 @@
    ]
   },
   {
-   "slug": "jackson-hole",
-   "name": "Jackson Hole",
-   "tier": 2,
-   "lat": 43.4799,
-   "lon": -110.7624,
-   "score": 4,
-   "rings": 1,
-   "state": "opening",
-   "slope": 0.66,
-   "note": "Two different crowds, one valley.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    55,
-    80,
-    0,
-    0,
-    0,
-    66
-   ],
-   "photos": [
-    {
-     "url": "/img/jackson-hole/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/434478/free-photo-image-carol-highsmith-elk-snow-fish"
-    },
-    {
-     "url": "/img/jackson-hole/1.webp",
-     "credit": "U.S. Forest Service (source)",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/4033050/photo-image-background-forest-nature"
-    },
-    {
-     "url": "/img/jackson-hole/2.webp",
-     "credit": "Michael Gäbler",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=8807982"
-    },
-    {
-     "url": "/img/jackson-hole/3.webp",
-     "credit": "Yunner",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=15423460"
-    },
-    {
-     "url": "/img/jackson-hole/4.webp",
-     "credit": "Michael Gäbler",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=8794037"
-    },
-    {
-     "url": "/img/jackson-hole/5.webp",
-     "credit": "Tony Hisgett from Birmingham, UK",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27317651"
-    }
-   ]
-  },
-  {
    "slug": "sun-valley",
    "name": "Sun Valley",
    "tier": 2,
    "lat": 43.6971,
    "lon": -114.3517,
-   "score": 3,
+   "score": 5,
    "rings": 1,
    "state": "opening",
    "slope": 0.45,
