@@ -1,5 +1,5 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 87,
+   "score": 85,
    "rings": 7,
    "state": "open",
    "slope": -0.61,
@@ -129,7 +129,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 67,
+   "score": 66,
    "rings": 5,
    "state": "open",
    "slope": -0.36,
@@ -193,7 +193,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 64,
+   "score": 62,
    "rings": 5,
    "state": "open",
    "slope": -0.74,
@@ -321,7 +321,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 55,
+   "score": 56,
    "rings": 5,
    "state": "opening",
    "slope": 0.38,
@@ -385,7 +385,7 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 43,
+   "score": 45,
    "rings": 4,
    "state": "flat",
    "slope": 0.64,
@@ -961,7 +961,7 @@
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 12,
+   "score": 15,
    "rings": 2,
    "state": "opening",
    "slope": 0.88,
@@ -1016,6 +1016,64 @@
      "credit": "David Broad",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=54354098"
+    }
+   ]
+  },
+  {
+   "slug": "aspen",
+   "name": "Aspen",
+   "tier": 2,
+   "lat": 39.1911,
+   "lon": -106.8175,
+   "score": 13,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.8,
+   "note": "American capital migrates. Snow replaces yachts.",
+   "year": [
+    66,
+    88,
+    50,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    80
+   ],
+   "photos": [
+    {
+     "url": "/img/aspen/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
+    },
+    {
+     "url": "/img/aspen/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
+    },
+    {
+     "url": "/img/aspen/2.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
+    },
+    {
+     "url": "/img/aspen/3.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
+    },
+    {
+     "url": "/img/aspen/4.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
     }
    ]
   },
@@ -1078,71 +1136,13 @@
    ]
   },
   {
-   "slug": "aspen",
-   "name": "Aspen",
-   "tier": 2,
-   "lat": 39.1911,
-   "lon": -106.8175,
-   "score": 11,
-   "rings": 1,
-   "state": "opening",
-   "slope": 0.8,
-   "note": "American capital migrates. Snow replaces yachts.",
-   "year": [
-    66,
-    88,
-    50,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    80
-   ],
-   "photos": [
-    {
-     "url": "/img/aspen/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
-    },
-    {
-     "url": "/img/aspen/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
-    },
-    {
-     "url": "/img/aspen/2.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
-    },
-    {
-     "url": "/img/aspen/3.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
-    },
-    {
-     "url": "/img/aspen/4.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
-    }
-   ]
-  },
-  {
    "slug": "gstaad",
    "name": "Gstaad",
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 10,
-   "rings": 1,
+   "score": 12,
+   "rings": 2,
    "state": "opening",
    "slope": 0.74,
    "note": "The most closed guest list in the Alps.",
@@ -1205,7 +1205,7 @@
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 9,
+   "score": 11,
    "rings": 1,
    "state": "opening",
    "slope": 0.66,
@@ -1269,7 +1269,7 @@
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 9,
+   "score": 11,
    "rings": 1,
    "state": "opening",
    "slope": 0.68,
@@ -1333,7 +1333,7 @@
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 8,
+   "score": 10,
    "rings": 1,
    "state": "opening",
    "slope": 0.6,
@@ -1397,7 +1397,7 @@
    "tier": 2,
    "lat": 43.6971,
    "lon": -114.3517,
-   "score": 6,
+   "score": 8,
    "rings": 1,
    "state": "opening",
    "slope": 0.45,
