@@ -1,5 +1,5 @@
 {
- "date": "2026-11-06",
+ "date": "2026-11-07",
  "cities": [
   {
    "slug": "new-york",
@@ -7,8 +7,8 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 85,
-   "rings": 7,
+   "score": 83,
+   "rings": 6,
    "state": "open",
    "slope": -0.61,
    "note": "Autumn auctions. The largest private dinners of the American year.",
@@ -129,7 +129,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 66,
+   "score": 65,
    "rings": 5,
    "state": "open",
    "slope": -0.36,
@@ -184,70 +184,6 @@
      "credit": "Boschtjan",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
-    }
-   ]
-  },
-  {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
-   "tier": 2,
-   "lat": 36.1699,
-   "lon": -115.1398,
-   "score": 62,
-   "rings": 5,
-   "state": "open",
-   "slope": -0.74,
-   "note": "Night race. Suites priced as a distinct asset class.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/las-vegas/0.webp",
-     "credit": "Clément Bardot",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
-    },
-    {
-     "url": "/img/las-vegas/1.webp",
-     "credit": "Henning Schlottmann (User:H-stt)",
-     "license": "CC BY 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
-    },
-    {
-     "url": "/img/las-vegas/2.webp",
-     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
-    },
-    {
-     "url": "/img/las-vegas/3.webp",
-     "credit": "LasVegasGuy",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
-    },
-    {
-     "url": "/img/las-vegas/4.webp",
-     "credit": "GyozaDumpling",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
-    },
-    {
-     "url": "/img/las-vegas/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
     }
    ]
   },
@@ -316,12 +252,76 @@
    ]
   },
   {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "tier": 2,
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "score": 59,
+   "rings": 5,
+   "state": "quiet",
+   "slope": -0.74,
+   "note": "Night race. Suites priced as a distinct asset class.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
+    }
+   ]
+  },
+  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 56,
+   "score": 58,
    "rings": 5,
    "state": "opening",
    "slope": 0.38,
@@ -385,9 +385,9 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 45,
+   "score": 47,
    "rings": 4,
-   "state": "flat",
+   "state": "opening",
    "slope": 0.64,
    "note": "American family-office winter headquarters.",
    "year": [
@@ -828,6 +828,128 @@
    ]
   },
   {
+   "slug": "st-barths",
+   "name": "St. Barths",
+   "tier": 2,
+   "lat": 17.9,
+   "lon": -62.8333,
+   "score": 18,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.88,
+   "note": "The Caribbean transition. Where the year is decided before it starts.",
+   "year": [
+    94,
+    35,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    88
+   ],
+   "photos": [
+    {
+     "url": "/img/st-barths/0.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420599"
+    },
+    {
+     "url": "/img/st-barths/1.webp",
+     "credit": "User:Mattes",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=49126355"
+    },
+    {
+     "url": "/img/st-barths/2.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420593"
+    },
+    {
+     "url": "/img/st-barths/3.webp",
+     "credit": "Gordon Leggett",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=91830671"
+    },
+    {
+     "url": "/img/st-barths/4.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420605"
+    },
+    {
+     "url": "/img/st-barths/5.webp",
+     "credit": "David Broad",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=54354098"
+    }
+   ]
+  },
+  {
+   "slug": "aspen",
+   "name": "Aspen",
+   "tier": 2,
+   "lat": 39.1911,
+   "lon": -106.8175,
+   "score": 16,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.8,
+   "note": "American capital migrates. Snow replaces yachts.",
+   "year": [
+    66,
+    88,
+    50,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    80
+   ],
+   "photos": [
+    {
+     "url": "/img/aspen/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
+    },
+    {
+     "url": "/img/aspen/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
+    },
+    {
+     "url": "/img/aspen/2.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
+    },
+    {
+     "url": "/img/aspen/3.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
+    },
+    {
+     "url": "/img/aspen/4.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
+    }
+   ]
+  },
+  {
    "slug": "los-angeles",
    "name": "Los Angeles",
    "tier": 2,
@@ -956,19 +1078,19 @@
    ]
   },
   {
-   "slug": "st-barths",
-   "name": "St. Barths",
+   "slug": "gstaad",
+   "name": "Gstaad",
    "tier": 2,
-   "lat": 17.9,
-   "lon": -62.8333,
+   "lat": 46.4725,
+   "lon": 7.2861,
    "score": 15,
    "rings": 2,
    "state": "opening",
-   "slope": 0.88,
-   "note": "The Caribbean transition. Where the year is decided before it starts.",
+   "slope": 0.74,
+   "note": "The most closed guest list in the Alps.",
    "year": [
-    94,
-    35,
+    72,
+    62,
     0,
     0,
     0,
@@ -978,62 +1100,61 @@
     0,
     0,
     0,
-    88
+    74
    ],
    "photos": [
     {
-     "url": "/img/st-barths/0.webp",
-     "credit": "MARELBU",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=55420599"
+     "url": "/img/gstaad/0.webp",
+     "credit": "Otto Juchli, Nussbaumen",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=2946769"
     },
     {
-     "url": "/img/st-barths/1.webp",
-     "credit": "User:Mattes",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=49126355"
+     "url": "/img/gstaad/1.webp",
+     "credit": "GstaadTourismus",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17528605"
     },
     {
-     "url": "/img/st-barths/2.webp",
-     "credit": "MARELBU",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=55420593"
-    },
-    {
-     "url": "/img/st-barths/3.webp",
-     "credit": "Gordon Leggett",
+     "url": "/img/gstaad/2.webp",
+     "credit": "Samuel Barlow",
      "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=91830671"
+     "page": "https://commons.wikimedia.org/w/index.php?curid=95880446"
     },
     {
-     "url": "/img/st-barths/4.webp",
-     "credit": "MARELBU",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=55420605"
+     "url": "/img/gstaad/3.webp",
+     "credit": "Kabelleger",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=52453619"
     },
     {
-     "url": "/img/st-barths/5.webp",
-     "credit": "David Broad",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=54354098"
+     "url": "/img/gstaad/4.webp",
+     "credit": "Le portfolio de Mr Eric Dubost",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=195967104"
+    },
+    {
+     "url": "/img/gstaad/5.webp",
+     "credit": "Arnaud 25",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=35492005"
     }
    ]
   },
   {
-   "slug": "aspen",
-   "name": "Aspen",
+   "slug": "courchevel",
+   "name": "Courchevel",
    "tier": 2,
-   "lat": 39.1911,
-   "lon": -106.8175,
-   "score": 13,
+   "lat": 45.4154,
+   "lon": 6.6345,
+   "score": 14,
    "rings": 2,
    "state": "opening",
-   "slope": 0.8,
-   "note": "American capital migrates. Snow replaces yachts.",
+   "slope": 0.68,
+   "note": "The altiport is the guest list.",
    "year": [
+    70,
     66,
-    88,
-    50,
     0,
     0,
     0,
@@ -1042,38 +1163,173 @@
     0,
     0,
     0,
-    80
+    0,
+    68
    ],
    "photos": [
     {
-     "url": "/img/aspen/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
+     "url": "/img/courchevel/0.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48553790"
     },
     {
-     "url": "/img/aspen/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
+     "url": "/img/courchevel/1.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548846"
     },
     {
-     "url": "/img/aspen/2.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
+     "url": "/img/courchevel/2.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548650"
     },
     {
-     "url": "/img/aspen/3.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
+     "url": "/img/courchevel/3.webp",
+     "credit": "Jules Rohault de Fleury",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=129508705"
     },
     {
-     "url": "/img/aspen/4.webp",
+     "url": "/img/courchevel/4.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=45787049"
+    },
+    {
+     "url": "/img/courchevel/5.webp",
+     "credit": "Jules Rohault de Fleury",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=129508704"
+    }
+   ]
+  },
+  {
+   "slug": "jackson-hole",
+   "name": "Jackson Hole",
+   "tier": 2,
+   "lat": 43.4799,
+   "lon": -110.7624,
+   "score": 13,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.66,
+   "note": "Two different crowds, one valley.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    55,
+    80,
+    0,
+    0,
+    0,
+    66
+   ],
+   "photos": [
+    {
+     "url": "/img/jackson-hole/0.webp",
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
+     "page": "https://www.rawpixel.com/image/434478/free-photo-image-carol-highsmith-elk-snow-fish"
+    },
+    {
+     "url": "/img/jackson-hole/1.webp",
+     "credit": "U.S. Forest Service (source)",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/4033050/photo-image-background-forest-nature"
+    },
+    {
+     "url": "/img/jackson-hole/2.webp",
+     "credit": "Michael Gäbler",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=8807982"
+    },
+    {
+     "url": "/img/jackson-hole/3.webp",
+     "credit": "Yunner",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=15423460"
+    },
+    {
+     "url": "/img/jackson-hole/4.webp",
+     "credit": "Michael Gäbler",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=8794037"
+    },
+    {
+     "url": "/img/jackson-hole/5.webp",
+     "credit": "Tony Hisgett from Birmingham, UK",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=27317651"
+    }
+   ]
+  },
+  {
+   "slug": "st-moritz",
+   "name": "St. Moritz",
+   "tier": 2,
+   "lat": 46.4908,
+   "lon": 9.8355,
+   "score": 12,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.6,
+   "note": "European aristocracy, Swiss banking, German industrial families.",
+   "year": [
+    86,
+    78,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    60
+   ],
+   "photos": [
+    {
+     "url": "/img/st-moritz/0.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25090291"
+    },
+    {
+     "url": "/img/st-moritz/1.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091244"
+    },
+    {
+     "url": "/img/st-moritz/2.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091301"
+    },
+    {
+     "url": "/img/st-moritz/3.webp",
+     "credit": "Bphstm",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37139045"
+    },
+    {
+     "url": "/img/st-moritz/4.webp",
+     "credit": "Bphstm",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37139046"
+    },
+    {
+     "url": "/img/st-moritz/5.webp",
+     "credit": "Kecko from Switzerland (Rheintal SG)",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37425059"
     }
    ]
   },
@@ -1136,268 +1392,12 @@
    ]
   },
   {
-   "slug": "gstaad",
-   "name": "Gstaad",
-   "tier": 2,
-   "lat": 46.4725,
-   "lon": 7.2861,
-   "score": 12,
-   "rings": 2,
-   "state": "opening",
-   "slope": 0.74,
-   "note": "The most closed guest list in the Alps.",
-   "year": [
-    72,
-    62,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74
-   ],
-   "photos": [
-    {
-     "url": "/img/gstaad/0.webp",
-     "credit": "Otto Juchli, Nussbaumen",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=2946769"
-    },
-    {
-     "url": "/img/gstaad/1.webp",
-     "credit": "GstaadTourismus",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17528605"
-    },
-    {
-     "url": "/img/gstaad/2.webp",
-     "credit": "Samuel Barlow",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=95880446"
-    },
-    {
-     "url": "/img/gstaad/3.webp",
-     "credit": "Kabelleger",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=52453619"
-    },
-    {
-     "url": "/img/gstaad/4.webp",
-     "credit": "Le portfolio de Mr Eric Dubost",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=195967104"
-    },
-    {
-     "url": "/img/gstaad/5.webp",
-     "credit": "Arnaud 25",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=35492005"
-    }
-   ]
-  },
-  {
-   "slug": "jackson-hole",
-   "name": "Jackson Hole",
-   "tier": 2,
-   "lat": 43.4799,
-   "lon": -110.7624,
-   "score": 11,
-   "rings": 1,
-   "state": "opening",
-   "slope": 0.66,
-   "note": "Two different crowds, one valley.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    55,
-    80,
-    0,
-    0,
-    0,
-    66
-   ],
-   "photos": [
-    {
-     "url": "/img/jackson-hole/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/434478/free-photo-image-carol-highsmith-elk-snow-fish"
-    },
-    {
-     "url": "/img/jackson-hole/1.webp",
-     "credit": "U.S. Forest Service (source)",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/4033050/photo-image-background-forest-nature"
-    },
-    {
-     "url": "/img/jackson-hole/2.webp",
-     "credit": "Michael Gäbler",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=8807982"
-    },
-    {
-     "url": "/img/jackson-hole/3.webp",
-     "credit": "Yunner",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=15423460"
-    },
-    {
-     "url": "/img/jackson-hole/4.webp",
-     "credit": "Michael Gäbler",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=8794037"
-    },
-    {
-     "url": "/img/jackson-hole/5.webp",
-     "credit": "Tony Hisgett from Birmingham, UK",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=27317651"
-    }
-   ]
-  },
-  {
-   "slug": "courchevel",
-   "name": "Courchevel",
-   "tier": 2,
-   "lat": 45.4154,
-   "lon": 6.6345,
-   "score": 11,
-   "rings": 1,
-   "state": "opening",
-   "slope": 0.68,
-   "note": "The altiport is the guest list.",
-   "year": [
-    70,
-    66,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    68
-   ],
-   "photos": [
-    {
-     "url": "/img/courchevel/0.webp",
-     "credit": "Krzysztof Golik",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=48553790"
-    },
-    {
-     "url": "/img/courchevel/1.webp",
-     "credit": "Krzysztof Golik",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=48548846"
-    },
-    {
-     "url": "/img/courchevel/2.webp",
-     "credit": "Krzysztof Golik",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=48548650"
-    },
-    {
-     "url": "/img/courchevel/3.webp",
-     "credit": "Jules Rohault de Fleury",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=129508705"
-    },
-    {
-     "url": "/img/courchevel/4.webp",
-     "credit": "Krzysztof Golik",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=45787049"
-    },
-    {
-     "url": "/img/courchevel/5.webp",
-     "credit": "Jules Rohault de Fleury",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=129508704"
-    }
-   ]
-  },
-  {
-   "slug": "st-moritz",
-   "name": "St. Moritz",
-   "tier": 2,
-   "lat": 46.4908,
-   "lon": 9.8355,
-   "score": 10,
-   "rings": 1,
-   "state": "opening",
-   "slope": 0.6,
-   "note": "European aristocracy, Swiss banking, German industrial families.",
-   "year": [
-    86,
-    78,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    60
-   ],
-   "photos": [
-    {
-     "url": "/img/st-moritz/0.webp",
-     "credit": "Etiaetia1020",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25090291"
-    },
-    {
-     "url": "/img/st-moritz/1.webp",
-     "credit": "Etiaetia1020",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25091244"
-    },
-    {
-     "url": "/img/st-moritz/2.webp",
-     "credit": "Etiaetia1020",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25091301"
-    },
-    {
-     "url": "/img/st-moritz/3.webp",
-     "credit": "Bphstm",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=37139045"
-    },
-    {
-     "url": "/img/st-moritz/4.webp",
-     "credit": "Bphstm",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=37139046"
-    },
-    {
-     "url": "/img/st-moritz/5.webp",
-     "credit": "Kecko from Switzerland (Rheintal SG)",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=37425059"
-    }
-   ]
-  },
-  {
    "slug": "sun-valley",
    "name": "Sun Valley",
    "tier": 2,
    "lat": 43.6971,
    "lon": -114.3517,
-   "score": 8,
+   "score": 9,
    "rings": 1,
    "state": "opening",
    "slope": 0.45,
@@ -2546,6 +2546,22 @@
  ],
  "wire": [
   {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "state": "quiet",
+   "was": "open",
+   "note": "Night race. Suites priced as a distinct asset class.",
+   "date": "2026-11-07"
+  },
+  {
+   "slug": "miami",
+   "name": "Miami",
+   "state": "opening",
+   "was": "flat",
+   "note": "American family-office winter headquarters.",
+   "date": "2026-11-07"
+  },
+  {
    "slug": "palm-beach",
    "name": "Palm Beach",
    "state": "open",
@@ -2623,22 +2639,6 @@
    "state": "quiet",
    "was": "dispersing",
    "note": "The Mediterranean capital. Not Italy. Not Sardinia. The marina.",
-   "date": "2026-11-01"
-  },
-  {
-   "slug": "gstaad",
-   "name": "Gstaad",
-   "state": "opening",
-   "was": "quiet",
-   "note": "The most closed guest list in the Alps.",
-   "date": "2026-11-01"
-  },
-  {
-   "slug": "jackson-hole",
-   "name": "Jackson Hole",
-   "state": "opening",
-   "was": "quiet",
-   "note": "Two different crowds, one valley.",
    "date": "2026-11-01"
   }
  ],
