@@ -1,5 +1,5 @@
 {
- "date": "2026-11-07",
+ "date": "2026-11-08",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 83,
+   "score": 81,
    "rings": 6,
    "state": "open",
    "slope": -0.61,
@@ -129,7 +129,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 65,
+   "score": 64,
    "rings": 5,
    "state": "open",
    "slope": -0.36,
@@ -252,76 +252,12 @@
    ]
   },
   {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
-   "tier": 2,
-   "lat": 36.1699,
-   "lon": -115.1398,
-   "score": 59,
-   "rings": 5,
-   "state": "quiet",
-   "slope": -0.74,
-   "note": "Night race. Suites priced as a distinct asset class.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/las-vegas/0.webp",
-     "credit": "Clément Bardot",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
-    },
-    {
-     "url": "/img/las-vegas/1.webp",
-     "credit": "Henning Schlottmann (User:H-stt)",
-     "license": "CC BY 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
-    },
-    {
-     "url": "/img/las-vegas/2.webp",
-     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
-    },
-    {
-     "url": "/img/las-vegas/3.webp",
-     "credit": "LasVegasGuy",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
-    },
-    {
-     "url": "/img/las-vegas/4.webp",
-     "credit": "GyozaDumpling",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
-    },
-    {
-     "url": "/img/las-vegas/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
-    }
-   ]
-  },
-  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 58,
+   "score": 59,
    "rings": 5,
    "state": "opening",
    "slope": 0.38,
@@ -380,12 +316,76 @@
    ]
   },
   {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "tier": 2,
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "score": 57,
+   "rings": 5,
+   "state": "quiet",
+   "slope": -0.74,
+   "note": "Night race. Suites priced as a distinct asset class.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
+    }
+   ]
+  },
+  {
    "slug": "miami",
    "name": "Miami",
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 47,
+   "score": 49,
    "rings": 4,
    "state": "opening",
    "slope": 0.64,
@@ -833,7 +833,7 @@
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 18,
+   "score": 21,
    "rings": 2,
    "state": "opening",
    "slope": 0.88,
@@ -897,7 +897,7 @@
    "tier": 2,
    "lat": 39.1911,
    "lon": -106.8175,
-   "score": 16,
+   "score": 19,
    "rings": 2,
    "state": "opening",
    "slope": 0.8,
@@ -946,6 +946,70 @@
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
+    }
+   ]
+  },
+  {
+   "slug": "gstaad",
+   "name": "Gstaad",
+   "tier": 2,
+   "lat": 46.4725,
+   "lon": 7.2861,
+   "score": 17,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.74,
+   "note": "The most closed guest list in the Alps.",
+   "year": [
+    72,
+    62,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74
+   ],
+   "photos": [
+    {
+     "url": "/img/gstaad/0.webp",
+     "credit": "Otto Juchli, Nussbaumen",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=2946769"
+    },
+    {
+     "url": "/img/gstaad/1.webp",
+     "credit": "GstaadTourismus",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17528605"
+    },
+    {
+     "url": "/img/gstaad/2.webp",
+     "credit": "Samuel Barlow",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=95880446"
+    },
+    {
+     "url": "/img/gstaad/3.webp",
+     "credit": "Kabelleger",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=52453619"
+    },
+    {
+     "url": "/img/gstaad/4.webp",
+     "credit": "Le portfolio de Mr Eric Dubost",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=195967104"
+    },
+    {
+     "url": "/img/gstaad/5.webp",
+     "credit": "Arnaud 25",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=35492005"
     }
    ]
   },
@@ -1078,76 +1142,12 @@
    ]
   },
   {
-   "slug": "gstaad",
-   "name": "Gstaad",
-   "tier": 2,
-   "lat": 46.4725,
-   "lon": 7.2861,
-   "score": 15,
-   "rings": 2,
-   "state": "opening",
-   "slope": 0.74,
-   "note": "The most closed guest list in the Alps.",
-   "year": [
-    72,
-    62,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74
-   ],
-   "photos": [
-    {
-     "url": "/img/gstaad/0.webp",
-     "credit": "Otto Juchli, Nussbaumen",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=2946769"
-    },
-    {
-     "url": "/img/gstaad/1.webp",
-     "credit": "GstaadTourismus",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17528605"
-    },
-    {
-     "url": "/img/gstaad/2.webp",
-     "credit": "Samuel Barlow",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=95880446"
-    },
-    {
-     "url": "/img/gstaad/3.webp",
-     "credit": "Kabelleger",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=52453619"
-    },
-    {
-     "url": "/img/gstaad/4.webp",
-     "credit": "Le portfolio de Mr Eric Dubost",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=195967104"
-    },
-    {
-     "url": "/img/gstaad/5.webp",
-     "credit": "Arnaud 25",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=35492005"
-    }
-   ]
-  },
-  {
    "slug": "courchevel",
    "name": "Courchevel",
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 14,
+   "score": 16,
    "rings": 2,
    "state": "opening",
    "slope": 0.68,
@@ -1211,7 +1211,7 @@
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 13,
+   "score": 15,
    "rings": 2,
    "state": "opening",
    "slope": 0.66,
@@ -1275,7 +1275,7 @@
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 12,
+   "score": 14,
    "rings": 2,
    "state": "opening",
    "slope": 0.6,
@@ -1397,7 +1397,7 @@
    "tier": 2,
    "lat": 43.6971,
    "lon": -114.3517,
-   "score": 9,
+   "score": 11,
    "rings": 1,
    "state": "opening",
    "slope": 0.45,
