@@ -1,5 +1,5 @@
 {
- "date": "2026-11-09",
+ "date": "2026-11-10",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 79,
+   "score": 77,
    "rings": 6,
    "state": "open",
    "slope": -0.61,
@@ -124,70 +124,6 @@
    ]
   },
   {
-   "slug": "geneva",
-   "name": "Geneva",
-   "tier": 1,
-   "lat": 46.2044,
-   "lon": 6.1432,
-   "score": 62,
-   "rings": 5,
-   "state": "open",
-   "slope": -0.36,
-   "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
-   "year": [
-    36,
-    36,
-    36,
-    36,
-    70,
-    36,
-    36,
-    36,
-    36,
-    36,
-    72,
-    36
-   ],
-   "photos": [
-    {
-     "url": "/img/geneva/0.webp",
-     "credit": "Choinowski",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
-    },
-    {
-     "url": "/img/geneva/1.webp",
-     "credit": "Spinarak",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
-    },
-    {
-     "url": "/img/geneva/2.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
-    },
-    {
-     "url": "/img/geneva/3.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
-    },
-    {
-     "url": "/img/geneva/4.webp",
-     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
-    },
-    {
-     "url": "/img/geneva/5.webp",
-     "credit": "Boschtjan",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
-    }
-   ]
-  },
-  {
    "slug": "palm-beach",
    "name": "Palm Beach",
    "tier": 2,
@@ -252,12 +188,76 @@
    ]
   },
   {
+   "slug": "geneva",
+   "name": "Geneva",
+   "tier": 1,
+   "lat": 46.2044,
+   "lon": 6.1432,
+   "score": 61,
+   "rings": 5,
+   "state": "open",
+   "slope": -0.36,
+   "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
+   "year": [
+    36,
+    36,
+    36,
+    36,
+    70,
+    36,
+    36,
+    36,
+    36,
+    36,
+    72,
+    36
+   ],
+   "photos": [
+    {
+     "url": "/img/geneva/0.webp",
+     "credit": "Choinowski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
+    },
+    {
+     "url": "/img/geneva/1.webp",
+     "credit": "Spinarak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
+    },
+    {
+     "url": "/img/geneva/2.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
+    },
+    {
+     "url": "/img/geneva/3.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
+    },
+    {
+     "url": "/img/geneva/4.webp",
+     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
+    },
+    {
+     "url": "/img/geneva/5.webp",
+     "credit": "Boschtjan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
+    }
+   ]
+  },
+  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 60,
+   "score": 61,
    "rings": 5,
    "state": "opening",
    "slope": 0.38,
@@ -316,76 +316,12 @@
    ]
   },
   {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
-   "tier": 2,
-   "lat": 36.1699,
-   "lon": -115.1398,
-   "score": 54,
-   "rings": 4,
-   "state": "quiet",
-   "slope": -0.74,
-   "note": "Night race. Suites priced as a distinct asset class.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/las-vegas/0.webp",
-     "credit": "Clément Bardot",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
-    },
-    {
-     "url": "/img/las-vegas/1.webp",
-     "credit": "Henning Schlottmann (User:H-stt)",
-     "license": "CC BY 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
-    },
-    {
-     "url": "/img/las-vegas/2.webp",
-     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
-    },
-    {
-     "url": "/img/las-vegas/3.webp",
-     "credit": "LasVegasGuy",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
-    },
-    {
-     "url": "/img/las-vegas/4.webp",
-     "credit": "GyozaDumpling",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
-    },
-    {
-     "url": "/img/las-vegas/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
-    }
-   ]
-  },
-  {
    "slug": "miami",
    "name": "Miami",
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 51,
+   "score": 53,
    "rings": 4,
    "state": "opening",
    "slope": 0.64,
@@ -440,6 +376,70 @@
      "credit": "Carol M Highsmith",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/8069952/photo-image-cloud-sky-ocean"
+    }
+   ]
+  },
+  {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "tier": 2,
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "score": 52,
+   "rings": 4,
+   "state": "quiet",
+   "slope": -0.74,
+   "note": "Night race. Suites priced as a distinct asset class.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
     }
    ]
   },
@@ -833,8 +833,8 @@
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 23,
-   "rings": 2,
+   "score": 26,
+   "rings": 3,
    "state": "opening",
    "slope": 0.88,
    "note": "The Caribbean transition. Where the year is decided before it starts.",
@@ -897,7 +897,7 @@
    "tier": 2,
    "lat": 39.1911,
    "lon": -106.8175,
-   "score": 21,
+   "score": 24,
    "rings": 2,
    "state": "opening",
    "slope": 0.8,
@@ -955,7 +955,7 @@
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 20,
+   "score": 22,
    "rings": 2,
    "state": "opening",
    "slope": 0.74,
@@ -1019,7 +1019,7 @@
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 18,
+   "score": 20,
    "rings": 2,
    "state": "opening",
    "slope": 0.66,
@@ -1083,7 +1083,7 @@
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 18,
+   "score": 20,
    "rings": 2,
    "state": "opening",
    "slope": 0.68,
@@ -1147,7 +1147,7 @@
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 16,
+   "score": 18,
    "rings": 2,
    "state": "opening",
    "slope": 0.6,
@@ -1334,70 +1334,12 @@
    ]
   },
   {
-   "slug": "tokyo",
-   "name": "Tokyo",
-   "tier": 2,
-   "lat": 35.6762,
-   "lon": 139.6503,
-   "score": 12,
-   "rings": 2,
-   "state": "quiet",
-   "slope": 0.0,
-   "note": "Not loud. Very high quality.",
-   "year": [
-    12,
-    12,
-    12,
-    76,
-    12,
-    12,
-    12,
-    12,
-    12,
-    50,
-    12,
-    12
-   ],
-   "photos": [
-    {
-     "url": "/img/tokyo/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
-    },
-    {
-     "url": "/img/tokyo/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
-    },
-    {
-     "url": "/img/tokyo/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6078979/tokyo"
-    },
-    {
-     "url": "/img/tokyo/3.webp",
-     "credit": "Marina Koleva",
-     "license": "CC CC0 1.0",
-     "page": "https://wordpress.org/photos/photo/779642d466/"
-    },
-    {
-     "url": "/img/tokyo/4.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
-    }
-   ]
-  },
-  {
    "slug": "sun-valley",
    "name": "Sun Valley",
    "tier": 2,
    "lat": 43.6971,
    "lon": -114.3517,
-   "score": 12,
+   "score": 14,
    "rings": 2,
    "state": "opening",
    "slope": 0.45,
@@ -1452,6 +1394,64 @@
      "credit": "Sharon Hahn Darlin",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
+    }
+   ]
+  },
+  {
+   "slug": "tokyo",
+   "name": "Tokyo",
+   "tier": 2,
+   "lat": 35.6762,
+   "lon": 139.6503,
+   "score": 12,
+   "rings": 2,
+   "state": "quiet",
+   "slope": 0.0,
+   "note": "Not loud. Very high quality.",
+   "year": [
+    12,
+    12,
+    12,
+    76,
+    12,
+    12,
+    12,
+    12,
+    12,
+    50,
+    12,
+    12
+   ],
+   "photos": [
+    {
+     "url": "/img/tokyo/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6075346/tokyotokyo-skyline"
+    },
+    {
+     "url": "/img/tokyo/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6042841/photo-image-background-public-domain-free"
+    },
+    {
+     "url": "/img/tokyo/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6078979/tokyo"
+    },
+    {
+     "url": "/img/tokyo/3.webp",
+     "credit": "Marina Koleva",
+     "license": "CC CC0 1.0",
+     "page": "https://wordpress.org/photos/photo/779642d466/"
+    },
+    {
+     "url": "/img/tokyo/4.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
     }
    ]
   },
