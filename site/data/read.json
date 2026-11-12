@@ -1,5 +1,5 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "cities": [
   {
    "slug": "new-york",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 75,
+   "score": 73,
    "rings": 6,
    "state": "open",
    "slope": -0.61,
@@ -129,7 +129,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 63,
+   "score": 64,
    "rings": 5,
    "state": "opening",
    "slope": 0.38,
@@ -257,9 +257,9 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 60,
+   "score": 59,
    "rings": 5,
-   "state": "open",
+   "state": "quiet",
    "slope": -0.36,
    "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
    "year": [
@@ -321,7 +321,7 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 55,
+   "score": 57,
    "rings": 5,
    "state": "opening",
    "slope": 0.64,
@@ -385,7 +385,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 49,
+   "score": 47,
    "rings": 4,
    "state": "quiet",
    "slope": -0.74,
@@ -833,7 +833,7 @@
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 29,
+   "score": 32,
    "rings": 3,
    "state": "opening",
    "slope": 0.88,
@@ -897,7 +897,7 @@
    "tier": 2,
    "lat": 39.1911,
    "lon": -106.8175,
-   "score": 27,
+   "score": 29,
    "rings": 3,
    "state": "opening",
    "slope": 0.8,
@@ -955,7 +955,7 @@
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 25,
+   "score": 27,
    "rings": 3,
    "state": "opening",
    "slope": 0.74,
@@ -1019,8 +1019,8 @@
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 23,
-   "rings": 2,
+   "score": 25,
+   "rings": 3,
    "state": "opening",
    "slope": 0.68,
    "note": "The altiport is the guest list.",
@@ -1083,7 +1083,7 @@
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 22,
+   "score": 24,
    "rings": 2,
    "state": "opening",
    "slope": 0.66,
@@ -1147,7 +1147,7 @@
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 20,
+   "score": 22,
    "rings": 2,
    "state": "opening",
    "slope": 0.6,
@@ -1270,6 +1270,70 @@
    ]
   },
   {
+   "slug": "sun-valley",
+   "name": "Sun Valley",
+   "tier": 2,
+   "lat": 43.6971,
+   "lon": -114.3517,
+   "score": 16,
+   "rings": 2,
+   "state": "opening",
+   "slope": 0.45,
+   "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    98,
+    40,
+    0,
+    0,
+    0,
+    45
+   ],
+   "photos": [
+    {
+     "url": "/img/sun-valley/0.webp",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
+    },
+    {
+     "url": "/img/sun-valley/1.webp",
+     "credit": "Kingmiwok",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
+    },
+    {
+     "url": "/img/sun-valley/2.webp",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
+    },
+    {
+     "url": "/img/sun-valley/3.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137880"
+    },
+    {
+     "url": "/img/sun-valley/4.webp",
+     "credit": "Scott Brenner",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=178215849"
+    },
+    {
+     "url": "/img/sun-valley/5.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
+    }
+   ]
+  },
+  {
    "slug": "milan",
    "name": "Milan",
    "tier": 2,
@@ -1330,70 +1394,6 @@
      "credit": "Jean-Christophe BENOIST",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
-    }
-   ]
-  },
-  {
-   "slug": "sun-valley",
-   "name": "Sun Valley",
-   "tier": 2,
-   "lat": 43.6971,
-   "lon": -114.3517,
-   "score": 15,
-   "rings": 2,
-   "state": "opening",
-   "slope": 0.45,
-   "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    98,
-    40,
-    0,
-    0,
-    0,
-    45
-   ],
-   "photos": [
-    {
-     "url": "/img/sun-valley/0.webp",
-     "credit": "Rickmouser45",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
-    },
-    {
-     "url": "/img/sun-valley/1.webp",
-     "credit": "Kingmiwok",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
-    },
-    {
-     "url": "/img/sun-valley/2.webp",
-     "credit": "Rickmouser45",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
-    },
-    {
-     "url": "/img/sun-valley/3.webp",
-     "credit": "Sharon Hahn Darlin",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151137880"
-    },
-    {
-     "url": "/img/sun-valley/4.webp",
-     "credit": "Scott Brenner",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=178215849"
-    },
-    {
-     "url": "/img/sun-valley/5.webp",
-     "credit": "Sharon Hahn Darlin",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
     }
    ]
   },
@@ -2546,6 +2546,14 @@
  ],
  "wire": [
   {
+   "slug": "geneva",
+   "name": "Geneva",
+   "state": "quiet",
+   "was": "open",
+   "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
+   "date": "2026-11-12"
+  },
+  {
    "slug": "las-vegas",
    "name": "Las Vegas",
    "state": "quiet",
@@ -2631,14 +2639,6 @@
    "state": "opening",
    "was": "quiet",
    "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
-   "date": "2026-11-01"
-  },
-  {
-   "slug": "porto-cervo",
-   "name": "Porto Cervo",
-   "state": "quiet",
-   "was": "dispersing",
-   "note": "The Mediterranean capital. Not Italy. Not Sardinia. The marina.",
    "date": "2026-11-01"
   }
  ],
