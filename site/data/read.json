@@ -1,14 +1,72 @@
 {
- "date": "2026-11-13",
+ "date": "2026-11-14",
  "cities": [
+  {
+   "slug": "dubai",
+   "name": "Dubai",
+   "tier": 1,
+   "lat": 25.2048,
+   "lon": 55.2708,
+   "score": 71,
+   "rings": 6,
+   "state": "open",
+   "slope": 0.06,
+   "note": "Season opens. The Gulf reloads.",
+   "year": [
+    70,
+    70,
+    62,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    36,
+    68,
+    74
+   ],
+   "photos": [
+    {
+     "url": "/img/dubai/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
+    },
+    {
+     "url": "/img/dubai/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
+    },
+    {
+     "url": "/img/dubai/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/3.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/dubai/4.webp",
+     "credit": "Yacine Hary",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
+    }
+   ]
+  },
   {
    "slug": "new-york",
    "name": "New York",
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 71,
-   "rings": 6,
+   "score": 69,
+   "rings": 5,
    "state": "open",
    "slope": -0.61,
    "note": "Autumn auctions. The largest private dinners of the American year.",
@@ -66,70 +124,12 @@
    ]
   },
   {
-   "slug": "dubai",
-   "name": "Dubai",
-   "tier": 1,
-   "lat": 25.2048,
-   "lon": 55.2708,
-   "score": 70,
-   "rings": 6,
-   "state": "open",
-   "slope": 0.06,
-   "note": "Season opens. The Gulf reloads.",
-   "year": [
-    70,
-    70,
-    62,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    36,
-    68,
-    74
-   ],
-   "photos": [
-    {
-     "url": "/img/dubai/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3283287/free-photo-image-dubai-skyline-office"
-    },
-    {
-     "url": "/img/dubai/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6025453/photo-image-lights-public-domain-water"
-    },
-    {
-     "url": "/img/dubai/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5959504/free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/3.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5907022/marina-walk-free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/dubai/4.webp",
-     "credit": "Yacine Hary",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=76698987"
-    }
-   ]
-  },
-  {
    "slug": "abu-dhabi",
    "name": "Abu Dhabi",
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 65,
+   "score": 66,
    "rings": 5,
    "state": "opening",
    "slope": 0.38,
@@ -193,7 +193,7 @@
    "tier": 2,
    "lat": 26.7056,
    "lon": -80.0364,
-   "score": 62,
+   "score": 63,
    "rings": 5,
    "state": "open",
    "slope": 0.06,
@@ -257,7 +257,7 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 60,
+   "score": 62,
    "rings": 5,
    "state": "opening",
    "slope": 0.64,
@@ -321,7 +321,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 58,
+   "score": 56,
    "rings": 5,
    "state": "quiet",
    "slope": -0.36,
@@ -385,7 +385,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 44,
+   "score": 42,
    "rings": 4,
    "state": "quiet",
    "slope": -0.74,
@@ -508,6 +508,70 @@
    ]
   },
   {
+   "slug": "st-barths",
+   "name": "St. Barths",
+   "tier": 2,
+   "lat": 17.9,
+   "lon": -62.8333,
+   "score": 38,
+   "rings": 3,
+   "state": "opening",
+   "slope": 0.88,
+   "note": "The Caribbean transition. Where the year is decided before it starts.",
+   "year": [
+    94,
+    35,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    88
+   ],
+   "photos": [
+    {
+     "url": "/img/st-barths/0.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420599"
+    },
+    {
+     "url": "/img/st-barths/1.webp",
+     "credit": "User:Mattes",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=49126355"
+    },
+    {
+     "url": "/img/st-barths/2.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420593"
+    },
+    {
+     "url": "/img/st-barths/3.webp",
+     "credit": "Gordon Leggett",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=91830671"
+    },
+    {
+     "url": "/img/st-barths/4.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420605"
+    },
+    {
+     "url": "/img/st-barths/5.webp",
+     "credit": "David Broad",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=54354098"
+    }
+   ]
+  },
+  {
    "slug": "paris",
    "name": "Paris",
    "tier": 1,
@@ -572,19 +636,20 @@
    ]
   },
   {
-   "slug": "st-barths",
-   "name": "St. Barths",
+   "slug": "aspen",
+   "name": "Aspen",
    "tier": 2,
-   "lat": 17.9,
-   "lon": -62.8333,
+   "lat": 39.1911,
+   "lon": -106.8175,
    "score": 35,
    "rings": 3,
    "state": "opening",
-   "slope": 0.88,
-   "note": "The Caribbean transition. Where the year is decided before it starts.",
+   "slope": 0.8,
+   "note": "American capital migrates. Snow replaces yachts.",
    "year": [
-    94,
-    35,
+    66,
+    88,
+    50,
     0,
     0,
     0,
@@ -593,45 +658,38 @@
     0,
     0,
     0,
-    0,
-    88
+    80
    ],
    "photos": [
     {
-     "url": "/img/st-barths/0.webp",
-     "credit": "MARELBU",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=55420599"
+     "url": "/img/aspen/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
     },
     {
-     "url": "/img/st-barths/1.webp",
-     "credit": "User:Mattes",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=49126355"
+     "url": "/img/aspen/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
     },
     {
-     "url": "/img/st-barths/2.webp",
-     "credit": "MARELBU",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=55420593"
+     "url": "/img/aspen/2.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
     },
     {
-     "url": "/img/st-barths/3.webp",
-     "credit": "Gordon Leggett",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=91830671"
+     "url": "/img/aspen/3.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
     },
     {
-     "url": "/img/st-barths/4.webp",
-     "credit": "MARELBU",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=55420605"
-    },
-    {
-     "url": "/img/st-barths/5.webp",
-     "credit": "David Broad",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=54354098"
+     "url": "/img/aspen/4.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
     }
    ]
   },
@@ -892,70 +950,12 @@
    ]
   },
   {
-   "slug": "aspen",
-   "name": "Aspen",
-   "tier": 2,
-   "lat": 39.1911,
-   "lon": -106.8175,
-   "score": 32,
-   "rings": 3,
-   "state": "opening",
-   "slope": 0.8,
-   "note": "American capital migrates. Snow replaces yachts.",
-   "year": [
-    66,
-    88,
-    50,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    80
-   ],
-   "photos": [
-    {
-     "url": "/img/aspen/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
-    },
-    {
-     "url": "/img/aspen/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
-    },
-    {
-     "url": "/img/aspen/2.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
-    },
-    {
-     "url": "/img/aspen/3.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
-    },
-    {
-     "url": "/img/aspen/4.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
-    }
-   ]
-  },
-  {
    "slug": "gstaad",
    "name": "Gstaad",
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 30,
+   "score": 32,
    "rings": 3,
    "state": "opening",
    "slope": 0.74,
@@ -1014,76 +1014,12 @@
    ]
   },
   {
-   "slug": "courchevel",
-   "name": "Courchevel",
-   "tier": 2,
-   "lat": 45.4154,
-   "lon": 6.6345,
-   "score": 27,
-   "rings": 3,
-   "state": "opening",
-   "slope": 0.68,
-   "note": "The altiport is the guest list.",
-   "year": [
-    70,
-    66,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    68
-   ],
-   "photos": [
-    {
-     "url": "/img/courchevel/0.webp",
-     "credit": "Krzysztof Golik",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=48553790"
-    },
-    {
-     "url": "/img/courchevel/1.webp",
-     "credit": "Krzysztof Golik",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=48548846"
-    },
-    {
-     "url": "/img/courchevel/2.webp",
-     "credit": "Krzysztof Golik",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=48548650"
-    },
-    {
-     "url": "/img/courchevel/3.webp",
-     "credit": "Jules Rohault de Fleury",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=129508705"
-    },
-    {
-     "url": "/img/courchevel/4.webp",
-     "credit": "Krzysztof Golik",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=45787049"
-    },
-    {
-     "url": "/img/courchevel/5.webp",
-     "credit": "Jules Rohault de Fleury",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=129508704"
-    }
-   ]
-  },
-  {
    "slug": "jackson-hole",
    "name": "Jackson Hole",
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 26,
+   "score": 29,
    "rings": 3,
    "state": "opening",
    "slope": 0.66,
@@ -1142,13 +1078,77 @@
    ]
   },
   {
+   "slug": "courchevel",
+   "name": "Courchevel",
+   "tier": 2,
+   "lat": 45.4154,
+   "lon": 6.6345,
+   "score": 29,
+   "rings": 3,
+   "state": "opening",
+   "slope": 0.68,
+   "note": "The altiport is the guest list.",
+   "year": [
+    70,
+    66,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    68
+   ],
+   "photos": [
+    {
+     "url": "/img/courchevel/0.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48553790"
+    },
+    {
+     "url": "/img/courchevel/1.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548846"
+    },
+    {
+     "url": "/img/courchevel/2.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=48548650"
+    },
+    {
+     "url": "/img/courchevel/3.webp",
+     "credit": "Jules Rohault de Fleury",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=129508705"
+    },
+    {
+     "url": "/img/courchevel/4.webp",
+     "credit": "Krzysztof Golik",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=45787049"
+    },
+    {
+     "url": "/img/courchevel/5.webp",
+     "credit": "Jules Rohault de Fleury",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=129508704"
+    }
+   ]
+  },
+  {
    "slug": "st-moritz",
    "name": "St. Moritz",
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 24,
-   "rings": 2,
+   "score": 26,
+   "rings": 3,
    "state": "opening",
    "slope": 0.6,
    "note": "European aristocracy, Swiss banking, German industrial families.",
@@ -1211,7 +1211,7 @@
    "tier": 2,
    "lat": 43.6971,
    "lon": -114.3517,
-   "score": 18,
+   "score": 20,
    "rings": 2,
    "state": "opening",
    "slope": 0.45,
