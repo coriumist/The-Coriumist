@@ -1,5 +1,5 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "cities": [
   {
    "slug": "miami",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 75,
+   "score": 77,
    "rings": 6,
    "state": "open",
    "slope": 0.64,
@@ -71,7 +71,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 74,
+   "score": 75,
    "rings": 6,
    "state": "open",
    "slope": 0.38,
@@ -252,76 +252,12 @@
    ]
   },
   {
-   "slug": "new-york",
-   "name": "New York",
-   "tier": 1,
-   "lat": 40.7128,
-   "lon": -74.006,
-   "score": 56,
-   "rings": 5,
-   "state": "quiet",
-   "slope": -0.61,
-   "note": "Autumn auctions. The largest private dinners of the American year.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    78,
-    34,
-    34,
-    34,
-    70,
-    34,
-    95,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/new-york/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3283573/free-photo-image-new-york-skyline-city"
-    },
-    {
-     "url": "/img/new-york/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966369/photo-image-cloud-public-domain-nature"
-    },
-    {
-     "url": "/img/new-york/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5942628/free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/new-york/3.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3094356/free-photo-image-new-york-911-aerial-view"
-    },
-    {
-     "url": "/img/new-york/4.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/421944/free-photo-image-skyline-new-york-architecture"
-    },
-    {
-     "url": "/img/new-york/5.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6296543/image-building-water-city"
-    }
-   ]
-  },
-  {
    "slug": "st-barths",
    "name": "St. Barths",
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 56,
+   "score": 59,
    "rings": 5,
    "state": "opening",
    "slope": 0.88,
@@ -380,12 +316,76 @@
    ]
   },
   {
+   "slug": "new-york",
+   "name": "New York",
+   "tier": 1,
+   "lat": 40.7128,
+   "lon": -74.006,
+   "score": 54,
+   "rings": 4,
+   "state": "quiet",
+   "slope": -0.61,
+   "note": "Autumn auctions. The largest private dinners of the American year.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    78,
+    34,
+    34,
+    34,
+    70,
+    34,
+    95,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/new-york/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283573/free-photo-image-new-york-skyline-city"
+    },
+    {
+     "url": "/img/new-york/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966369/photo-image-cloud-public-domain-nature"
+    },
+    {
+     "url": "/img/new-york/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5942628/free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/new-york/3.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3094356/free-photo-image-new-york-911-aerial-view"
+    },
+    {
+     "url": "/img/new-york/4.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/421944/free-photo-image-skyline-new-york-architecture"
+    },
+    {
+     "url": "/img/new-york/5.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6296543/image-building-water-city"
+    }
+   ]
+  },
+  {
    "slug": "aspen",
    "name": "Aspen",
    "tier": 2,
    "lat": 39.1911,
    "lon": -106.8175,
-   "score": 51,
+   "score": 53,
    "rings": 4,
    "state": "opening",
    "slope": 0.8,
@@ -438,76 +438,12 @@
    ]
   },
   {
-   "slug": "geneva",
-   "name": "Geneva",
-   "tier": 1,
-   "lat": 46.2044,
-   "lon": 6.1432,
-   "score": 49,
-   "rings": 4,
-   "state": "quiet",
-   "slope": -0.36,
-   "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
-   "year": [
-    36,
-    36,
-    36,
-    36,
-    70,
-    36,
-    36,
-    36,
-    36,
-    36,
-    72,
-    36
-   ],
-   "photos": [
-    {
-     "url": "/img/geneva/0.webp",
-     "credit": "Choinowski",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
-    },
-    {
-     "url": "/img/geneva/1.webp",
-     "credit": "Spinarak",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
-    },
-    {
-     "url": "/img/geneva/2.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
-    },
-    {
-     "url": "/img/geneva/3.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
-    },
-    {
-     "url": "/img/geneva/4.webp",
-     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
-    },
-    {
-     "url": "/img/geneva/5.webp",
-     "credit": "Boschtjan",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
-    }
-   ]
-  },
-  {
    "slug": "gstaad",
    "name": "Gstaad",
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 47,
+   "score": 49,
    "rings": 4,
    "state": "opening",
    "slope": 0.74,
@@ -566,12 +502,76 @@
    ]
   },
   {
+   "slug": "geneva",
+   "name": "Geneva",
+   "tier": 1,
+   "lat": 46.2044,
+   "lon": 6.1432,
+   "score": 48,
+   "rings": 4,
+   "state": "quiet",
+   "slope": -0.36,
+   "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
+   "year": [
+    36,
+    36,
+    36,
+    36,
+    70,
+    36,
+    36,
+    36,
+    36,
+    36,
+    72,
+    36
+   ],
+   "photos": [
+    {
+     "url": "/img/geneva/0.webp",
+     "credit": "Choinowski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
+    },
+    {
+     "url": "/img/geneva/1.webp",
+     "credit": "Spinarak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
+    },
+    {
+     "url": "/img/geneva/2.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
+    },
+    {
+     "url": "/img/geneva/3.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
+    },
+    {
+     "url": "/img/geneva/4.webp",
+     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
+    },
+    {
+     "url": "/img/geneva/5.webp",
+     "credit": "Boschtjan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
+    }
+   ]
+  },
+  {
    "slug": "courchevel",
    "name": "Courchevel",
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 43,
+   "score": 45,
    "rings": 4,
    "state": "opening",
    "slope": 0.68,
@@ -635,7 +635,7 @@
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 42,
+   "score": 44,
    "rings": 4,
    "state": "opening",
    "slope": 0.66,
@@ -763,8 +763,8 @@
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 38,
-   "rings": 3,
+   "score": 40,
+   "rings": 4,
    "state": "opening",
    "slope": 0.6,
    "note": "European aristocracy, Swiss banking, German industrial families.",
@@ -1147,7 +1147,7 @@
    "tier": 2,
    "lat": 43.6971,
    "lon": -114.3517,
-   "score": 28,
+   "score": 30,
    "rings": 3,
    "state": "opening",
    "slope": 0.45,
@@ -1211,7 +1211,7 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 27,
+   "score": 25,
    "rings": 3,
    "state": "quiet",
    "slope": -0.74,
