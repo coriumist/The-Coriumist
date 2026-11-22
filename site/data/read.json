@@ -1,5 +1,5 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "cities": [
   {
    "slug": "miami",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 77,
+   "score": 79,
    "rings": 6,
    "state": "open",
    "slope": 0.64,
@@ -71,7 +71,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 75,
+   "score": 77,
    "rings": 6,
    "state": "open",
    "slope": 0.38,
@@ -257,9 +257,9 @@
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 59,
+   "score": 62,
    "rings": 5,
-   "state": "opening",
+   "state": "open",
    "slope": 0.88,
    "note": "The Caribbean transition. Where the year is decided before it starts.",
    "year": [
@@ -316,12 +316,70 @@
    ]
   },
   {
+   "slug": "aspen",
+   "name": "Aspen",
+   "tier": 2,
+   "lat": 39.1911,
+   "lon": -106.8175,
+   "score": 56,
+   "rings": 5,
+   "state": "opening",
+   "slope": 0.8,
+   "note": "American capital migrates. Snow replaces yachts.",
+   "year": [
+    66,
+    88,
+    50,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    80
+   ],
+   "photos": [
+    {
+     "url": "/img/aspen/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
+    },
+    {
+     "url": "/img/aspen/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
+    },
+    {
+     "url": "/img/aspen/2.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
+    },
+    {
+     "url": "/img/aspen/3.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
+    },
+    {
+     "url": "/img/aspen/4.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
+    }
+   ]
+  },
+  {
    "slug": "new-york",
    "name": "New York",
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 54,
+   "score": 52,
    "rings": 4,
    "state": "quiet",
    "slope": -0.61,
@@ -380,70 +438,12 @@
    ]
   },
   {
-   "slug": "aspen",
-   "name": "Aspen",
-   "tier": 2,
-   "lat": 39.1911,
-   "lon": -106.8175,
-   "score": 53,
-   "rings": 4,
-   "state": "opening",
-   "slope": 0.8,
-   "note": "American capital migrates. Snow replaces yachts.",
-   "year": [
-    66,
-    88,
-    50,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    80
-   ],
-   "photos": [
-    {
-     "url": "/img/aspen/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
-    },
-    {
-     "url": "/img/aspen/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
-    },
-    {
-     "url": "/img/aspen/2.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
-    },
-    {
-     "url": "/img/aspen/3.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
-    },
-    {
-     "url": "/img/aspen/4.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
-    }
-   ]
-  },
-  {
    "slug": "gstaad",
    "name": "Gstaad",
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 49,
+   "score": 52,
    "rings": 4,
    "state": "opening",
    "slope": 0.74,
@@ -502,76 +502,12 @@
    ]
   },
   {
-   "slug": "geneva",
-   "name": "Geneva",
-   "tier": 1,
-   "lat": 46.2044,
-   "lon": 6.1432,
-   "score": 48,
-   "rings": 4,
-   "state": "quiet",
-   "slope": -0.36,
-   "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
-   "year": [
-    36,
-    36,
-    36,
-    36,
-    70,
-    36,
-    36,
-    36,
-    36,
-    36,
-    72,
-    36
-   ],
-   "photos": [
-    {
-     "url": "/img/geneva/0.webp",
-     "credit": "Choinowski",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
-    },
-    {
-     "url": "/img/geneva/1.webp",
-     "credit": "Spinarak",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
-    },
-    {
-     "url": "/img/geneva/2.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
-    },
-    {
-     "url": "/img/geneva/3.webp",
-     "credit": "John Samuel",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
-    },
-    {
-     "url": "/img/geneva/4.webp",
-     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
-    },
-    {
-     "url": "/img/geneva/5.webp",
-     "credit": "Boschtjan",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
-    }
-   ]
-  },
-  {
    "slug": "courchevel",
    "name": "Courchevel",
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 45,
+   "score": 48,
    "rings": 4,
    "state": "opening",
    "slope": 0.68,
@@ -630,12 +566,76 @@
    ]
   },
   {
+   "slug": "geneva",
+   "name": "Geneva",
+   "tier": 1,
+   "lat": 46.2044,
+   "lon": 6.1432,
+   "score": 47,
+   "rings": 4,
+   "state": "quiet",
+   "slope": -0.36,
+   "note": "Autumn sales. Geneva is loud for four days a year and this is two of them.",
+   "year": [
+    36,
+    36,
+    36,
+    36,
+    70,
+    36,
+    36,
+    36,
+    36,
+    36,
+    72,
+    36
+   ],
+   "photos": [
+    {
+     "url": "/img/geneva/0.webp",
+     "credit": "Choinowski",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=145193330"
+    },
+    {
+     "url": "/img/geneva/1.webp",
+     "credit": "Spinarak",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=136412727"
+    },
+    {
+     "url": "/img/geneva/2.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100139654"
+    },
+    {
+     "url": "/img/geneva/3.webp",
+     "credit": "John Samuel",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=71764333"
+    },
+    {
+     "url": "/img/geneva/4.webp",
+     "credit": "Philippe Wagneur, Natural History Museum of Geneva (MHNG)",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=62071062"
+    },
+    {
+     "url": "/img/geneva/5.webp",
+     "credit": "Boschtjan",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=5673422"
+    }
+   ]
+  },
+  {
    "slug": "jackson-hole",
    "name": "Jackson Hole",
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 44,
+   "score": 46,
    "rings": 4,
    "state": "opening",
    "slope": 0.66,
@@ -690,6 +690,70 @@
      "credit": "Tony Hisgett from Birmingham, UK",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=27317651"
+    }
+   ]
+  },
+  {
+   "slug": "st-moritz",
+   "name": "St. Moritz",
+   "tier": 2,
+   "lat": 46.4908,
+   "lon": 9.8355,
+   "score": 42,
+   "rings": 4,
+   "state": "opening",
+   "slope": 0.6,
+   "note": "European aristocracy, Swiss banking, German industrial families.",
+   "year": [
+    86,
+    78,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    60
+   ],
+   "photos": [
+    {
+     "url": "/img/st-moritz/0.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25090291"
+    },
+    {
+     "url": "/img/st-moritz/1.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091244"
+    },
+    {
+     "url": "/img/st-moritz/2.webp",
+     "credit": "Etiaetia1020",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=25091301"
+    },
+    {
+     "url": "/img/st-moritz/3.webp",
+     "credit": "Bphstm",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37139045"
+    },
+    {
+     "url": "/img/st-moritz/4.webp",
+     "credit": "Bphstm",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37139046"
+    },
+    {
+     "url": "/img/st-moritz/5.webp",
+     "credit": "Kecko from Switzerland (Rheintal SG)",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=37425059"
     }
    ]
   },
@@ -754,70 +818,6 @@
      "credit": "M.Strīķis",
      "license": "CC BY-SA 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=53193680"
-    }
-   ]
-  },
-  {
-   "slug": "st-moritz",
-   "name": "St. Moritz",
-   "tier": 2,
-   "lat": 46.4908,
-   "lon": 9.8355,
-   "score": 40,
-   "rings": 4,
-   "state": "opening",
-   "slope": 0.6,
-   "note": "European aristocracy, Swiss banking, German industrial families.",
-   "year": [
-    86,
-    78,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    60
-   ],
-   "photos": [
-    {
-     "url": "/img/st-moritz/0.webp",
-     "credit": "Etiaetia1020",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25090291"
-    },
-    {
-     "url": "/img/st-moritz/1.webp",
-     "credit": "Etiaetia1020",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25091244"
-    },
-    {
-     "url": "/img/st-moritz/2.webp",
-     "credit": "Etiaetia1020",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=25091301"
-    },
-    {
-     "url": "/img/st-moritz/3.webp",
-     "credit": "Bphstm",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=37139045"
-    },
-    {
-     "url": "/img/st-moritz/4.webp",
-     "credit": "Bphstm",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=37139046"
-    },
-    {
-     "url": "/img/st-moritz/5.webp",
-     "credit": "Kecko from Switzerland (Rheintal SG)",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=37425059"
     }
    ]
   },
@@ -1147,7 +1147,7 @@
    "tier": 2,
    "lat": 43.6971,
    "lon": -114.3517,
-   "score": 30,
+   "score": 32,
    "rings": 3,
    "state": "opening",
    "slope": 0.45,
@@ -1211,8 +1211,8 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 25,
-   "rings": 3,
+   "score": 22,
+   "rings": 2,
    "state": "quiet",
    "slope": -0.74,
    "note": "Night race. Suites priced as a distinct asset class.",
@@ -2546,6 +2546,14 @@
  ],
  "wire": [
   {
+   "slug": "st-barths",
+   "name": "St. Barths",
+   "state": "open",
+   "was": "opening",
+   "note": "The Caribbean transition. Where the year is decided before it starts.",
+   "date": "2026-11-22"
+  },
+  {
    "slug": "new-york",
    "name": "New York",
    "state": "quiet",
@@ -2623,14 +2631,6 @@
    "state": "quiet",
    "was": "dispersing",
    "note": "Fashion, design, and the industrial families behind both.",
-   "date": "2026-11-01"
-  },
-  {
-   "slug": "st-barths",
-   "name": "St. Barths",
-   "state": "opening",
-   "was": "quiet",
-   "note": "The Caribbean transition. Where the year is decided before it starts.",
    "date": "2026-11-01"
   },
   {
