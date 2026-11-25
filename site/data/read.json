@@ -1,5 +1,5 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "cities": [
   {
    "slug": "miami",
@@ -7,8 +7,8 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 83,
-   "rings": 6,
+   "score": 85,
+   "rings": 7,
    "state": "open",
    "slope": 0.64,
    "note": "American family-office winter headquarters.",
@@ -71,7 +71,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 79,
+   "score": 80,
    "rings": 6,
    "state": "open",
    "slope": 0.38,
@@ -193,8 +193,8 @@
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 67,
-   "rings": 5,
+   "score": 70,
+   "rings": 6,
    "state": "open",
    "slope": 0.88,
    "note": "The Caribbean transition. Where the year is decided before it starts.",
@@ -321,7 +321,7 @@
    "tier": 2,
    "lat": 39.1911,
    "lon": -106.8175,
-   "score": 61,
+   "score": 64,
    "rings": 5,
    "state": "open",
    "slope": 0.8,
@@ -379,7 +379,7 @@
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 57,
+   "score": 59,
    "rings": 5,
    "state": "opening",
    "slope": 0.74,
@@ -443,7 +443,7 @@
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 52,
+   "score": 54,
    "rings": 4,
    "state": "opening",
    "slope": 0.68,
@@ -507,7 +507,7 @@
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 51,
+   "score": 53,
    "rings": 4,
    "state": "opening",
    "slope": 0.66,
@@ -566,76 +566,12 @@
    ]
   },
   {
-   "slug": "new-york",
-   "name": "New York",
-   "tier": 1,
-   "lat": 40.7128,
-   "lon": -74.006,
-   "score": 48,
-   "rings": 4,
-   "state": "quiet",
-   "slope": -0.61,
-   "note": "Autumn auctions. The largest private dinners of the American year.",
-   "year": [
-    34,
-    34,
-    34,
-    34,
-    78,
-    34,
-    34,
-    34,
-    70,
-    34,
-    95,
-    34
-   ],
-   "photos": [
-    {
-     "url": "/img/new-york/0.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3283573/free-photo-image-new-york-skyline-city"
-    },
-    {
-     "url": "/img/new-york/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5966369/photo-image-cloud-public-domain-nature"
-    },
-    {
-     "url": "/img/new-york/2.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/5942628/free-public-domain-cc0-photo"
-    },
-    {
-     "url": "/img/new-york/3.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3094356/free-photo-image-new-york-911-aerial-view"
-    },
-    {
-     "url": "/img/new-york/4.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/421944/free-photo-image-skyline-new-york-architecture"
-    },
-    {
-     "url": "/img/new-york/5.webp",
-     "credit": "libraryofcongress",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/6296543/image-building-water-city"
-    }
-   ]
-  },
-  {
    "slug": "st-moritz",
    "name": "St. Moritz",
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 46,
+   "score": 48,
    "rings": 4,
    "state": "opening",
    "slope": 0.6,
@@ -694,12 +630,76 @@
    ]
   },
   {
+   "slug": "new-york",
+   "name": "New York",
+   "tier": 1,
+   "lat": 40.7128,
+   "lon": -74.006,
+   "score": 46,
+   "rings": 4,
+   "state": "quiet",
+   "slope": -0.61,
+   "note": "Autumn auctions. The largest private dinners of the American year.",
+   "year": [
+    34,
+    34,
+    34,
+    34,
+    78,
+    34,
+    34,
+    34,
+    70,
+    34,
+    95,
+    34
+   ],
+   "photos": [
+    {
+     "url": "/img/new-york/0.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3283573/free-photo-image-new-york-skyline-city"
+    },
+    {
+     "url": "/img/new-york/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5966369/photo-image-cloud-public-domain-nature"
+    },
+    {
+     "url": "/img/new-york/2.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/5942628/free-public-domain-cc0-photo"
+    },
+    {
+     "url": "/img/new-york/3.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3094356/free-photo-image-new-york-911-aerial-view"
+    },
+    {
+     "url": "/img/new-york/4.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/421944/free-photo-image-skyline-new-york-architecture"
+    },
+    {
+     "url": "/img/new-york/5.webp",
+     "credit": "libraryofcongress",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/6296543/image-building-water-city"
+    }
+   ]
+  },
+  {
    "slug": "geneva",
    "name": "Geneva",
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 44,
+   "score": 43,
    "rings": 4,
    "state": "flat",
    "slope": -0.36,
@@ -882,6 +882,70 @@
      "credit": "Barry Lewis",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=27493138"
+    }
+   ]
+  },
+  {
+   "slug": "sun-valley",
+   "name": "Sun Valley",
+   "tier": 2,
+   "lat": 43.6971,
+   "lon": -114.3517,
+   "score": 36,
+   "rings": 3,
+   "state": "opening",
+   "slope": 0.45,
+   "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    98,
+    40,
+    0,
+    0,
+    0,
+    45
+   ],
+   "photos": [
+    {
+     "url": "/img/sun-valley/0.webp",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
+    },
+    {
+     "url": "/img/sun-valley/1.webp",
+     "credit": "Kingmiwok",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
+    },
+    {
+     "url": "/img/sun-valley/2.webp",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
+    },
+    {
+     "url": "/img/sun-valley/3.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137880"
+    },
+    {
+     "url": "/img/sun-valley/4.webp",
+     "credit": "Scott Brenner",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=178215849"
+    },
+    {
+     "url": "/img/sun-valley/5.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
     }
    ]
   },
@@ -1078,70 +1142,6 @@
    ]
   },
   {
-   "slug": "sun-valley",
-   "name": "Sun Valley",
-   "tier": 2,
-   "lat": 43.6971,
-   "lon": -114.3517,
-   "score": 34,
-   "rings": 3,
-   "state": "opening",
-   "slope": 0.45,
-   "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    98,
-    40,
-    0,
-    0,
-    0,
-    45
-   ],
-   "photos": [
-    {
-     "url": "/img/sun-valley/0.webp",
-     "credit": "Rickmouser45",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
-    },
-    {
-     "url": "/img/sun-valley/1.webp",
-     "credit": "Kingmiwok",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
-    },
-    {
-     "url": "/img/sun-valley/2.webp",
-     "credit": "Rickmouser45",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
-    },
-    {
-     "url": "/img/sun-valley/3.webp",
-     "credit": "Sharon Hahn Darlin",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151137880"
-    },
-    {
-     "url": "/img/sun-valley/4.webp",
-     "credit": "Scott Brenner",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=178215849"
-    },
-    {
-     "url": "/img/sun-valley/5.webp",
-     "credit": "Sharon Hahn Darlin",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
-    }
-   ]
-  },
-  {
    "slug": "hong-kong",
    "name": "Hong Kong",
    "tier": 1,
@@ -1202,70 +1202,6 @@
      "credit": "Ank Kumar",
      "license": "CC BY-SA 4.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=105140633"
-    }
-   ]
-  },
-  {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
-   "tier": 2,
-   "lat": 36.1699,
-   "lon": -115.1398,
-   "score": 17,
-   "rings": 2,
-   "state": "quiet",
-   "slope": -0.74,
-   "note": "Night race. Suites priced as a distinct asset class.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/las-vegas/0.webp",
-     "credit": "Clément Bardot",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
-    },
-    {
-     "url": "/img/las-vegas/1.webp",
-     "credit": "Henning Schlottmann (User:H-stt)",
-     "license": "CC BY 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
-    },
-    {
-     "url": "/img/las-vegas/2.webp",
-     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
-    },
-    {
-     "url": "/img/las-vegas/3.webp",
-     "credit": "LasVegasGuy",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
-    },
-    {
-     "url": "/img/las-vegas/4.webp",
-     "credit": "GyozaDumpling",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
-    },
-    {
-     "url": "/img/las-vegas/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
     }
    ]
   },
@@ -1394,6 +1330,70 @@
      "credit": "Jean-Christophe BENOIST",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=16155540"
+    }
+   ]
+  },
+  {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "tier": 2,
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "score": 15,
+   "rings": 2,
+   "state": "quiet",
+   "slope": -0.74,
+   "note": "Night race. Suites priced as a distinct asset class.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
     }
    ]
   },
