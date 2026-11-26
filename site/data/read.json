@@ -1,5 +1,5 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "cities": [
   {
    "slug": "miami",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 85,
+   "score": 87,
    "rings": 7,
    "state": "open",
    "slope": 0.64,
@@ -71,7 +71,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 80,
+   "score": 82,
    "rings": 6,
    "state": "open",
    "slope": 0.38,
@@ -193,7 +193,7 @@
    "tier": 2,
    "lat": 17.9,
    "lon": -62.8333,
-   "score": 70,
+   "score": 73,
    "rings": 6,
    "state": "open",
    "slope": 0.88,
@@ -248,6 +248,64 @@
      "credit": "David Broad",
      "license": "CC BY 3.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=54354098"
+    }
+   ]
+  },
+  {
+   "slug": "aspen",
+   "name": "Aspen",
+   "tier": 2,
+   "lat": 39.1911,
+   "lon": -106.8175,
+   "score": 67,
+   "rings": 5,
+   "state": "open",
+   "slope": 0.8,
+   "note": "American capital migrates. Snow replaces yachts.",
+   "year": [
+    66,
+    88,
+    50,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    80
+   ],
+   "photos": [
+    {
+     "url": "/img/aspen/0.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
+    },
+    {
+     "url": "/img/aspen/1.webp",
+     "credit": "rawpixel",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
+    },
+    {
+     "url": "/img/aspen/2.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
+    },
+    {
+     "url": "/img/aspen/3.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
+    },
+    {
+     "url": "/img/aspen/4.webp",
+     "credit": "Carol M Highsmith",
+     "license": "CC CC0 1.0",
+     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
     }
    ]
   },
@@ -316,72 +374,14 @@
    ]
   },
   {
-   "slug": "aspen",
-   "name": "Aspen",
-   "tier": 2,
-   "lat": 39.1911,
-   "lon": -106.8175,
-   "score": 64,
-   "rings": 5,
-   "state": "open",
-   "slope": 0.8,
-   "note": "American capital migrates. Snow replaces yachts.",
-   "year": [
-    66,
-    88,
-    50,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    80
-   ],
-   "photos": [
-    {
-     "url": "/img/aspen/0.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582483/carol-highsmiths-colorado-photograph"
-    },
-    {
-     "url": "/img/aspen/1.webp",
-     "credit": "rawpixel",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/3305487/free-photo-image-aspen-cc0-cold"
-    },
-    {
-     "url": "/img/aspen/2.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/582472/carol-highsmiths-colorado-photograph"
-    },
-    {
-     "url": "/img/aspen/3.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/433755/free-photo-image-dog-winter-animal"
-    },
-    {
-     "url": "/img/aspen/4.webp",
-     "credit": "Carol M Highsmith",
-     "license": "CC CC0 1.0",
-     "page": "https://www.rawpixel.com/image/434477/the-maroon-bells"
-    }
-   ]
-  },
-  {
    "slug": "gstaad",
    "name": "Gstaad",
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 59,
+   "score": 62,
    "rings": 5,
-   "state": "opening",
+   "state": "open",
    "slope": 0.74,
    "note": "The most closed guest list in the Alps.",
    "year": [
@@ -443,8 +443,8 @@
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 54,
-   "rings": 4,
+   "score": 57,
+   "rings": 5,
    "state": "opening",
    "slope": 0.68,
    "note": "The altiport is the guest list.",
@@ -507,8 +507,8 @@
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 53,
-   "rings": 4,
+   "score": 55,
+   "rings": 5,
    "state": "opening",
    "slope": 0.66,
    "note": "Two different crowds, one valley.",
@@ -571,7 +571,7 @@
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 48,
+   "score": 50,
    "rings": 4,
    "state": "opening",
    "slope": 0.6,
@@ -635,9 +635,9 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 46,
+   "score": 44,
    "rings": 4,
-   "state": "quiet",
+   "state": "flat",
    "slope": -0.61,
    "note": "Autumn auctions. The largest private dinners of the American year.",
    "year": [
@@ -699,7 +699,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 43,
+   "score": 42,
    "rings": 4,
    "state": "flat",
    "slope": -0.36,
@@ -822,6 +822,70 @@
    ]
   },
   {
+   "slug": "sun-valley",
+   "name": "Sun Valley",
+   "tier": 2,
+   "lat": 43.6971,
+   "lon": -114.3517,
+   "score": 38,
+   "rings": 3,
+   "state": "opening",
+   "slope": 0.45,
+   "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    98,
+    40,
+    0,
+    0,
+    0,
+    45
+   ],
+   "photos": [
+    {
+     "url": "/img/sun-valley/0.webp",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
+    },
+    {
+     "url": "/img/sun-valley/1.webp",
+     "credit": "Kingmiwok",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
+    },
+    {
+     "url": "/img/sun-valley/2.webp",
+     "credit": "Rickmouser45",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
+    },
+    {
+     "url": "/img/sun-valley/3.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137880"
+    },
+    {
+     "url": "/img/sun-valley/4.webp",
+     "credit": "Scott Brenner",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=178215849"
+    },
+    {
+     "url": "/img/sun-valley/5.webp",
+     "credit": "Sharon Hahn Darlin",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
+    }
+   ]
+  },
+  {
    "slug": "paris",
    "name": "Paris",
    "tier": 1,
@@ -882,70 +946,6 @@
      "credit": "Barry Lewis",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=27493138"
-    }
-   ]
-  },
-  {
-   "slug": "sun-valley",
-   "name": "Sun Valley",
-   "tier": 2,
-   "lat": 43.6971,
-   "lon": -114.3517,
-   "score": 36,
-   "rings": 3,
-   "state": "opening",
-   "slope": 0.45,
-   "note": "Probably the highest concentration of billionaire decision-makers on Earth.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    98,
-    40,
-    0,
-    0,
-    0,
-    45
-   ],
-   "photos": [
-    {
-     "url": "/img/sun-valley/0.webp",
-     "credit": "Rickmouser45",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=93216458"
-    },
-    {
-     "url": "/img/sun-valley/1.webp",
-     "credit": "Kingmiwok",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=82475047"
-    },
-    {
-     "url": "/img/sun-valley/2.webp",
-     "credit": "Rickmouser45",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=93216637"
-    },
-    {
-     "url": "/img/sun-valley/3.webp",
-     "credit": "Sharon Hahn Darlin",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151137880"
-    },
-    {
-     "url": "/img/sun-valley/4.webp",
-     "credit": "Scott Brenner",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=178215849"
-    },
-    {
-     "url": "/img/sun-valley/5.webp",
-     "credit": "Sharon Hahn Darlin",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=151137878"
     }
    ]
   },
@@ -1334,70 +1334,6 @@
    ]
   },
   {
-   "slug": "las-vegas",
-   "name": "Las Vegas",
-   "tier": 2,
-   "lat": 36.1699,
-   "lon": -115.1398,
-   "score": 15,
-   "rings": 2,
-   "state": "quiet",
-   "slope": -0.74,
-   "note": "Night race. Suites priced as a distinct asset class.",
-   "year": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    74,
-    0
-   ],
-   "photos": [
-    {
-     "url": "/img/las-vegas/0.webp",
-     "credit": "Clément Bardot",
-     "license": "CC BY-SA 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
-    },
-    {
-     "url": "/img/las-vegas/1.webp",
-     "credit": "Henning Schlottmann (User:H-stt)",
-     "license": "CC BY 1.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
-    },
-    {
-     "url": "/img/las-vegas/2.webp",
-     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
-    },
-    {
-     "url": "/img/las-vegas/3.webp",
-     "credit": "LasVegasGuy",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
-    },
-    {
-     "url": "/img/las-vegas/4.webp",
-     "credit": "GyozaDumpling",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
-    },
-    {
-     "url": "/img/las-vegas/5.webp",
-     "credit": "chensiyuan",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
-    }
-   ]
-  },
-  {
    "slug": "tokyo",
    "name": "Tokyo",
    "tier": 2,
@@ -1452,6 +1388,70 @@
      "credit": "rawpixel",
      "license": "CC CC0 1.0",
      "page": "https://www.rawpixel.com/image/5966178/tokyo-skyline-japan"
+    }
+   ]
+  },
+  {
+   "slug": "las-vegas",
+   "name": "Las Vegas",
+   "tier": 2,
+   "lat": 36.1699,
+   "lon": -115.1398,
+   "score": 12,
+   "rings": 2,
+   "state": "quiet",
+   "slope": -0.74,
+   "note": "Night race. Suites priced as a distinct asset class.",
+   "year": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    74,
+    0
+   ],
+   "photos": [
+    {
+     "url": "/img/las-vegas/0.webp",
+     "credit": "Clément Bardot",
+     "license": "CC BY-SA 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=24697664"
+    },
+    {
+     "url": "/img/las-vegas/1.webp",
+     "credit": "Henning Schlottmann (User:H-stt)",
+     "license": "CC BY 1.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=17987468"
+    },
+    {
+     "url": "/img/las-vegas/2.webp",
+     "credit": "EconomicOldenburger - Alles über den Las Vegas Strip",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=42126700"
+    },
+    {
+     "url": "/img/las-vegas/3.webp",
+     "credit": "LasVegasGuy",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=61944680"
+    },
+    {
+     "url": "/img/las-vegas/4.webp",
+     "credit": "GyozaDumpling",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=100156452"
+    },
+    {
+     "url": "/img/las-vegas/5.webp",
+     "credit": "chensiyuan",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=9761332"
     }
    ]
   },
@@ -2546,6 +2546,22 @@
  ],
  "wire": [
   {
+   "slug": "gstaad",
+   "name": "Gstaad",
+   "state": "open",
+   "was": "opening",
+   "note": "The most closed guest list in the Alps.",
+   "date": "2026-11-26"
+  },
+  {
+   "slug": "new-york",
+   "name": "New York",
+   "state": "flat",
+   "was": "quiet",
+   "note": "Autumn auctions. The largest private dinners of the American year.",
+   "date": "2026-11-26"
+  },
+  {
    "slug": "aspen",
    "name": "Aspen",
    "state": "open",
@@ -2568,14 +2584,6 @@
    "was": "opening",
    "note": "The Caribbean transition. Where the year is decided before it starts.",
    "date": "2026-11-22"
-  },
-  {
-   "slug": "new-york",
-   "name": "New York",
-   "state": "quiet",
-   "was": "closing",
-   "note": "Autumn auctions. The largest private dinners of the American year.",
-   "date": "2026-11-19"
   },
   {
    "slug": "abu-dhabi",
@@ -2631,14 +2639,6 @@
    "state": "flat",
    "was": "dispersing",
    "note": "Asian family offices.",
-   "date": "2026-11-01"
-  },
-  {
-   "slug": "milan",
-   "name": "Milan",
-   "state": "quiet",
-   "was": "dispersing",
-   "note": "Fashion, design, and the industrial families behind both.",
    "date": "2026-11-01"
   }
  ],
