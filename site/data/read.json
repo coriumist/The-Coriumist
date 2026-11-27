@@ -1,5 +1,5 @@
 {
- "date": "2026-11-26",
+ "date": "2026-11-27",
  "cities": [
   {
    "slug": "miami",
@@ -7,7 +7,7 @@
    "tier": 1,
    "lat": 25.7617,
    "lon": -80.1918,
-   "score": 87,
+   "score": 89,
    "rings": 7,
    "state": "open",
    "slope": 0.64,
@@ -71,7 +71,7 @@
    "tier": 2,
    "lat": 24.4539,
    "lon": 54.3773,
-   "score": 82,
+   "score": 83,
    "rings": 6,
    "state": "open",
    "slope": 0.38,
@@ -126,6 +126,70 @@
      "credit": "Cesar I. Martins",
      "license": "CC BY 2.0",
      "page": "https://commons.wikimedia.org/w/index.php?curid=45759527"
+    }
+   ]
+  },
+  {
+   "slug": "st-barths",
+   "name": "St. Barths",
+   "tier": 2,
+   "lat": 17.9,
+   "lon": -62.8333,
+   "score": 76,
+   "rings": 6,
+   "state": "open",
+   "slope": 0.88,
+   "note": "The Caribbean transition. Where the year is decided before it starts.",
+   "year": [
+    94,
+    35,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    88
+   ],
+   "photos": [
+    {
+     "url": "/img/st-barths/0.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420599"
+    },
+    {
+     "url": "/img/st-barths/1.webp",
+     "credit": "User:Mattes",
+     "license": "CC BY 2.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=49126355"
+    },
+    {
+     "url": "/img/st-barths/2.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420593"
+    },
+    {
+     "url": "/img/st-barths/3.webp",
+     "credit": "Gordon Leggett",
+     "license": "CC BY-SA 4.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=91830671"
+    },
+    {
+     "url": "/img/st-barths/4.webp",
+     "credit": "MARELBU",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=55420605"
+    },
+    {
+     "url": "/img/st-barths/5.webp",
+     "credit": "David Broad",
+     "license": "CC BY 3.0",
+     "page": "https://commons.wikimedia.org/w/index.php?curid=54354098"
     }
    ]
   },
@@ -188,76 +252,12 @@
    ]
   },
   {
-   "slug": "st-barths",
-   "name": "St. Barths",
-   "tier": 2,
-   "lat": 17.9,
-   "lon": -62.8333,
-   "score": 73,
-   "rings": 6,
-   "state": "open",
-   "slope": 0.88,
-   "note": "The Caribbean transition. Where the year is decided before it starts.",
-   "year": [
-    94,
-    35,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    88
-   ],
-   "photos": [
-    {
-     "url": "/img/st-barths/0.webp",
-     "credit": "MARELBU",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=55420599"
-    },
-    {
-     "url": "/img/st-barths/1.webp",
-     "credit": "User:Mattes",
-     "license": "CC BY 2.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=49126355"
-    },
-    {
-     "url": "/img/st-barths/2.webp",
-     "credit": "MARELBU",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=55420593"
-    },
-    {
-     "url": "/img/st-barths/3.webp",
-     "credit": "Gordon Leggett",
-     "license": "CC BY-SA 4.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=91830671"
-    },
-    {
-     "url": "/img/st-barths/4.webp",
-     "credit": "MARELBU",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=55420605"
-    },
-    {
-     "url": "/img/st-barths/5.webp",
-     "credit": "David Broad",
-     "license": "CC BY 3.0",
-     "page": "https://commons.wikimedia.org/w/index.php?curid=54354098"
-    }
-   ]
-  },
-  {
    "slug": "aspen",
    "name": "Aspen",
    "tier": 2,
    "lat": 39.1911,
    "lon": -106.8175,
-   "score": 67,
+   "score": 69,
    "rings": 5,
    "state": "open",
    "slope": 0.8,
@@ -379,7 +379,7 @@
    "tier": 2,
    "lat": 46.4725,
    "lon": 7.2861,
-   "score": 62,
+   "score": 64,
    "rings": 5,
    "state": "open",
    "slope": 0.74,
@@ -443,7 +443,7 @@
    "tier": 2,
    "lat": 45.4154,
    "lon": 6.6345,
-   "score": 57,
+   "score": 59,
    "rings": 5,
    "state": "opening",
    "slope": 0.68,
@@ -507,7 +507,7 @@
    "tier": 2,
    "lat": 43.4799,
    "lon": -110.7624,
-   "score": 55,
+   "score": 57,
    "rings": 5,
    "state": "opening",
    "slope": 0.66,
@@ -571,7 +571,7 @@
    "tier": 2,
    "lat": 46.4908,
    "lon": 9.8355,
-   "score": 50,
+   "score": 52,
    "rings": 4,
    "state": "opening",
    "slope": 0.6,
@@ -635,7 +635,7 @@
    "tier": 1,
    "lat": 40.7128,
    "lon": -74.006,
-   "score": 44,
+   "score": 42,
    "rings": 4,
    "state": "flat",
    "slope": -0.61,
@@ -699,7 +699,7 @@
    "tier": 1,
    "lat": 46.2044,
    "lon": 6.1432,
-   "score": 42,
+   "score": 41,
    "rings": 4,
    "state": "flat",
    "slope": -0.36,
@@ -827,7 +827,7 @@
    "tier": 2,
    "lat": 43.6971,
    "lon": -114.3517,
-   "score": 38,
+   "score": 39,
    "rings": 3,
    "state": "opening",
    "slope": 0.45,
@@ -1397,8 +1397,8 @@
    "tier": 2,
    "lat": 36.1699,
    "lon": -115.1398,
-   "score": 12,
-   "rings": 2,
+   "score": 10,
+   "rings": 1,
    "state": "quiet",
    "slope": -0.74,
    "note": "Night race. Suites priced as a distinct asset class.",
